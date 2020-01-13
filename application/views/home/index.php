@@ -1,292 +1,471 @@
-	<!--================Home Banner Area =================-->
-	<section class="wow fadeIn" data-wow-duration="2s" id="home"  style="background: url(<?php echo base_url() ?>assets/img/banner/banner_1.png);">
-		<div class="">
-			<div class="container-fluid">
-				<div class="row fullscreen d-flex align-items-center">
-					<div class="banner-content col-lg-12 justify-content-center">
-						<h1 style="color: #222222">Cara cerdas untuk Meningkatkan Keahlian anda</h1>
-						<h3 style="color: #222222">Melayani semua jenis training, kapan dan dimanapun anda berada, atau ikuti puluhan training regular kami di tiap akhir pekan di berbagai kota. baik untuk individu maupun perusahaan.</h3>
-						<a href="#" class="primary-btn font-weight-bold"><i class="fas fa-list-alt"></i> &nbsp; Daftar Training</a>
-						<a href="#" class="primary-btn font-weight-bold"><i class="fas fa-users"></i> &nbsp; Ingin Menjadi Trainer?</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================End Home Banner Area =================-->
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro">
 
-	<!--================ Start Keunggulan =================-->
-	<section class="about-area section_gap gray-bg">
-		<div class="container-fluid">
-			<div class="main-title text-left wow fadeInDown" data-wow-duration="1.5s">
-				<h1>KEUNGGULAN KAMI</h1>
-			</div>
-			<div class="wow fadeInRight" data-wow-duration="1.5s">
-				<div class="row justify-content-between d-flex align-items-stretch bg-white card-advantage">
-					<div class="col-lg col-md-6 col-sm-12 py-4 text-center">
-						<div class="mb-50">
-							<h1 class="text-dark"><i class="fas fa-user-tie"></i></h1>
-							<h3 class="text-dark">Profesional</h3>
-							<span class="text-left">Trainer kami dari praktisi profesional dibidangnya.</span>
-						</div>
-					</div>
-					<div class="col-lg col-md-6 col-sm-12 py-4 text-center">
-						<div class="mb-50">
-							<h1 class="text-dark"><i class="fas fa-address-book"></i></h1>
-							<h3 class="text-dark">Mudah</h3>
-							<span class="text-left">Pendaftaran mudah secara online</span>
-						</div>
-					</div>
-					<div class="col-lg col-md-6 col-sm-12 py-4 text-center">
-						<div class="mb-50">
-							<h1 class="text-dark"><i class="fas fa-hourglass-half"></i></h1>
-							<h3 class="text-dark">Efektif</h3>
-							<span class="text-left">Waktu training yang singkat dan padat</span>
-						</div>
-					</div>
-					<div class="col-lg col-md-6 col-sm-12 py-4 text-center">
-						<div class="mb-50">
-							<h1 class="text-dark"><i class="fas fa-book"></i></h1>
-							<h3 class="text-dark">Lengkap</h3>
-							<span class="text-left">Kurikulum materi disusun secara seksama</span>
-						</div>
-					</div>
-					<div class="col-lg col-md-6 col-sm-12 py-4 text-center">
-						<div class="mb-50">
-							<h1 class="text-dark"><i class="fas fa-clock"></i></h1>
-							<h3 class="text-dark">Flexible</h3>
-							<span class="text-left">Flexible dalam menentukan waktu training</span>
-						</div>
-					</div>
-				</div>
-				<div class="row justify-content-between d-flex align-items-stretch bg-white card-advantage">
-					<div class="col-lg col-md-6 col-sm-12 py-4 text-center">
-						<div class="mb-50">
-							<h1 class="text-dark"><i class="fas fa-dollar-sign"></i></h1>
-							<h3 class="text-dark">Terjangkau</h3>
-							<span class="text-left">Biaya yang lebih ekonomis karena kami tidak memiliki biaya harian seperti training konvensional</span>
-						</div>
-					</div>
-					<div class="col-lg col-md-6 col-sm-12 py-4 text-center">
-						<div class="mb-50">
-							<h1 class="text-dark"><i class="fas fa-credit-card"></i></h1>
-							<h3 class="text-dark">Pembayaran</h3>
-							<span class="text-left">Pembayaran dilakukan secara transfer.</span>
-						</div>
-					</div>
-					<div class="col-lg col-md-6 col-sm-12 py-4 text-center">
-						<div class="mb-50">
-							<h1 class="text-dark"><i class="fas fa-medal"></i></h1>
-							<h3 class="text-dark">Sertifikat</h3>
-							<span class="text-left">Sertifikat dari smartpro training</span>
-						</div>
-					</div>
-					<div class="col-lg col-md-6 col-sm-12 py-4 text-center">
-						<div class="mb-50">
-							<h1 class="text-dark"><i class="fas fa-map-marked-alt"></i></h1>
-							<h3 class="text-dark">Lokasi</h3>
-							<span class="text-left">Tempat training di berbagai kota di Indonesia</span>
-						</div>
-					</div>
-					<!-- <div class="col-lg col-md-6 col-sm-12 py-4 text-center">
-						<div class="mb-50">
-							<h1><i class="fas fa-map-marked-alt"></i></h1>
-							<h3>Lokasi</h3>
-							<span class="text-left">Tempat training di berbagai kota di Indonesia</span>
-						</div>
-					</div> -->
-				</div>
-				
-			</div>
-		</div>
-	</section>
-	<!--================ End Keunggulan =================-->
+    <div class="intro-content">
+      <h2>Making <span>your ideas</span><br>happen!</h2>
+      <div>
+        <a href="#about" class="btn-get-started scrollto">Get Started</a>
+        <a href="#portfolio" class="btn-projects scrollto">Our Projects</a>
+      </div>
+    </div>
 
-	<!--================ Start About Area =================-->
-	<section class="section_gap">
-		<div class="container-fluid">
-			<div class="row justify-content-between">
-				<div class="col-lg-12 text-center wow fadeInDown">
-					<div class="main-title">
-						<h1>PRODUK KAMI</h1>
-					</div>					
-				</div>
-				<div class="col-lg-6 col-md-12 wow fadeInLeft">
-					<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/Chart_1.png" alt="">
-					<h1 class="text-center text-dark">TRAINING KAMI</h1>
-					<div class="mb-50">
-						<p>
-							Training  kami, mencakup berbagai industri seperti, minyak dan gas, bangunan dan konstruksi, manufaktur, galangan kapal, pengembangan diri dan lainnya.
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-12 wow fadeInRight">
-					<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/Chart_1.png" alt="">
-					<h1 class="text-center text-dark">JADWAL TRAINING</h1>
-					<div class="mb-50">
-						<p>
-							Ikuti training regular kami yang rutin diadakan di kota kota di seluruh indonesia, lihat daftar training dan cari training yang sesuai dengan keperluan anda.
-						</p>
-						<p>
-							Jadwal training sesuai permintaan disesuaikan dengan kebutuhan anda. kapan dan dimanapun anda berada
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End About Area =================-->
+    <div id="intro-carousel" class="owl-carousel" >
+      <div class="item" style="background-image: url('<?php echo base_url(); ?>assets/img/intro-carousel/1.jpg');"></div>
+      <div class="item" style="background-image: url('<?php echo base_url(); ?>assets/img/intro-carousel/2.jpg');"></div>
+      <div class="item" style="background-image: url('<?php echo base_url(); ?>assets/img/intro-carousel/3.jpg');"></div>
+      <div class="item" style="background-image: url('<?php echo base_url(); ?>assets/img/intro-carousel/4.jpg');"></div>
+      <div class="item" style="background-image: url('<?php echo base_url(); ?>assets/img/intro-carousel/5.jpg');"></div>
+    </div>
 
-	<!--================ Start About Area =================-->
-	<section class="about-area section_gap gray-bg">
-		<div class="container-fluid">
-			<div class="row align-items-center justify-content-between">
-				<div class="col-lg-5 about-left wow fadeInDown">
-					<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/Chart_1.png" alt="">
-				</div>
-				<div class="col-lg-6 col-md-12 about-right">
-					<div class="main-title text-left wow fadeInDown">
-						<h1>KETENTUAN TRAINING</h1>
-					</div>
-					<div class="mb-50 wow fadeInRight">
-						<ul class="unordered-list">
-							<li>Smartpro training adalah penyedia layanan training dalam menyediakan Trainer, Modul training dan tempat training.</li>
-							<li>Untuk training yang berkaitan dengan applikasi komputer, smartpro training tidak menyediakan komputer atau laptop beserta applikasi program yang diperlukan dalam training.</li>
-							<li>Peserta harus mempersiapkan sendiri komputer/Laptop beserta program aplikasi yang diperlukan didalamnya.</li>
-							<li>Training akan berjalan jika peserta minimal sudah tercapai, sudah melakukan pendaftaran dan membayar biaya training. untuk training regular.</li>
-							<li>Pembayaran hanya dilakukan melalui transfer ke Bank Mandiri, atas nama RAIDI GROUP dengan nomor rekening 109.00.138.184.55</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End About Area =================-->
+  </section><!-- #intro -->
 
-	<!--================ Start Testimonial Area =================-->
-	<!-- <div class="section_gap testimonial_area">
-		<div class="container-fluid">
-			<div class="row justify-content-center">
-				<div class="col-lg-7 text-left">
-					<div class="active_testimonial owl-carousel" data-slider-id="1">
-						
-						<div class="single_testimonial">
-							<div class="testimonial_head">
-								<img src="<?php echo base_url(); ?>assets/img/quote.png" alt="">
-								<h4>Fanny Spencer</h4>
-								<div class="review">
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-								</div>
-							</div>
-							<div class="testimonial_content">
-								<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about
-									it, you travel across her face</p>
-							</div>
-						</div>
+  <main id="main">
 
-						<div class="single_testimonial">
-							<div class="testimonial_head">
-								<img src="<?php echo base_url(); ?>assets/img/quote.png" alt="">
-								<h4>Fanny Spencer</h4>
-								<div class="review">
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-								</div>
-							</div>
-							<div class="testimonial_content">
-								<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about
-									it, you travel across her face</p>
-							</div>
-						</div>
+    <!--==========================
+      About Section
+    ============================-->
+    <section id="about" class="wow fadeInUp">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 about-img">
+            <img src="<?php echo base_url(); ?>assets/img/about-img.jpg" alt="">
+          </div>
 
-						<div class="single_testimonial">
-							<div class="testimonial_head">
-								<img src="<?php echo base_url(); ?>assets/img/quote.png" alt="">
-								<h4>Fanny Spencer</h4>
-								<div class="review">
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-								</div>
-							</div>
-							<div class="testimonial_content">
-								<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about
-									it, you travel across her face</p>
-							</div>
-						</div>
+          <div class="col-lg-6 content">
+            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing</h2>
+            <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
 
-						<div class="single_testimonial">
-							<div class="testimonial_head">
-								<img src="<?php echo base_url(); ?>assets/img/quote.png" alt="">
-								<h4>Fanny Spencer</h4>
-								<div class="review">
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-								</div>
-							</div>
-							<div class="testimonial_content">
-								<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about
-									it, you travel across her face</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 offset-lg-1">
-					<div class="testimonial_logos">
-						<div class="top_logos">
-							<img src="<?php echo base_url(); ?>assets/img/brands/logo1.png" alt="">
-							<img src="<?php echo base_url(); ?>assets/img/brands/logo2.png" alt="">
-						</div>
-						<div class="mid_logo">
-							<img src="<?php echo base_url(); ?>assets/img/brands/logo3.png" alt="">
-						</div>
-						<div class="bottom_logos jus">
-							<img src="<?php echo base_url(); ?>assets/img/brands/logo4.png" alt="">
-							<img src="<?php echo base_url(); ?>assets/img/brands/logo5.png" alt="">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
-	<!--================ End Testimonial Area =================-->
+            <ul>
+              <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+              <li><i class="ion-android-checkmark-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+              <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+            </ul>
 
-	<!--================ Start Newsletter Area =================-->
-	<section class="section_gap newsletter-area" style="background-attachment: fixed;background-position: center;">
-		<div class="container-fluid">
-			<div class="row justify-content-center">
-				<div class="col-lg-6 text-center wow fadeIn" data-wow-duration="1.5s">
-					<div class="main-title">
-						<h1>Ingin informasi lagi? Hubungi Kami</h1>
-					</div>
-					<p class="text-white">Kami disini untuk membantu anda, hubungi kami melalui telepon, email atau sosial menyediakan.</p>
-					<a href="<?php echo base_url() ?>contact" class="primary-btn"><i class="fas fa-phone"></i> &nbsp; Hubungi Kami</a>
+          </div>
+        </div>
 
-					<aside class="f_widget social_widget">
-						<div class="f_title">
-							<h4 class="text-white">Social Media</h4>
-						</div>
-						<ul class="list">
-							<li><a href="#"><i class="fab fa-facebook-square text-white"></i></a></li>
-							<li><a href="#"><i class="fab fa-twitter-square text-white"></i></a></li>
-							<li><a href="#"><i class="fab fa-instagram text-white"></i></a></li>
-							<li><a href="#"><i class="fab fa-linkedin text-white"></i></a></li>
-						</ul>
-					</aside>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End Newsletter Area =================-->
+      </div>
+    </section><!-- #about -->
+
+    <!--==========================
+      Services Section
+    ============================-->
+    <section id="services">
+      <div class="container">
+        <div class="section-header">
+          <h2>Services</h2>
+          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInLeft">
+              <div class="icon"><i class="fa fa-bar-chart"></i></div>
+              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident etiro rabeta lingo.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInRight">
+              <div class="icon"><i class="fa fa-picture-o"></i></div>
+              <h4 class="title"><a href="">Dolor Sitema</a></h4>
+              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInLeft" data-wow-delay="0.2s">
+              <div class="icon"><i class="fa fa-shopping-bag"></i></div>
+              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur trinige zareta lobur trade.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInRight" data-wow-delay="0.2s">
+              <div class="icon"><i class="fa fa-map"></i></div>
+              <h4 class="title"><a href="">Magni Dolores</a></h4>
+              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum rideta zanox satirente madera</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #services -->
+
+    <!--==========================
+      Clients Section
+    ============================-->
+    <section id="clients" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Clients</h2>
+          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+        </div>
+
+        <div class="owl-carousel clients-carousel">
+          <img src="<?php echo base_url(); ?>assets/img/clients/client-1.png" alt="">
+          <img src="<?php echo base_url(); ?>assets/img/clients/client-2.png" alt="">
+          <img src="<?php echo base_url(); ?>assets/img/clients/client-3.png" alt="">
+          <img src="<?php echo base_url(); ?>assets/img/clients/client-4.png" alt="">
+          <img src="<?php echo base_url(); ?>assets/img/clients/client-5.png" alt="">
+          <img src="<?php echo base_url(); ?>assets/img/clients/client-6.png" alt="">
+          <img src="<?php echo base_url(); ?>assets/img/clients/client-7.png" alt="">
+          <img src="<?php echo base_url(); ?>assets/img/clients/client-8.png" alt="">
+        </div>
+
+      </div>
+    </section><!-- #clients -->
+
+    <!--==========================
+      Our Portfolio Section
+    ============================-->
+    <section id="portfolio" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our Portfolio</h2>
+          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="portfolio-item wow fadeInUp">
+              <a href="<?php echo base_url(); ?>assets/img/portfolio/1.jpg" class="portfolio-popup">
+                <img src="<?php echo base_url(); ?>assets/img/portfolio/1.jpg" alt="">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 1</h2></div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="portfolio-item wow fadeInUp">
+              <a href="<?php echo base_url(); ?>assets/img/portfolio/2.jpg" class="portfolio-popup">
+                <img src="<?php echo base_url(); ?>assets/img/portfolio/2.jpg" alt="">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 2</h2></div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="portfolio-item wow fadeInUp">
+              <a href="<?php echo base_url(); ?>assets/img/portfolio/3.jpg" class="portfolio-popup">
+                <img src="<?php echo base_url(); ?>assets/img/portfolio/3.jpg" alt="">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 3</h2></div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="portfolio-item wow fadeInUp">
+              <a href="<?php echo base_url(); ?>assets/img/portfolio/4.jpg" class="portfolio-popup">
+                <img src="<?php echo base_url(); ?>assets/img/portfolio/4.jpg" alt="">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 4</h2></div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="portfolio-item wow fadeInUp">
+              <a href="<?php echo base_url(); ?>assets/img/portfolio/5.jpg" class="portfolio-popup">
+                <img src="<?php echo base_url(); ?>assets/img/portfolio/5.jpg" alt="">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 5</h2></div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="portfolio-item wow fadeInUp">
+              <a href="<?php echo base_url(); ?>assets/img/portfolio/6.jpg" class="portfolio-popup">
+                <img src="<?php echo base_url(); ?>assets/img/portfolio/6.jpg" alt="">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 6</h2></div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="portfolio-item wow fadeInUp">
+              <a href="<?php echo base_url(); ?>assets/img/portfolio/7.jpg" class="portfolio-popup">
+                <img src="<?php echo base_url(); ?>assets/img/portfolio/7.jpg" alt="">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 7</h2></div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="portfolio-item wow fadeInUp">
+              <a href="<?php echo base_url(); ?>assets/img/portfolio/8.jpg" class="portfolio-popup">
+                <img src="<?php echo base_url(); ?>assets/img/portfolio/8.jpg" alt="">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 8</h2></div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #portfolio -->
+
+    <!--==========================
+      Testimonials Section
+    ============================-->
+    <section id="testimonials" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Testimonials</h2>
+          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+        </div>
+        <div class="owl-carousel testimonials-carousel">
+
+            <div class="testimonial-item">
+              <p>
+                <img src="<?php echo base_url(); ?>assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
+                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                <img src="<?php echo base_url(); ?>assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
+              </p>
+              <img src="<?php echo base_url(); ?>assets/img/testimonial-1.jpg" class="testimonial-img" alt="">
+              <h3>Saul Goodman</h3>
+              <h4>Ceo &amp; Founder</h4>
+            </div>
+
+            <div class="testimonial-item">
+              <p>
+                <img src="<?php echo base_url(); ?>assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
+                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                <img src="<?php echo base_url(); ?>assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
+              </p>
+              <img src="<?php echo base_url(); ?>assets/img/testimonial-2.jpg" class="testimonial-img" alt="">
+              <h3>Sara Wilsson</h3>
+              <h4>Designer</h4>
+            </div>
+
+            <div class="testimonial-item">
+              <p>
+                <img src="<?php echo base_url(); ?>assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
+                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                <img src="<?php echo base_url(); ?>assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
+              </p>
+              <img src="<?php echo base_url(); ?>assets/img/testimonial-3.jpg" class="testimonial-img" alt="">
+              <h3>Jena Karlis</h3>
+              <h4>Store Owner</h4>
+            </div>
+
+            <div class="testimonial-item">
+              <p>
+                <img src="<?php echo base_url(); ?>assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
+                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                <img src="<?php echo base_url(); ?>assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
+              </p>
+              <img src="<?php echo base_url(); ?>assets/img/testimonial-4.jpg" class="testimonial-img" alt="">
+              <h3>Matt Brandon</h3>
+              <h4>Freelancer</h4>
+            </div>
+
+            <div class="testimonial-item">
+              <p>
+                <img src="<?php echo base_url(); ?>assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
+                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                <img src="<?php echo base_url(); ?>assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
+              </p>
+              <img src="<?php echo base_url(); ?>assets/img/testimonial-5.jpg" class="testimonial-img" alt="">
+              <h3>John Larson</h3>
+              <h4>Entrepreneur</h4>
+            </div>
+
+        </div>
+
+      </div>
+    </section><!-- #testimonials -->
+
+    <!--==========================
+      Call To Action Section
+    ============================-->
+    <section id="call-to-action" class="wow fadeInUp">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3 class="cta-title">Call To Action</h3>
+            <p class="cta-text"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#">Call To Action</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #call-to-action -->
+
+    <!--==========================
+      Our Team Section
+    ============================-->
+    <section id="team" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our Team</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="<?php echo base_url(); ?>assets/img/team-1.jpg" alt=""></div>
+              <div class="details">
+                <h4>Walter White</h4>
+                <span>Chief Executive Officer</span>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="<?php echo base_url(); ?>assets/img/team-2.jpg" alt=""></div>
+              <div class="details">
+                <h4>Sarah Jhinson</h4>
+                <span>Product Manager</span>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="<?php echo base_url(); ?>assets/img/team-3.jpg" alt=""></div>
+              <div class="details">
+                <h4>William Anderson</h4>
+                <span>CTO</span>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="<?php echo base_url(); ?>assets/img/team-4.jpg" alt=""></div>
+              <div class="details">
+                <h4>Amanda Jepson</h4>
+                <span>Accountant</span>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #team -->
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Contact Us</h2>
+          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-4">
+            <div class="contact-address">
+              <i class="ion-ios-location-outline"></i>
+              <h3>Address</h3>
+              <address>A108 Adam Street, NY 535022, USA</address>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="ion-ios-telephone-outline"></i>
+              <h3>Phone Number</h3>
+              <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:info@example.com">info@example.com</a></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container mb-4">
+        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+      </div>
+
+      <div class="container">
+        <div class="form">
+          <div id="sendmessage">Your message has been sent. Thank you!</div>
+          <div id="errormessage"></div>
+          <form action="" method="post" role="form" class="contactForm">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group col-md-6">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <div class="validation"></div>
+            </div>
+            <div class="text-center"><button type="submit">Send Message</button></div>
+          </form>
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+
+  </main>

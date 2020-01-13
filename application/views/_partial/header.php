@@ -1,106 +1,37 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="icon" href="<?php echo base_url(); ?>assets/img/favicon.png" type="image/png">
-	<title>Smart Pro Training | <?php echo $meta_title; ?></title>
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap.css">
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/vendors/linericon/style.css">
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/font-awesome.min.css">
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/vendors/owl-carousel/owl.carousel.min.css">
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/magnific-popup.css">
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/vendors/nice-select/css/nice-select.css">
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/vendors/animate-css/animate.css">
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/vendors/flaticon/flaticon.css">
-	<!-- main css -->
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
-	<style type="text/css">
-		.card-advantage{
-			box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
-		}
-		.form-control:focus{
-			border-color: #e45447;
-			box-shadow: none;
-		}
-		.nice-select{
-			border: 1px solid #ced4da
-		}
-    .container-fluid{
-      max-width: 1200px;
-    }
-	</style>
-	<!-- checkbox -->
-	<style>
-    /* The container */
-    .container_checkbox {
-      display: block;
-      position: relative;
-      padding-left: 35px;
-      margin-bottom: 12px;
-      cursor: pointer;
-      font-size: 16px;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-    }
+  <meta charset="utf-8">
+  <title>Reveal Bootstrap Template</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-    /* Hide the browser's default checkbox */
-    .container_checkbox input {
-      position: absolute;
-      opacity: 0;
-      cursor: pointer;
-      height: 0;
-      width: 0;
-    }
+  <!-- Favicons -->
+  <link href="<?php echo base_url(); ?>assets/img/favicon.png" rel="icon">
+  <link href="<?php echo base_url(); ?>assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    /* Create a custom checkbox */
-    .checkmark {
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 25px;
-      width: 25px;
-      background-color: #eee;
-    }
+  <!-- Google Fonts -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet"> -->
 
-    /* On mouse-over, add a grey background color */
-    .container_checkbox:hover input ~ .checkmark {
-      background-color: #ccc;
-    }
+  <!-- Bootstrap CSS File -->
+  <link href="<?php echo base_url(); ?>assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    /* When the checkbox is checked, add a blue background */
-    .container_checkbox input:checked ~ .checkmark {
-      background-color: #e45447;
-    }
+  <!-- Libraries CSS Files -->
+  <link href="<?php echo base_url(); ?>assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="<?php echo base_url(); ?>assets/lib/animate/animate.min.css" rel="stylesheet">
+  <link href="<?php echo base_url(); ?>assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="<?php echo base_url(); ?>assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="<?php echo base_url(); ?>assets/lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="<?php echo base_url(); ?>assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
 
-    /* Create the checkmark/indicator (hidden when not checked) */
-    .checkmark:after {
-      content: "";
-      position: absolute;
-      display: none;
-    }
+  <!-- Main Stylesheet File -->
+  <link href="<?php echo base_url(); ?>assets/css/style.css" rel="stylesheet">
 
-    /* Show the checkmark when checked */
-    .container_checkbox input:checked ~ .checkmark:after {
-      display: block;
-    }
-
-    /* Style the checkmark/indicator */
-    .container_checkbox .checkmark:after {
-      left: 9px;
-      top: 5px;
-      width: 5px;
-      height: 10px;
-      border: solid white;
-      border-width: 0 3px 3px 0;
-      -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-      transform: rotate(45deg);
-    }
-  </style>
+  <!-- =======================================================
+    Theme Name: Reveal
+    Theme URL: https://bootstrapmade.com/reveal-bootstrap-corporate-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
 </head>

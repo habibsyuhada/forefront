@@ -1,39 +1,68 @@
-<body>
+<body id="body">
 
-	<!--================Header Menu Area =================-->
-	<header class="header_area navbar_fixed font-weight-bold">
-		<div class="main_menu">
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<div class="container">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<a class="navbar-brand" href="index.html"><img src="<?php echo base_url(); ?>assets/img/logo.png" alt=""> &nbsp; Smart Pro Training</a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-						<ul class="nav navbar-nav menu_nav justify-content-end">
-							<li class="nav-item <?php echo ($menu_active == 'home' ? 'active' : '') ?>"><a class="nav-link font-weight-bold" href="<?php echo base_url() ?>"><i class="fas fa-home"></i> &nbsp; Home</a></li>
-							<li class="nav-item <?php echo ($menu_active == 'training' ? 'active' : '') ?>"><a class="nav-link font-weight-bold" href="<?php echo base_url() ?>training">Training</a></li>
-							<li class="nav-item <?php echo ($menu_active == 'register' ? 'active' : '') ?>"><a class="nav-link font-weight-bold" href="<?php echo base_url() ?>register">Daftar</a></li>
-							<li class="nav-item <?php echo ($menu_active == 'career' ? 'active' : '') ?>"><a class="nav-link font-weight-bold" href="<?php echo base_url() ?>career">Karir</a></li>
-							<li class="nav-item <?php echo ($menu_active == 'contact' ? 'active' : '') ?>"><a class="nav-link font-weight-bold" href="<?php echo base_url() ?>contact">Contact</a></li>
-							<!-- <li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li> -->
-							<!-- <li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">Blog</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-									<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
-								</ul>
-							</li> -->
-						</ul>
-					</div>
-				</div>
-			</nav>
-		</div>
-	</header>
-	<!--================Header Menu Area =================-->
+  <!--==========================
+    Top Bar
+  ============================-->
+  <section id="topbar" class="d-none d-lg-block">
+    <div class="container clearfix">
+      <div class="row justify-content-end font-weight-bold">
+        <div class="col-auto">
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="col-auto">
+          <a href="#">News & Updates</a>
+        </div>
+        <div class="col-auto">
+          <a style="font-size: 12px;" href="#"><i class="fas fa-phone"></i> +44(0)1527 917980</a>
+        </div>
+        <div class="col-auto">
+          <a style="font-size: 12px;" href="#"><i class="far fa-envelope"></i> info@forefrontcertification.co.uk</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="float-left">
+        <img src="<?php echo base_url(); ?>assets/img/ForeFront_LOGO.png" height='50px'>
+        <!-- <h1><a href="#" class="float-left">Reve<span>al</span></a></h1> -->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="#body"><img src="<?php echo base_url(); ?>assets/img/logo.png" alt="" title="" /></a>-->
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <!-- <li class="menu-active"><a href="#">Home</a></li> -->
+          <!-- <li><a href="#">About Us</a></li> -->
+          <li class="menu-has-children"><a href="">About &nbsp; <i class="fas fa-caret-down"></i></a>
+            <ul>
+              <li><a href="#">Why choose ForeFront Certification?</a></li>
+              <li><a href="#">UKAS Accreditation</a></li>
+            </ul>
+          </li>
+          <li class="menu-has-children"><a href="#">Certification &nbsp; <i class="fas fa-caret-down"></i></a>
+            <ul>
+              <li><a href="#">ISO 9001:2015</a></li>
+              <li><a href="#">ISO 14001:2015</a></li>
+              <li><a href="#">ISO 45001</a></li>
+              <li><a href="#">ISO 27001</a></li>
+              <li><a href="#">Benefits of Certification</a></li>
+            </ul>
+          </li>
+          <li class="menu-has-children"><a href="#">Support &nbsp; <i class="fas fa-caret-down"></i></a>
+            <ul>
+              <li><a href="#">Certification Process</a></li>
+              <li><a href="#">Transfer your certification</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Training</a></li>
+          <li><a href="#">Online Training</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->

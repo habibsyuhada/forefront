@@ -1,62 +1,96 @@
-	<!--================ Start Footer Area =================-->
-	<footer class="footer_area py-4 wow fadeIn">
-		<div class="container">
-			<div class="row footer_inner justify-content-center">
-				<div class="col-lg-12 text-center">
-					<aside class="f_widget social_widget">
-						<div class="f_logo">
-							<img src="<?php echo base_url(); ?>assets/img/logo.png" alt="">
-						</div>
-						<!-- <div class="f_title">
-							<h4>Follow Me</h4>
-						</div>
-						<ul class="list">
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-							<li><a href="#"><i class="fa fa-behance"></i></a></li>
-						</ul> -->
-					</aside>
-					<div class="pt-3">
-						<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <i class="fas fa-heart"></i> from <a href="#" target="_blank">Smart Pro Training</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!--================End Footer Area =================-->
 
-	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="<?php echo base_url(); ?>assets/js/jquery-3.2.1.min.js"></script>
-	<script src="<?php echo base_url(); ?>assets/js/popper.js"></script>
-	<script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
-	<script src="<?php echo base_url(); ?>assets/js/stellar.js"></script>
-	<script src="<?php echo base_url(); ?>assets/js/jquery.magnific-popup.min.js"></script>
-	<script src="<?php echo base_url(); ?>assets/vendors/nice-select/js/jquery.nice-select.min.js"></script>
-	<script src="<?php echo base_url(); ?>assets/vendors/isotope/imagesloaded.pkgd.min.js"></script>
-	<script src="<?php echo base_url(); ?>assets/vendors/isotope/isotope-min.js"></script>
-	<script src="<?php echo base_url(); ?>assets/vendors/animate-css/wow.min.js"></script>
-	<script src="<?php echo base_url(); ?>assets/vendors/owl-carousel/owl.carousel.min.js"></script>
-	<script src="<?php echo base_url(); ?>assets/js/jquery.ajaxchimp.min.js"></script>
-	<script src="<?php echo base_url(); ?>assets/js/mail-script.js"></script>
-	<!--gmaps Js-->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-	<script src="<?php echo base_url(); ?>assets/js/gmaps.min.js"></script>
-	<script src="<?php echo base_url(); ?>assets/js/theme.js"></script>
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Reveal</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Reveal
+        -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- #footer -->
 
-	<script type="text/javascript">
-		wow = new WOW({
-      boxClass:     'wow',      // default
-      animateClass: 'animated', // default
-      offset:       10,          // default
-      mobile:       true,       // default
-      live:         true        // default
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="<?php echo base_url(); ?>assets/lib/jquery/jquery.min.js"></script>
+  <script src="<?php echo base_url(); ?>assets/lib/jquery/jquery-migrate.min.js"></script>
+  <script src="<?php echo base_url(); ?>assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?php echo base_url(); ?>assets/lib/easing/easing.min.js"></script>
+  <script src="<?php echo base_url(); ?>assets/lib/superfish/hoverIntent.js"></script>
+  <script src="<?php echo base_url(); ?>assets/lib/superfish/superfish.min.js"></script>
+  <script src="<?php echo base_url(); ?>assets/lib/wow/wow.min.js"></script>
+  <script src="<?php echo base_url(); ?>assets/lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="<?php echo base_url(); ?>assets/lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="<?php echo base_url(); ?>assets/lib/sticky/sticky.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function (){
+        // Stick the header at top on scroll
+      $("#header").sticky({
+        topSpacing: 0,
+        zIndex: '50'
+      });
+
+      // Initiate superfish on nav menu
+      $('.nav-menu').superfish({
+        animation: {
+          opacity: 'show'
+        },
+        speed: 400
+      });
+
+      // Mobile Navigation
+      if ($('#nav-menu-container').length) {
+        var $mobile_nav = $('#nav-menu-container').clone().prop({
+          id: 'mobile-nav'
+        });
+        $mobile_nav.find('> ul').attr({
+          'class': '',
+          'id': ''
+        });
+        $('body').append($mobile_nav);
+        $('body').prepend('<button type="button" id="mobile-nav-toggle"><i class="fa fa-bars"></i></button>');
+        $('body').append('<div id="mobile-body-overly"></div>');
+        $('#mobile-nav').find('.menu-has-children').prepend('<i class="fa fa-chevron-down"></i>');
+        $('#mobile-nav').find('i.fa-caret-down').hide();
+
+        $(document).on('click', '.menu-has-children i', function (e) {
+          $(this).next().toggleClass('menu-item-active');
+          $(this).nextAll('ul').eq(0).slideToggle();
+          $(this).toggleClass("fa-chevron-up fa-chevron-down");
+        });
+
+        $(document).on('click', '#mobile-nav-toggle', function (e) {
+          $('body').toggleClass('mobile-nav-active');
+          $('#mobile-nav-toggle i').toggleClass('fa-times fa-bars');
+          $('#mobile-body-overly').toggle();
+        });
+
+        $(document).click(function (e) {
+          var container = $("#mobile-nav, #mobile-nav-toggle");
+          if (!container.is(e.target) && container.has(e.target).length === 0) {
+            if ($('body').hasClass('mobile-nav-active')) {
+              $('body').removeClass('mobile-nav-active');
+              $('#mobile-nav-toggle i').toggleClass('fa-times fa-bars');
+              $('#mobile-body-overly').fadeOut();
+            }
+          }
+        });
+      } else if ($("#mobile-nav, #mobile-nav-toggle").length) {
+        $("#mobile-nav, #mobile-nav-toggle").hide();
+      }
+  
     });
-    wow.init();
-	</script>
+  </script>
 </body>
-
 </html>
