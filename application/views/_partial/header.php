@@ -49,11 +49,39 @@
   <script src="<?php echo base_url(); ?>assets/lib/sticky/sticky.js"></script>
   
   <style type="text/css">
+    body{
+      color: #000;
+    }
+    .bg-gray{
+      background-color: #fafafa;
+    }
+    h4{
+      font-size: 18px;
+    }
+    h5{
+      font-size: 16px;
+    }
+    h6{
+      font-size: 15px;
+    }
     .border-orange{
       border-color: #f25900 !important;
     }
     .text-orange{
       color: #f25900 !important;
+    }
+    .text-black{
+      color: #000 !important;
+    }
+    .footer_copy{
+      background-color: #ffffff;
+      color: #01353a;
+      border-top: 1px solid #01353a !important;
+    }
+    .footer_copy a{
+      font-size: 14px;
+      font-weight: 400;
+      color: #01353a !important;
     }
   </style>
 </head>

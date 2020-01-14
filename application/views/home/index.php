@@ -87,56 +87,56 @@
     </div>
     <div class="col-md" >
       <h4 class="font-weight-bold">ISO Certification with Forefront</h4>
-      <a href="#" class="text-dark">
+      <a href="#" class="text-black">
         <div class="bg-gray p-3 mb-1">
           <h6 class="font-weight-bold m-0"><i class="fab fa-creative-commons-nd font-weight-normal"></i> ISO 9001 - Quality Management System (QMS)</h6>
         </div>
       </a>
-      <a href="#" class="text-dark">
+      <a href="#" class="text-black">
         <div class="bg-gray p-3 mb-1">
           <h6 class="font-weight-bold m-0"><i class="fab fa-creative-commons-nd font-weight-normal"></i> ISO 14001 - Environmental Management System (EMS)</h6>
         </div>
       </a>
-      <a href="#" class="text-dark">
+      <a href="#" class="text-black">
         <div class="bg-gray p-3 mb-1">
           <h6 class="font-weight-bold m-0"><i class="fab fa-creative-commons-nd font-weight-normal"></i> ISO 45001 - Occupational Health & Safety (OHSMS)</h6>
         </div>
       </a>
-      <a href="#" class="text-dark">
+      <a href="#" class="text-black">
         <div class="bg-gray p-3 mb-1">
           <h6 class="font-weight-bold m-0"><i class="fab fa-creative-commons-nd font-weight-normal"></i> ISO 27001 - Information Security Management System (ISMS)</h6>
         </div>
       </a>
       <hr>
-      <a href="#" class="text-dark">
+      <a href="#" class="text-black">
         <div class="border border-dark mb-1">
           <div class="bg-gray p-3 m-1">
             <h6 class="font-weight-bold m-0"><i class="fab fa-creative-commons-nd font-weight-normal"></i> Why choose ForeFront Certification?</h6>
           </div>
         </div>
       </a>
-      <a href="#" class="text-dark">
+      <a href="#" class="text-black">
         <div class="border border-dark mb-1">
           <div class="bg-gray p-3 m-1">
             <h6 class="font-weight-bold m-0"><i class="fab fa-creative-commons-nd font-weight-normal"></i> Transfer your Certification</h6>
           </div>
         </div>
       </a>
-      <a href="#" class="text-dark">
+      <a href="#" class="text-black">
         <div class="border border-orange mb-1">
           <div class="bg-gray p-3 m-1">
             <h6 class="font-weight-bold m-0"><i class="fab fa-creative-commons-nd font-weight-normal"></i> Benefits of UKAS Accredited Certification</h6>
           </div>
         </div>
       </a>
-      <a href="#" class="text-dark">
+      <a href="#" class="text-black">
         <div class="border border-orange mb-1">
           <div class="bg-gray p-3 m-1">
             <h6 class="font-weight-bold m-0"><i class="fab fa-creative-commons-nd font-weight-normal"></i> What our customer think?</h6>
           </div>
         </div>
       </a>
-      <a href="#" class="text-dark">
+      <a href="#" class="text-black">
         <div class="border border-orange mb-1">
           <div class="bg-gray p-3 m-1">
             <h6 class="font-weight-bold m-0"><i class="fab fa-creative-commons-nd font-weight-normal"></i> Call for more information +44(0)1527 917980</h6>
@@ -190,50 +190,8 @@
       <h6 class="font-weight-bold py-4 text-center">We offer services in the area of Quality, Environmental, Information Security, Aerospace, Automotive and Health and Safety through auditing and training.</h6>
     </div>
   </div>
-  <div class="row m-0">
-    <div class="col-md">
-      <h2 class="py-4 text-center"><i class="far fa-arrow-alt-circle-right"></i> Need a Quote? <span class="text-orange">Click Here</span></h2>
-    </div>
-  </div>  
 </section>
-<section class="container px-4">
-  <div class="row m-0">
-    <div class="col-md-3">
-      <h4 class="font-weight-bold">Forefront</h4>
-      <ul class="list-unstyled" style="font-size: 14px; line-height: 32px">
-        <li><a href="#" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> Vision</a></li>
-        <li><a href="#" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> UKAS Accreditation</a></li>
-        <li><a href="#" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> Certification Schemes</a></li>
-        <li><a href="#" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> Logo Downloads</a></li>
-      </ul>
-    </div>
-    <div class="col-md-3">
-      <h4 class="font-weight-bold">ISO Certification</h4>
-      <ul class="list-unstyled" style="font-size: 14px; line-height: 32px">
-        <li><a href="#" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> ISO 9001:2015</a></li>
-        <li><a href="#" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> ISO 14001:2015</a></li>
-        <li><a href="#" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> ISO 45001</a></li>
-        <li><a href="#" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> ISO 27001</a></li>
-      </ul>
-    </div>
-    <div class="col-md-3">
-      <h4 class="font-weight-bold">Training</h4>
-      <ul class="list-unstyled" style="font-size: 14px; line-height: 32px">
-        <li><a href="#" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> ISO 9001:2015 Internal Auditor</a></li>
-        <li><a href="#" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> ISO 9001:2015 Transition</a></li>
-        <li><a href="#" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> ISO 9001:2015 Foundation</a></li>
-        <li><a href="#" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> ISO 14001 Internal Auditor</a></li>
-        <li><a href="#" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> Root Cause Analysis &#038; 8D</a></li>
-        <li><a href="#" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> ISO 9001:2015 Lead Auditor<div style="margin-left: 15px; margin-top: -10px;">(IRCA Certified)</div></a></li>
-      </ul>
-    </div>
-    <div class="col-md-3">
-      <h4 class="font-weight-bold">Locations</h4>
-      <p>Kensington, London, Coventry, West Midlands, Birmingham, Bristol, Avon, Leeds, West Yorkshire; Aberdeen, Scotland, Glasgow, Scotland, Manchester, Southampton, Hampshire, Reading, Berkshire, Greenwich, London, Exeter, Devon, Chatham, Kent, Northamptonshire</p>
-    </div>
-  </div>
-</section>
-<hr>
+
 <script type="text/javascript">
   // $('.owl-carousel').owlCarousel({
   //   loop:true,

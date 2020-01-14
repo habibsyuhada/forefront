@@ -25,6 +25,13 @@ class Home extends CI_Controller {
 		$this->load->view('index', $data);
 	}
 
+	public function about(){
+		$data['subview'] 			= 'home/about';
+		$data['menu_active'] 	= 'about';
+		$data['meta_title'] 	= 'About';
+		$this->load->view('index', $data);
+	}
+
 	public function hostname(){
 		echo $_SERVER['HTTP_HOST'].'<br>';
 		echo base_url();

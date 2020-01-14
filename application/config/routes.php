@@ -53,6 +53,7 @@ $route['default_controller'] = 'home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+$route['about'] 					= 'home/about';
 $route['training'] 				= 'home/training';
 $route['register'] 				= 'home/register';
 $route['career'] 					= 'home/career';
