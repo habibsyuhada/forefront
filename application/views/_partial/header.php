@@ -36,7 +36,8 @@
   ======================================================= -->
 
   <!-- JavaScript Libraries -->
-  <script src="<?php echo base_url(); ?>assets/lib/jquery/jquery.min.js"></script>
+  <script src="<?php echo base_url(); ?>assets/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script src="<?php echo base_url(); ?>assets/lib/jquery/popper.js"></script>
   <script src="<?php echo base_url(); ?>assets/lib/jquery/jquery-migrate.min.js"></script>
   <script src="<?php echo base_url(); ?>assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="<?php echo base_url(); ?>assets/lib/easing/easing.min.js"></script>
@@ -47,4 +48,12 @@
   <script src="<?php echo base_url(); ?>assets/lib/magnific-popup/magnific-popup.min.js"></script>
   <script src="<?php echo base_url(); ?>assets/lib/sticky/sticky.js"></script>
   
+  <style type="text/css">
+    .border-orange{
+      border-color: #f25900 !important;
+    }
+    .text-orange{
+      color: #f25900 !important;
+    }
+  </style>
 </head>
