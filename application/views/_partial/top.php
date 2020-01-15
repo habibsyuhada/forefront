@@ -39,10 +39,10 @@
         <ul class="nav-menu">
           <!-- <li class="menu-active"><a href="#">Home</a></li> -->
           <!-- <li><a href="#">About Us</a></li> -->
-          <li class="menu-has-children"><a href="">About &nbsp; <i class="fas fa-caret-down"></i></a>
+          <li class="menu-has-children"><a href="<?php echo base_url() ?>about">About &nbsp; <i class="fas fa-caret-down"></i></a>
             <ul>
-              <li><a href="#">Why choose ForeFront Certification?</a></li>
-              <li><a href="#">UKAS Accreditation</a></li>
+              <li><a href="<?php echo base_url() ?>about/why-us">Why choose ForeFront Certification?</a></li>
+              <li><a href="<?php echo base_url() ?>about/ukas-accreditation">UKAS Accreditation</a></li>
             </ul>
           </li>
           <li class="menu-has-children"><a href="#">Certification &nbsp; <i class="fas fa-caret-down"></i></a>

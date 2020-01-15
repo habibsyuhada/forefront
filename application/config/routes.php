@@ -53,8 +53,10 @@ $route['default_controller'] = 'home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-$route['about'] 					= 'home/about';
-$route['training'] 				= 'home/training';
-$route['register'] 				= 'home/register';
-$route['career'] 					= 'home/career';
-$route['contact'] 				= 'home/contact';
+$route['about'] 										= 'home/about';
+$route['about/why-us'] 							= 'home/about_why_us';
+$route['about/ukas-accreditation'] 	= 'home/about_ukas_accreditation';
+
+$route['certification'] 	= 'home/certification';
+$route['certification/iso-90012015'] 	= 'home/certification_iso_90012015';
+

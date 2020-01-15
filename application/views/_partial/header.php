@@ -64,12 +64,30 @@
     h6{
       font-size: 15px;
     }
+
+    a.text-orange:hover{
+      color: #000 !important;
+    }
     .border-orange{
       border-color: #f25900 !important;
     }
     .text-orange{
       color: #f25900 !important;
     }
+    .btn-outline-orange{
+      color: #f25900;
+      border-color: #f25900;
+    }
+    .btn-outline-orange:hover{
+      color: #fff;
+      background-color: #f25900;
+      border-color: #f25900;
+    }
+
+    .border-2px{
+      border-width: 2px;
+    }
+
     .text-black{
       color: #000 !important;
     }
@@ -82,6 +100,46 @@
       font-size: 14px;
       font-weight: 400;
       color: #01353a !important;
+    }
+
+    /*Sidebar*/
+    .list-group > a{
+      border-radius: 0px !important;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      background: #494a4a;
+      color: #fff;
+      padding: 10px;
+    }
+    .list-group .btn-child{
+      background: rgba(0, 0, 0, 0.2);
+      height: 100%;
+      width: 70px;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .list-group .btn-child i{
+      display: inline-block;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      margin-top: -8px;
+      text-align: center;
+      color: #fff;
+    }
+    .list-group > a.active{
+      background: #000;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+    }
+    .list-group.child a{
+      background: #fff;
+      color: #000;
+    }
+    .list-group:not(.child) > a:hover{
+      background: #373838;
+      color: #fff;
     }
   </style>
 </head>

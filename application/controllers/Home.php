@@ -26,42 +26,41 @@ class Home extends CI_Controller {
 	}
 
 	public function about(){
-		$data['subview'] 			= 'home/about';
+		$data['subview'] 			= 'about/index';
 		$data['menu_active'] 	= 'about';
 		$data['meta_title'] 	= 'About';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'About', 'link' => '#'));;
 		$this->load->view('index', $data);
 	}
 
-	public function hostname(){
-		echo $_SERVER['HTTP_HOST'].'<br>';
-		echo base_url();
-	}
-
-	public function training(){
-		$data['subview'] 			= 'home/training';
-		$data['menu_active'] 	= 'training';
-		$data['meta_title'] 	= 'Training';
+	public function about_why_us(){
+		$data['subview'] 			= 'about/why_us';
+		$data['menu_active'] 	= 'about';
+		$data['meta_title'] 	= 'Why choose ForeFront Certification?';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'About', 'link' => '#'), array('text' => 'Why choose ForeFront Certification?', 'link' => '#'));;
 		$this->load->view('index', $data);
 	}
 
-	public function register(){
-		$data['subview'] 			= 'home/register';
-		$data['menu_active'] 	= 'register';
-		$data['meta_title'] 	= 'Daftar';
+	public function about_ukas_accreditation(){
+		$data['subview'] 			= 'about/ukas_accreditation';
+		$data['menu_active'] 	= 'about';
+		$data['meta_title'] 	= 'UKAS Accreditation';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'About', 'link' => '#'), array('text' => 'UKAS Accreditation', 'link' => '#'));;
 		$this->load->view('index', $data);
 	}
 
-	public function career(){
-		$data['subview'] 			= 'home/career';
-		$data['menu_active'] 	= 'career';
-		$data['meta_title'] 	= 'Karir';
+	public function certification(){
+		$data['subview'] 			= 'certification/index';
+		$data['menu_active'] 	= 'certification';
+		$data['meta_title'] 	= 'Certification';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Certification', 'link' => '#'));;
 		$this->load->view('index', $data);
 	}
-
-	public function contact(){
-		$data['subview'] 			= 'home/contact';
-		$data['menu_active'] 	= 'contact';
-		$data['meta_title'] 	= 'Kontak';
+	public function certification_iso_90012015(){
+		$data['subview'] 			= 'certification/iso-90012015';
+		$data['menu_active'] 	= 'certification';
+		$data['meta_title'] 	= 'Certification';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Certification', 'link' => '#'), array('text' => 'ISO-90012015', 'link' => '#'));;
 		$this->load->view('index', $data);
 	}
 }
