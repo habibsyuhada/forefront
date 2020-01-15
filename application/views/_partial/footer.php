@@ -2,6 +2,7 @@
   <!--==========================
     Footer
   ============================-->
+  <p>&nbsp;</p>
   <section class="container px-4">
     <div class="row m-0">
       <div class="col-md">

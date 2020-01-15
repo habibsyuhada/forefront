@@ -12,11 +12,11 @@
   </div>
   <a href="<?php echo base_url() ?>certification" class="list-group-item list-group-item-action">
     Certification
-    <button class="btn-child border-0" data-toggle="collapse" data-target="#collapseCertification" aria-expanded="false" aria-controls="collapseCertification" onclick="return false;">
+    <button class="btn-child border-0" data-toggle="collapse" data-target="#collapseCertification" aria-expanded="<?php echo ($menu_active == 'certification' ? 'true' : 'false') ?>" aria-controls="collapseCertification" onclick="return false;">
       <i class="fas fa-chevron-down"></i>
     </button>
   </a>
-  <div class="list-group child collapse" id="collapseCertification">
+  <div class="list-group child collapse <?php echo ($menu_active == 'certification' ? 'show' : '') ?>" id="collapseCertification">
     <a href="<?php echo base_url() ?>certification/iso-90012015" class="list-group-item list-group-item-action">ISO 9001:2015</a>
     <a href="#" class="list-group-item list-group-item-action">ISO 14001:2015</a>
     <a href="#" class="list-group-item list-group-item-action">ISO 45001</a>
