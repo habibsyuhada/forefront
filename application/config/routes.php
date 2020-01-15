@@ -60,6 +60,7 @@ $route['about/ukas-accreditation'] 	= 'home/about_ukas_accreditation';
 $route['certification'] 							= 'home/certification';
 $route['certification/iso-90012015'] 	= 'home/certification_iso_90012015';
 
-$route['support'] 												= 'home/support';
-$route['support/certification-process'] 	= 'home/support_certification_process';
+$route['support'] 															= 'home/support';
+$route['support/certification-process'] 				= 'home/support_certification_process';
+$route['support/transfer-your-certification'] 	= 'home/support_transfer_your_certification';
 

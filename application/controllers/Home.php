@@ -80,4 +80,12 @@ class Home extends CI_Controller {
 		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Support', 'link' => '#'), array('text' => 'Certification Process', 'link' => '#'));;
 		$this->load->view('index', $data);
 	}
+
+	public function support_transfer_your_certification(){
+		$data['subview'] 			= 'support/transfer-your-certification';
+		$data['menu_active'] 	= 'support';
+		$data['meta_title'] 	= 'Transfer your certification';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Support', 'link' => '#'), array('text' => 'Transfer your certification', 'link' => '#'));;
+		$this->load->view('index', $data);
+	}
 }

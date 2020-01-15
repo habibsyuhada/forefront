@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Reveal Bootstrap Template</title>
+  <title><?php echo $meta_title ?> - ForeFront Certification</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -140,6 +140,10 @@
     .list-group:not(.child) > a:hover{
       background: #373838;
       color: #fff;
+    }
+
+    ul.disc li{
+      margin-bottom: 10px;
     }
   </style>
 </head>

@@ -57,7 +57,7 @@
           <li class="menu-has-children"><a href="<?php echo base_url() ?>support">Support &nbsp; <i class="fas fa-caret-down"></i></a>
             <ul>
               <li><a href="<?php echo base_url() ?>support/certification-process">Certification Process</a></li>
-              <li><a href="#">Transfer your certification</a></li>
+              <li><a href="<?php echo base_url() ?>support/transfer-your-certification">Transfer your certification</a></li>
             </ul>
           </li>
           <li><a href="#">Training</a></li>

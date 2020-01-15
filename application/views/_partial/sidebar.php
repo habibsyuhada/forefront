@@ -31,7 +31,7 @@
   </a>
   <div class="list-group child collapse <?php echo ($menu_active == 'support' ? 'show' : '') ?>" id="collapseSupport">
     <a href="<?php echo base_url() ?>support/certification-process" class="list-group-item list-group-item-action">Certification Process</a>
-    <a href="#" class="list-group-item list-group-item-action">Transfer your certification</a>
+    <a href="<?php echo base_url() ?>support/transfer-your-certification" class="list-group-item list-group-item-action">Transfer your certification</a>
   </div>
   <a href="#" class="list-group-item list-group-item-action">Training</a>
   <a href="<?php echo base_url() ?>about" class="list-group-item list-group-item-action">
