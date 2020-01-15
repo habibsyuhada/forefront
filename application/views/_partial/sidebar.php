@@ -34,18 +34,17 @@
     <a href="<?php echo base_url() ?>support/transfer-your-certification" class="list-group-item list-group-item-action">Transfer your certification</a>
   </div>
   <a href="<?php echo base_url() ?>training" class="list-group-item list-group-item-action">Training</a>
-  <a href="<?php echo base_url() ?>about" class="list-group-item list-group-item-action">
-    Consultants
-    <button class="btn-child border-0" data-toggle="collapse" data-target="#collapseConsultants" aria-expanded="false" aria-controls="collapseConsultants" onclick="return false;">
+  <a href="<?php echo base_url() ?>online-training" class="list-group-item list-group-item-action <?php echo ($menu_active == 'online-training' ? 'active' : '') ?>">
+    Online Training
+    <button class="btn-child border-0" data-toggle="collapse" data-target="#collapseOnlineTraining" aria-expanded="<?php echo ($menu_active == 'online-training' ? 'true' : 'false') ?>" aria-controls="collapseOnlineTraining" onclick="return false;">
       <i class="fas fa-chevron-down"></i>
     </button>
   </a>
-  <div class="list-group child collapse" id="collapseConsultants">
-    <a href="#" class="list-group-item list-group-item-action">Find an ISO consultant</a>
-    <a href="#" class="list-group-item list-group-item-action">Register as a consultant</a>
-    <a href="#" class="list-group-item list-group-item-action">Auditor Opportunities</a>
+  <div class="list-group child collapse <?php echo ($menu_active == 'online-training' ? 'show' : '') ?>" id="collapseOnlineTraining">
+    <a href="https://www.forefrontcertification.co.uk/online-training/health-safety/" class="list-group-item list-group-item-action">Health & Safety</a>
+    <a href="https://www.forefrontcertification.co.uk/online-training/business-skills/" class="list-group-item list-group-item-action">Business Skills</a>
   </div>
-  <a href="#" class="list-group-item list-group-item-action">Free Quotation</a>
+  <a href="<?php echo base_url() ?>free-quotation" class="list-group-item list-group-item-action">Free Quotation</a>
 </div>
 <p class="mb-3">&nbsp;</p>
 

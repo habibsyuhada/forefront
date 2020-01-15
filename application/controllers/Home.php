@@ -25,11 +25,19 @@ class Home extends CI_Controller {
 		$this->load->view('index', $data);
 	}
 
+	public function free_quotation(){
+		$data['subview'] 			= 'home/free-quotation';
+		$data['menu_active'] 	= 'free-quotation';
+		$data['meta_title'] 	= 'Free Quotation';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Free Quotation', 'link' => '#'));
+		$this->load->view('index', $data);
+	}
+
 	public function about(){
 		$data['subview'] 			= 'about/index';
 		$data['menu_active'] 	= 'about';
 		$data['meta_title'] 	= 'About';
-		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'About', 'link' => '#'));;
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'About', 'link' => '#'));
 		$this->load->view('index', $data);
 	}
 
@@ -37,7 +45,7 @@ class Home extends CI_Controller {
 		$data['subview'] 			= 'about/why_us';
 		$data['menu_active'] 	= 'about';
 		$data['meta_title'] 	= 'Why choose ForeFront Certification?';
-		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'About', 'link' => '#'), array('text' => 'Why choose ForeFront Certification?', 'link' => '#'));;
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'About', 'link' => '#'), array('text' => 'Why choose ForeFront Certification?', 'link' => '#'));
 		$this->load->view('index', $data);
 	}
 
@@ -45,7 +53,7 @@ class Home extends CI_Controller {
 		$data['subview'] 			= 'about/ukas_accreditation';
 		$data['menu_active'] 	= 'about';
 		$data['meta_title'] 	= 'UKAS Accreditation';
-		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'About', 'link' => '#'), array('text' => 'UKAS Accreditation', 'link' => '#'));;
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'About', 'link' => '#'), array('text' => 'UKAS Accreditation', 'link' => '#'));
 		$this->load->view('index', $data);
 	}
 
@@ -53,7 +61,7 @@ class Home extends CI_Controller {
 		$data['subview'] 			= 'certification/index';
 		$data['menu_active'] 	= 'certification';
 		$data['meta_title'] 	= 'Certification';
-		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Certification', 'link' => '#'));;
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Certification', 'link' => '#'));
 		$this->load->view('index', $data);
 	}
 
@@ -61,7 +69,7 @@ class Home extends CI_Controller {
 		$data['subview'] 			= 'certification/iso-90012015';
 		$data['menu_active'] 	= 'certification';
 		$data['meta_title'] 	= 'Certification';
-		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Certification', 'link' => '#'), array('text' => 'ISO-90012015', 'link' => '#'));;
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Certification', 'link' => '#'), array('text' => 'ISO-90012015', 'link' => '#'));
 		$this->load->view('index', $data);
 	}
 
@@ -69,7 +77,7 @@ class Home extends CI_Controller {
 		$data['subview'] 			= 'support/index';
 		$data['menu_active'] 	= 'support';
 		$data['meta_title'] 	= 'Support';
-		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Support', 'link' => '#'));;
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Support', 'link' => '#'));
 		$this->load->view('index', $data);
 	}
 
@@ -77,7 +85,7 @@ class Home extends CI_Controller {
 		$data['subview'] 			= 'support/certification-process';
 		$data['menu_active'] 	= 'support';
 		$data['meta_title'] 	= 'Certification Process';
-		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Support', 'link' => '#'), array('text' => 'Certification Process', 'link' => '#'));;
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Support', 'link' => '#'), array('text' => 'Certification Process', 'link' => '#'));
 		$this->load->view('index', $data);
 	}
 
@@ -85,7 +93,7 @@ class Home extends CI_Controller {
 		$data['subview'] 			= 'support/transfer-your-certification';
 		$data['menu_active'] 	= 'support';
 		$data['meta_title'] 	= 'Transfer your certification';
-		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Support', 'link' => '#'), array('text' => 'Transfer your certification', 'link' => '#'));;
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Support', 'link' => '#'), array('text' => 'Transfer your certification', 'link' => '#'));
 		$this->load->view('index', $data);
 	}
 
@@ -94,6 +102,22 @@ class Home extends CI_Controller {
 		$data['menu_active'] 	= 'training';
 		$data['meta_title'] 	= 'Training';
 		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Training', 'link' => '#'));
+		$this->load->view('index', $data);
+	}
+
+	public function online_training(){
+		$data['subview'] 			= 'online-training/index';
+		$data['menu_active'] 	= 'online-training';
+		$data['meta_title'] 	= 'Online Training';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Online Training', 'link' => '#'));
+		$this->load->view('index', $data);
+	}
+
+	public function online_training_health_safety(){
+		$data['subview'] 			= 'online-training/health-safety';
+		$data['menu_active'] 	= 'online-training';
+		$data['meta_title'] 	= 'Health & Safety';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Online Training', 'link' => '#'), array('text' => 'Health & Safety', 'link' => '#'));
 		$this->load->view('index', $data);
 	}
 }

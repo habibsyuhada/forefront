@@ -6,12 +6,12 @@
   <section id="topbar" class="d-none d-lg-block">
     <div class="container clearfix">
       <div class="row justify-content-end font-weight-bold">
-        <div class="col-auto">
-          <a href="#">Contact Us</a>
-        </div>
-        <div class="col-auto">
+        <!-- <div class="col-auto">
+          <a href="<?php echo base_url() ?>support">Contact Us</a>
+        </div> -->
+        <!-- <div class="col-auto">
           <a href="#">News & Updates</a>
-        </div>
+        </div> -->
         <div class="col-auto">
           <a style="font-size: 12px;" href="#"><i class="fas fa-phone"></i> +44(0)1527 917980</a>
         </div>
@@ -61,7 +61,12 @@
             </ul>
           </li>
           <li><a href="<?php echo base_url() ?>training">Training</a></li>
-          <li><a href="#">Online Training</a></li>
+          <li class="menu-has-children"><a href="<?php echo base_url() ?>online-training">Online Training &nbsp; <i class="fas fa-caret-down"></i></a>
+            <ul>
+              <li><a href="https://www.forefrontcertification.co.uk/online-training/health-safety/">Health & Safety</a></li>
+              <li><a href="https://www.forefrontcertification.co.uk/online-training/business-skills/">Business Skills</a></li>
+            </ul>
+          </li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>

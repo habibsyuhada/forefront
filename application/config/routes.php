@@ -65,3 +65,9 @@ $route['support/certification-process'] 				= 'home/support_certification_proces
 $route['support/transfer-your-certification'] 	= 'home/support_transfer_your_certification';
 
 $route['training'] 	= 'home/training';
+
+$route['online-training'] 								= 'home/online_training';
+$route['online-training/health-safety'] 	= 'home/online_training_health_safety';
+$route['online-training/business-skills'] = 'home/online_training_business_skills';
+
+$route['free-quotation'] 	= 'home/free_quotation';
