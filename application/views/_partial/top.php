@@ -60,7 +60,7 @@
               <li><a href="<?php echo base_url() ?>support/transfer-your-certification">Transfer your certification</a></li>
             </ul>
           </li>
-          <li><a href="#">Training</a></li>
+          <li><a href="<?php echo base_url() ?>training">Training</a></li>
           <li><a href="#">Online Training</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->

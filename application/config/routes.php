@@ -64,3 +64,4 @@ $route['support'] 															= 'home/support';
 $route['support/certification-process'] 				= 'home/support_certification_process';
 $route['support/transfer-your-certification'] 	= 'home/support_transfer_your_certification';
 
+$route['training'] 	= 'home/training';

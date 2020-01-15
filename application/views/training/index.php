@@ -1,8 +1,3 @@
-<style type="text/css">
-  ul.disc li{
-    margin-bottom: 10px;
-  }
-</style>
 <!--==========================
   Intro Section
 ============================-->
@@ -16,54 +11,15 @@
 
     <!-- Content -->
     <div class="col-md pl-4 ml-4">
-      <div class="row">
-        <div class="col-md">
-          <h5 class="font-weight-bold">OUR EXPERTS WILL SUPPORT YOU THROUGH YOUR CERTIFCIATION JOURNEY SO YOU CAN CONTINUALLY IMPROVE YOUR BUSINESS.</h5>
-          <p>At ForeFront, our team can ensure that you have the right approach to meet your needs and expectations.</p>
-          <p>Whether you are looking for certification services, training auditors or needing us to put you in touch with independent consultants our team will help you find a solution that that works for you.</p>
-          <p>For more details about any certification support, <b>please contact us today</b>.</p>
-          <form action="" method="POST">
-            <div style="background-color:#f2f2f2; padding:20px">
-              <div class="form-row mb-3">
-                <div class="col">
-                  <input type="text" class="form-control border-orange border-2px" placeholder="Your Name">
-                </div>
-                <div class="col">
-                  <input type="text" class="form-control border-orange border-2px" placeholder="Your Phone">
-                </div>
-              </div>
-              <div class="form-row mb-3">
-                <div class="col">
-                  <input type="text" class="form-control border-orange border-2px" placeholder="Your Email">
-                </div>
-              </div>
-              <div class="form-row mb-3">
-                <div class="col">
-                  <textarea class="form-control border-orange border-2px" placeholder="Message" rows="4"></textarea>
-                </div>
-              </div>
-              <div class="form-group">
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="gridCheck">
-                  <label class="form-check-label" for="gridCheck">
-                    By using this form you agree with the storage and handling of your data by this website.
-                  </label>
-                </div>
-              </div>
-              <div class="form-row mb-3">
-                <div class="col text-right">
-                  <button class="border-2px font-weight-bold btn btn-outline-dark text-center" type="submit">Send a message</button>
-                </div>
-              </div>
-            </div>
-          </form>
-        </div>
-        <div class="col-md-3">
-          <a class="border-2px font-weight-bold btn btn-outline-orange btn-block text-center" href="<?php echo base_url() ?>support" target="_blank"><i class="fas fa-phone"></i> CONTACT US</a>
-          <a class="border-2px font-weight-bold btn btn-outline-orange btn-block text-center" href="<?php echo base_url() ?>support" target="_blank"><i class="fas fa-comments"></i> LIVE CHAT</a>
-          <a class="border-2px font-weight-bold btn btn-outline-orange btn-block text-center" href="<?php echo base_url() ?>support" target="_blank"><i class="fas fa-th-large"></i> GET A QOUTE</a>
-        </div>
-      </div>
+      <h4 class="font-weight-bold">ForeFront Certification’s training courses are designed to be flexible and informative. They are created and delivered by our team of knowledgeable experts with years of experience.</h4>
+      <p class="mb-3">Our Training Courses are designed to be flexible and informative for the learner, Created and Delivered by our team of Knowledgeable professionals.</p>
+      <p class="mb-3">We understand that our learners wish to learn in multiple ways, so we have created a variety of courses which have been designed to be delivered in public venues, a learner’s preferred site or by distance learning.’</p>
+      <p class="mb-3">‘We offer a range of open or public courses which are scheduled at various locations around UK.</p>
+      <h3 class="font-weight-bold">Public Training</h3>
+      <p class="mb-3">Our Public Training courses offer our delegates flexibility with location, taking delegates out of the work place to gain full focus. With our Public Training, we offer delegates fantastic opportunities to meet with delegates from various working environments and a chance to learn from their experiences.’</p>
+      <h3 class="font-weight-bold">In house Training</h3>
+      <p class="mb-3">Our In-House Training can accommodate to many different sectors and is a beneficial and cost-effective choice for employers, which also encourages team bonding, trust in fellow colleagues and learn from others.</p>
+      <p class="mb-3">For all our upcoming courses please see below or get in touch.</p>
     </div>
   </div>
 </section>

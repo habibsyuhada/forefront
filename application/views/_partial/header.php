@@ -55,6 +55,9 @@
     .bg-gray{
       background-color: #fafafa;
     }
+    h3{
+      font-size: 22px;
+    }
     h4{
       font-size: 18px;
     }

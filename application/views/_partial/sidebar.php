@@ -33,7 +33,7 @@
     <a href="<?php echo base_url() ?>support/certification-process" class="list-group-item list-group-item-action">Certification Process</a>
     <a href="<?php echo base_url() ?>support/transfer-your-certification" class="list-group-item list-group-item-action">Transfer your certification</a>
   </div>
-  <a href="#" class="list-group-item list-group-item-action">Training</a>
+  <a href="<?php echo base_url() ?>training" class="list-group-item list-group-item-action">Training</a>
   <a href="<?php echo base_url() ?>about" class="list-group-item list-group-item-action">
     Consultants
     <button class="btn-child border-0" data-toggle="collapse" data-target="#collapseConsultants" aria-expanded="false" aria-controls="collapseConsultants" onclick="return false;">

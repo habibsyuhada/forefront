@@ -88,4 +88,12 @@ class Home extends CI_Controller {
 		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Support', 'link' => '#'), array('text' => 'Transfer your certification', 'link' => '#'));;
 		$this->load->view('index', $data);
 	}
+
+	public function training(){
+		$data['subview'] 			= 'training/index';
+		$data['menu_active'] 	= 'training';
+		$data['meta_title'] 	= 'Training';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Training', 'link' => '#'));
+		$this->load->view('index', $data);
+	}
 }
