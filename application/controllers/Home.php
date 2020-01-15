@@ -56,11 +56,28 @@ class Home extends CI_Controller {
 		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Certification', 'link' => '#'));;
 		$this->load->view('index', $data);
 	}
+
 	public function certification_iso_90012015(){
 		$data['subview'] 			= 'certification/iso-90012015';
 		$data['menu_active'] 	= 'certification';
 		$data['meta_title'] 	= 'Certification';
 		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Certification', 'link' => '#'), array('text' => 'ISO-90012015', 'link' => '#'));;
+		$this->load->view('index', $data);
+	}
+
+	public function support(){
+		$data['subview'] 			= 'support/index';
+		$data['menu_active'] 	= 'support';
+		$data['meta_title'] 	= 'Support';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Support', 'link' => '#'));;
+		$this->load->view('index', $data);
+	}
+
+	public function support_certification_process(){
+		$data['subview'] 			= 'support/certification-process';
+		$data['menu_active'] 	= 'support';
+		$data['meta_title'] 	= 'Certification Process';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Support', 'link' => '#'), array('text' => 'Certification Process', 'link' => '#'));;
 		$this->load->view('index', $data);
 	}
 }

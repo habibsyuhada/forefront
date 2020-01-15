@@ -57,6 +57,9 @@ $route['about'] 										= 'home/about';
 $route['about/why-us'] 							= 'home/about_why_us';
 $route['about/ukas-accreditation'] 	= 'home/about_ukas_accreditation';
 
-$route['certification'] 	= 'home/certification';
+$route['certification'] 							= 'home/certification';
 $route['certification/iso-90012015'] 	= 'home/certification_iso_90012015';
+
+$route['support'] 												= 'home/support';
+$route['support/certification-process'] 	= 'home/support_certification_process';
 

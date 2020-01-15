@@ -29,7 +29,7 @@
     <div class="container">
 
       <div id="logo" class="float-left">
-        <img src="<?php echo base_url(); ?>assets/img/ForeFront_LOGO.png" height='50px'>
+        <a href="<?php echo base_url() ?>"><img src="<?php echo base_url(); ?>assets/img/ForeFront_LOGO.png" height='50px'></a>
         <!-- <h1><a href="#" class="float-left">Reve<span>al</span></a></h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="#body"><img src="<?php echo base_url(); ?>assets/img/logo.png" alt="" title="" /></a>-->
@@ -54,9 +54,9 @@
               <li><a href="#">Benefits of Certification</a></li>
             </ul>
           </li>
-          <li class="menu-has-children"><a href="#">Support &nbsp; <i class="fas fa-caret-down"></i></a>
+          <li class="menu-has-children"><a href="<?php echo base_url() ?>support">Support &nbsp; <i class="fas fa-caret-down"></i></a>
             <ul>
-              <li><a href="#">Certification Process</a></li>
+              <li><a href="<?php echo base_url() ?>support/certification-process">Certification Process</a></li>
               <li><a href="#">Transfer your certification</a></li>
             </ul>
           </li>

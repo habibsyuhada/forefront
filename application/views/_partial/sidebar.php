@@ -1,6 +1,6 @@
 <div class="list-group">
   <a href="#" class="list-group-item list-group-item-action active">Home</a>
-  <a href="<?php echo base_url() ?>about" class="list-group-item list-group-item-action">
+  <a href="<?php echo base_url() ?>" class="list-group-item list-group-item-action">
     About
     <button class="btn-child border-0" data-toggle="collapse" data-target="#collapseAbout" aria-expanded="<?php echo ($menu_active == 'about' ? 'true' : 'false') ?>" aria-controls="collapseAbout" onclick="return false;">
       <i class="fas fa-chevron-down"></i>
@@ -23,14 +23,14 @@
     <a href="#" class="list-group-item list-group-item-action">ISO 27001</a>
     <a href="#" class="list-group-item list-group-item-action">Benefits of Certification</a>
   </div>
-  <a href="<?php echo base_url() ?>about" class="list-group-item list-group-item-action">
+  <a href="<?php echo base_url() ?>support" class="list-group-item list-group-item-action">
     Support
-    <button class="btn-child border-0" data-toggle="collapse" data-target="#collapseSupport" aria-expanded="false" aria-controls="collapseSupport" onclick="return false;">
+    <button class="btn-child border-0" data-toggle="collapse" data-target="#collapseSupport" aria-expanded="<?php echo ($menu_active == 'support' ? 'true' : 'false') ?>" aria-controls="collapseSupport" onclick="return false;">
       <i class="fas fa-chevron-down"></i>
     </button>
   </a>
-  <div class="list-group child collapse" id="collapseSupport">
-    <a href="#" class="list-group-item list-group-item-action">Certification Process</a>
+  <div class="list-group child collapse <?php echo ($menu_active == 'support' ? 'show' : '') ?>" id="collapseSupport">
+    <a href="<?php echo base_url() ?>support/certification-process" class="list-group-item list-group-item-action">Certification Process</a>
     <a href="#" class="list-group-item list-group-item-action">Transfer your certification</a>
   </div>
   <a href="#" class="list-group-item list-group-item-action">Training</a>
