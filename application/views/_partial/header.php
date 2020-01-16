@@ -38,7 +38,8 @@
   <script src="<?php echo base_url(); ?>assets/lib/jquery/jquery-3.2.1.min.js"></script>
   <script src="<?php echo base_url(); ?>assets/lib/jquery/popper.js"></script>
   <script src="<?php echo base_url(); ?>assets/lib/jquery/jquery-migrate.min.js"></script>
-  <script src="<?php echo base_url(); ?>assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="<?php echo base_url(); ?>assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+  <script src="<?php echo base_url(); ?>assets/lib/bootstrap/js/bootstrap.min.js"></script>
   <script src="<?php echo base_url(); ?>assets/lib/easing/easing.min.js"></script>
   <script src="<?php echo base_url(); ?>assets/lib/superfish/hoverIntent.js"></script>
   <script src="<?php echo base_url(); ?>assets/lib/superfish/superfish.min.js"></script>
@@ -75,6 +76,11 @@
     }
     .text-orange{
       color: #f25900 !important;
+    }
+    .btn-orange{
+      color: #fff;
+      background-color: #f25900;
+      border-color: #f25900;
     }
     .btn-outline-orange{
       color: #f25900;
