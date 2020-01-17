@@ -12,6 +12,9 @@
 
   <!-- Google Fonts -->
   <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet"> -->
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:100,300,regular,700,900%7COpen+Sans:300%7CIndie+Flower:regular%7COswald:300,regular,700&amp;subset=latin%2Clatin-ext' type='text/css' media='all' />
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato%3A1%2C100%2C300%2C400&amp;ver=5.3.2' type='text/css' media='all' />
+
 
   <!-- Bootstrap CSS File -->
   <link href="<?php echo base_url(); ?>assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
