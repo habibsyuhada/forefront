@@ -69,7 +69,15 @@ class Home extends CI_Controller {
 		$data['subview'] 			= 'certification/iso-90012015';
 		$data['menu_active'] 	= 'certification';
 		$data['meta_title'] 	= 'Certification';
-		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Certification', 'link' => '#'), array('text' => 'ISO-90012015', 'link' => '#'));
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Certification', 'link' => '#'), array('text' => 'ISO-9001:2015', 'link' => '#'));
+		$this->load->view('index', $data);
+	}
+
+	public function certification_iso_140012015(){
+		$data['subview'] 			= 'certification/iso-140012015';
+		$data['menu_active'] 	= 'certification';
+		$data['meta_title'] 	= 'Certification';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Certification', 'link' => '#'), array('text' => 'ISO-14001:2015', 'link' => '#'));
 		$this->load->view('index', $data);
 	}
 

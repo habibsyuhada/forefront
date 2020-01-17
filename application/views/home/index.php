@@ -80,7 +80,7 @@
     </div>
   </div> -->
 
-  <div class="row">
+  <div class="row mb-4">
     <div class="col">
       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -102,7 +102,7 @@
             <img src="<?php echo base_url() ?>assets/img/slide_banner/bb-3.jpg" class="d-block w-100">
             <div class="carousel-caption d-none d-md-block">
               <h4 class="font-weight-bold">Select the right Management System</h4>
-              <a href="#" class="btn btn-sm btn-orange text-white">ISO 9001:2015</a> <a href="#" class="btn btn-sm btn-dark">ISO 14001:2015</a>
+              <a href="<?php echo base_url() ?>certification/iso-90012015" class="btn btn-sm btn-orange text-white rounded-pill">ISO 9001:2015 &nbsp; <i class="fas fa-chevron-right"></i></a> <a href="<?php echo base_url() ?>certification/iso-90012015" class="btn btn-sm btn-dark rounded-pill">ISO 14001:2015 &nbsp; <i class="fas fa-chevron-right"></i></a>
               <br><br><br><br><br>
               <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
             </div>
@@ -120,7 +120,7 @@
             <img src="<?php echo base_url() ?>assets/img/slide_banner/128.jpg" class="d-block w-100">
             <div class="carousel-caption d-none d-md-block">
               <h4 class="font-weight-bold">Discover our Training & Online Courses</h4>
-              <a href="#" class="btn btn-sm btn-orange text-white">ISO 9001:2015</a> <a href="#" class="btn btn-sm btn-dark">ISO 14001:2015</a>
+              <a href="<?php echo base_url() ?>online-training" class="btn btn-sm btn-orange text-white rounded-pill">Health & Safety Training &nbsp; <i class="fas fa-chevron-right"></i></a> <a href="<?php echo base_url() ?>online-training" class="btn btn-sm btn-dark rounded-pill">Business Skills Training &nbsp; <i class="fas fa-chevron-right"></i></a>
               <br><br><br><br><br>
               <!-- <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> -->
             </div>
@@ -154,7 +154,7 @@
     </div>
     <div class="col-md" >
       <h4 class="font-weight-bold">ISO Certification with Forefront</h4>
-      <a href="#" class="text-black">
+      <a href="<?php echo base_url() ?>certification/iso-90012015" class="text-black">
         <div class="bg-gray p-3 mb-1">
           <h6 class="font-weight-bold m-0"><i class="fab fa-creative-commons-nd font-weight-normal"></i> ISO 9001 - Quality Management System (QMS)</h6>
         </div>
@@ -175,17 +175,24 @@
         </div>
       </a>
       <hr>
-      <a href="#" class="text-black">
+      <a href="<?php echo base_url() ?>about/why-us" class="text-black">
         <div class="border border-dark mb-1">
           <div class="bg-gray p-3 m-1">
             <h6 class="font-weight-bold m-0"><i class="fab fa-creative-commons-nd font-weight-normal"></i> Why choose ForeFront Certification?</h6>
           </div>
         </div>
       </a>
-      <a href="#" class="text-black">
+      <a href="<?php echo base_url() ?>support/transfer-your-certification" class="text-black">
         <div class="border border-dark mb-1">
           <div class="bg-gray p-3 m-1">
             <h6 class="font-weight-bold m-0"><i class="fab fa-creative-commons-nd font-weight-normal"></i> Transfer your Certification</h6>
+          </div>
+        </div>
+      </a>
+      <a href="<?php echo base_url() ?>free-quotation" class="text-black">
+        <div class="border border-orange mb-1">
+          <div class="bg-gray p-3 m-1">
+            <h6 class="font-weight-bold m-0"><i class="fab fa-creative-commons-nd font-weight-normal"></i> Get a free quote</h6>
           </div>
         </div>
       </a>
@@ -203,7 +210,7 @@
           </div>
         </div>
       </a>
-      <a href="#" class="text-black">
+      <a href="mailto:+44(0)%201527%20917980" class="text-black">
         <div class="border border-orange mb-1">
           <div class="bg-gray p-3 m-1">
             <h6 class="font-weight-bold m-0"><i class="fab fa-creative-commons-nd font-weight-normal"></i> Call for more information +44(0)1527 917980</h6>
@@ -265,6 +272,11 @@
   //   dots:true,
   //   items: 1,
   // });
+
+  $('.carousel').carousel({
+    interval: 10000
+  });
+
   function normalizeSlideHeights() {
     $('.carousel').each(function(){
       var items = $('.carousel-item', this);
