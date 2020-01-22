@@ -81,6 +81,30 @@ class Home extends CI_Controller {
 		$this->load->view('index', $data);
 	}
 
+	public function certification_iso_45001(){
+		$data['subview'] 			= 'certification/iso-45001';
+		$data['menu_active'] 	= 'certification';
+		$data['meta_title'] 	= 'Certification';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Certification', 'link' => '#'), array('text' => 'ISO-45001', 'link' => '#'));
+		$this->load->view('index', $data);
+	}
+
+	public function certification_iso_27001(){
+		$data['subview'] 			= 'certification/iso-27001';
+		$data['menu_active'] 	= 'certification';
+		$data['meta_title'] 	= 'Certification';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Certification', 'link' => '#'), array('text' => 'ISO-27001', 'link' => '#'));
+		$this->load->view('index', $data);
+	}
+
+	public function benefits_of_certification(){
+		$data['subview'] 			= 'certification/benefits-of-certification';
+		$data['menu_active'] 	= 'certification';
+		$data['meta_title'] 	= 'Certification';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Certification', 'link' => '#'), array('text' => 'Benefits of Certification', 'link' => '#'));
+		$this->load->view('index', $data);
+	}
+
 	public function support(){
 		$data['subview'] 			= 'support/index';
 		$data['menu_active'] 	= 'support';
@@ -126,6 +150,14 @@ class Home extends CI_Controller {
 		$data['menu_active'] 	= 'online-training';
 		$data['meta_title'] 	= 'Health & Safety';
 		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Online Training', 'link' => '#'), array('text' => 'Health & Safety', 'link' => '#'));
+		$this->load->view('index', $data);
+	}
+
+	public function contact(){
+		$data['subview'] 			= 'contact/index';
+		$data['menu_active'] 	= 'contact';
+		$data['meta_title'] 	= 'Contact';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Contact', 'link' => '#'));
 		$this->load->view('index', $data);
 	}
 }
