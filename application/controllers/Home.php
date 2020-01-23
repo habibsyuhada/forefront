@@ -83,7 +83,7 @@ class Home extends CI_Controller {
     $ci->email->set_crlf( "\r\n" );
     $ci->email->from('forefron@forefrontcertification.co.id', 'No Reply - ForeFront System');    
     $ci->email->to('info@forefrontcertification.co.id');
-    $ci->email->bcc('habibsyuhada.1109@gmail.com');
+    // $ci->email->bcc('habibsyuhada.1109@gmail.com');
     $ci->email->subject("Someone want get Quotation from $email");
     $ci->email->message("<html>
                            <body>
@@ -264,7 +264,7 @@ class Home extends CI_Controller {
     $ci->email->set_crlf( "\r\n" );
     $ci->email->from('forefron@forefrontcertification.co.id', 'No Reply - ForeFront System');    
     $ci->email->to('info@forefrontcertification.co.id');
-    $ci->email->bcc('habibsyuhada.1109@gmail.com');
+    // $ci->email->bcc('habibsyuhada.1109@gmail.com');
     $ci->email->subject("Someone Contact Us from $email");
     $ci->email->message("<html>
                            <body>
