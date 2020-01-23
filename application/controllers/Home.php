@@ -18,6 +18,13 @@ class Home extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+	public function __construct() {
+			
+		parent::__construct();
+
+		$this->load->model('home_mod');
+	}
+
 	public function index(){
 		$data['subview'] 			= 'home/index';
 		$data['menu_active'] 	= 'home';
@@ -31,6 +38,37 @@ class Home extends CI_Controller {
 		$data['meta_title'] 	= 'Free Quotation';
 		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Free Quotation', 'link' => '#'));
 		$this->load->view('index', $data);
+	}
+
+	public function free_quotation_new_process(){
+		$products 			= $this->input->post('products');
+		$product 			= join(';', $products);
+		// echo "<pre>";
+		// print_r($products);
+		// echo "</pre>";
+		$first_name 			= $this->input->post('first_name');
+		$last_name 			= $this->input->post('last_name');
+		$company 			= $this->input->post('company');
+		$job_title		= $this->input->post('job_title');
+		$email		= $this->input->post('email');
+		$phone		= $this->input->post('phone');
+		$website		= $this->input->post('website');
+		$employee		= $this->input->post('employee');
+		$form_data = array(
+			'first_name' 		=> $first_name,
+			'last_name' 	=> $last_name,
+			'company' 	=> $company,
+			'job_title' => $job_title,
+			'email' => $email,
+			'phone' => $phone,
+			'website' => $website,
+			'employee' => $employee,
+			'product' => $product,
+		);
+		$this->home_mod->free_quotation_new_process_db($form_data);
+		$this->session->set_flashdata('success', 'Your Data has been sent!');
+
+		redirect('free-quotation');
 	}
 
 	public function about(){
@@ -159,5 +197,22 @@ class Home extends CI_Controller {
 		$data['meta_title'] 	= 'Contact';
 		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Contact', 'link' => '#'));
 		$this->load->view('index', $data);
+	}
+
+	public function contact_new_process(){
+		$name 			= $this->input->post('name');
+		$phone 			= $this->input->post('phone');
+		$email 			= $this->input->post('email');
+		$message		= $this->input->post('message');
+		$form_data = array(
+			'name' 		=> $name,
+			'phone' 	=> $phone,
+			'email' 	=> $email,
+			'message' => $message,
+		);
+		$this->home_mod->contact_new_process_db($form_data);
+		$this->session->set_flashdata('success', 'Your Message has been sent!');
+
+		redirect('contact');
 	}
 }

@@ -17,79 +17,79 @@
 
       <p class="mb-3">&nbsp;</p>
 
-      <form action="" method="POST">
+      <form action="<?php echo base_url() ?>home/free_quotation_new_process" method="POST">
         <div style="background-color:#f2f2f2; padding:20px">
           <div class="form-row mb-3">
             <div class="col">
-              <input type="text" class="form-control border-orange border-2px" placeholder="First Name">
+              <input type="text" class="form-control border-orange border-2px" name="first_name" required placeholder="First Name">
             </div>
             <div class="col">
-              <input type="text" class="form-control border-orange border-2px" placeholder="Last Name">
-            </div>
-          </div>
-          <div class="form-row mb-3">
-            <div class="col">
-              <textarea class="form-control border-orange border-2px" placeholder="Company Name & Address" rows="4"></textarea>
+              <input type="text" class="form-control border-orange border-2px" name="last_name"  required placeholder="Last Name">
             </div>
           </div>
           <div class="form-row mb-3">
             <div class="col">
-              <input type="text" class="form-control border-orange border-2px" placeholder="Postcode">
+              <textarea class="form-control border-orange border-2px" name="company"  required placeholder="Company Name & Address" rows="4"></textarea>
             </div>
           </div>
           <div class="form-row mb-3">
             <div class="col">
-              <input type="text" class="form-control border-orange border-2px" placeholder="Job Title">
-            </div>
-            <div class="col">
-              <input type="mail" class="form-control border-orange border-2px" placeholder="E-mail">
+              <input type="text" class="form-control border-orange border-2px" name="postcode"  required placeholder="Postcode">
             </div>
           </div>
           <div class="form-row mb-3">
             <div class="col">
-              <input type="text" class="form-control border-orange border-2px" placeholder="Phone">
+              <input type="text" class="form-control border-orange border-2px" name="job_title"  required placeholder="Job Title">
             </div>
             <div class="col">
-              <input type="text" class="form-control border-orange border-2px" placeholder="Website">
+              <input type="email" class="form-control border-orange border-2px" name="email"  required placeholder="E-mail">
             </div>
           </div>
           <div class="form-row mb-3">
             <div class="col">
-              <input type="text" class="form-control border-orange border-2px" placeholder="How many employees do your organisation have?">
+              <input type="text" class="form-control border-orange border-2px" name="phone"  required placeholder="Phone">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control border-orange border-2px" name="website"  required placeholder="Website">
+            </div>
+          </div>
+          <div class="form-row mb-3">
+            <div class="col">
+              <input type="text" class="form-control border-orange border-2px" name="employee"  required placeholder="How many employees do your organisation have?">
             </div>
           </div>
 
           Please tick below.<br>
           <div class="form-check form-check-inline pl-3">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="ISO 9001(QMS)" name="products[]">
             <label class="form-check-label" for="inlineCheckbox1">ISO 9001(QMS)</label>
           </div>
           <div class="form-check form-check-inline pl-3">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-            <label class="form-check-label" for="inlineCheckbox1">ISO 14001(EMS)</label>
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="ISO 14001(EMS)" name="products[]">
+            <label class="form-check-label" for="inlineCheckbox2">ISO 14001(EMS)</label>
           </div>
           <div class="form-check form-check-inline pl-3">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-            <label class="form-check-label" for="inlineCheckbox1">ISO 45001(OHSMS)</label>
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="ISO 45001(OHSMS)" name="products[]">
+            <label class="form-check-label" for="inlineCheckbox3">ISO 45001(OHSMS)</label>
           </div>
           <div class="form-check form-check-inline pl-3">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-            <label class="form-check-label" for="inlineCheckbox1">ISO 27001(ISMS)</label>
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="ISO 27001(ISMS)" name="products[]">
+            <label class="form-check-label" for="inlineCheckbox4">ISO 27001(ISMS)</label>
           </div>
           <div class="form-check form-check-inline pl-3">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-            <label class="form-check-label" for="inlineCheckbox1">Training</label>
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="Training" name="products[]">
+            <label class="form-check-label" for="inlineCheckbox5">Training</label>
           </div>
           <div class="form-check form-check-inline pl-3">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-            <label class="form-check-label" for="inlineCheckbox1">Other</label>
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="Other" name="products[]">
+            <label class="form-check-label" for="inlineCheckbox6">Other</label>
           </div>
 
           <p class="mb-3">&nbsp;</p> 
 
           <div class="form-group">
             <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <input class="form-check-input" type="checkbox" id="gridCheck" required>
               <label class="form-check-label" for="gridCheck">
                 At Forefront, We'd like to keep in touch by providing information that is relevant to you. We always keep your details safe and secure. You may unsubscribe from these communications at any time. Please verify our <a href="#" class="text-orange">Privacy Policy</a> for additional information.
               </label>

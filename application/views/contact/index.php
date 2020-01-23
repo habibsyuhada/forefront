@@ -8,6 +8,13 @@
 
     <!-- Content -->
     <div class="col-md pl-4 ml-4">
+
+      <?php if($this->session->flashdata('success') == TRUE): ?>
+      <div class="alert alert-success" role="alert">
+        <b><?php echo $this->session->flashdata('success'); ?></b>
+      </div>
+      <?php endif; ?>
+
       <div class="col-md-5">
         <h3 class="font-weight-bold">Our address</h3>
         <p>ForeFront Certification Limited </p>
@@ -25,29 +32,29 @@
       <b>Please complete the form below and one of our team will be in touch as soon as possible. If you need immediate assistance, please call +622129349417. To request a quote for ISO certification, <a href="<?php echo base_url() ?>free-quotation" class="text-orange">please click here</a>.</b>
       <br>
       <br>
-      <form action="" method="POST">
+      <form action="<?php echo base_url() ?>home/contact_new_process" method="POST">
         <div style="padding:20px">
           <div class="form-row mb-3">
             <div class="col">
-              <input type="text" class="form-control border-orange border-2px" placeholder="Your Name">
+              <input type="text" name="name" class="form-control border-orange border-2px" placeholder="Your Name">
             </div>
             <div class="col">
-              <input type="text" class="form-control border-orange border-2px" placeholder="Your Phone">
-            </div>
-          </div>
-          <div class="form-row mb-3">
-            <div class="col">
-              <input type="text" class="form-control border-orange border-2px" placeholder="Your Email">
+              <input type="text" name="phone" class="form-control border-orange border-2px" placeholder="Your Phone">
             </div>
           </div>
           <div class="form-row mb-3">
             <div class="col">
-              <textarea class="form-control border-orange border-2px" placeholder="Message" rows="4"></textarea>
+              <input type="email" name="email" class="form-control border-orange border-2px" placeholder="Your Email">
+            </div>
+          </div>
+          <div class="form-row mb-3">
+            <div class="col">
+              <textarea class="form-control border-orange border-2px"  name="message" placeholder="Message" rows="4"></textarea>
             </div>
           </div>
           <div class="form-group">
             <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <input class="form-check-input" type="checkbox" id="gridCheck" required>
               <label class="form-check-label" for="gridCheck">
                 By using this form you agree with the storage and handling of your data by this website.
               </label>
