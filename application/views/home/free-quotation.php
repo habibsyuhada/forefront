@@ -17,6 +17,12 @@
 
       <p class="mb-3">&nbsp;</p>
 
+      <?php if($this->session->flashdata('success') == TRUE): ?>
+      <div class="alert alert-success" role="alert">
+        <b><?php echo $this->session->flashdata('success'); ?></b>
+      </div>
+      <?php endif; ?>
+      
       <form action="<?php echo base_url() ?>home/free_quotation_new_process" method="POST">
         <div style="background-color:#f2f2f2; padding:20px">
           <div class="form-row mb-3">
