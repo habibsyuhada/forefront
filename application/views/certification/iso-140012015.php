@@ -48,7 +48,7 @@
         <li>Reduce organisation expenses only by trimming resource utilisation and waste production or improve resource efficiency.</li>
         <li>Promote a positive impression with stakeholders, clients, and staff members.</li>
       </ul>      
-      <a class="border-2px font-weight-bold btn btn-outline-orange" href="#" target="_blank">Get a free quote</a>
+      <a class="border-2px font-weight-bold btn btn-outline-orange" href="<?php echo base_url() ?>free-quotation" target="_blank">Get a free quote</a>
 
 
       <hr>
@@ -57,12 +57,12 @@
 
       <a class="border-2px font-weight-bold btn btn-outline-dark mr-1" href="#" target="_blank">What is ISO 45001 Certification Process?</a>
       <a class="border-2px font-weight-bold btn btn-outline-dark mr-1" href="#" target="_blank">Audit Process</a>
-      <a class="border-2px font-weight-bold btn btn-outline-orange" href="#" target="_blank">Get a free quote</a>
+      <a class="border-2px font-weight-bold btn btn-outline-orange" href="<?php echo base_url() ?>free-quotation" target="_blank">Get a free quote</a>
 
       <hr>
       <h4>Integrated Management Systems</h4>
       <p>There are various mutual fundamentals between ISO 9001, ISO 14001, ISO 45001 and ISO 27001. E.g. Document control, management review, document control, corrective action and the requirement for competent personnel. According to Annex SL, a new high-level structure, you can combine these standards into a single joint system.</p>
-      <a class="border-2px font-weight-bold btn btn-outline-orange" href="#" target="_blank">Get a free quote</a>
+      <a class="border-2px font-weight-bold btn btn-outline-orange" href="<?php echo base_url() ?>free-quotation" target="_blank">Get a free quote</a>
 
       <hr class="" style="margin: 20px 0px 0px 0px;">
       <p>&nbsp;</p>

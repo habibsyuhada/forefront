@@ -59,9 +59,9 @@
           </form>
         </div>
         <div class="col-md-3">
-          <a class="border-2px font-weight-bold btn btn-outline-orange btn-block text-center" href="<?php echo base_url() ?>support" target="_blank"><i class="fas fa-phone"></i> CONTACT US</a>
+          <a class="border-2px font-weight-bold btn btn-outline-orange btn-block text-center" href="tel:+622129349417" target="_blank"><i class="fas fa-phone"></i> CONTACT US</a>
           <a class="border-2px font-weight-bold btn btn-outline-orange btn-block text-center" href="<?php echo base_url() ?>support" target="_blank"><i class="fas fa-comments"></i> LIVE CHAT</a>
-          <a class="border-2px font-weight-bold btn btn-outline-orange btn-block text-center" href="<?php echo base_url() ?>support" target="_blank"><i class="fas fa-th-large"></i> GET A QOUTE</a>
+          <a class="border-2px font-weight-bold btn btn-outline-orange btn-block text-center" href="<?php echo base_url() ?>free-quotation" target="_blank"><i class="fas fa-th-large"></i> GET A QOUTE</a>
         </div>
       </div>
     </div>

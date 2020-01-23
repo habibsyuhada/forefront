@@ -6,7 +6,7 @@
   <section class="container px-4">
     <div class="row m-0">
       <div class="col-md">
-        <h2 class="pt-4 m-0 text-center"><i class="far fa-arrow-alt-circle-right"></i> Need a Quote? <span class="text-orange">Click Here</span></h2>
+        <a href="<?php echo base_url() ?>free-quotation"><h2 class="pt-4 m-0 text-center text-black"><i class="far fa-arrow-alt-circle-right"></i> Need a Quote? <span class="text-orange">Click Here</span></h2></a>
       </div>
     </div>  
   </section>
@@ -17,7 +17,7 @@
         <h4 class="font-weight-bold">Forefront</h4>
         <ul class="list-unstyled m-0" style="font-size: 14px; line-height: 32px">
           <li><a href="#" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> Vision</a></li>
-          <li><a href="#" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> UKAS Accreditation</a></li>
+          <li><a href="<?php echo base_url() ?>ukas-accreditation" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> UKAS Accreditation</a></li>
           <li><a href="#" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> Certification Schemes</a></li>
           <li><a href="#" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> Logo Downloads</a></li>
         </ul>
@@ -33,10 +33,10 @@
       <div class="col-md-3">
         <h4 class="font-weight-bold">ISO Certification</h4>
         <ul class="list-unstyled m-0" style="font-size: 14px; line-height: 32px">
-          <li><a href="#" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> ISO 9001:2015</a></li>
-          <li><a href="#" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> ISO 14001:2015</a></li>
-          <li><a href="#" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> ISO 45001</a></li>
-          <li><a href="#" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> ISO 27001</a></li>
+          <li><a href="<?php echo base_url() ?>certification/iso-90012015" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> ISO 9001:2015</a></li>
+          <li><a href="<?php echo base_url() ?>certification/iso-140012015" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> ISO 14001:2015</a></li>
+          <li><a href="<?php echo base_url() ?>certification/iso-45001" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> ISO 45001</a></li>
+          <li><a href="<?php echo base_url() ?>certification/iso-27001" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> ISO 27001</a></li>
         </ul>
         <img src="<?php echo base_url(); ?>assets/img/download_20170727_170602-1.jpg" width="100">
       </div>

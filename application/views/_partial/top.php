@@ -16,10 +16,10 @@
           <a style="font-size: 12px;" href="<?php echo base_url() ?>contact">Contact Us</a>
         </div>
         <div class="col-auto">
-          <a style="font-size: 12px;" href="mailto:+44(0)%201527%20917980"><i class="fas fa-phone"></i> +44(0)1527 917980</a>
+          <a style="font-size: 12px;" href="tel:+622129349417"><i class="fas fa-phone"></i> +622129349417</a>
         </div>
         <div class="col-auto">
-          <a style="font-size: 12px;" href="mailto:info@forefrontcertification.co.uk"><i class="far fa-envelope"></i> info@forefrontcertification.co.uk</a>
+          <a style="font-size: 12px;" href="mailto:info@forefrontcertification.co.id"><i class="far fa-envelope"></i> info@forefrontcertification.co.id</a>
         </div>
       </div>
     </div>

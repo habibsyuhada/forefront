@@ -17,12 +17,12 @@
         <hr style="margin: 0 auto 20px; background: #000000;">
         <h5 class="font-weight-bold">We would love to hear from you! </h5>
         <p>So please get in touch for a free, no obligation discussion about your particular needs.</p>
-        <p style="margin-bottom: 4px;"><i class="far fa-arrow-alt-circle-right"></i>&nbsp; <a href="mailto: info@forefrontcertification.co.uk" class="text-orange">Send us e-mail</a></p>
-        <p style="margin-bottom: 4px;"><i class="far fa-arrow-alt-circle-right"></i>&nbsp; T:  +44(0)1527 917980</p>
+        <p style="margin-bottom: 4px;"><i class="far fa-arrow-alt-circle-right"></i>&nbsp; <a href="mailto: info@forefrontcertification.co.id" class="text-orange">Send us e-mail</a></p>
+        <p style="margin-bottom: 4px;"><i class="far fa-arrow-alt-circle-right"></i>&nbsp; T:  +622129349417</p>
       </div>
       <hr class="" style="margin: 20px 0px;">
       <h3 class="font-weight-bold">Get in touch</h3>
-      <b>Please complete the form below and one of our team will be in touch as soon as possible. If you need immediate assistance, please call +44(0)1527 917980. To request a quote for ISO certification, <a href="#" class="text-orange">please click here</a>.</b>
+      <b>Please complete the form below and one of our team will be in touch as soon as possible. If you need immediate assistance, please call +622129349417. To request a quote for ISO certification, <a href="<?php echo base_url() ?>free-quotation" class="text-orange">please click here</a>.</b>
       <br>
       <br>
       <form action="" method="POST">
