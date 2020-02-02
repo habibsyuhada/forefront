@@ -159,17 +159,17 @@
           <h6 class="font-weight-bold m-0"><i class="fab fa-creative-commons-nd font-weight-normal"></i> ISO 9001 - Quality Management System (QMS)</h6>
         </div>
       </a>
-      <a href="#" class="text-black">
+      <a href="<?php echo base_url() ?>certification/iso-140012015" class="text-black">
         <div class="bg-gray p-3 mb-1">
           <h6 class="font-weight-bold m-0"><i class="fab fa-creative-commons-nd font-weight-normal"></i> ISO 14001 - Environmental Management System (EMS)</h6>
         </div>
       </a>
-      <a href="#" class="text-black">
+      <a href="<?php echo base_url() ?>certification/iso-45001" class="text-black">
         <div class="bg-gray p-3 mb-1">
           <h6 class="font-weight-bold m-0"><i class="fab fa-creative-commons-nd font-weight-normal"></i> ISO 45001 - Occupational Health & Safety (OHSMS)</h6>
         </div>
       </a>
-      <a href="#" class="text-black">
+      <a href="<?php echo base_url() ?>certification/iso-27001" class="text-black">
         <div class="bg-gray p-3 mb-1">
           <h6 class="font-weight-bold m-0"><i class="fab fa-creative-commons-nd font-weight-normal"></i> ISO 27001 - Information Security Management System (ISMS)</h6>
         </div>
@@ -203,17 +203,17 @@
           </div>
         </div>
       </a>
-      <a href="#" class="text-black">
+      <a href="<?php echo base_url() ?>contact" class="text-black">
         <div class="border border-orange mb-1">
           <div class="bg-gray p-3 m-1">
             <h6 class="font-weight-bold m-0"><i class="fab fa-creative-commons-nd font-weight-normal"></i> What our customer think?</h6>
           </div>
         </div>
       </a>
-      <a href="mailto:+44(0)%201527%20917980" class="text-black">
+      <a href="tel:+622129349417" class="text-black">
         <div class="border border-orange mb-1">
           <div class="bg-gray p-3 m-1">
-            <h6 class="font-weight-bold m-0"><i class="fab fa-creative-commons-nd font-weight-normal"></i> Call for more information +44(0)1527 917980</h6>
+            <h6 class="font-weight-bold m-0"><i class="fab fa-creative-commons-nd font-weight-normal"></i> Call for more information +622129349417</h6>
           </div>
         </div>
       </a>

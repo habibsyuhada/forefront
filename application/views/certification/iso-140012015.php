@@ -2,6 +2,27 @@
   ul.disc li{
     margin-bottom: 10px;
   }
+  table tr:nth-child(2n) td {
+    background: rgba(0,0,0,0.01);
+  }
+  table th, table td {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #dee2e6;
+    vertical-align: middle;
+    font-size: 13px;
+  }
+  table th p, table td p {
+    margin: 0px;
+  }
+  table {
+    width: 100%;
+    margin-bottom: 15px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+  }
 </style>
 <!--==========================
   Intro Section
@@ -27,21 +48,21 @@
         <li>Reduce organisation expenses only by trimming resource utilisation and waste production or improve resource efficiency.</li>
         <li>Promote a positive impression with stakeholders, clients, and staff members.</li>
       </ul>      
-      <a class="border-2px font-weight-bold btn btn-outline-orange" href="#" target="_blank">Get a free quote</a>
+      <a class="border-2px font-weight-bold btn btn-outline-orange" href="<?php echo base_url() ?>free-quotation" target="_blank">Get a free quote</a>
 
 
       <hr>
-      <h4><strong>What is ISO&nbsp;9001:2015&nbsp;Certification Process?</strong></h4>
+      <h4><strong>What is ISO 14001 Certification Process?</strong></h4>
       <p><img src="<?php echo base_url() ?>assets/img/steps.jpg" alt="" width="100%" style="max-width: 600px"></p>
 
-      <a class="border-2px font-weight-bold btn btn-outline-dark mr-1" href="#" target="_blank">What is ISO 9001:2015 Certification Process?</a>
+      <a class="border-2px font-weight-bold btn btn-outline-dark mr-1" href="#" target="_blank">What is ISO 45001 Certification Process?</a>
       <a class="border-2px font-weight-bold btn btn-outline-dark mr-1" href="#" target="_blank">Audit Process</a>
-      <a class="border-2px font-weight-bold btn btn-outline-orange" href="#" target="_blank">Get a free quote</a>
+      <a class="border-2px font-weight-bold btn btn-outline-orange" href="<?php echo base_url() ?>free-quotation" target="_blank">Get a free quote</a>
 
       <hr>
       <h4>Integrated Management Systems</h4>
       <p>There are various mutual fundamentals between ISO 9001, ISO 14001, ISO 45001 and ISO 27001. E.g. Document control, management review, document control, corrective action and the requirement for competent personnel. According to Annex SL, a new high-level structure, you can combine these standards into a single joint system.</p>
-      <a class="border-2px font-weight-bold btn btn-outline-orange" href="#" target="_blank">Get a free quote</a>
+      <a class="border-2px font-weight-bold btn btn-outline-orange" href="<?php echo base_url() ?>free-quotation" target="_blank">Get a free quote</a>
 
       <hr class="" style="margin: 20px 0px 0px 0px;">
       <p>&nbsp;</p>
@@ -49,105 +70,204 @@
         <div class="card rounded-0">
           <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" style="cursor: pointer;">
             <h4 class="mb-0 font-weight-normal">
-              <i class="fa fa-plus"></i> What is ISO 9001 Certification (QMS)
+              <i class="fa fa-plus"></i> What is ISO 14001 Certification (QMS)
             </h4>
           </div>
           <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
             <div class="card-body">
-                <p align="left">  ISO 9001 is the <strong>most well-known standard</strong> ever  and is implemented by more than a million<strong> organisations</strong> in some <strong>175  countries</strong>.</p>
-                <p align="left">  ISO 9001 is a <strong>generic</strong>standard. </p>
-                <p align="left"><strong>It </strong>means that the same  standards can be applied: </p>
-                <ul>
-                  <li>to <strong>any organisation</strong>, large or small, whatever its product or  service. </li>
-                  <li>It can be any sector of business, whether it is a business enterprise, a  public administration, or a government department. </li>
-                </ul>
-                <p><strong>ISO  9001:2015 is the internationally recognised quality management system for  structuring an organisation to improve business efficiency and increase  customer satisfaction.</strong>
-                </p><p>  ISO 9001 gives  your customers the assurance that systems are continually assessed and  approved. The certification of ISO 9001 will contribute to increased revenue  and market share.
-                </p><p>  ISO standards  generate an excellent contribution to the quality world. ISO standards enhance  investment, propagate knowledge, support innovative developments in technology,  and develop management and conformity assessment practices.
-                </p><p>  This International  Standard ISO 9001 is based on <strong>seven</strong> Quality Management Principles. 
-                </p><hr>
-                <h3><strong>The Quality Management Principles are:</strong></h3>
-                <h3><strong>Customer Focus</strong></h3>
-                <p><strong>Good  Customer Service Is Vital</strong>
-                </p><p>  Generally, every  person who makes a complaint would share their displeasure with around 20  others, or so the saying goes.
-                </p><p>  Technology and  smartphones allow virtually instant news and updates at our fingertips. For  example, suggestions for dining out or entertainment, and the likes of  TripAdvisor where users can post their opinion, reviews or complaints, and  others can read it.
-                </p><p>  So, depending on  the complainant, displeasure may meet the attention of more than 20 — many,  many more.
-                </p><p>  Imagine a  celebrity blogger with millions of followers, who experienced disappointment  with your product or service, then wrote a negative article or produced a vlog  (video blog) about their experience with your product. Possibly, irreversible  damage in an instant.
-                </p><p>  One prime example  was United Airways. Their baggage handlers broke a guitar belonging to a  celebrity singer. After his efforts failed to gain any remuneration or even  flight vouchers to the value of the repairs, he wrote a song about his  experience. This song led to millions of views, and people were boycotting  United Airlines.
-                </p><p>  It is therefore  critical that we manage complaints quickly and professionally when we work in  any industry, especially in quality-driven manufacturing sectors.
-                </p><p><a class="border-2px font-weight-bold btn btn-outline-orange" href="#" target="_blank">Get a free quote</a>
-
-                </p><h4><strong>How does ISO  Certification help?</strong></h4>
-                <p>  ISO standards  communicate to us that a company is benefiting from extra engagement and  support with their customers by understanding their customers’ needs and  expectations. Engaging with the customer is one of the core principles of the  ISO 9001 Quality Management System.</p>
-                <p> ISO9001:2015 is the internationally  recognised quality management system for structuring an organisation to improve  business efficiency and increase customer satisfaction. Therefore, gaining an  ISO accreditation gives your customers assurance that your procedures and  processes are continually assessed and approved, and your business operates  with customer service as a fundamental principle.&nbsp; </p>
-                <h4><strong>Leadership</strong></h4>
-                <p>  Leadership is an important skill to motivate a group of individuals  towards a common goal. Stable leadership is vital for the success of  businesses. World’s most respected leaders have common qualities. Quality of  shared vision is the most recognisable trait of all of them. Also,&nbsp; initiate change, inspire a shared vision and  encourage the team’s behaviours that are necessary to achieve the shared ideas.  Good leaders are confident to empower others to commit and thrive. </p>
-                <p>  A  person or group of individuals, who lead the organisation&nbsp;at the highest  level towards the common goal is called “Top management”. </p>
-                <h4><strong>The Quality Policy</strong> </h4>
-                <p>  Top management shall  create, implement and maintain a quality policy:</p>
-                <ul>
-                  <li>appropriate to the context of the organisation and supports  its strategic direction;</li>
-                  <li>provides a framework for setting quality objectives;</li>
-                  <li>includes a commitment to satisfy applicable requirements;</li>
-                  <li>Consists of assurance  to continual improvement of the system<br>
-                  </li>
-                </ul>
-                <p><strong>  The  quality policy shall:</strong></p>
-                <ul>
-                  <li>be accessible and be maintained as documented information;</li>
-                  <li>be communicated, applied and understood within the  organisation;</li>
-                  <li>be available to relevant appropriate interested parties, as  necessary.</li>
-                </ul>
-                <h4><strong>Roles and  Responsibilities</strong></h4>
-                <p>  Top management shall allocate the  responsibility and authority to:</p>
-                <ul>
-                  <li>Ensure that the processes are delivering their planned outputs; </li>
-                  <li>Determine opportunities for Improvement; </li>
-                  <li>Communicate the importance of customer focus  to everyone; </li>
-                  <li>When  planning ad implementing changes to  the quality management system ensure that the integrity of the quality management  system is maintained<strong> </strong></li>
-                </ul>
-                <p><strong>Top management shall  evaluate the organisation’s quality management system, at strategic intervals,  to ensure its continuing suitability, capability, effectiveness and alignment  with the strategic direction of the organisation.</strong></p>
-                <h4> <strong>Engagement of People</strong></h4>
-                <p>  Engaging people  means&nbsp;teams are committed and motivated towards the organisation’s goals  and values. An engaged team experiences job satisfaction and feelings of  empowerment and will contribute more towards growth.</p>
-                <ul>
-                  <li>Engaging people  means&nbsp;employees are satisfied and dedicated to their organisation’s goals,  missions and strategy. Happy employees play a significant role in your  organisation, as ambassadors of the company.</li>
-                  <li>Engaged employees are often top  performers, their absenteeism lowers, leading to increased productivity and  would ‘go the extra mile’ to accomplish business success. </li>
-                  <li>Engaged and satisfied employees  will become more loyal. Therefore, more likely to stay with the organisation  for longer resulting in less turnover of staff.</li>
-                  <li>Engaged employees bring passion to  their job, which leads to innovation in the workplace and efficiently makes a  great effort to create new products, services and processes.</li>
-                  <li>Engaged employees become more  productive and efficient, positively affecting the organisations’ bottom line.  Therefore, incline to have higher profits by lowering operating costs and  increasing the profit margin. </li>
-                </ul>
-                <hr>
-                <h4><strong>Process Approach</strong></h4>
-                <p>Processes are dynamic-they cause  things to happen. A structured process helps to accomplish any objective  efficiently and effectively. It helps to define the required steps essential to  obtain desired outcomes. It helps to establish clear responsibility and  accountability for managing key activities. It helps to monitor, measure and  evaluate risks of the process.&nbsp; It helps  to focus effort on critical processes and opportunities for improvement.</p>
-                <p><strong>All processes and the Quality Management  System (ISO 9001:2015) can apply Plan, do, check, Act (PDCA).</strong> <br>
-                    <br clear="ALL">
-                  Briefly,&nbsp; the description of PDCA is as follows:</p>
-                <p><strong><u>Plan:</u></strong>&nbsp; Plan the  objectives of the system and its processes, and the resources required to  deliver results by tracking customers’ requirements and the organisation’s  policies;<br>
-                  <strong><u>Do:</u></strong>&nbsp;  Implement the&nbsp; plan; <br>
-                  <strong><u>Check:</u></strong>&nbsp;  Monitor and (where applicable) measure processes and the resulting  products and services against policies, objectives and requirements and analyse  the outcomes;<br>
-                  <strong><u>Act:</u></strong> Take actions to improve performance, as  required.</p>
-                <h4><strong>Improvement</strong></h4>
-                <p>  The organisation  should have a consistent approach to development on the road to growth. The  organisation should provide team training to improve their abilities and should  work towards the development of products, processes, and systems. </p>
-                <h4> <strong>Evidence-based Decision-making</strong> <strong> </strong></h4>
-                <p><strong><em>“Decisions  based on the analysis and evaluation of data and information are more likely to  produce desired results.”</em></strong><em>&nbsp;</em>Evidence is information that shows or proves  that something is true or false. Evidence should consist of observations,  measurements and tests. Decision making should be evidence-based. The  organisation should ensure that information is sufficiently accurate and  reliable and accessible to those who need them. The organisation should use  appropriate tools to make decisions based on evidence of data, together with  experience.</p>
-                <hr>
-                <h4><strong>Relationship Management</strong></h4>
-                <p><strong><em>“For sustained  success, organisations manage their relationships with interested parties, such  as suppliers. “An&nbsp;interested party&nbsp;is a person or group that has a  stake in the&nbsp;success or performance of an organisation</em></strong>.&nbsp;<br>
-                  Interested parties&nbsp;can be from inside  or&nbsp;outside of the organisation. <strong>Examples of&nbsp;interested  parties&nbsp;include&nbsp;customers, suppliers, partners, owners, employees,  unions,&nbsp;bankers, or members of the community.&nbsp;Interested parties&nbsp;are  also known as&nbsp;stakeholders.</strong> Managing relations with interested parties  means sharing&nbsp;knowledge, vision and values. The organisation establishes a  relationship that balance short-term gains with long term considerations. <strong>The organisations need to determine the needs and  expectations of interested parties.</strong></p>
-                <h4><strong>Understanding the Organisation and its Context</strong> </h4>
-                <p>The organisation shall determine internal and  external issues appropriate to its planned path and what can affect to  accomplish the intended result(s). The organisation shall monitor and review  information about these external and internal issues. Issues can be positive or  negative factors. </p>
-                <p>  External  issues that exist outside of the organisation that can affect the  organisation’s ability to achieve sustained success. e.g. statutory and  regulatory requirements, competition, social, economic, political and cultural  factors etc.</p>
-                <p>  Internal  issues that exist within the organisation itself that can affect the  organisation’s ability to achieve sustained success. e.g. size and complexity,  strategy, type of products and services, resources etc.</p>
-                <hr>
-                <p><strong>Internal Audits</strong></p>
-                <p>  An <strong>audit</strong> is a systematic  examination of statutory records and documents to ascertain how far the  system/process present an accurate and fair view of the concern. <br>
-                  The organisation shall  conduct <a name="_Hlk19229104">internal audits </a>at strategic intervals to  provide evidence that the Quality Management System is efficiently implemented  and maintained and conforms to the organisation’s requirements for its quality  management system. The organisation should take necessary corrective actions  without unjustifiable delay and retain documented information as proof of the  completing of the audit programme and the audit results.</p>
-                <h4><strong>Nonconformity and Corrective action</strong></h4>
-                <p><strong>Nonconformity</strong> </p>
-                <p>  Nonconformity  in the management system (occasionally referred to as a fault/failure) is a  deviation from an ISO standard, a requirement<a name="_GoBack"></a>, or a  result. In other words, any failure to meet a condition/requirement is called  nonconformity — i.e. Failure to follow a&nbsp;procedure. </p>
-                <p>There two types of nonconformities. <strong>Major Nonconformance and Minor  Nonconformance</strong> </p>
-                <p>A <strong>Major Nonconformance also referred to as  NC</strong> is an absence of a procedure in your Quality Management System, therefore  not the ISO 9001 requirements. For example: not implementing a part of the  standard or a process. &nbsp;</p>
-                <p>A <strong>Minor Nonconformance</strong> is an occurrence  which does not meet the ISO 9001 requirements but does not have any significant  consequences. i.e. a single incident of not having proper paperwork for  inspecting equipment.</p>
+              <p align="left"><br>The  ISO&nbsp;14000 family of standards provides practical tools for organisations  of all categories, allowing them to manage their environmental  responsibilities.</p>
+              <p align="left">  ISO 14001  (Environmental Management System) improves businesses by identifying, managing,  monitoring and controlling their environmental concerns in a “whole” manner.</p>
+              <p align="left">  ISO 14001  requires that a business should consider all environmental aspects critical to  its operations. For example, Waste Management, Soil Contamination, Air  Pollution, Water and Sewage issues, Climate change mitigation and adaptation.</p>
+              <p align="left">&nbsp;ISO  14001 same as other ISO Standards should have systems and strategies for  continual improvement towards environmental concerns. The standard has recently  been revised, with crucial enhancements such as the prominent significance of  environmental management within the organisation’s tactical planning processes,  increased contribution from leadership and a more robust responsibility to  positive initiatives that increase environmental efficiency.</p>
+              <h4><strong>Benefits ISO 14001 (Environmental Management  System)</strong></h4>
+              <ul>
+                <li>Boost the requirement for your products and services through an  advertising advantage.</li>
+                <li>Reduce  organisation expenses only by trimming  resource utilisation and waste production  or improve resource efficiency.</li>
+                <li>Achieve  environmental commitments and environmental policy requirement.</li>
+                <li>Commit  to social responsibilities.</li>
+                <li>Promote  a positive impression with stakeholders, clients,  and staff members.</li>
+                <li>Gain  a competitive advantage in supply chain design.</li>
+                <li>Increase  new business opportunities.</li>
+                <li>Manage  environmental obligations with consistency.</li>
+              </ul>
+              <h4><strong>Context  of the Organisation</strong><br>
+              <br>
+              <strong>There is a requirement to find out an organisation’s  direct environmental impacts. How environmental surroundings can affect your  business, customers and supply chain. </strong></h4>
+              <ul>
+                <li>The organisation should determine issues  that are appropriate to its purpose and&nbsp;affects its ability to accomplish  the intended outcomes of its environmental management system. </li>
+                <li>Internal issues might be noise pollution,  air quality, or waste haulage and its costs. External issues might comprise  customers and legal requirements. </li>
+                <li>Interested parties or stakeholders could  be an individual or an organisation that can affect, be affected by, or perceive  itself to be affected by an organisation’s decisions or activities. The  organisation’s adjoining neighbours, various governmental environmental  agencies could be interested parties as well as customers.</li>
+                <li>Other interested parties may include communities,  suppliers, regulators, NGOs, investors, employees and trade unions.</li>
+                <li>The EMS would consist of necessary  processes for the organisation to be successful.</li>
+              </ul>
+              <p>&nbsp;</p>
+              <h4><strong>Leadership</strong> </h4>
+              <ul>
+                <li>Top management must show commitment to  supporting Environmental management system development and implementation. </li>
+                <li>Management has a role in ensuring that the  goals for the Environmental management system are clear and consistent with  other organisational goals. </li>
+                <li>Management's commitment should be communicated  across the organisation.</li>
+                <li>Management should have the necessary authority  and an understanding of the organisation. </li>
+                <li>Management should have the time to commit to  the Environmental management system-building process and must have top  management support.</li>
+                <li>Contractors, suppliers or other external  parties could be included as part of the project team.</li>
+              </ul>
+              <h4><strong>Planning</strong></h4>
+              <p>  The organisation must ensure the management  system can achieve its intended outcomes and achieve continual improvement. </p>
+              <ul>
+                <li>Organisation  representatives will need to meet regularly, especially in the early stages of  the organisation’s&nbsp;activities  or products or services. </li>
+                <li>A  cross-functional team can assist in ensuring that procedures are practical and  useful and can build commitment to the EMS.</li>
+              </ul>
+              <h4><strong>Risks and opportunities</strong></h4>
+              <p><a name="_Hlk19129004">Risks and  opportunities </a>are defined in ISO 14001:2015 as potential  adverse effects (risks/threats) and possible beneficial effects  (opportunities). <br>The EMS requires that documented  information&nbsp;shall be kept of the risks and opportunities and the processes  needed to ensure that the process meets expectations. <br>
+                It may well be good practice to generate an official  Risk Register where identification, discussion, actions, outcome, and  monitoring can all be recorded and results evaluated. </p>
+              <table cellspacing="0" cellpadding="0" align="center" style="font-size: 13px">
+                <tbody>
+                  <tr>
+                    <td width="301" valign="top"><strong>&nbsp; Risks </strong> </td>
+                    <td width="301" valign="top"><strong>may turn    into problems.</strong></td>
+                  </tr>
+                  <tr>
+                    <td width="301" valign="top"><strong>&nbsp; Opportunities</strong> </td>
+                    <td width="301" valign="top"><strong>may turn    into benefits.</strong> </td>
+                  </tr>
+                </tbody>
+              </table>
+              <p>&nbsp;</p>
+              <p><strong>Examples of possible risk</strong></p>
+              <ul>
+                <li>being not compliant with legislation which could lead  to a loss of customers due to negative publicity.</li>
+              </ul>
+              <p><strong>Example of an opportunity </strong></p>
+              <ul>
+                <li>An organisation is capitalising on energy efficiency  measures which cut production costs, leading to an increase in competitiveness. </li>
+              </ul>
+              <h4><strong><u>Examples of Aspects and Impacts</u></strong></h4>
+              <table border="1" cellspacing="0" cellpadding="10" width="100%">
+                <tbody><tr>
+                  <td><p align="center"><strong>Activity</strong><strong> </strong></p></td>
+                  <td><p align="center"><strong>Aspects</strong><strong> </strong></p></td>
+                  <td><p align="center"><strong>Impacts</strong><strong> </strong></p></td>
+                </tr>
+                <tr>
+                  <td><p>&nbsp;Changing Oil </p></td>
+                  <td><p>Air Emissions <br>
+                    Use of Oil, Absorbents <br>
+                    Recycling of Oil <br>
+                    Spills </p></td>
+                  <td><p>&nbsp;Degrade Air Quality <br>
+                    &nbsp;Consumption of Natural Resources <br>
+                    &nbsp;Increase Landfill Space <br>
+                    &nbsp;Degrade Water Quality </p></td>
+                </tr>
+                <tr>
+                  <td><p>Operation of    Equipment </p></td>
+                  <td><p>Dust    Generations <br>
+                    Air Emissions <br>
+                    Use of Raw materials </p></td>
+                  <td><p>Degradation    of Air Quality <br>
+                    Degradation    of Air Quality <br>
+                    Use of    Natural resources. </p></td>
+                </tr>
+                <tr>
+                  <td><p>&nbsp;Central Air Conditioning </p></td>
+                  <td><p>Energy    Consumption </p></td>
+                  <td><p>&nbsp;Use of    Natural Resources </p></td>
+                </tr>
+                <tr>
+                  <td><p>&nbsp;Land    filling </p></td>
+                  <td><p>Disposal </p></td>
+                  <td><p>&nbsp;Contamination of land </p></td>
+                </tr>
+                <tr>
+                  <td><p>&nbsp;Storm    Water Management </p></td>
+                  <td><p>Water Flow </p></td>
+                  <td><p>&nbsp;Erosion </p></td>
+                </tr>
+                <tr>
+                  <td><p>&nbsp;Excavation </p></td>
+                  <td><p>Soil    disturbance </p></td>
+                  <td><p>&nbsp;Erosion </p></td>
+                </tr>
+                <tr>
+                  <td><p>&nbsp;Generation    of Solid Waste </p></td>
+                  <td><p>Land Usage </p></td>
+                  <td><p>&nbsp;Aesthetics and Community environment </p></td>
+                </tr>
+                <tr>
+                  <td><p>&nbsp;Toilet    flushing and Hand Washing </p></td>
+                  <td><p>Water Usages </p></td>
+                  <td><p>&nbsp;Use of natural resources </p></td>
+                </tr>
+                <tr>
+                  <td><p>&nbsp;Flaring </p></td>
+                  <td><p>Air emissions </p></td>
+                  <td><p>&nbsp;Air    degradation </p></td>
+                </tr>
+                <tr>
+                  <td><p>&nbsp;Processing of composting </p></td>
+                  <td><p>Water quality </p></td>
+                  <td><p>&nbsp;Water    degradation </p></td>
+                </tr>
+                <tr>
+                  <td><p>&nbsp;Farming </p></td>
+                  <td><p>Tillage </p></td>
+                  <td><p>Erosion,    Sediment Loading </p></td>
+                </tr>
+              </tbody></table>
+              <h4><strong>Support of the  Environmental management system</strong><strong> </strong></h4>
+              <p><strong>Resources<br></strong>are required for the effective  functioning and improvement of the EMS and to enhance environmental  performance.</p>
+              <p><strong>Competence</strong> <br>Applies  to persons working under the organisation’s control, who can affect its  environmental performance.</p>
+              <p><strong>Awareness</strong> <br>EMS  doesn’t need to be memorised, but persons should be aware of its existence, its  purpose and their role in achieving the commitments and compliance obligations.</p>
+              <p><strong>Internal / External Communication&nbsp;</strong> <br>Understandable  to all interested parties. It must be&nbsp;  truthful and include all relevant factual and accurate information</p>
+              <p><strong>Documented Information</strong> <br>An organisation  should create and maintain documented information in a manner sufficient to  ensure a suitable, adequate and effective environmental management system. It  doesn’t have to be in the form of a manual.</p>
+              <h4><strong>Examples of Competence needs</strong></h4>
+              <table border="1" cellspacing="0" cellpadding="0">
+                <tbody><tr>
+                  <td valign="top"><br>
+                      <strong>Potential    areas of competence</strong> </td>
+                  <td valign="top"><p><strong>Typical    organisational roles</strong></p></td>
+                  <td valign="top"><p><strong>Examples    of competencies/capabilities needed</strong></p></td>
+                  <td valign="top"><p><strong>Examples    of the means for establishing competence</strong></p></td>
+                </tr>
+                <tr>
+                  <td rowspan="2" valign="top"><p>Environmental    technology</p></td>
+                  <td valign="top"><p>Environmental    technicians</p>
+                      <p>&nbsp;</p></td>
+                  <td valign="top"><p>Proficiency    in environmental sampling<br>
+                    Ability    to operate monitoring equipment</p></td>
+                  <td valign="top"><p>Training    and assessment on collection requirements and practices<br>
+                    Certification    or license for equipment use</p></td>
+                </tr>
+                <tr>
+                  <td valign="top"><p>Environmental    programme managers</p></td>
+                  <td valign="top"><p>Proficiency    in applicable environmental regulations</p></td>
+                  <td valign="top"><p>Degree    in environmental field<br>
+                    Training    on applicable regulations</p></td>
+                </tr>
+                <tr>
+                  <td valign="top"><p>Environmental    operations</p></td>
+                  <td valign="top"><p>Persons    whose work activities involve significant environmental aspects</p></td>
+                  <td valign="top"><p>Awareness    of how their work affects environmental performance<br>
+                    Knowledge    of operating criteria that need to be met to minimise adverse environmental    impact</p></td>
+                  <td valign="top"><p>Training    on environmental impacts associated with their work<br>
+                    Training    on operating rules to ensure processes are controlled</p></td>
+                </tr>
+              </tbody></table>
+              <p><strong>Definition&nbsp;of  Life Cycle:&nbsp;</strong></p>
+              <p>The  definition of the life cycle as per ISO 14001:2015 is   ‘<em>Consecutive and interlinked  stages of a product (or service) system, from the raw material acquisition or  generation from natural resources to final disposal. Life cycle stages include  the acquisition of raw materials, design, production, transportation/delivery,  use, end-of-life treatment, and final disposal</em>.</p>
+              <h4><a name="_GoBack"></a><strong>Controlling  outsourced processes</strong> </h4>
+              <p>  An organisation  should consider how external providers and outsourced operations can affect its  ability to manage its environmental aspects and fulfil their compliance  obligations. <br>
+              An organisation  should establish operational controls that are needed. They could be documented  procedures, contracts or supplier agreements, or end-user instructions, and  communicate them to its contractors, suppliers and users, as appropriate.</p>
+              <h4><strong>Reducing emergencies</strong><strong> </strong></h4>
+              <p>  Effective planning and  groundwork can decrease injuries, protect employees and neighbours, reduce  asset losses and minimise production downtime. <br>
+              An effective emergency  preparation and response program should include requirements for assessing the  potential for accidents and emergencies, preventing incidents and their  associated environmental impacts. </p>
+              <h4><strong>Monitoring and Measuring</strong> </h4>
+              <p><strong>Monitoring </strong><br>
+              can be a process that can checks whether&nbsp;something is happening as  intended or planned. e.g. if an operational control states that housekeeping  audits will occur&nbsp;twice weekly then this is a monitoring process. This  could also apply to ‘visual’ checking of a component. </p>
+              <p><strong>Measurement </strong><strong> </strong><br>
+              The size or scale of  an event is&nbsp;measured, calculated or estimated with a numerical value  assigned.&nbsp;e.g. weighing wastes sent to landfill; the amount&nbsp;of gas or  electricity consumed per week, measuring noise levels, etc. </p>
+              <h4><strong>Continual improvement</strong></h4>
+              <p>  Continual improvements mean conducting  internal audits, looking at objectives, performing management reviews, analysing  data, and implementing corrective and&nbsp;preventive actions. <br>
+              For example, an  environmental objective can be to reduce electrical energy consumption. </p>
             </div>
           </div>
         </div>

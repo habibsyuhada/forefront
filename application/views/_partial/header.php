@@ -156,5 +156,12 @@
     ul.disc li{
       margin-bottom: 10px;
     }
+
+    .medsos{
+      position: fixed;
+      bottom: 50%;
+      right: 0px;
+      transform: translateY(50%);
+    }
   </style>
 </head>

@@ -28,7 +28,7 @@
       <hr>
       <h4><strong>Benefits of ISO 9001:2015 Certification</strong></h4>
       <p><img src="<?php echo base_url() ?>assets/img/benifiets-1-1.png" alt="" width="100%"></p>
-      <a class="border-2px font-weight-bold btn btn-outline-orange" href="#" target="_blank">Get a free quote</a>
+      <a class="border-2px font-weight-bold btn btn-outline-orange" href="<?php echo base_url() ?>free-quotation" target="_blank">Get a free quote</a>
 
       <hr>
       <h4><strong>What is ISO&nbsp;9001:2015&nbsp;Certification Process?</strong></h4>
@@ -36,12 +36,12 @@
 
       <a class="border-2px font-weight-bold btn btn-outline-dark mr-1" href="#" target="_blank">What is ISO 9001:2015 Certification Process?</a>
       <a class="border-2px font-weight-bold btn btn-outline-dark mr-1" href="#" target="_blank">Audit Process</a>
-      <a class="border-2px font-weight-bold btn btn-outline-orange" href="#" target="_blank">Get a free quote</a>
+      <a class="border-2px font-weight-bold btn btn-outline-orange" href="<?php echo base_url() ?>free-quotation" target="_blank">Get a free quote</a>
 
       <hr>
       <h4>Integrated Management Systems</h4>
       <p>There are various mutual fundamentals between ISO 9001, ISO 14001, ISO 45001 and ISO 27001. E.g. Document control, management review, document control, corrective action and the requirement for competent personnel. According to Annex SL, a new high-level structure, you can combine these standards into a single joint system.</p>
-      <a class="border-2px font-weight-bold btn btn-outline-orange" href="#" target="_blank">Get a free quote</a>
+      <a class="border-2px font-weight-bold btn btn-outline-orange" href="<?php echo base_url() ?>free-quotation" target="_blank">Get a free quote</a>
 
       <hr class="" style="margin: 20px 0px 0px 0px;">
       <p>&nbsp;</p>
@@ -75,7 +75,7 @@
                 </p><p>  Imagine a  celebrity blogger with millions of followers, who experienced disappointment  with your product or service, then wrote a negative article or produced a vlog  (video blog) about their experience with your product. Possibly, irreversible  damage in an instant.
                 </p><p>  One prime example  was United Airways. Their baggage handlers broke a guitar belonging to a  celebrity singer. After his efforts failed to gain any remuneration or even  flight vouchers to the value of the repairs, he wrote a song about his  experience. This song led to millions of views, and people were boycotting  United Airlines.
                 </p><p>  It is therefore  critical that we manage complaints quickly and professionally when we work in  any industry, especially in quality-driven manufacturing sectors.
-                </p><p><a class="border-2px font-weight-bold btn btn-outline-orange" href="#" target="_blank">Get a free quote</a>
+                </p><p><a class="border-2px font-weight-bold btn btn-outline-orange" href="<?php echo base_url() ?>free-quotation" target="_blank">Get a free quote</a>
 
                 </p><h4><strong>How does ISO  Certification help?</strong></h4>
                 <p>  ISO standards  communicate to us that a company is benefiting from extra engagement and  support with their customers by understanding their customers’ needs and  expectations. Engaging with the customer is one of the core principles of the  ISO 9001 Quality Management System.</p>

@@ -20,11 +20,11 @@
         <div class="row">
           <div class="col-md-8">
             Contact ForeFront to discuss your transfer requirements with <br>oneof our Advisors either<br>
-            <strong><a class="text-orange" href="#">Email us: info@forefrontcertification.co.uk</a><br></strong>
-            <strong><a class="text-orange" href="#">Call us: +44(0) 1527 917980</a></strong>
+            <strong><a class="text-orange" href="mailto:info@forefrontcertification.co.id">Email us: info@forefrontcertification.co.id</a><br></strong>
+            <strong><a class="text-orange" href="tel:+622129349417">Call us: +622129349417</a></strong>
           </div>
           <div class="col-md">
-            <a class="border-2px font-weight-bold btn btn-outline-orange" href="#" target="_blank">Get a free quote</a>
+            <a class="border-2px font-weight-bold btn btn-outline-orange" href="<?php echo base_url() ?>free-quotation" target="_blank">Get a free quote</a>
           </div>
         </div>
       </div>

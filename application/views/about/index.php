@@ -16,7 +16,7 @@
         <img src="<?php echo base_url(); ?>assets/img/ForeFront.gif" class="float-right" width="150" height="191">
       </p>
       <p class="mb-3">
-        Forefront Certification Limited is a UKAS accredited ISO Certification Body based near Birmingham, UK, currently providing registration to ISO 9001:2015 and ISO 14001:2015 subject to our <a href="#" class="text-orange font-weight-bold">UKAS</a> schedule.
+        Forefront Certification Limited is a UKAS accredited ISO Certification Body based near Birmingham, UK, currently providing registration to ISO 9001:2015 and ISO 14001:2015 subject to our <span href="#" class="text-orange font-weight-bold">UKAS</span> schedule.
       </p>
       <p class="mb-3">
         &#8220;ForeFront Certification team is well resourced and technically experienced with all staff having a sound commercial understanding of the cost implications for all Management System operations. Their experience comes from a wide range of projects working within the Automotive, Manufacturing, Engineering, Electrical, Construction, Government, Oil and Gas industries.&#8221;
