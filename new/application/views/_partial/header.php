@@ -5,8 +5,8 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="icon" href="<?php echo base_url(); ?>assets/img/favicon.png" type="image/png">
-	<title>Smart Pro Training | <?php echo $meta_title; ?></title>
+	<link rel="icon" href="<?php echo base_url(); ?>assets/img/FF_FAVICON.png" type="image/png">
+	<title>Forefront | <?php echo $meta_title; ?></title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap.css">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/vendors/linericon/style.css">
@@ -122,6 +122,37 @@
       -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
       transform: rotate(45deg);
+    }
+
+    a.text-orange:hover{
+      color: #000 !important;
+    }
+    .border-orange{
+      border-color: #f25900 !important;
+    }
+    .text-orange{
+      color: #f25900 !important;
+    }
+    .bg-orange{
+      background-color: #f25900;
+    }
+    .btn-orange{
+      color: #fff;
+      background-color: #f25900;
+      border-color: #f25900;
+    }
+    .btn-outline-orange{
+      color: #f25900;
+      border-color: #f25900;
+    }
+    .btn-outline-orange:hover{
+      color: #fff;
+      background-color: #f25900;
+      border-color: #f25900;
+    }
+
+    .border-2px{
+      border-width: 2px !important;
     }
   </style>
 </head>

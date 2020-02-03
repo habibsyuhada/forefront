@@ -1,13 +1,46 @@
 	<!--================Home Banner Area =================-->
-	<section class="wow fadeIn" data-wow-duration="2s" id="home"  style="background: url(<?php echo base_url() ?>assets/img/bg.png); background-size: cover; background-repeat: no-repeat;	">
-		<div class="">
-			<div class="container-fluid">
+	<section class="banner-area owl-carousel wow fadeIn" data-wow-duration="2s" id="home">
+		<div class="single_slide_banner" style="background: url(<?php echo base_url() ?>assets/img/slide_banner/bb-2.jpg); background-size: cover; background-position: center;">
+			<div class="container-fluid mx-4" style="max-width: unset;">
 				<div class="row fullscreen d-flex align-items-center">
-					<div class="banner-content col-lg-12 justify-content-center">
-						<h1 style="color: #fff">Cara cerdas untuk Meningkatkan Keahlian anda</h1>
-						<h3 style="color: #fff">Melayani semua jenis training, kapan dan dimanapun anda berada, atau ikuti puluhan training regular kami di tiap akhir pekan di berbagai kota. baik untuk individu maupun perusahaan.</h3>
-						<a href="#" class="primary-btn font-weight-bold"><i class="fas fa-list-alt"></i> &nbsp; Daftar Training</a>
-						<a href="#" class="primary-btn font-weight-bold"><i class="fas fa-users"></i> &nbsp; Ingin Menjadi Trainer?</a>
+					<div class="banner-content col-lg-12">
+						<h1 class="text-left">Enhance your Busineess</h1>
+						<h1 class="text-left">Through UKAS Certification</h1>
+						<!-- <a href="#" class="primary-btn">Hire Me</a> -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="single_slide_banner" style="background: url(<?php echo base_url() ?>assets/img/slide_banner/bb-3.jpg); background-size: cover; background-position: center;">
+			<div class="container-fluid mx-4" style="max-width: unset;">
+				<div class="row fullscreen d-flex align-items-center">
+					<div class="banner-content col-lg-12 text-left">
+						<h1 class="text-left">Select the right Management System</h1>
+						<!-- <h3>Personal portfolio Website</h3> -->
+						<a href="#" class="primary-btn font-weight-bold">ISO 9001:2015 &nbsp; <i class="fas fa-chevron-right"></i></a>
+						<a href="#" class="primary-btn font-weight-bold btn-dark">ISO 14001:2015 &nbsp; <i class="fas fa-chevron-right"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="single_slide_banner" style="background: url(<?php echo base_url() ?>assets/img/slide_banner/getty_165667384_2000133420009280406_105064.jpg); background-size: cover; background-position: center;">
+			<div class="container-fluid mx-4" style="max-width: unset;">
+				<div class="row fullscreen d-flex align-items-center">
+					<div class="banner-content col-lg-12 text-left">
+						<h1>Transfer your Certification</h1>
+						<h1 class="text-orange">The quick and easy way</h1>
+						<a href="#" class="primary-btn font-weight-bold">Hire Me</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="single_slide_banner" style="background: url(<?php echo base_url() ?>assets/img/slide_banner/128.jpg); background-size: cover; background-position: center;">
+			<div class="container-fluid mx-4" style="max-width: unset;">
+				<div class="row fullscreen d-flex align-items-center">
+					<div class="banner-content col-lg-12 text-left">
+						<h1>Discover our Training & Online Courses</h1>
+						<a href="#" class="primary-btn font-weight-bold">Health & Safety Training &nbsp; <i class="fas fa-chevron-right"></i></a>
+						<a href="#" class="primary-btn font-weight-bold btn-dark">Business Skills Training &nbsp; <i class="fas fa-chevron-right"></i></a>
 					</div>
 				</div>
 			</div>
@@ -16,139 +49,62 @@
 	<!--================End Home Banner Area =================-->
 
 	<!--================ Start Keunggulan =================-->
-	<section class="about-area section_gap gray-bg">
+	<section class="section_gap">
 		<div class="container-fluid">
-			<div class="main-title text-left wow fadeInDown" data-wow-duration="1.5s">
-				<h1>KEUNGGULAN KAMI</h1>
+			<div class="main-title wow fadeInDown" data-wow-duration="1.5s">
+				<h1>ISO Certification with Forefront</h1>
 			</div>
-			<div class="text-white" data-wow-duration="1.5s">
+			<div class="text-dark" data-wow-duration="1.5s">
 				<div class="row justify-content-between d-flex align-items-stretch">
-					<div style="background: #E57373" class="wow bounceIn col-lg m-1 col-md-6 col-sm-12 py-4 text-center shadow-sm rounded">
+					<div data-wow-delay="0.5s" class="wow bounceIn col-lg m-1 col-md-6 col-sm-12 py-4 text-center shadow-sm border-2px border border-dark">
 						<div class="mb-50">
-							<h1><i class="fas fa-user-tie"></i></h1>
-							<h3>Profesional</h3>
-							<span class="text-left">Trainer kami dari praktisi profesional dibidangnya.</span>
+							<h1><i class="fas fa-balance-scale"></i></h1>
+							<h3>ISO 9001</h3>
+							<span class="text-left">Quality Management System (QMS)</span>
 						</div>
 					</div>
-					<div style="background: #64b5f6" data-wow-delay="0.1s" class="wow bounceIn col-lg m-1 col-md-6 col-sm-12 py-4 text-center shadow-sm rounded">
+					<div data-wow-delay="0.6s" class="wow bounceIn col-lg m-1 col-md-6 col-sm-12 py-4 text-center shadow-sm border-2px border border-dark">
 						<div class="mb-50">
-							<h1><i class="fas fa-address-book"></i></h1>
-							<h3>Mudah</h3>
-							<span class="text-left">Pendaftaran mudah secara online</span>
+							<h1><i class="fas fa-leaf"></i></h1>
+							<h3>ISO 14001</h3>
+							<span class="text-left">Environmental Management System (EMS)</span>
 						</div>
 					</div>
-					<div style="background: #aed581" data-wow-delay="0.2s" class="wow bounceIn col-lg m-1 col-md-6 col-sm-12 py-4 text-center shadow-sm rounded">
+					<div data-wow-delay="0.7s" class="wow bounceIn col-lg m-1 col-md-6 col-sm-12 py-4 text-center shadow-sm border-2px border border-dark">
 						<div class="mb-50">
-							<h1><i class="fas fa-hourglass-half"></i></h1>
-							<h3>Efektif</h3>
-							<span class="text-left">Waktu training yang singkat dan padat</span>
+							<h1><i class="fas fa-briefcase-medical"></i></h1>
+							<h3>ISO 45001</h3>
+							<span class="text-left">Occupational Health & Safety (OHSMS)</span>
 						</div>
 					</div>
-					<div style="background: #ff8a65" data-wow-delay="0.3s" class="wow bounceIn col-lg m-1 col-md-6 col-sm-12 py-4 text-center shadow-sm rounded">
+					<div data-wow-delay="0.8s" class="wow bounceIn col-lg m-1 col-md-6 col-sm-12 py-4 text-center shadow-sm border-2px border border-dark">
 						<div class="mb-50">
-							<h1><i class="fas fa-book"></i></h1>
-							<h3>Lengkap</h3>
-							<span class="text-left">Kurikulum materi disusun secara seksama</span>
+							<h1><i class="fas fa-shield-alt"></i></h1>
+							<h3>ISO 27001</h3>
+							<span class="text-left">Information Security Management System (ISMS)</span>
 						</div>
 					</div>
-					<div style="background: #f06292" data-wow-delay="0.4s" class="wow bounceIn col-lg m-1 col-md-6 col-sm-12 py-4 text-center shadow-sm rounded">
-						<div class="mb-50">
-							<h1><i class="fas fa-clock"></i></h1>
-							<h3>Flexible</h3>
-							<span class="text-left">Flexible dalam menentukan waktu training</span>
-						</div>
-					</div>
-				</div>
-				<div class="row justify-content-between d-flex align-items-stretch">
-					<div style="background: #ffb74d" data-wow-delay="0.5s" class="wow bounceIn col-lg m-1 col-md-6 col-sm-12 py-4 text-center shadow-sm rounded">
-						<div class="mb-50">
-							<h1><i class="fas fa-dollar-sign"></i></h1>
-							<h3>Terjangkau</h3>
-							<span class="text-left">Biaya yang lebih ekonomis karena kami tidak memiliki biaya harian seperti training konvensional</span>
-						</div>
-					</div>
-					<div style="background: #4db6ac" data-wow-delay="0.6s" class="wow bounceIn col-lg m-1 col-md-6 col-sm-12 py-4 text-center shadow-sm rounded">
-						<div class="mb-50">
-							<h1><i class="fas fa-credit-card"></i></h1>
-							<h3>Pembayaran</h3>
-							<span class="text-left">Pembayaran dilakukan secara transfer.</span>
-						</div>
-					</div>
-					<div style="background: #ffd54f" data-wow-delay="0.7s" class="wow bounceIn col-lg m-1 col-md-6 col-sm-12 py-4 text-center shadow-sm rounded">
-						<div class="mb-50">
-							<h1><i class="fas fa-medal"></i></h1>
-							<h3>Sertifikat</h3>
-							<span class="text-left">Sertifikat dari smartpro training</span>
-						</div>
-					</div>
-					<div style="background: #a1887f" data-wow-delay="0.8s" class="wow bounceIn col-lg m-1 col-md-6 col-sm-12 py-4 text-center shadow-sm rounded">
-						<div class="mb-50">
-							<h1><i class="fas fa-map-marked-alt"></i></h1>
-							<h3>Lokasi</h3>
-							<span class="text-left">Tempat training di berbagai kota di Indonesia</span>
-						</div>
-					</div>
-				</div>
-				
+				</div>				
 			</div>
 		</div>
 	</section>
 	<!--================ End Keunggulan =================-->
 
 	<!--================ Start About Area =================-->
-	<section class="section_gap">
-		<div class="container-fluid">
-			<div class="row justify-content-between">
-				<div class="col-lg-12 text-center wow fadeInDown">
-					<div class="main-title">
-						<h1>PRODUK KAMI</h1>
-					</div>					
-				</div>
-				<div class="col-lg-6 col-md-12 wow fadeInLeft">
-					<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/Chart_1.png" alt="">
-					<h1 class="text-center text-dark">TRAINING KAMI</h1>
-					<div class="mb-50">
-						<p>
-							Training  kami, mencakup berbagai industri seperti, minyak dan gas, bangunan dan konstruksi, manufaktur, galangan kapal, pengembangan diri dan lainnya.
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-12 wow fadeInRight">
-					<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/Chart_1.png" alt="">
-					<h1 class="text-center text-dark">JADWAL TRAINING</h1>
-					<div class="mb-50">
-						<p>
-							Ikuti training regular kami yang rutin diadakan di kota kota di seluruh indonesia, lihat daftar training dan cari training yang sesuai dengan keperluan anda.
-						</p>
-						<p>
-							Jadwal training sesuai permintaan disesuaikan dengan kebutuhan anda. kapan dan dimanapun anda berada
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End About Area =================-->
-
-	<!--================ Start About Area =================-->
-	<section class="about-area section_gap gray-bg">
+	<section class="section_gap gray-bg">
 		<div class="container-fluid">
 			<div class="row align-items-center justify-content-between">
-				<div class="col-lg-5 about-left wow fadeInDown">
-					<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/Chart_1.png" alt="">
-				</div>
-				<div class="col-lg-6 col-md-12 about-right">
-					<div class="main-title text-left wow fadeInDown">
-						<h1>KETENTUAN TRAINING</h1>
+				<div class="col-lg-12 col-md-12 about-right">
+					<div class="main-title wow fadeInDown">
+						<h1>Welcome to Forefront Certification</h1>
 					</div>
-					<div class="mb-50 wow fadeInRight">
-						<ul class="unordered-list">
-							<li>Smartpro training adalah penyedia layanan training dalam menyediakan Trainer, Modul training dan tempat training.</li>
-							<li>Untuk training yang berkaitan dengan applikasi komputer, smartpro training tidak menyediakan komputer atau laptop beserta applikasi program yang diperlukan dalam training.</li>
-							<li>Peserta harus mempersiapkan sendiri komputer/Laptop beserta program aplikasi yang diperlukan didalamnya.</li>
-							<li>Training akan berjalan jika peserta minimal sudah tercapai, sudah melakukan pendaftaran dan membayar biaya training. untuk training regular.</li>
-							<li>Pembayaran hanya dilakukan melalui transfer ke Bank Mandiri, atas nama RAIDI GROUP dengan nomor rekening 109.00.138.184.55</li>
-						</ul>
+					<div class="mb-50 wow fadeInRight text-justify">
+						<img class="img-fluid float-right" src="<?php echo base_url(); ?>assets/img/ForeFront.gif" width=200 style="margin: 15px 0 15px 15px">
+						<p>At Forefront, we believe that certification should add value to your organisation. We are not merely offering a compliance audit, however, by also maintaining a commitment to impartiality, we will dedicate our expertise towards your business, so you feel your accomplishment of achieving certification means something and not just a badge on the wall.</p>
+						<p>We focus our expertise towards your business and will offer ‘opportunities for improvement’ if we feel that our knowledge of the standard or your industry can be of benefit.</p>
+						<p>Certification of a Management System Standard is a beneficial tool to increase customer satisfaction. It demonstrates that you have efficient processes in place to ensure your products and services meet customer expectations. For some industrial sectors, certification to standards such as ISO 9001:2015 and ISO 14001:2015 is a mandatory requirement to comply with customers’ needs.</p>
+						<p>Our brand represents a ‘symbol of trust’ for us to deliver a service that includes Integrity, due professional care, confidentiality, and independence. We believe in taking away the complexities and making a difference in every job we do.</p>
+						<p>Forefront will not settle for anything less than excellence in delivering a smooth certification service.</p>
 					</div>
 				</div>
 			</div>
@@ -156,113 +112,61 @@
 	</section>
 	<!--================ End About Area =================-->
 
-	<!--================ Start Testimonial Area =================-->
-	<div class="section_gap testimonial_area">
+		<!--================ Start Keunggulan =================-->
+	<section class="section_gap bg-orange">
 		<div class="container-fluid">
-			<div class="row justify-content-center">
-				<div class="col-lg text-left">
-					<div class="active_testimonial owl-carousel" data-slider-id="1">
-						
-						<div class="single_testimonial">
-							<div class="testimonial_head">
-								<img src="<?php echo base_url(); ?>assets/img/quote.png" alt="">
-								<h4>Fanny Spencer1</h4>
-								<div class="review">
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-								</div>
-							</div>
-							<div class="testimonial_content">
-								<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about
-									it, you travel across her face</p>
-							</div>
+			<div class="text-light" data-wow-duration="1.5s">
+				<div class="row justify-content-between d-flex align-items-stretch">
+					<div data-wow-delay="0.1s" class="wow bounceIn col-lg m-1 col-md-6 col-sm-12 py-4 text-center shadow-sm border-2px border border-light">
+						<div class="mb-50">
+							<h1><i class="far fa-question-circle"></i></h1>
+							<h3>Why choose ForeFront Certification?</h3>
 						</div>
-
-						<div class="single_testimonial">
-							<div class="testimonial_head">
-								<img src="<?php echo base_url(); ?>assets/img/quote.png" alt="">
-								<h4>Fanny Spencer2</h4>
-								<div class="review">
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-								</div>
-							</div>
-							<div class="testimonial_content">
-								<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about
-									it, you travel across her face</p>
-							</div>
+					</div>
+					<div data-wow-delay="0.2s" class="wow bounceIn col-lg m-1 col-md-6 col-sm-12 py-4 text-center shadow-sm border-2px border border-light">
+						<div class="mb-50">
+							<h1><i class="fas fa-exchange-alt"></i></h1>
+							<h3>Transfer your Certification</h3>
 						</div>
-
-						<div class="single_testimonial">
-							<div class="testimonial_head">
-								<img src="<?php echo base_url(); ?>assets/img/quote.png" alt="">
-								<h4>Fanny Spencer3</h4>
-								<div class="review">
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-								</div>
-							</div>
-							<div class="testimonial_content">
-								<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about
-									it, you travel across her face</p>
-							</div>
-						</div>
-
-						<div class="single_testimonial">
-							<div class="testimonial_head">
-								<img src="<?php echo base_url(); ?>assets/img/quote.png" alt="">
-								<h4>Fanny Spencer4</h4>
-								<div class="review">
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-								</div>
-							</div>
-							<div class="testimonial_content">
-								<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about
-									it, you travel across her face</p>
-							</div>
+					</div>
+					<div data-wow-delay="0.3s" class="wow bounceIn col-lg m-1 col-md-6 col-sm-12 py-4 text-center shadow-sm border-2px border border-light">
+						<div class="mb-50">
+							<h1><i class="fa fa-check"></i></h1>
+							<h3>Get a free quote</h3>
 						</div>
 					</div>
 				</div>
+				<div class="row justify-content-between d-flex align-items-stretch">
+					<div data-wow-delay="0.4s" class="wow bounceIn col-lg m-1 col-md-6 col-sm-12 py-4 text-center shadow-sm border-2px border border-light">
+						<div class="mb-50">
+							<h1><i class="fas fa-hand-holding"></i></h1>
+							<h3>Benefits of UKAS Accredited Certification</h3>
+						</div>
+					</div>
+					<div data-wow-delay="0.5s" class="wow bounceIn col-lg m-1 col-md-6 col-sm-12 py-4 text-center shadow-sm border-2px border border-light">
+						<div class="mb-50">
+							<h1><i class="fas fa-users"></i></h1>
+							<h3>What our customer think?</h3>
+						</div>
+					</div>
+					<div data-wow-delay="0.6s" class="wow bounceIn col-lg m-1 col-md-6 col-sm-12 py-4 text-center shadow-sm border-2px border border-light">
+						<div class="mb-50">
+							<h1><i class="fas fa-phone-alt"></i></h1>
+							<h3>Call for more information +622129349417</h3>
+						</div>
+					</div>
+				</div>			
 			</div>
 		</div>
-	</div>
-	<!--================ End Testimonial Area =================-->
+	</section>
+	<!--================ End Keunggulan =================-->
 
 	<!--================ Start Newsletter Area =================-->
-	<section class="section_gap newsletter-area" style="background-attachment: fixed;background-position: center;">
+	<section class="section_gap" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(<?php echo base_url() ?>assets/img/image-1.jpg);background-attachment: fixed;background-position: center;background-size: cover;">
 		<div class="container-fluid">
 			<div class="row justify-content-center">
-				<div class="col-lg-6 text-center wow fadeIn" data-wow-duration="1.5s">
-					<div class="main-title">
-						<h1>Ingin informasi lagi? Hubungi Kami</h1>
-					</div>
-					<p class="text-white">Kami disini untuk membantu anda, hubungi kami melalui telepon, email atau sosial menyediakan.</p>
-					<a href="<?php echo base_url() ?>contact" class="primary-btn"><i class="fas fa-phone"></i> &nbsp; Hubungi Kami</a>
-
-					<aside class="f_widget social_widget">
-						<div class="f_title">
-							<h4 class="text-white">Social Media</h4>
-						</div>
-						<ul class="list">
-							<li><a href="#"><i class="fab fa-facebook-square text-white"></i></a></li>
-							<li><a href="#"><i class="fab fa-twitter-square text-white"></i></a></li>
-							<li><a href="#"><i class="fab fa-instagram text-white"></i></a></li>
-							<li><a href="#"><i class="fab fa-linkedin text-white"></i></a></li>
-						</ul>
-					</aside>
+				<div class="col-12 text-center wow fadeIn" data-wow-duration="1.5s">
+					<h1 class="text-center text-white">We offer services in the area of Quality, Environmental, Information Security, Aerospace, Automotive and Health and Safety through auditing and training.</h1>
 				</div>
 			</div>
 		</div>
