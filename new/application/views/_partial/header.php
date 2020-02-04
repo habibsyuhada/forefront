@@ -33,11 +33,10 @@
   <script src="<?php echo base_url(); ?>assets/vendors/owl-carousel/owl.carousel.min.js"></script>
   <script src="<?php echo base_url(); ?>assets/js/jquery.ajaxchimp.min.js"></script>
   <script src="<?php echo base_url(); ?>assets/js/mail-script.js"></script>
+  <script src="<?php echo base_url(); ?>assets/js/smooth-scroll.polyfills.min.js"></script>
   <!--gmaps Js-->
   <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-  <script src="<?php echo base_url(); ?>assets/js/gmaps.min.js"></script> -->
-
-  
+  <script src="<?php echo base_url(); ?>assets/js/gmaps.min.js"></script> -->  
 
 	<style type="text/css">
 		.card-advantage{
@@ -130,6 +129,9 @@
     .border-orange{
       border-color: #f25900 !important;
     }
+    .border-white{
+      border-color: #ffffff !important;
+    }
     .text-orange{
       color: #f25900 !important;
     }
@@ -153,6 +155,68 @@
 
     .border-2px{
       border-width: 2px !important;
+    }
+
+    .main-title h1.text-white:after, .main-title h1.text-white:before{
+      background: #ffffff;
+    }
+
+    .medsos{
+      position: fixed;
+      bottom: 50%;
+      right: 0px;
+      transform: translateY(50%);
+      z-index: 2;
+    }
+
+    /*Hover Effect*/
+    .hover-effect-1{
+      transition: all .2s linear;
+      cursor: pointer;
+    }
+    .border-dark.hover-effect-1:hover, .border-dark.hover-effect-1:focus{
+      animation: pulse-effect-dark 0.3s;
+      box-shadow: 0 0 0 2rem rgba(0,0,0,0),
+      inset 0 0 0 6rem #343a40;
+      color: #ffffff !important;
+    }
+    @keyframes pulse-effect-dark {
+      0% { 
+        box-shadow: 0 0 0 0 #343a40; 
+      }
+    }
+    .border-orange.hover-effect-1:hover, .border-orange.hover-effect-1:focus{
+      animation: pulse-effect-orange 0.3s;
+      box-shadow: 0 0 0 2rem rgba(0,0,0,0),
+      inset 0 0 0 6rem #f25900;
+      color: #ffffff !important;
+    }
+    @keyframes pulse-effect-orange {
+      0% { 
+        box-shadow: 0 0 0 0 #f25900; 
+      }
+    }
+    .bg-orange .border-white.hover-effect-1:hover, .bg-orange .border-white.hover-effect-1:focus{
+      animation: pulse-effect-orange-to-white 0.3s;
+      box-shadow: 0 0 0 2rem rgba(0,0,0,0),
+      inset 0 0 0 6rem #ffffff;
+      color: #f25900;
+    }
+    @keyframes pulse-effect-orange-to-white {
+      0% { 
+        box-shadow: 0 0 0 0 #ffffff; 
+      }
+    }
+    .bg-dark .border-white.hover-effect-1:hover, .bg-dark .border-white.hover-effect-1:focus{
+      animation: pulse-effect-dark-to-white 0.3s;
+      box-shadow: 0 0 0 2rem rgba(0,0,0,0),
+      inset 0 0 0 6rem #ffffff;
+      color: #343a40;
+    }
+    @keyframes pulse-effect-dark-to-white {
+      0% { 
+        box-shadow: 0 0 0 0 #ffffff; 
+      }
     }
   </style>
 </head>
