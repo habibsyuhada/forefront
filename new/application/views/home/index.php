@@ -65,7 +65,7 @@
 					<div class="main-title wow fadeInDown">
 						<h1>Welcome to Forefront Certification</h1>
 					</div>
-					<div class="mb-50 wow fadeInRight text-justify">
+					<div class="mb-50 wow fadeInLeft text-justify">
 						<p>At Forefront, we believe that certification should add value to your organisation. We are not merely offering a compliance audit, however, by also maintaining a commitment to impartiality, we will dedicate our expertise towards your business, so you feel your accomplishment of achieving certification means something and not just a badge on the wall.</p>
 						<p>We focus our expertise towards your business and will offer ‘opportunities for improvement’ if we feel that our knowledge of the standard or your industry can be of benefit.</p>
 						<p>Certification of a Management System Standard is a beneficial tool to increase customer satisfaction. It demonstrates that you have efficient processes in place to ensure your products and services meet customer expectations. For some industrial sectors, certification to standards such as ISO 9001:2015 and ISO 14001:2015 is a mandatory requirement to comply with customers’ needs.</p>
@@ -73,7 +73,7 @@
 						<p>Forefront will not settle for anything less than excellence in delivering a smooth certification service.</p>
 					</div>
 				</div>
-				<div class="col-lg about-right text-center">
+				<div class="wow fadeInRight col-lg about-right text-center">
 					<img src="<?php echo base_url(); ?>assets/img/ForeFront.gif" width=200>
 					<a data-scroll href="#container_list_certification" class="my-2 p-3 text-dark border-2px border border-dark hover-effect-1 d-block">
 						Certification with Forefront
@@ -153,7 +153,7 @@
 						<h3>Training at Forefront</h3>
 						<div class="row justify-content-between d-flex align-items-stretch" style="font-size: 1rem">
 							<div data-wow-delay="0.1s" class="wow bounceIn col-lg col-md-6 col-sm-12">
-								<a class="my-2 py-1 px-1 text-center bg-light border-2px border border-dark hover-effect-1 d-block">
+								<a class="mb-2 py-1 px-1 text-center bg-light border-2px border border-dark hover-effect-1 d-block">
 									ISO 9001:2015 Lead Auditor
 								</a>
 								<a class="my-2 py-1 px-1 text-center bg-light border-2px border border-dark hover-effect-1 d-block">
