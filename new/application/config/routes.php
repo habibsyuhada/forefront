@@ -53,7 +53,27 @@ $route['default_controller'] = 'home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-$route['training'] 				= 'home/training';
-$route['register'] 				= 'home/register';
-$route['career'] 					= 'home/career';
-$route['contact'] 				= 'home/contact';
+$route['about'] 										= 'home/about';
+$route['about/why-us'] 							= 'home/about_why_us';
+$route['about/ukas-accreditation'] 	= 'home/about_ukas_accreditation';
+
+$route['certification'] 															= 'home/certification';
+$route['certification/iso-90012015'] 									= 'home/certification_iso_90012015';
+$route['certification/iso-140012015'] 								= 'home/certification_iso_140012015';
+$route['certification/iso-45001'] 										= 'home/certification_iso_45001';
+$route['certification/iso-27001'] 										= 'home/certification_iso_27001';
+$route['certification/benefits-of-certification'] 		= 'home/benefits_of_certification';
+
+$route['support'] 															= 'home/support';
+$route['support/certification-process'] 				= 'home/support_certification_process';
+$route['support/transfer-your-certification'] 	= 'home/support_transfer_your_certification';
+
+$route['training'] 	= 'home/training';
+
+$route['online-training'] 								= 'home/online_training';
+$route['online-training/health-safety'] 	= 'home/online_training_health_safety';
+$route['online-training/business-skills'] = 'home/online_training_business_skills';
+
+$route['contact'] = 'home/contact';
+
+$route['free-quotation'] 	= 'home/free_quotation';

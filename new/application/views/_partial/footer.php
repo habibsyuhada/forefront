@@ -70,13 +70,27 @@
 				</div> -->
 			</div>
 		</div>
-		<hr>
-		<div class="container my-4 pt-4 pt-1">
-			<div class="row footer_inner text-dark">
-				<div class="col-md-6">
+		<hr class="bg-dark">
+		<div class="container my-4 pt-4 pt-1" style="font-size: 14px;">
+			<div class="row footer_inner text-dark justify-content-between">
+				<div class="col-auto">
 					&copy;<script>document.write(new Date().getFullYear());</script> ForeFront Certification. All Rights Reserved.
 				</div>
-				<div class="col-md-6">
+				<div class="col-auto">
+					<div class="row">
+            <div class="col-auto">
+              <a href="#" class="text-dark">Terms and Conditions</a>
+            </div>
+            <div class="col-auto">
+              <a href="#" class="text-dark">Rules and Regulations</a>
+            </div>
+            <div class="col-auto">
+              <a href="#" class="text-dark">Impartiality</a>
+            </div>
+            <div class="col-auto">
+              <a href="#" class="text-dark">Privacy Policies</a>
+            </div>
+          </div>
 				</div>
 			</div>
 		</div>

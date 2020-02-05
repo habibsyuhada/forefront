@@ -157,6 +157,10 @@
       border-width: 2px !important;
     }
 
+    .text-black{
+      color: #000 !important;
+    }
+
     .main-title h1.text-white:after, .main-title h1.text-white:before{
       background: #ffffff;
     }
@@ -218,5 +222,46 @@
         box-shadow: 0 0 0 0 #ffffff; 
       }
     }
+
+    /*Sidebar*/
+    .list-group > a{
+      border-radius: 0px !important;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      background: #494a4a;
+      color: #fff;
+      padding: 10px;
+    }
+    .list-group .btn-child{
+      background: rgba(0, 0, 0, 0.2);
+      height: 100%;
+      width: 70px;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .list-group .btn-child i{
+      display: inline-block;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      margin-top: -8px;
+      text-align: center;
+      color: #fff;
+    }
+    .list-group > a.active{
+      background: #f25900;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+    }
+    .list-group.child a{
+      background: #373838;
+      color: #000;
+    }
+    .list-group:not(.child) > a:hover{
+      background: #DC5100;
+      color: #fff;
+    }
+    /*Sidebar END*/
   </style>
 </head>
