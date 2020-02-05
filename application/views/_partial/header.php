@@ -116,13 +116,19 @@
     /*Sidebar*/
     .list-group > a{
       border-radius: 0px !important;
-      border: 1px solid rgba(0, 0, 0, 0.3);
-      background: #494a4a;
-      color: #fff;
+      border: 2px solid #343A40;
+      border-top-width: 0 !important;
+      /*background: #494a4a;*/
+      /*color: #fff;*/
       padding: 10px;
+      font-weight: bold;
+      color: #000;
+    }
+    .list-group:not(.child) > a:first-child{
+      border-top-width: 2px !important;
     }
     .list-group .btn-child{
-      background: rgba(0, 0, 0, 0.2);
+      background: #2B3035;
       height: 100%;
       width: 70px;
       display: block;
@@ -141,15 +147,18 @@
       color: #fff;
     }
     .list-group > a.active{
-      background: #000;
-      border: 1px solid rgba(0, 0, 0, 0.3);
+      background: #f25900;
+      border-color: #343A40;
+    }
+    .parent{
+      /*border-top-width: 0 !important;*/
+      /*border-bottom-width: 0 !important;*/
     }
     .list-group.child a{
-      background: #fff;
-      color: #000;
+      background: #A9A9A9;
     }
-    .list-group:not(.child) > a:hover{
-      background: #373838;
+    .list-group > a:not(.active):hover{
+      background: #2B3035;
       color: #fff;
     }
 
