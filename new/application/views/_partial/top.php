@@ -6,7 +6,7 @@
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<div class="container">
 					<!-- Brand and toggle get grouped for better mobile display -->
-					<a class="navbar-brand" href="index.html"><img src="<?php echo base_url(); ?>../assets/img/ForeFront_LOGO.png" height='50px' alt=""></a>
+					<a class="navbar-brand" href="<?php echo base_url() ?>"><img src="<?php echo base_url(); ?>assets/img/ForeFront_LOGO.png" height='50px' alt=""></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="icon-bar"></span>

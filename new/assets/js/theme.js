@@ -1,5 +1,13 @@
 (function($) {
+
   "use strict";
+
+  $('.height-as-width').each(function(){
+    // var width = $(this).width();
+    // var height = $(this).height();
+    // $(this).height(width);
+    // console.log(height);
+  });
 
   var window_width = $(window).width(),
     window_height = window.innerHeight,
@@ -20,7 +28,7 @@
     if ($(".header_area").length) {
       $(window).scroll(function() {
         var scroll = $(window).scrollTop();
-        console.log(scroll+" "+nav_offset_top);
+        // console.log(scroll+" "+nav_offset_top);
         if (scroll >= nav_offset_top) {
           $(".header_area").addClass("navbar_fixed");
         } else {

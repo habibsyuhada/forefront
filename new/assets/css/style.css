@@ -374,7 +374,8 @@ button:focus {
     overflow: hidden;
     width: 100%;
     min-height: 400px;
-    background-image: url(../img/banner/common-banner.png);
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../img/image-1.jpg);
+  background-attachment: fixed;background-position: center;
     background-size: cover;
     z-index: 1; }
     .banner_area .banner_inner .banner_content h1 {

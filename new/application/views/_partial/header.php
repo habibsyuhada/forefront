@@ -5,8 +5,8 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="icon" href="<?php echo base_url(); ?>assets/img/favicon.png" type="image/png">
-	<title>Smart Pro Training | <?php echo $meta_title; ?></title>
+	<link rel="icon" href="<?php echo base_url(); ?>assets/img/FF_FAVICON.png" type="image/png">
+	<title>Forefront | <?php echo $meta_title; ?></title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap.css">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/vendors/linericon/style.css">
@@ -33,11 +33,10 @@
   <script src="<?php echo base_url(); ?>assets/vendors/owl-carousel/owl.carousel.min.js"></script>
   <script src="<?php echo base_url(); ?>assets/js/jquery.ajaxchimp.min.js"></script>
   <script src="<?php echo base_url(); ?>assets/js/mail-script.js"></script>
+  <script src="<?php echo base_url(); ?>assets/js/smooth-scroll.polyfills.min.js"></script>
   <!--gmaps Js-->
   <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-  <script src="<?php echo base_url(); ?>assets/js/gmaps.min.js"></script> -->
-
-  
+  <script src="<?php echo base_url(); ?>assets/js/gmaps.min.js"></script> -->  
 
 	<style type="text/css">
 		.card-advantage{
@@ -123,5 +122,146 @@
       -ms-transform: rotate(45deg);
       transform: rotate(45deg);
     }
+
+    a.text-orange:hover{
+      color: #000 !important;
+    }
+    .border-orange{
+      border-color: #f25900 !important;
+    }
+    .border-white{
+      border-color: #ffffff !important;
+    }
+    .text-orange{
+      color: #f25900 !important;
+    }
+    .bg-orange{
+      background-color: #f25900;
+    }
+    .btn-orange{
+      color: #fff;
+      background-color: #f25900;
+      border-color: #f25900;
+    }
+    .btn-outline-orange{
+      color: #f25900;
+      border-color: #f25900;
+    }
+    .btn-outline-orange:hover{
+      color: #fff;
+      background-color: #f25900;
+      border-color: #f25900;
+    }
+
+    .border-2px{
+      border-width: 2px !important;
+    }
+
+    .text-black{
+      color: #000 !important;
+    }
+
+    .main-title h1.text-white:after, .main-title h1.text-white:before{
+      background: #ffffff;
+    }
+
+    .medsos{
+      position: fixed;
+      bottom: 50%;
+      right: 0px;
+      transform: translateY(50%);
+      z-index: 2;
+    }
+
+    /*Hover Effect*/
+    .hover-effect-1{
+      transition: all .2s linear;
+      cursor: pointer;
+    }
+    .border-dark.hover-effect-1:hover, .border-dark.hover-effect-1:focus{
+      animation: pulse-effect-dark 0.3s;
+      box-shadow: 0 0 0 2rem rgba(0,0,0,0),
+      inset 0 0 0 6rem #343a40;
+      color: #ffffff !important;
+    }
+    @keyframes pulse-effect-dark {
+      0% { 
+        box-shadow: 0 0 0 0 #343a40; 
+      }
+    }
+    .border-orange.hover-effect-1:hover, .border-orange.hover-effect-1:focus{
+      animation: pulse-effect-orange 0.3s;
+      box-shadow: 0 0 0 2rem rgba(0,0,0,0),
+      inset 0 0 0 6rem #f25900;
+      color: #ffffff !important;
+    }
+    @keyframes pulse-effect-orange {
+      0% { 
+        box-shadow: 0 0 0 0 #f25900; 
+      }
+    }
+    .bg-orange .border-white.hover-effect-1:hover, .bg-orange .border-white.hover-effect-1:focus{
+      animation: pulse-effect-orange-to-white 0.3s;
+      box-shadow: 0 0 0 2rem rgba(0,0,0,0),
+      inset 0 0 0 6rem #ffffff;
+      color: #f25900;
+    }
+    @keyframes pulse-effect-orange-to-white {
+      0% { 
+        box-shadow: 0 0 0 0 #ffffff; 
+      }
+    }
+    .bg-dark .border-white.hover-effect-1:hover, .bg-dark .border-white.hover-effect-1:focus{
+      animation: pulse-effect-dark-to-white 0.3s;
+      box-shadow: 0 0 0 2rem rgba(0,0,0,0),
+      inset 0 0 0 6rem #ffffff;
+      color: #343a40;
+    }
+    @keyframes pulse-effect-dark-to-white {
+      0% { 
+        box-shadow: 0 0 0 0 #ffffff; 
+      }
+    }
+
+    /*Sidebar*/
+    .list-group > a{
+      border-radius: 0px !important;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      background: #494a4a;
+      color: #fff;
+      padding: 10px;
+    }
+    .list-group .btn-child{
+      background: rgba(0, 0, 0, 0.2);
+      height: 100%;
+      width: 70px;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .list-group .btn-child i{
+      display: inline-block;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      margin-top: -8px;
+      text-align: center;
+      color: #fff;
+    }
+    .list-group > a.active{
+      background: #f25900;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+    }
+    .list-group.child a{
+      background: #373838;
+      color: #000;
+    }
+    .list-group:not(.child) > a:hover{
+      background: #DC5100;
+      color: #fff;
+    }
+    /*Sidebar END*/
   </style>
 </head>
