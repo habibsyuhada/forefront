@@ -18,31 +18,31 @@
 				<div class="col-md-3">
 					<h3 class="font-weight-bold">Forefront</h3>
 					<ul class="list-unstyled m-0" style="font-size: 14px; line-height: 32px">
-	          <li><a href="#" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> Vision</a></li>
-	          <li><a href="<?php echo base_url() ?>ukas-accreditation" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> UKAS Accreditation</a></li>
-	          <li><a href="#" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> Certification Schemes</a></li>
-	          <li><a href="#" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> Logo Downloads</a></li>
+	          <li><a href="#" class="text-orange"><i class="fas fa-certificate text-dark"></i> Vision</a></li>
+	          <li><a href="<?php echo base_url() ?>ukas-accreditation" class="text-orange"><i class="fas fa-certificate text-dark"></i> UKAS Accreditation</a></li>
+	          <li><a href="#" class="text-orange"><i class="fas fa-certificate text-dark"></i> Certification Schemes</a></li>
+	          <li><a href="#" class="text-orange"><i class="fas fa-certificate text-dark"></i> Logo Downloads</a></li>
 	        </ul>
 				</div>
 				<div class="col-md-3">
 					<h3 class="font-weight-bold">ISO Certification</h3>
 					<ul class="list-unstyled m-0" style="font-size: 14px; line-height: 32px">
-	          <li><a href="<?php echo base_url() ?>certification/iso-90012015" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> ISO 9001:2015</a></li>
-	          <li><a href="<?php echo base_url() ?>certification/iso-140012015" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> ISO 14001:2015</a></li>
-	          <li><a href="<?php echo base_url() ?>certification/iso-45001" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> ISO 45001</a></li>
-	          <li><a href="<?php echo base_url() ?>certification/iso-27001" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> ISO 27001</a></li>
+	          <li><a href="<?php echo base_url() ?>certification/iso-90012015" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 9001:2015</a></li>
+	          <li><a href="<?php echo base_url() ?>certification/iso-140012015" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 14001:2015</a></li>
+	          <li><a href="<?php echo base_url() ?>certification/iso-45001" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 45001</a></li>
+	          <li><a href="<?php echo base_url() ?>certification/iso-27001" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 27001</a></li>
 	        </ul>
 	        <img src="<?php echo base_url() ?>assets/img/download_20170727_170602-1.jpg" width="100">
 				</div>
 				<div class="col-md-3">
 					<h3 class="font-weight-bold">Training</h3>
 					<ul class="list-unstyled" style="font-size: 14px; line-height: 32px">
-	          <li><a href="#" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> ISO 9001:2015 Internal Auditor</a></li>
-	          <li><a href="#" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> ISO 9001:2015 Transition</a></li>
-	          <li><a href="#" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> ISO 9001:2015 Foundation</a></li>
-	          <li><a href="#" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> ISO 14001 Internal Auditor</a></li>
-	          <li><a href="#" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> Root Cause Analysis &amp; 8D</a></li>
-	          <li><a href="#" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> ISO 9001:2015 Lead Auditor<div style="margin-left: 15px; margin-top: -10px;">(IRCA Certified)</div></a></li>
+	          <li><a href="#" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 9001:2015 Internal Auditor</a></li>
+	          <li><a href="#" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 9001:2015 Transition</a></li>
+	          <li><a href="#" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 9001:2015 Foundation</a></li>
+	          <li><a href="#" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 14001 Internal Auditor</a></li>
+	          <li><a href="#" class="text-orange"><i class="fas fa-certificate text-dark"></i> Root Cause Analysis &amp; 8D</a></li>
+	          <li><a href="#" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 9001:2015 Lead Auditor<div style="margin-left: 15px; margin-top: -10px;">(IRCA Certified)</div></a></li>
 	        </ul>
 				</div>
 				<div class="col-md-3">
@@ -97,7 +97,7 @@
 	</footer>
 	<!--================End Footer Area =================-->
 	
-  <script src="<?php echo base_url(); ?>assets/js/theme.js"></script>
+  <script src="<?php echo base_url(); ?>assets/js/theme.js?v=06022020"></script>
 	<script type="text/javascript">
 		wow = new WOW({
       boxClass:     'wow',      // default
@@ -108,6 +108,10 @@
     });
     wow.init();
     var scroll = new SmoothScroll('a[href*="#"]');
+
+  	$(document).ready(function(){
+			$(window).scrollTop(0);
+		});
 	</script>
 </body>
 

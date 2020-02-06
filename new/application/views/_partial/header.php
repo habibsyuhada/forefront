@@ -17,7 +17,7 @@
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/vendors/animate-css/animate.css">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/vendors/flaticon/flaticon.css">
 	<!-- main css -->
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
+	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css?v=06022020">
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
