@@ -240,7 +240,7 @@
       border-top-width: 2px !important;
     }
     .list-group .btn-child{
-      background: #2B3035;
+      background: rgba(0,0,0,0.2);
       height: 100%;
       width: 70px;
       display: block;

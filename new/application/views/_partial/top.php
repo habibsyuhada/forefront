@@ -17,39 +17,30 @@
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav justify-content-end text-nowrap">
 							<li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+								<a href="<?php echo base_url() ?>about" class="nav-link dropdown-toggle">About</a>
 								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="#">Why choose ForeFront Certification?</a></li>
-									<li class="nav-item"><a class="nav-link" href="#">UKAS Accreditation</a></li>
+									<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>about/why-us">Why choose ForeFront Certification?</a></li>
+									<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>about/ukas-accreditation">UKAS Accreditation</a></li>
 								</ul>
 							</li>
 							<li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Certification</a>
+								<a href="<?php echo base_url() ?>certification" class="nav-link dropdown-toggle">Certification</a>
 								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="#">ISO 9001:2015</a></li>
-									<li class="nav-item"><a class="nav-link" href="#">SO 14001:2015</a></li>
-									<li class="nav-item"><a class="nav-link" href="#">ISO 45001</a></li>
-									<li class="nav-item"><a class="nav-link" href="#">ISO 27001</a></li>
-									<li class="nav-item"><a class="nav-link" href="#">Benefits of Certification</a></li>
+									<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>certification/iso-90012015">ISO 9001:2015</a></li>
+									<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>certification/iso-140012015">SO 14001:2015</a></li>
+									<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>certification/iso-45001">ISO 45001</a></li>
+									<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>certification/iso-27001">ISO 27001</a></li>
+									<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>certification/benefits-of-certification">Benefits of Certification</a></li>
 								</ul>
 							</li>
 							<li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support</a>
+								<a href="<?php echo base_url() ?>support" class="nav-link dropdown-toggle">Support</a>
 								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="#">Certification Process</a></li>
-									<li class="nav-item"><a class="nav-link" href="#">Transfer your certification</a></li>
+									<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>support/certification-process">Certification Process</a></li>
+									<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>support/transfer-your-certification">Transfer your certification</a></li>
 								</ul>
 							</li>
-							<li class="nav-item"><a class="nav-link" href="about-us.html">Training</a></li>
-							<!-- <li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li> -->
-							<!-- <li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">Blog</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-									<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
-								</ul>
-							</li> -->
+							<li class="nav-item"><a class="nav-link" href="#">Training</a></li>
 						</ul>
 					</div>
 				</div>
