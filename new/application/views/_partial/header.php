@@ -55,6 +55,9 @@
 	</style>
 	<!-- checkbox -->
 	<style>
+    body{
+      color: #343A40;
+    }
     /* The container */
     .container_checkbox {
       display: block;
@@ -226,19 +229,25 @@
     /*Sidebar*/
     .list-group > a{
       border-radius: 0px !important;
-      border: 1px solid rgba(0, 0, 0, 0.3);
-      background: #494a4a;
-      color: #fff;
+      border: 2px solid #343A40;
+      border-top-width: 0 !important;
       padding: 10px;
+      font-size: 16px;
+      color: #000;
+      transition: all .2s linear;
+    }
+    .list-group:not(.child) > a:first-child{
+      border-top-width: 2px !important;
     }
     .list-group .btn-child{
-      background: rgba(0, 0, 0, 0.2);
+      background: #2B3035;
       height: 100%;
       width: 70px;
       display: block;
       position: absolute;
       right: 0;
       top: 0;
+      cursor: pointer;
     }
     .list-group .btn-child i{
       display: inline-block;
@@ -252,14 +261,13 @@
     }
     .list-group > a.active{
       background: #f25900;
-      border: 1px solid rgba(0, 0, 0, 0.3);
+      border-color: #343A40;
     }
     .list-group.child a{
-      background: #373838;
-      color: #000;
+      background: #ECECEC;
     }
-    .list-group:not(.child) > a:hover{
-      background: #DC5100;
+    .list-group > a:not(.active):hover{
+      background: #2B3035;
       color: #fff;
     }
     /*Sidebar END*/

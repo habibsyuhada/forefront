@@ -150,10 +150,6 @@
       background: #f25900;
       border-color: #343A40;
     }
-    .parent{
-      /*border-top-width: 0 !important;*/
-      /*border-bottom-width: 0 !important;*/
-    }
     .list-group.child a{
       background: #A9A9A9;
     }
