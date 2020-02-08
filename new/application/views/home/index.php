@@ -95,7 +95,7 @@
 			</div>
 			<div class="text-white" data-wow-duration="1.5s">
 				<div class="row justify-content-between d-flex align-items-stretch">
-					<div data-wow-delay="0.5s" class="wow bounceIn m-1 col-lg col-md-6 col-sm-12 px-0">
+					<a href="<?php echo base_url() ?>certification/iso-90012015" data-wow-delay="0.5s" class="wow bounceIn text-white m-1 col-lg col-md-6 col-sm-12 px-0">
 						<div class="py-4 px-1 text-center border-2px border border-white height-as-width hover-effect-1 h-100">
 							<div class="mb-50">
 								<h1><i class="fas fa-balance-scale"></i></h1>
@@ -103,8 +103,8 @@
 								<span class="text-left">Quality Management System (QMS)</span>
 							</div>
 						</div>
-					</div>
-					<div data-wow-delay="0.6s" class="wow bounceIn m-1 col-lg col-md-6 col-sm-12 px-0">
+					</a>
+					<a href="<?php echo base_url() ?>certification/iso-140012015" data-wow-delay="0.6s" class="wow bounceIn text-white m-1 col-lg col-md-6 col-sm-12 px-0">
 						<div class="py-4 px-1 text-center border-2px border border-white height-as-width hover-effect-1 h-100">
 							<div class="mb-50">
 								<h1><i class="fas fa-leaf"></i></h1>
@@ -112,8 +112,8 @@
 								<span class="text-left">Environmental Management System (EMS)</span>
 							</div>
 						</div>
-					</div>
-					<div data-wow-delay="0.7s" class="wow bounceIn m-1 col-lg col-md-6 col-sm-12 px-0">
+					</a>
+					<a href="<?php echo base_url() ?>certification/iso-45001" data-wow-delay="0.7s" class="wow bounceIn text-white m-1 col-lg col-md-6 col-sm-12 px-0">
 						<div class="py-4 px-1 text-center border-2px border border-white height-as-width hover-effect-1 h-100">
 							<div class="mb-50">
 								<h1><i class="fas fa-briefcase-medical"></i></h1>
@@ -121,8 +121,8 @@
 								<span class="text-left">Occupational Health & Safety (OHSMS)</span>
 							</div>
 						</div>
-					</div>
-					<div data-wow-delay="0.8s" class="wow bounceIn m-1 col-lg col-md-6 col-sm-12 px-0">
+					</a>
+					<a href="<?php echo base_url() ?>certification/iso-27001" data-wow-delay="0.8s" class="wow bounceIn text-white m-1 col-lg col-md-6 col-sm-12 px-0">
 						<div class="py-4 px-1 text-center border-2px border border-white height-as-width hover-effect-1 h-100">
 							<div class="mb-50">
 								<h1><i class="fas fa-shield-alt"></i></h1>
@@ -130,7 +130,7 @@
 								<span class="text-left">Information Security Management System (ISMS)</span>
 							</div>
 						</div>
-					</div>
+					</a>
 				</div>				
 			</div>
 		</div>
@@ -205,56 +205,56 @@
 		<div class="container-fluid">
 			<div class="text-white" data-wow-duration="1.5s">
 				<div class="row justify-content-between d-flex align-items-stretch">
-					<div data-wow-delay="0.1s" class="wow bounceIn col-lg m-1 col-md-6 col-sm-12 px-0">
+					<a href="<?php echo base_url() ?>about/why-us" data-wow-delay="0.1s" class="wow bounceIn text-white col-lg m-1 col-md-6 col-sm-12 px-0">
 						<div class="py-4 px-1 text-center border-2px border border-white hover-effect-1 h-100">
 							<div class="mb-50">
 								<h1><i class="far fa-question-circle"></i></h1>
 								<h3>Why choose ForeFront Certification?</h3>
 							</div>
 						</div>
-					</div>
-					<div data-wow-delay="0.2s" class="wow bounceIn col-lg m-1 col-md-6 col-sm-12 px-0">
+					</a>
+					<a href="#" data-wow-delay="0.2s" class="wow bounceIn text-white col-lg m-1 col-md-6 col-sm-12 px-0">
 						<div class="py-4 px-1 text-center border-2px border border-white hover-effect-1 h-100">
 							<div class="mb-50">
 								<h1><i class="fas fa-exchange-alt"></i></h1>
 								<h3>Transfer your Certification</h3>
 							</div>
 						</div>
-					</div>
-					<div data-wow-delay="0.3s" class="wow bounceIn col-lg m-1 col-md-6 col-sm-12 px-0">
+					</a>
+					<a href="<?php echo base_url() ?>free-quotation" data-wow-delay="0.3s" class="wow bounceIn text-white col-lg m-1 col-md-6 col-sm-12 px-0">
 						<div class="py-4 px-1 text-center border-2px border border-white hover-effect-1 h-100">
 							<div class="mb-50">
 								<h1><i class="fa fa-check"></i></h1>
 								<h3>Get a free quote</h3>
 							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 				<div class="row justify-content-between d-flex align-items-stretch">
-					<div data-wow-delay="0.4s" class="wow bounceIn col-lg m-1 col-md-6 col-sm-12 px-0">
+					<a href="<?php echo base_url() ?>certification/benefits-of-certification" data-wow-delay="0.4s" class="wow bounceIn text-white col-lg m-1 col-md-6 col-sm-12 px-0">
 						<div class="py-4 px-1 text-center border-2px border border-white hover-effect-1 h-100">
 							<div class="mb-50">
 								<h1><i class="fas fa-hand-holding"></i></h1>
 								<h3>Benefits of UKAS Accredited Certification</h3>
 							</div>
 						</div>
-					</div>
-					<div data-wow-delay="0.5s" class="wow bounceIn col-lg m-1 col-md-6 col-sm-12 px-0">
+					</a>
+					<a href="#" data-wow-delay="0.5s" class="wow bounceIn text-white col-lg m-1 col-md-6 col-sm-12 px-0">
 						<div class="py-4 px-1 text-center border-2px border border-white hover-effect-1 h-100">
 							<div class="mb-50">
 								<h1><i class="fas fa-users"></i></h1>
 								<h3>What our customer think?</h3>
 							</div>
 						</div>
-					</div>
-					<div data-wow-delay="0.6s" class="wow bounceIn col-lg m-1 col-md-6 col-sm-12 px-0">
+					</a>
+					<a href="tel:+44(0)1527 917980" data-wow-delay="0.6s" class="wow bounceIn text-white col-lg m-1 col-md-6 col-sm-12 px-0">
 						<div class="py-4 px-1 text-center border-2px border border-white hover-effect-1 h-100">
 							<div class="mb-50">
 								<h1><i class="fas fa-phone-alt"></i></h1>
 								<h3>Call for more information +622129349417</h3>
 							</div>
 						</div>
-					</div>
+					</a>
 				</div>			
 			</div>
 		</div>
