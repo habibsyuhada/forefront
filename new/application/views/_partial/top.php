@@ -1,7 +1,27 @@
 <body>
-
+	<section class="d-none d-lg-block bg-dark">
+    <div class="container clearfix">
+      <div class="row justify-content-end font-weight-bold">
+        <!-- <div class="col-auto">
+          <a href="<?php echo base_url() ?>support">Contact Us</a>
+        </div> -->
+        <!-- <div class="col-auto">
+          <a href="#">News & Updates</a>
+        </div> -->
+        <div class="col-auto">
+          <a style="font-size: 12px;" href="<?php echo base_url() ?>contact" class="text-white">Contact Us</a>
+        </div>
+        <div class="col-auto">
+          <a style="font-size: 12px;" href="tel:+622129349417" class="text-white"><i class="fas fa-phone"></i> +622129349417</a>
+        </div>
+        <div class="col-auto">
+          <a style="font-size: 12px;" href="mailto:info@forefrontcertification.co.id" class="text-white"><i class="far fa-envelope"></i> info@forefrontcertification.co.id</a>
+        </div>
+      </div>
+    </div>
+  </section>
 	<!--================Header Menu Area =================-->
-	<header class="header_area font-weight-bold wow fadeInDown">
+	<header class="header_area font-weight-bold wow fadeInDown" style="margin-top: 27px">
 		<div class="main_menu">
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<div class="container">

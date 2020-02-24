@@ -187,7 +187,7 @@ button:focus {
   top: 0;
   left: 0;
   z-index: 9999;
-  background: transparent; }
+  background: rgba(255, 255, 255, 0.4); }
   .header_area .navbar-brand {
     margin-right: 30px; }
   .header_area .menu_nav {
@@ -2888,8 +2888,8 @@ h6 {
 
 /*# sourceMappingURL=style.css.map */
 
-.header_area:not(.navbar_fixed) .navbar .nav .nav-item:hover .nav-link, .header_area:not(.navbar_fixed) .navbar .nav .nav-item.active .nav-link {
-        /*color: #ffffff; background: #f25900;*/ border-bottom: unset; color: #ffffff; padding: 0px 15px; }
-.header_area.navbar_fixed .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link{
+.header_area .navbar .nav > .nav-item:hover > .nav-link, .header_area .navbar .nav > .nav-item.active > .nav-link {
+        color: #ffffff; background: #f25900; border-bottom: unset; color: #ffffff; padding: 0px 15px; }
+/*.header_area.navbar_fixed .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link{
   border-bottom: 4px solid #f25900; color: #f25900; padding: 0px 15px;
-}
+}*/

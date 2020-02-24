@@ -1,11 +1,11 @@
 	<!--================ Start Footer Area =================-->
 	<div class="medsos">
-	  <a href="#" class="btn btn-block m-0 rounded-0 text-white" style="background: #3b5999"><i class="fab fa-facebook-f"></i></a>
-	  <a href="#" class="btn btn-block m-0 rounded-0 text-white" style="background: #55acee"><i class="fab fa-twitter"></i></i></a>
-	  <a href="#" class="btn btn-block m-0 rounded-0 text-white" style="background: #0077B5"><i class="fab fa-linkedin-in"></i></a>
-	  <a href="#" class="btn btn-block m-0 rounded-0 text-white" style="background: #cd201f"><i class="fab fa-youtube"></i></a>
-	  <a href="#" class="btn btn-block m-0 rounded-0 text-white" style="background: #dd4b39"><i class="fab fa-google-plus-g"></i></a>
-	  <a href="#" class="btn btn-block m-0 rounded-0 text-white" style="background: #1ab7ea"><i class="fas fa-envelope"></i></a>
+	  <a href="#" class="btn btn-block m-0 rounded-0 text-white" onmouseover="this.style.background='#3b5999';" onmouseout="this.style.background='#343A40';" style="background: #343A40"><i class="fab fa-facebook-f"></i></a>
+	  <a href="#" class="btn btn-block m-0 rounded-0 text-white" onmouseover="this.style.background='#55acee';" onmouseout="this.style.background='#343A40';" style="background: #343A40"><i class="fab fa-twitter"></i></i></a>
+	  <a href="#" class="btn btn-block m-0 rounded-0 text-white" onmouseover="this.style.background='#0077B5';" onmouseout="this.style.background='#343A40';" style="background: #343A40"><i class="fab fa-linkedin-in"></i></a>
+	  <a href="#" class="btn btn-block m-0 rounded-0 text-white" onmouseover="this.style.background='#cd201f';" onmouseout="this.style.background='#343A40';" style="background: #343A40"><i class="fab fa-youtube"></i></a>
+	  <a href="#" class="btn btn-block m-0 rounded-0 text-white" onmouseover="this.style.background='#dd4b39';" onmouseout="this.style.background='#343A40';" style="background: #343A40"><i class="fab fa-google-plus-g"></i></a>
+	  <a href="#" class="btn btn-block m-0 rounded-0 text-white" onmouseover="this.style.background='#1ab7ea';" onmouseout="this.style.background='#343A40';" style="background: #343A40"><i class="fas fa-envelope"></i></a>
 	</div>
 
 	<footer class="footer_area py-4 mt-4 wow fadeIn">
