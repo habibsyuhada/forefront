@@ -1,4 +1,4 @@
-	<style type="text/css">
+		<style type="text/css">
 		#container_list_training{
 	    background-image: url("<?php echo base_url(); ?>assets/img/transparent-woman-office-2.png");
 	    background-repeat: no-repeat;
@@ -9,22 +9,22 @@
 	</style>
 	<!--================Home Banner Area =================-->
 	<section class="banner-area owl-carousel wow fadeIn" data-wow-duration="2s" id="home">
-		<div class="single_slide_banner" style="background: url(<?php echo base_url() ?>assets/img/slide_banner/bb-2.jpg); background-size: cover; background-position: center;">
+		<div class="single_slide_banner" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(<?php echo base_url() ?>assets/img/slide_banner/bb-2.jpg); background-size: cover; background-position: center;">
 			<div class="container-fluid mx-4" style="max-width: unset;">
 				<div class="row fullscreen d-flex align-items-center">
 					<div class="banner-content col-lg-12">
-						<h1 class="text-left">Enhance your Busineess</h1>
-						<h1 class="text-left">Through UKAS Certification</h1>
+						<h1 class="text-left text-white">Enhance your Busineess</h1>
+						<h1 class="text-left text-white">Through UKAS Certification</h1>
 						<!-- <a href="#" class="primary-btn">Hire Me</a> -->
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="single_slide_banner" style="background: url(<?php echo base_url() ?>assets/img/slide_banner/bb-3.jpg); background-size: cover; background-position: center;">
+		<div class="single_slide_banner" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(<?php echo base_url() ?>assets/img/slide_banner/bb-3.jpg); background-size: cover; background-position: center;">
 			<div class="container-fluid mx-4" style="max-width: unset;">
 				<div class="row fullscreen d-flex align-items-center">
 					<div class="banner-content col-lg-12 text-left">
-						<h1 class="text-left">Select the right Management System</h1>
+						<h1 class="text-left text-white">Select the right Management System</h1>
 						<!-- <h3>Personal portfolio Website</h3> -->
 						<a href="#" class="primary-btn font-weight-bold">FIND OUR CERTIFICATION PRODUCT &nbsp; <i class="fas fa-chevron-right"></i></a>
 						<img src="<?php echo base_url() ?>assets/img/download_20170727_170602-1.jpg" class="mt-4" style="width: 100px !important">
@@ -32,7 +32,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="single_slide_banner" style="background: url(<?php echo base_url() ?>assets/img/slide_banner/getty_165667384_2000133420009280406_105064.jpg); background-size: cover; background-position: center;">
+		<div class="single_slide_banner" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(<?php echo base_url() ?>assets/img/slide_banner/getty_165667384_2000133420009280406_105064.jpg); background-size: cover; background-position: center;">
 			<div class="container-fluid mx-4" style="max-width: unset;">
 				<div class="row fullscreen d-flex align-items-center">
 					<div class="banner-content col-lg-12 text-left">
@@ -43,7 +43,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="single_slide_banner" style="background: url(<?php echo base_url() ?>assets/img/slide_banner/128.jpg); background-size: cover; background-position: center;">
+		<div class="single_slide_banner" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(<?php echo base_url() ?>assets/img/slide_banner/128.jpg); background-size: cover; background-position: center;">
 			<div class="container-fluid mx-4" style="max-width: unset;">
 				<div class="row fullscreen d-flex align-items-center">
 					<div class="banner-content col-lg-12 text-left">

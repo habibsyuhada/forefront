@@ -24,7 +24,7 @@
 	<header class="header_area font-weight-bold wow fadeInDown" style="margin-top: 27px">
 		<div class="main_menu">
 			<nav class="navbar navbar-expand-lg navbar-light">
-				<div class="container">
+				<div class="container-fluid" style="max-width: unset;">
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<a class="navbar-brand" href="<?php echo base_url() ?>"><img src="<?php echo base_url(); ?>assets/img/ForeFront_LOGO.png" height='50px' alt=""></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -35,7 +35,7 @@
 					</button>
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-						<ul class="nav navbar-nav menu_nav justify-content-end text-nowrap">
+						<ul class="nav navbar-nav menu_nav justify-content-center text-nowrap">
 							<li class="nav-item submenu dropdown">
 								<a href="<?php echo base_url() ?>about" class="nav-link dropdown-toggle">About</a>
 								<ul class="dropdown-menu">
@@ -62,6 +62,13 @@
 							</li>
 							<li class="nav-item"><a class="nav-link" href="#">Training</a></li>
 						</ul>
+						<a href="<?php echo base_url() ?>free-quotation" class="btn btn-dark rounded-0">Get Free Qoutation</a>
+						<!-- <div class="input-group" style="width: 350px">
+						  <input type="text" class="form-control rounded-0" placeholder="Search">
+						  <div class="input-group-append">
+						    <span class="input-group-text rounded-0"><i class="fa fa-search"></i></span>
+						  </div>
+						</div> -->
 					</div>
 				</div>
 			</nav>
