@@ -97,7 +97,7 @@ $db['default'] = array(
 
 // $db['default'] = array(
 // 	'dsn'	=> '',
-// 	'hostname' => 'localhost',
+// 	'hostname' => 'forefrontcertification.co.id',
 // 	'username' => 'forefron_admin',
 // 	'password' => 'slipknot12011986',
 // 	'database' => 'forefron_batamdb',

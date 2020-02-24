@@ -182,49 +182,53 @@
       cursor: pointer;
     }
     .border-dark.hover-effect-1:hover, .border-dark.hover-effect-1:focus{
-      animation: pulse-effect-dark 0.3s;
+     /* animation: pulse-effect-dark 0.3s;
       box-shadow: 0 0 0 2rem rgba(0,0,0,0),
-      inset 0 0 0 6rem #343a40;
+      inset 0 0 0 6rem #343a40;*/
       color: #ffffff !important;
+      background: #343a40 !important;
     }
-    @keyframes pulse-effect-dark {
+    /*@keyframes pulse-effect-dark {
       0% { 
         box-shadow: 0 0 0 0 #343a40; 
       }
-    }
+    }*/
     .border-orange.hover-effect-1:hover, .border-orange.hover-effect-1:focus{
-      animation: pulse-effect-orange 0.3s;
+      /*animation: pulse-effect-orange 0.3s;
       box-shadow: 0 0 0 2rem rgba(0,0,0,0),
-      inset 0 0 0 6rem #f25900;
+      inset 0 0 0 6rem #f25900;*/
       color: #ffffff !important;
+      background: #f25900;
     }
-    @keyframes pulse-effect-orange {
+    /*@keyframes pulse-effect-orange {
       0% { 
         box-shadow: 0 0 0 0 #f25900; 
       }
-    }
+    }*/
     .bg-orange .border-white.hover-effect-1:hover, .bg-orange .border-white.hover-effect-1:focus{
-      animation: pulse-effect-orange-to-white 0.3s;
+      /*animation: pulse-effect-orange-to-white 0.3s;
       box-shadow: 0 0 0 2rem rgba(0,0,0,0),
-      inset 0 0 0 6rem #ffffff;
+      inset 0 0 0 6rem #ffffff;*/
       color: #f25900;
+      background: #ffffff;
     }
-    @keyframes pulse-effect-orange-to-white {
+    /*@keyframes pulse-effect-orange-to-white {
       0% { 
         box-shadow: 0 0 0 0 #ffffff; 
       }
-    }
+    }*/
     .bg-dark .border-white.hover-effect-1:hover, .bg-dark .border-white.hover-effect-1:focus{
-      animation: pulse-effect-dark-to-white 0.3s;
+      /*animation: pulse-effect-dark-to-white 0.3s;
       box-shadow: 0 0 0 2rem rgba(0,0,0,0),
-      inset 0 0 0 6rem #ffffff;
+      inset 0 0 0 6rem #ffffff;*/
       color: #343a40;
+      background: #ffffff;
     }
-    @keyframes pulse-effect-dark-to-white {
+    /*@keyframes pulse-effect-dark-to-white {
       0% { 
         box-shadow: 0 0 0 0 #ffffff; 
       }
-    }
+    }*/
 
     /*Sidebar*/
     .list-group > a{

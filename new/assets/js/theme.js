@@ -43,8 +43,8 @@
     ==================================*/
   $(".banner-area").owlCarousel({
     items: 1,
-    autoplay: 2500,
-    autoplayTimeout: 5000,
+    autoplay: false,
+    // autoplayTimeout: 5000,
     loop: true,
     nav: false,
     dots: false,
