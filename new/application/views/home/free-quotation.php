@@ -1,13 +1,82 @@
 <!--==========================
   Intro Section
 ============================-->
+<style type="text/css">
+  #progressbar {
+      margin-bottom: 30px;
+      overflow: hidden;
+      color: lightgrey
+  }
+
+  #progressbar .active {
+      color: #000000
+  }
+
+  #progressbar li {
+      list-style-type: none;
+      font-size: 12px;
+      width: 25%;
+      float: left;
+      position: relative
+  }
+
+  #progressbar #account:before {
+      font-family: "Font Awesome 5 Free";
+      content: "\f170"
+  }
+
+  #progressbar #personal:before {
+      font-family: "Font Awesome 5 Free";
+      content: "\f170"
+  }
+
+  #progressbar #payment:before {
+      font-family: "Font Awesome 5 Free";
+      content: "\f170"
+  }
+
+  #progressbar #confirm:before {
+      font-family: "Font Awesome 5 Free";
+      content: "\f170"
+  }
+
+  #progressbar li:before {
+      width: 50px;
+      height: 50px;
+      line-height: 45px;
+      display: block;
+      font-size: 18px;
+      color: #ffffff;
+      background: lightgray;
+      border-radius: 50%;
+      margin: 0 auto 10px auto;
+      padding: 2px
+  }
+
+  #progressbar li:after {
+      content: '';
+      width: 100%;
+      height: 2px;
+      background: lightgray;
+      position: absolute;
+      left: 0;
+      top: 25px;
+      /*z-index: 0*/
+  }
+
+  #progressbar li.active:before,
+  #progressbar li.active:after {
+      background: skyblue !important
+  }
+</style>
+<script data-search-pseudo-elements src="<?php echo base_url() ?>assets/fontawesome-free/js/all.js"></script>
 <div class="clearfix"></div>
 <?php $this->load->view('_partial/navigation');?> 
 <section class="container px-4 mt-4 pt-4">
   <div class="row">
-    <div class="col-md-3">
-      <?php $this->load->view('_partial/sidebar');?> 
-    </div>
+    <!-- <div class="col-md-3">
+      <?php //$this->load->view('_partial/sidebar');?> 
+    </div> -->
 
     <!-- Content -->
     <div class="col-md pl-4 ml-4">
@@ -106,6 +175,17 @@
               <button class="border-2px font-weight-bold btn btn-outline-dark text-center" type="submit">Submit</button>
             </div>
           </div>
+        </div>
+      </form>
+
+      <form action="<?php echo base_url() ?>home/free_quotation_new_process" method="POST">
+        <div style="background-color:#f2f2f2; padding:20px">
+          <ul id="progressbar">
+            <li class="active" id="account"><strong>Account</strong></li>
+            <li id="personal"><strong>Personal</strong></li>
+            <li id="payment"><strong>Payment</strong></li>
+            <li id="confirm"><strong>Finish</strong></li>
+          </ul>
         </div>
       </form>
     </div>
