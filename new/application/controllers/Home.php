@@ -48,7 +48,8 @@ class Home extends CI_Controller {
 		// echo "</pre>";
 		$first_name 			= $this->input->post('first_name');
 		$last_name 			= $this->input->post('last_name');
-		$company 			= $this->input->post('company');
+		$company_name 			= $this->input->post('company_name');
+		$company_address 			= $this->input->post('company_address');
 		$job_title		= $this->input->post('job_title');
 		$email		= $this->input->post('email');
 		$phone		= $this->input->post('phone');
@@ -57,7 +58,8 @@ class Home extends CI_Controller {
 		$form_data = array(
 			'first_name' 		=> $first_name,
 			'last_name' 	=> $last_name,
-			'company' 	=> $company,
+			'company_name' 	=> $company_name,
+			'company_address' 	=> $company_address,
 			'job_title' => $job_title,
 			'email' => $email,
 			'phone' => $phone,

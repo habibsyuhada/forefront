@@ -188,6 +188,13 @@
       color: #ffffff !important;
       background: #343a40 !important;
     }
+    .bg-dark.border-dark.hover-effect-1:hover, .border-dark.hover-effect-1:focus{
+     /* animation: pulse-effect-dark 0.3s;
+      box-shadow: 0 0 0 2rem rgba(0,0,0,0),
+      inset 0 0 0 6rem #343a40;*/
+      color: #343a40 !important;
+      background: #ffffff !important;
+    }
     /*@keyframes pulse-effect-dark {
       0% { 
         box-shadow: 0 0 0 0 #343a40; 
