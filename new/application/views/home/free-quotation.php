@@ -118,41 +118,41 @@
         <div style="background-color:#f2f2f2; padding:20px">
           <div class="form-row mb-3">
             <div class="col">
-              <input type="text" class="form-control border-orange border-2px" name="first_name" required placeholder="First Name">
+              <input type="text" class="form-control border-orange border-2px" name="first_name"  placeholder="First Name">
             </div>
             <div class="col">
-              <input type="text" class="form-control border-orange border-2px" name="last_name"  required placeholder="Last Name">
-            </div>
-          </div>
-          <div class="form-row mb-3">
-            <div class="col">
-              <textarea class="form-control border-orange border-2px" name="company"  required placeholder="Company Name & Address" rows="4"></textarea>
+              <input type="text" class="form-control border-orange border-2px" name="last_name"   placeholder="Last Name">
             </div>
           </div>
           <div class="form-row mb-3">
             <div class="col">
-              <input type="text" class="form-control border-orange border-2px" name="postcode"  required placeholder="Postcode">
+              <textarea class="form-control border-orange border-2px" name="company"   placeholder="Company Name & Address" rows="4"></textarea>
             </div>
           </div>
           <div class="form-row mb-3">
             <div class="col">
-              <input type="text" class="form-control border-orange border-2px" name="job_title"  required placeholder="Job Title">
-            </div>
-            <div class="col">
-              <input type="email" class="form-control border-orange border-2px" name="email"  required placeholder="E-mail">
+              <input type="text" class="form-control border-orange border-2px" name="postcode"   placeholder="Postcode">
             </div>
           </div>
           <div class="form-row mb-3">
             <div class="col">
-              <input type="text" class="form-control border-orange border-2px" name="phone"  required placeholder="Phone">
+              <input type="text" class="form-control border-orange border-2px" name="job_title"   placeholder="Job Title">
             </div>
             <div class="col">
-              <input type="text" class="form-control border-orange border-2px" name="website"  required placeholder="Website">
+              <input type="email" class="form-control border-orange border-2px" name="email"   placeholder="E-mail">
             </div>
           </div>
           <div class="form-row mb-3">
             <div class="col">
-              <input type="text" class="form-control border-orange border-2px" name="employee"  required placeholder="How many employees do your organisation have?">
+              <input type="text" class="form-control border-orange border-2px" name="phone"   placeholder="Phone">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control border-orange border-2px" name="website"   placeholder="Website">
+            </div>
+          </div>
+          <div class="form-row mb-3">
+            <div class="col">
+              <input type="text" class="form-control border-orange border-2px" name="employee"   placeholder="How many employees do your organisation have?">
             </div>
           </div>
 
@@ -186,7 +186,7 @@
 
           <div class="form-group">
             <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck" required>
+              <input class="form-check-input" type="checkbox" id="gridCheck" >
               <label class="form-check-label" for="gridCheck">
                 At Forefront, We'd like to keep in touch by providing information that is relevant to you. We always keep your details safe and secure. You may unsubscribe from these communications at any time. Please verify our <a href="#" class="text-orange">Privacy Policy</a> for additional information.
               </label>
@@ -201,8 +201,8 @@
       </form>
     </div> -->
     <?php if($this->session->flashdata('success') == TRUE): ?>
-    <div class="alert alert-success" role="alert">
-      <b><?php echo $this->session->flashdata('success'); ?></b>
+    <div class="alert alert-success w-100" role="alert">
+      <b class=" text-dark"><i class="fa fa-check"></i> <?php echo $this->session->flashdata('success'); ?></b>
     </div>
     <?php endif; ?>
     <div class="col-md-12 mt-4 py-2 border border-dark border-2px">
@@ -246,65 +246,71 @@
             </div>
             <br>
             <br>
-            <button id="next_btn" type="button" onclick="next()" class="btn btn-orange rounded-0 float-right">Next <i class="fas fa-angle-double-right"></i></button>
+            <button id="next_btn" type="button" onclick="next(1)" class="btn btn-orange rounded-0 float-right">Next <i class="fas fa-angle-double-right"></i></button>
           </div>
           <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
                 Your First Name
-                <input type="text" class="mt-2 form-control border-orange border-2px" name="first_name"  required placeholder="First Name">
+                <input type="text" class="mt-2 form-control border-2px" name="first_name"   placeholder="First Name">
               </div>
             </div>
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
                 Your Last Name
-                <input type="text" class="mt-2 form-control border-orange border-2px" name="last_name"  required placeholder="Last Name">
+                <input type="text" class="mt-2 form-control border-2px" name="last_name"   placeholder="Last Name">
               </div>
             </div>
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
                 Your Email
-                <input type="email" class="mt-2 form-control border-orange border-2px" name="email"  required placeholder="Email">
+                <input type="text" class="mt-2 form-control border-2px" name="email"   placeholder="Email">
               </div>
             </div>
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
                 Your Phone Number
-                <input type="email" class="mt-2 form-control border-orange border-2px" name="phone"  required placeholder="Phone Number">
+                <input type="email" class="mt-2 form-control border-2px" name="phone"   placeholder="Phone Number">
+              </div>
+            </div>
+            <div class="form-row justify-content-center mb-3">
+              <div class="col-md">
+                Your Job Title
+                <input type="email" class="mt-2 form-control border-2px" name="job_title"   placeholder="Job Title">
               </div>
             </div>
             <br>
             <br>
-            <button id="next_btn" type="button" onclick="next()" class="btn btn-orange rounded-0 float-right">Next <i class="fas fa-angle-double-right"></i></button>
+            <button id="next_btn" type="button" onclick="next(2)" class="btn btn-orange rounded-0 float-right">Next <i class="fas fa-angle-double-right"></i></button>
           </div>
           <div class="tab-pane fade" id="nav-company" role="tabpanel" aria-labelledby="nav-company-tab">
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
                 Company Name
-                <input type="text" class="mt-2 form-control border-orange border-2px" name="company_name"  required placeholder="Name">
+                <input type="text" class="mt-2 form-control border-2px" name="company_name"   placeholder="Name">
               </div>
             </div>
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
                 Company Address
-                <input type="text" class="mt-2 form-control border-orange border-2px" name="company_address"  required placeholder="Address">
+                <input type="text" class="mt-2 form-control border-2px" name="company_address"   placeholder="Address">
               </div>
             </div>
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
                 Company Website
-                <input type="text" class="mt-2 form-control border-orange border-2px" name="website"  required placeholder="Website">
+                <input type="text" class="mt-2 form-control border-2px" name="website"   placeholder="Website">
               </div>
             </div>
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
                 Number of Employees
-                <input type="number" class="mt-2 form-control border-orange border-2px" name="phone"  required placeholder="Employees">
+                <input type="number" class="mt-2 form-control border-2px" name="employee"   placeholder="Employees">
               </div>
             </div>
             <br>
             <br>
-            <button id="next_btn" type="button" onclick="next()" class="btn btn-orange rounded-0 float-right">Next <i class="fas fa-angle-double-right"></i></button>
+            <button id="next_btn" type="button" onclick="next(3)" class="btn btn-orange rounded-0 float-right">Next <i class="fas fa-angle-double-right"></i></button>
           </div>
           <div class="tab-pane fade" id="nav-certification" role="tabpanel" aria-labelledby="nav-certification-tab">
             <div class="form-row justify-content-center mb-1">
@@ -353,23 +359,30 @@
               </div>
             </div>
             <br>
+            <div class="form-row justify-content-center mb-3">
+              <div class="col-md">
+                Description
+                <textarea class="mt-2 form-control border-2px" name="description" rows="4"></textarea>
+              </div>
+            </div>
             <br>
-            <button id="next_btn" type="button" onclick="next()" class="btn btn-orange rounded-0 float-right">Next <i class="fas fa-angle-double-right"></i></button>
+            <br>
+            <button id="next_btn" type="button" onclick="next(4)" class="btn btn-orange rounded-0 float-right">Next <i class="fas fa-angle-double-right"></i></button>
           </div>
           <div class="tab-pane fade" id="nav-final" role="tabpanel" aria-labelledby="nav-final-tab">
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
                 <strong>At Forefront, We'd like to keep in touch by providing information that is relevant to you. We always keep your details safe and secure. You may unsubscribe from these communications at any time. Please verify our <a href="#" class="text-orange">Privacy Policy</a> for additional information.</strong>
                 <!-- <label class="container-checkbox"><strong>At Forefront, We'd like to keep in touch by providing information that is relevant to you. We always keep your details safe and secure. You may unsubscribe from these communications at any time. Please verify our <a href="#" class="text-orange">Privacy Policy</a> for additional information.</strong>
-                  <input type="checkbox" required>
+                  <input type="checkbox" >
                   <span class="checkmark"></span>
                 </label> -->
               </div>
             </div>
             <br>
             <br>
-            <!-- <button id="submit_btn" type="submit" class="btn btn-orange rounded-0 float-right"><i class="fa fa-check"></i> Submit</button> -->
-            <a href="<?php echo base_url() ?>home/free_quotation_new_process" class="btn btn-orange rounded-0 float-right"><i class="fa fa-check"></i> Submit</a>
+            <button type="button" onclick="$(this).closest('form').submit();" class="btn btn-orange rounded-0 float-right"><i class="fa fa-check"></i> Submit</button>
+            <!-- <a href="<?php //echo base_url() ?>home/free_quotation_new_process" class="btn btn-orange rounded-0 float-right"><i class="fa fa-check"></i> Submit</a> -->
           </div>
         </div>
       </form>
@@ -378,7 +391,83 @@
   </div>
 </section>
 <script type="text/javascript">
-  function next() {
+  function next(number) {
+    var res = 0;
+    if(number == 1){
+      change_fieldset();
+    }
+    else if(number == 2){
+      $('#nav-profile input').removeClass('is-invalid');
+      $('#nav-profile input').next().remove();
+      if($('input[name=first_name]').val() == ""){
+        $('#nav-profile input[name=first_name]').addClass('is-invalid');
+        $('#nav-profile input[name=first_name]').after('<div class="invalid-feedback">Please provide this data.</div>');
+        res++;
+      }
+      if($('input[name=last_name]').val() == ""){
+        $('#nav-profile input[name=last_name]').addClass('is-invalid');
+        $('#nav-profile input[name=last_name]').after('<div class="invalid-feedback">Please provide this data.</div>');
+        res++;
+      }
+      if($('input[name=email]').val() == ""){
+        $('#nav-profile input[name=email]').addClass('is-invalid');
+        $('#nav-profile input[name=email]').after('<div class="invalid-feedback">Please provide this data.</div>');
+        res++;
+      }
+      if($('input[name=phone]').val() == ""){
+        $('#nav-profile input[name=phone]').addClass('is-invalid');
+        $('#nav-profile input[name=phone]').after('<div class="invalid-feedback">Please provide this data.</div>');
+        res++;
+      }
+      if(res > 0){
+      }
+      else{
+        change_fieldset();
+      }
+    }
+    else if(number == 3){
+      $('#nav-company input').removeClass('is-invalid');
+      $('#nav-company input').next().remove();
+      if($('input[name=company_name]').val() == ""){
+        $('#nav-company input[name=company_name]').addClass('is-invalid');
+        $('#nav-company input[name=company_name]').after('<div class="invalid-feedback">Please provide this data.</div>');
+        res++;
+      }
+      if($('input[name=company_address]').val() == ""){
+        $('#nav-company input[name=company_address]').addClass('is-invalid');
+        $('#nav-company input[name=company_address]').after('<div class="invalid-feedback">Please provide this data.</div>');
+        res++;
+      }
+      if($('input[name=website]').val() == ""){
+        $('#nav-company input[name=website]').addClass('is-invalid');
+        $('#nav-company input[name=website]').after('<div class="invalid-feedback">Please provide this data.</div>');
+        res++;
+      }
+      if($('input[name=employee]').val() == ""){
+        $('#nav-company input[name=employee]').addClass('is-invalid');
+        $('#nav-company input[name=employee]').after('<div class="invalid-feedback">Please provide this data.</div>');
+        res++;
+      }
+      if(res > 0){
+      }
+      else{
+        change_fieldset();
+      }
+    }
+    else if(number == 4){
+      var check = $('#nav-certification input[type=checkbox]:checked').length;
+      console.log(check);
+      $('#nav-certification .invalid-feedback').remove();
+      if(check == 0){
+        $('#nav-certification textarea[name=description]').after('<div class="invalid-feedback text-center" style="display: block;"><br>Please tick one of many items.</div>');
+      }
+      else{
+        change_fieldset();
+      }
+    }
+  }
+
+  function change_fieldset() {
     var before = $('a.nav-item.active');
     var next = $('a.nav-item.active').parent().next().find('a');
 

@@ -73,10 +73,10 @@
 		<hr class="bg-dark">
 		<div class="container my-4 pt-4 pt-1" style="font-size: 14px;">
 			<div class="row footer_inner text-dark justify-content-between">
-				<div class="col-auto">
+				<div class="col-md">
 					&copy;<script>document.write(new Date().getFullYear());</script> ForeFront Certification. All Rights Reserved.
 				</div>
-				<div class="col-auto">
+				<div class="col-md">
 					<div class="row">
             <div class="col-auto">
               <a href="#" class="text-dark">Terms and Conditions</a>

@@ -41,10 +41,14 @@ class Home extends CI_Controller {
 	}
 
 	public function free_quotation_new_process(){
-		$this->session->set_flashdata('success', 'Your Data has been sent!');
-		redirect('free-quotation');
-		exit;
+		// $this->session->set_flashdata('success', 'Your Data has been sent!');
+		// redirect('free-quotation');
+		// exit;
 		$products 			= $this->input->post('products');
+		// echo '<pre>';
+		// print_r($this->input->post());
+		// echo '</pre>';
+		// exit;
 		$product 			= join(';', $products);
 		// echo "<pre>";
 		// print_r($products);
@@ -53,7 +57,7 @@ class Home extends CI_Controller {
 		$last_name 			= $this->input->post('last_name');
 		$company_name 			= $this->input->post('company_name');
 		$company_address 			= $this->input->post('company_address');
-		$job_title		= $this->input->post('job_title');
+		// $job_title		= $this->input->post('job_title');
 		$email		= $this->input->post('email');
 		$phone		= $this->input->post('phone');
 		$website		= $this->input->post('website');
@@ -63,7 +67,7 @@ class Home extends CI_Controller {
 			'last_name' 	=> $last_name,
 			'company_name' 	=> $company_name,
 			'company_address' 	=> $company_address,
-			'job_title' => $job_title,
+			// 'job_title' => $job_title,
 			'email' => $email,
 			'phone' => $phone,
 			'website' => $website,
@@ -108,7 +112,7 @@ class Home extends CI_Controller {
                            </body>
                          </html>
                         ");
-    $ci->email->send();
+    // $ci->email->send();
 
 		redirect('free-quotation');
 	}
@@ -285,7 +289,7 @@ class Home extends CI_Controller {
                            </body>
                          </html>
                         ");
-    $ci->email->send();
+    // $ci->email->send();
 
 		$this->session->set_flashdata('success', 'Your Message has been sent!');
 
