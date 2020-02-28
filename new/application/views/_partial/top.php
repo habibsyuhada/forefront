@@ -60,7 +60,70 @@
 									<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>support/transfer-your-certification">Transfer your certification</a></li>
 								</ul>
 							</li>
-							<li class="nav-item"><a class="nav-link" href="#">Training</a></li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Training</a>
+								<div class="dropdown-content position-absolute p-4">
+
+									<div class="row px-4">
+										<div class="col-md-4 px-4">
+											<h5><a class="text-black" href="#">ISO 9001</a></h5>
+											<h6 class="font-weight-normal"><a class="text-black" href="#">1 Day ISO 9001:2015 Foundation Course</a></h6>
+											<h6 class="font-weight-normal"><a class="text-black" href="#">2 Day ISO 9001:2015 Internal Auditor</a></h6>
+											<h6 class="font-weight-normal"><a class="text-black" href="#">5 Day ISO 9001:2015 Lead Auditor</a></h6>
+											<br>
+											<h5><a class="text-black" href="#">Business Improvement</a></h5>
+											<h6 class="font-weight-normal"><a class="text-black" href="#">8D</a></h6>
+											<h6 class="font-weight-normal"><a class="text-black" href="#">APQP</a></h6>
+											<h6 class="font-weight-normal"><a class="text-black" href="#">5S</a></h6>
+											<h6 class="font-weight-normal"><a class="text-black" href="#">FMEA</a></h6>
+											<h6 class="font-weight-normal"><a class="text-black" href="#">PPAP</a></h6>
+											<h6 class="font-weight-normal"><a class="text-black" href="#">Measurement Systems Analysis</a></h6>
+											<h6 class="font-weight-normal"><a class="text-black" href="#">Use of Minitab Software</a></h6>
+											<br>
+											<h5><a class="text-black" href="#">ISO 27001</a></h5>
+											<h6 class="font-weight-normal"><a class="text-black" href="#">1 Day AS9100:2016 Foundation Course</a></h6>
+											<h6 class="font-weight-normal"><a class="text-black" href="#">2 Day AS9100:2016 Internal Auditor</a></h6>
+										</div>
+										<div class="col-md-4 px-4">
+											<h5><a class="text-black" href="#">ISO 14001</a></h5>
+											<h6 class="font-weight-normal"><a class="text-black" href="#">1 Day ISO 14001:2015 Foundation Course</a></h6>
+											<h6 class="font-weight-normal"><a class="text-black" href="#">2 Day ISO 14001:2015 Internal Auditor</a></h6>
+											<br>
+											<h5><a class="text-black" href="#">ISO 27001</a></h5>
+											<h6 class="font-weight-normal"><a class="text-black" href="#">1 Day ISO 27001:2013 Foundation Course</a></h6>
+											<h6 class="font-weight-normal"><a class="text-black" href="#">2 Day ISO 27001:2013 Internal Auditor</a></h6>
+										</div>
+										<div class="col-md-4 px-4">
+											<h5><a class="text-black" href="#">ISO 45001</a></h5>
+											<h6 class="font-weight-normal"><a class="text-black" href="#">1 Day ISO 45001 Foundation Course</a></h6>
+											<h6 class="font-weight-normal"><a class="text-black" href="#">2 Day ISO 45001 Auditor Transition Course</a></h6>
+											<h6 class="font-weight-normal"><a class="text-black" href="#">2 Day ISO 45001 Internal Auditor Course</a></h6>
+											<h6 class="font-weight-normal"><a class="text-black" href="#">3 Day ISO 45001 Auditor Conversion Course</a></h6>
+											<h6 class="font-weight-normal"><a class="text-black" href="#">5 Day ISO 45001 lead Auditor Course</a></h6>
+											<br>
+											<h5><a class="text-black" href="#">IATF 16949:2016</a></h5>
+											<h6 class="font-weight-normal"><a class="text-black" href="#">1 Day IATF 16949:2016 Foundation Course</a></h6>
+											<h6 class="font-weight-normal"><a class="text-black" href="#">3 Day IATF 16949:2016 Internal Auditor</a></h6>
+											<h6 class="font-weight-normal"><a class="text-black" href="#">2 Day IATF 16949:2016 Transistion</a></h6>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="nav-item submenu dropdown">
+								<a href="<?php echo base_url() ?>support" class="nav-link dropdown-toggle">Online Training</a>
+								<ul class="dropdown-menu">
+									<li class="nav-item"><a class="nav-link" href="#">Health &#038; Safety</a></li>
+									<li class="nav-item"><a class="nav-link" href="#">Business Skills</a></li>
+								</ul>
+							</li>
+							<li class="nav-item submenu dropdown">
+								<a href="<?php echo base_url() ?>support" class="nav-link dropdown-toggle">Consultants</a>
+								<ul class="dropdown-menu">
+									<li class="nav-item"><a class="nav-link" href="#">Find an ISO consultant</a></li>
+									<li class="nav-item"><a class="nav-link" href="#">Register as a consultant</a></li>
+									<li class="nav-item"><a class="nav-link" href="#">Auditor Opportunities</a></li>
+								</ul>
+							</li>
 						</ul>
 						<a href="<?php echo base_url() ?>free-quotation" class="btn btn-dark rounded-0">Get Free Qoutation</a>
 						<!-- <div class="input-group" style="width: 350px">

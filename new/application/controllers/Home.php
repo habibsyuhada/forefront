@@ -41,6 +41,9 @@ class Home extends CI_Controller {
 	}
 
 	public function free_quotation_new_process(){
+		$this->session->set_flashdata('success', 'Your Data has been sent!');
+		redirect('free-quotation');
+		exit;
 		$products 			= $this->input->post('products');
 		$product 			= join(';', $products);
 		// echo "<pre>";

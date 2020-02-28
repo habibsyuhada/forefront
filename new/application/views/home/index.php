@@ -1,9 +1,11 @@
 		<style type="text/css">
 		#container_list_training{
-	    background-image: url("<?php echo base_url(); ?>assets/img/transparent-woman-office-2.png");
+	    /*background-image: url("<?php echo base_url(); ?>assets/img/transparent-woman-office-2.png");
 	    background-repeat: no-repeat;
 	    background-position: right bottom;
-	    background-size: contain;
+	    background-size: contain;*/
+	    background-image: linear-gradient(45deg, #ffffff 25%, #F9F9F9 25%, #F9F9F9 50%, #ffffff 50%, #ffffff 75%, #F9F9F9 75%, #F9F9F9 100%);
+			background-size: 282.84px 282.84px;
 	    margin-top: -1rem;
 	  }
 	</style>
@@ -147,10 +149,6 @@
 			</div>
 			<div class="text-dark" data-wow-duration="1.5s">
 				<div class="row justify-content-between d-flex align-items-stretch">
-					<div data-wow-delay="0.1s" class="wow fadeIn col-lg-4 m-1 col-md-6 col-sm-12">
-						<h3>“Forefront Certification Ltd is a UKAS accredited ISO Certification body based near Birmingham (UK)."</h3>
-						<p>At Forefront, we offer Business Improvement Tools like Root Cause Analysis, 8D Problem Solving and 5 Why training courses. Forefront also provides training courses include, Failure Mode & Effects Analysis (FMEA) and Advanced Product Quality Planning (APQP) & Production Part Approval Process (PPAP).</p>
-					</div>
 					<div data-wow-delay="0.2s" class="wow fadeIn col-lg m-1 col-md-6 col-sm-12 pt-4">
 						<h3>Training at Forefront</h3>
 						<div class="row justify-content-between d-flex align-items-stretch" style="font-size: 1rem">
@@ -195,6 +193,10 @@
 								</a>
 							</div>
 						</div>
+					</div>
+					<div data-wow-delay="0.1s" class="wow fadeIn col-lg-4 m-1 col-md-6 col-sm-12">
+						<h3>“Forefront Certification Ltd is a UKAS accredited ISO Certification body based near Birmingham (UK)."</h3>
+						<p>At Forefront, we offer Business Improvement Tools like Root Cause Analysis, 8D Problem Solving and 5 Why training courses. Forefront also provides training courses include, Failure Mode & Effects Analysis (FMEA) and Advanced Product Quality Planning (APQP) & Production Part Approval Process (PPAP).</p>
 					</div>
 				</div>		
 			</div>

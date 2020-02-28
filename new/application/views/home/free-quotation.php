@@ -359,15 +359,17 @@
           <div class="tab-pane fade" id="nav-final" role="tabpanel" aria-labelledby="nav-final-tab">
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
-                <label class="container-checkbox"><strong>At Forefront, We'd like to keep in touch by providing information that is relevant to you. We always keep your details safe and secure. You may unsubscribe from these communications at any time. Please verify our <a href="#" class="text-orange">Privacy Policy</a> for additional information.</strong>
+                <strong>At Forefront, We'd like to keep in touch by providing information that is relevant to you. We always keep your details safe and secure. You may unsubscribe from these communications at any time. Please verify our <a href="#" class="text-orange">Privacy Policy</a> for additional information.</strong>
+                <!-- <label class="container-checkbox"><strong>At Forefront, We'd like to keep in touch by providing information that is relevant to you. We always keep your details safe and secure. You may unsubscribe from these communications at any time. Please verify our <a href="#" class="text-orange">Privacy Policy</a> for additional information.</strong>
                   <input type="checkbox" required>
                   <span class="checkmark"></span>
-                </label>
+                </label> -->
               </div>
             </div>
             <br>
             <br>
-            <button id="submit_btn" type="submit" class="btn btn-orange rounded-0 float-right"><i class="fa fa-check"></i> Submit</button>
+            <!-- <button id="submit_btn" type="submit" class="btn btn-orange rounded-0 float-right"><i class="fa fa-check"></i> Submit</button> -->
+            <a href="<?php echo base_url() ?>home/free_quotation_new_process" class="btn btn-orange rounded-0 float-right"><i class="fa fa-check"></i> Submit</a>
           </div>
         </div>
       </form>

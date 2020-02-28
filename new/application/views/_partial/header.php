@@ -129,6 +129,9 @@
     a.text-orange:hover{
       color: #000 !important;
     }
+    a.text-black:hover{
+      color: #f25900 !important;
+    }
     .border-orange{
       border-color: #f25900 !important;
     }
@@ -282,5 +285,21 @@
       color: #fff;
     }
     /*Sidebar END*/
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      width: 50%;
+      /*left: 0;*/
+      transform: translateX(-50%);
+      font-size: 1rem;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    li.nav-item:hover .dropdown-content {
+      display: block;
+    }
+
   </style>
 </head>
