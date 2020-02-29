@@ -110,7 +110,7 @@
     var scroll = new SmoothScroll('a[href*="#"]');
 
   	$(document).ready(function(){
-			// $("html,body").animate({scrollTop: 0}, 1000);
+			$("html,body").animate({scrollTop: 0}, 1000);
 		});
 	</script>
   <!--Start of Tawk.to Script-->

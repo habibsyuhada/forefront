@@ -4,7 +4,7 @@
 	    background-repeat: no-repeat;
 	    background-position: right bottom;
 	    background-size: contain;*/
-	    background-image: linear-gradient(45deg, #ffffff 25%, #F9F9F9 25%, #F9F9F9 50%, #ffffff 50%, #ffffff 75%, #F9F9F9 75%, #F9F9F9 100%);
+	    background-image: linear-gradient(45deg, #ffffff 25%, #F7F7F7 25%, #F7F7F7 50%, #ffffff 50%, #ffffff 75%, #F7F7F7 75%, #F7F7F7 100%);
 			background-size: 282.84px 282.84px;
 	    margin-top: -1rem;
 	  }

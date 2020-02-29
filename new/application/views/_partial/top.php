@@ -58,6 +58,9 @@
 								<ul class="dropdown-menu">
 									<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>support/certification-process">Certification Process</a></li>
 									<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>support/transfer-your-certification">Transfer your certification</a></li>
+									<li class="nav-item"><a class="nav-link" href="#">Find an ISO consultant</a></li>
+									<li class="nav-item"><a class="nav-link" href="#">Register as a consultant</a></li>
+									<li class="nav-item"><a class="nav-link" href="#">Auditor Opportunities</a></li>
 								</ul>
 							</li>
 							<li class="nav-item">
@@ -92,6 +95,10 @@
 											<h5><a class="text-black" href="#">ISO 27001</a></h5>
 											<h6 class="font-weight-normal"><a class="text-black" href="#">1 Day ISO 27001:2013 Foundation Course</a></h6>
 											<h6 class="font-weight-normal"><a class="text-black" href="#">2 Day ISO 27001:2013 Internal Auditor</a></h6>
+											<br>
+											<h5><a class="text-black" href="#">Online Training</a></h5>
+											<h6 class="font-weight-normal"><a class="text-black" href="#">Health &#038; Safety</a></h6>
+											<h6 class="font-weight-normal"><a class="text-black" href="#">Business Skills</a></h6>
 										</div>
 										<div class="col-md-4 px-4">
 											<h5><a class="text-black" href="#">ISO 45001</a></h5>
@@ -109,21 +116,21 @@
 									</div>
 								</div>
 							</li>
-							<li class="nav-item submenu dropdown">
-								<a href="<?php echo base_url() ?>support" class="nav-link dropdown-toggle">Online Training</a>
+							<!-- <li class="nav-item submenu dropdown">
+								<a href="<?php //echo base_url() ?>support" class="nav-link dropdown-toggle">Online Training</a>
 								<ul class="dropdown-menu">
 									<li class="nav-item"><a class="nav-link" href="#">Health &#038; Safety</a></li>
 									<li class="nav-item"><a class="nav-link" href="#">Business Skills</a></li>
 								</ul>
-							</li>
-							<li class="nav-item submenu dropdown">
-								<a href="<?php echo base_url() ?>support" class="nav-link dropdown-toggle">Consultants</a>
+							</li> -->
+							<!-- <li class="nav-item submenu dropdown">
+								<a href="<?php //echo base_url() ?>support" class="nav-link dropdown-toggle">Consultants</a>
 								<ul class="dropdown-menu">
 									<li class="nav-item"><a class="nav-link" href="#">Find an ISO consultant</a></li>
 									<li class="nav-item"><a class="nav-link" href="#">Register as a consultant</a></li>
 									<li class="nav-item"><a class="nav-link" href="#">Auditor Opportunities</a></li>
 								</ul>
-							</li>
+							</li> -->
 						</ul>
 						<a href="<?php echo base_url() ?>free-quotation" class="btn btn-dark rounded-0">Get Free Qoutation</a>
 						<!-- <div class="input-group" style="width: 350px">
