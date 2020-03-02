@@ -12,6 +12,9 @@
           <a style="font-size: 12px;" href="<?php echo base_url() ?>contact" class="text-white">Contact Us</a>
         </div>
         <div class="col-auto">
+          <a style="font-size: 12px;" href="https://www.forefrontcertification.co.uk/news-updates/" class="text-white">News & Updates</a>
+        </div>
+        <div class="col-auto">
           <a style="font-size: 12px;" href="tel:+622129349417" class="text-white"><i class="fas fa-phone"></i> +622129349417</a>
         </div>
         <div class="col-auto">
@@ -66,12 +69,12 @@
 
 									<div class="row px-4">
 										<div class="col-md-4 px-4">
-											<h5><a class="text-black" href="#">ISO 9001</a></h5>
+											<h5><a class="text-orange" href="#">ISO 9001</a></h5>
 											<h6 class="font-weight-normal"><a class="text-black" href="#">1 Day ISO 9001:2015 Foundation Course</a></h6>
 											<h6 class="font-weight-normal"><a class="text-black" href="#">2 Day ISO 9001:2015 Internal Auditor</a></h6>
 											<h6 class="font-weight-normal"><a class="text-black" href="#">5 Day ISO 9001:2015 Lead Auditor</a></h6>
 											<br>
-											<h5><a class="text-black" href="#">Business Improvement</a></h5>
+											<h5><a class="text-orange" href="#">Business Improvement</a></h5>
 											<h6 class="font-weight-normal"><a class="text-black" href="#">8D</a></h6>
 											<h6 class="font-weight-normal"><a class="text-black" href="#">APQP</a></h6>
 											<h6 class="font-weight-normal"><a class="text-black" href="#">5S</a></h6>
@@ -80,28 +83,28 @@
 											<h6 class="font-weight-normal"><a class="text-black" href="#">Measurement Systems Analysis</a></h6>
 											<h6 class="font-weight-normal"><a class="text-black" href="#">Use of Minitab Software</a></h6>
 											<br>
-											<h5><a class="text-black" href="#">ISO 27001</a></h5>
+											<h5><a class="text-orange" href="#">ISO 27001</a></h5>
 											<h6 class="font-weight-normal"><a class="text-black" href="#">1 Day AS9100:2016 Foundation Course</a></h6>
 											<h6 class="font-weight-normal"><a class="text-black" href="#">2 Day AS9100:2016 Internal Auditor</a></h6>
 										</div>
 										<div class="col-md-4 px-4">
-											<h5><a class="text-black" href="#">ISO 14001</a></h5>
+											<h5><a class="text-orange" href="#">ISO 14001</a></h5>
 											<h6 class="font-weight-normal"><a class="text-black" href="#">1 Day ISO 14001:2015 Foundation Course</a></h6>
 											<h6 class="font-weight-normal"><a class="text-black" href="#">2 Day ISO 14001:2015 Internal Auditor</a></h6>
 											<br>
-											<h5><a class="text-black" href="#">ISO 27001</a></h5>
+											<h5><a class="text-orange" href="#">ISO 27001</a></h5>
 											<h6 class="font-weight-normal"><a class="text-black" href="#">1 Day ISO 27001:2013 Foundation Course</a></h6>
 											<h6 class="font-weight-normal"><a class="text-black" href="#">2 Day ISO 27001:2013 Internal Auditor</a></h6>
 										</div>
 										<div class="col-md-4 px-4">
-											<h5><a class="text-black" href="#">ISO 45001</a></h5>
+											<h5><a class="text-orange" href="#">ISO 45001</a></h5>
 											<h6 class="font-weight-normal"><a class="text-black" href="#">1 Day ISO 45001 Foundation Course</a></h6>
 											<h6 class="font-weight-normal"><a class="text-black" href="#">2 Day ISO 45001 Auditor Transition Course</a></h6>
 											<h6 class="font-weight-normal"><a class="text-black" href="#">2 Day ISO 45001 Internal Auditor Course</a></h6>
 											<h6 class="font-weight-normal"><a class="text-black" href="#">3 Day ISO 45001 Auditor Conversion Course</a></h6>
 											<h6 class="font-weight-normal"><a class="text-black" href="#">5 Day ISO 45001 lead Auditor Course</a></h6>
 											<br>
-											<h5><a class="text-black" href="#">IATF 16949:2016</a></h5>
+											<h5><a class="text-orange" href="#">IATF 16949:2016</a></h5>
 											<h6 class="font-weight-normal"><a class="text-black" href="#">1 Day IATF 16949:2016 Foundation Course</a></h6>
 											<h6 class="font-weight-normal"><a class="text-black" href="#">3 Day IATF 16949:2016 Internal Auditor</a></h6>
 											<h6 class="font-weight-normal"><a class="text-black" href="#">2 Day IATF 16949:2016 Transistion</a></h6>
@@ -125,7 +128,7 @@
 								</ul>
 							</li>
 						</ul>
-						<a href="<?php echo base_url() ?>free-quotation" class="btn btn-dark rounded-0">Get Free Qoutation</a>
+						<a href="<?php echo base_url() ?>free-quotation" class="btn btn-dark rounded-0">Get Free Quotation</a>
 						<!-- <div class="input-group" style="width: 350px">
 						  <input type="text" class="form-control rounded-0" placeholder="Search">
 						  <div class="input-group-append">
