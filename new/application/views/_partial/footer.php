@@ -1,16 +1,16 @@
 	<!--================ Start Footer Area =================-->
 	<div class="medsos">
-	  <a href="#" class="btn btn-block m-0 rounded-0 text-white" onmouseover="this.style.background='#3b5999';" onmouseout="this.style.background='#343A40';" style="background: #343A40"><i class="fab fa-facebook-f"></i></a>
-	  <a href="#" class="btn btn-block m-0 rounded-0 text-white" onmouseover="this.style.background='#55acee';" onmouseout="this.style.background='#343A40';" style="background: #343A40"><i class="fab fa-twitter"></i></i></a>
-	  <a href="#" class="btn btn-block m-0 rounded-0 text-white" onmouseover="this.style.background='#0077B5';" onmouseout="this.style.background='#343A40';" style="background: #343A40"><i class="fab fa-linkedin-in"></i></a>
-	  <a href="#" class="btn btn-block m-0 rounded-0 text-white" onmouseover="this.style.background='#cd201f';" onmouseout="this.style.background='#343A40';" style="background: #343A40"><i class="fab fa-youtube"></i></a>
-	  <a href="#" class="btn btn-block m-0 rounded-0 text-white" onmouseover="this.style.background='#dd4b39';" onmouseout="this.style.background='#343A40';" style="background: #343A40"><i class="fab fa-google-plus-g"></i></a>
-	  <a href="#" class="btn btn-block m-0 rounded-0 text-white" onmouseover="this.style.background='#1ab7ea';" onmouseout="this.style.background='#343A40';" style="background: #343A40"><i class="fas fa-envelope"></i></a>
+	  <a href="https://www.facebook.com/forefrontcert/" class="btn btn-block m-0 rounded-0 text-white" onmouseover="this.style.background='#3b5999';" onmouseout="this.style.background='#343A40';" style="background: #343A40"><i class="fab fa-facebook-f"></i></a>
+	  <a href="https://twitter.com/ForefrontCB" class="btn btn-block m-0 rounded-0 text-white" onmouseover="this.style.background='#55acee';" onmouseout="this.style.background='#343A40';" style="background: #343A40"><i class="fab fa-twitter"></i></i></a>
+	  <a href="https://www.linkedin.com/company/forefront-certification-ltd" class="btn btn-block m-0 rounded-0 text-white" onmouseover="this.style.background='#0077B5';" onmouseout="this.style.background='#343A40';" style="background: #343A40"><i class="fab fa-linkedin-in"></i></a>
+	  <a href="https://www.youtube.com/channel/UCrG_teDfPMg0pBzkokEqiUA" class="btn btn-block m-0 rounded-0 text-white" onmouseover="this.style.background='#cd201f';" onmouseout="this.style.background='#343A40';" style="background: #343A40"><i class="fab fa-youtube"></i></a>
+	  <a href="https://plus.google.com/u/1/" class="btn btn-block m-0 rounded-0 text-white" onmouseover="this.style.background='#dd4b39';" onmouseout="this.style.background='#343A40';" style="background: #343A40"><i class="fab fa-google-plus-g"></i></a>
+	  <a href="info@forefrontcertification.co.uk" class="btn btn-block m-0 rounded-0 text-white" onmouseover="this.style.background='#1ab7ea';" onmouseout="this.style.background='#343A40';" style="background: #343A40"><i class="fas fa-envelope"></i></a>
 	</div>
 
 	<footer class="footer_area py-4 mt-4 wow fadeIn">
 		<div class="container">
-			<a href="#"><h1 class="text-center text-orange font-weight-bold"><i class="fas fa-angle-double-right"></i>&nbsp; Click Here to Get A Qoute &nbsp;<i class="fas fa-angle-double-left"></i></h1></a>
+			<a href="#"><h1 class="text-center text-orange font-weight-bold"><i class="fas fa-angle-double-right"></i>&nbsp; Click Here to Get A Quote &nbsp;<i class="fas fa-angle-double-left"></i></h1></a>
 		</div>
 		<hr>
 		<div class="container">
@@ -47,7 +47,7 @@
 				</div>
 				<div class="col-md-3">
 					<h3 class="font-weight-bold">Location</h3>
-					<p style="font-size: 14px;">Kensington, London, Coventry, West Midlands, Birmingham, Bristol, Avon, Leeds, West Yorkshire; Aberdeen, Scotland, Glasgow, Scotland, Manchester, Southampton, Hampshire, Reading, Berkshire, Greenwich, London, Exeter, Devon, Chatham, Kent, Northamptonshire, Jakarta – Indonesia</p>
+					<p style="font-size: 14px;">Kensington, London, Coventry, West Midlands, Birmingham, Bristol, Avon, Leeds, West Yorkshire; Aberdeen, Scotland, Glasgow, Scotland, Manchester, Southampton, Hampshire, Reading, Berkshire, Greenwich, London, Exeter, Devon, Chatham, Kent, Northamptonshire, Jakarta, Batam, Surabaya</p>
 				</div>
 				<!-- <div class="col-lg-12 text-center">
 					<aside class="f_widget social_widget">

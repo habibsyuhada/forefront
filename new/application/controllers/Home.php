@@ -295,4 +295,28 @@ class Home extends CI_Controller {
 
 		redirect('contact');
 	}
+
+	public function find_an_iso_consultant(){
+		$data['subview'] 			= 'support/find-an-iso-consultant';
+		$data['menu_active'] 	= 'support';
+		$data['meta_title'] 	= 'Find an ISO consultant';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Support', 'link' => '#'), array('text' => 'Find an ISO consultant', 'link' => '#'));
+		$this->load->view('index', $data);
+	}
+
+	public function register_as_a_consultant(){
+		$data['subview'] 			= 'support/register-as-a-consultant';
+		$data['menu_active'] 	= 'support';
+		$data['meta_title'] 	= 'Register as a consultant';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Support', 'link' => '#'), array('text' => 'Register as a consultant', 'link' => '#'));
+		$this->load->view('index', $data);
+	}
+
+	public function auditor_opportunities(){
+		$data['subview'] 			= 'support/auditor-opportunities';
+		$data['menu_active'] 	= 'support';
+		$data['meta_title'] 	= 'Auditor Opportunities';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Support', 'link' => '#'), array('text' => 'Auditor Opportunities', 'link' => '#'));
+		$this->load->view('index', $data);
+	}
 }
