@@ -295,7 +295,7 @@
       /*transform: translateX(-50%);*/
       font-size: 1rem;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      z-index: 1;
+      z-index: 1000;
     }
     li.nav-item:hover .dropdown-content {
       display: block;
