@@ -301,5 +301,11 @@
       display: block;
     }
 
+    .header_area .navbar .nav .nav-item{
+      margin: 0px;
+    }
+    .header_area .navbar .nav .nav-item .nav-link, .header_area .navbar .nav > .nav-item:hover > .nav-link, .header_area .navbar .nav > .nav-item.active > .nav-link{
+      padding: 0px 30px;
+    }
   </style>
 </head>
