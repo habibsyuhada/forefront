@@ -206,7 +206,7 @@
     </div>
     <?php endif; ?>
     <div class="col-md-12 mt-4 py-2 border border-dark border-2px">
-      <form action="<?php echo base_url() ?>home/free_quotation_new_process" method="POST">
+      <form action="<?php echo base_url() ?>home/register_as_a_consultant_process" method="POST">
         <ul class="nav nav-pills" id="myTab" role="tablist">
           <li class="nav-item">
             <a class="nav-item nav-link active" id="nav-information-tab" data-toggle="pill" href="#nav-information" role="tab" aria-controls="nav-information" aria-selected="true"><i class="fas fa-info-circle"></i>&nbsp; 1.Information</a>

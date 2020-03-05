@@ -37,12 +37,12 @@
 				<div class="col-md-3">
 					<h3 class="font-weight-bold">Training</h3>
 					<ul class="list-unstyled" style="font-size: 14px; line-height: 32px">
-	          <li><a href="#" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 9001:2015 Internal Auditor</a></li>
-	          <li><a href="#" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 9001:2015 Transition</a></li>
-	          <li><a href="#" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 9001:2015 Foundation</a></li>
-	          <li><a href="#" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 14001 Internal Auditor</a></li>
-	          <li><a href="#" class="text-orange"><i class="fas fa-certificate text-dark"></i> Root Cause Analysis &amp; 8D</a></li>
-	          <li><a href="#" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 9001:2015 Lead Auditor<div style="margin-left: 15px; margin-top: -10px;">(IRCA Certified)</div></a></li>
+	          <li><a href="http://forefrontcertification.co.uk/training/2-day-iso-90012015-internal-auditor/" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 9001:2015 Internal Auditor</a></li>
+	          <li><a href="http://forefrontcertification.co.uk/training/2-day-iso-90012015-irca-transition-course/" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 9001:2015 Transition</a></li>
+	          <li><a href="http://forefrontcertification.co.uk/training/1-day-iso-90012015-awareness/" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 9001:2015 Foundation</a></li>
+	          <li><a href="http://forefrontcertification.co.uk/training/2-day-iso-140012015-internal-auditor/" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 14001 Internal Auditor</a></li>
+	          <li><a href="http://forefrontcertification.co.uk/training/business-improvement/8d-problem-solving/" class="text-orange"><i class="fas fa-certificate text-dark"></i> Root Cause Analysis &amp; 8D</a></li>
+	          <li><a href="http://forefrontcertification.co.uk/training/5-day-iso-90012015-irca-auditorlead-auditor/" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 9001:2015 Lead Auditor<div style="margin-left: 15px; margin-top: -10px;">(IRCA Certified)</div></a></li>
 	        </ul>
 				</div>
 				<div class="col-md-3">

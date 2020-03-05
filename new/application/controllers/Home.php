@@ -312,6 +312,12 @@ class Home extends CI_Controller {
 		$this->load->view('index', $data);
 	}
 
+	public function register_as_a_consultant_process(){
+		$this->session->set_flashdata('success', 'Your Message has been sent!');
+
+		redirect('consultants/register-as-a-consultant');
+	}
+
 	public function auditor_opportunities(){
 		$data['subview'] 			= 'support/auditor-opportunities';
 		$data['menu_active'] 	= 'support';
