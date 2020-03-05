@@ -94,7 +94,7 @@
 
 <div class="clearfix"></div>
 <?php $this->load->view('_partial/navigation');?> 
-<section class="container px-4 mt-4 pt-4">
+<section id="section_focus" class="container px-4 mt-4 pt-4">
   <div class="row">
     <!-- <div class="col-md-3">
       <?php //$this->load->view('_partial/sidebar');?> 
@@ -126,7 +126,7 @@
           </div>
           <div class="form-row mb-3">
             <div class="col">
-              <textarea class="form-control border-orange border-2px" name="company"   placeholder="Company Name & Address" rows="4"></textarea>
+              <textarea rows="4" class="form-control border-orange border-2px" name="company"   placeholder="Company Name & Address" rows="4"></textarea>
             </div>
           </div>
           <div class="form-row mb-3">
@@ -139,7 +139,7 @@
               <input type="text" class="form-control border-orange border-2px" name="job_title"   placeholder="Job Title">
             </div>
             <div class="col">
-              <input type="email" class="form-control border-orange border-2px" name="email"   placeholder="E-mail">
+              <input type="text" class="form-control border-orange border-2px" name="email"   placeholder="E-mail">
             </div>
           </div>
           <div class="form-row mb-3">
@@ -209,16 +209,19 @@
       <form action="<?php echo base_url() ?>home/free_quotation_new_process" method="POST">
         <ul class="nav nav-pills" id="myTab" role="tablist">
           <li class="nav-item">
-            <a class="nav-item nav-link active" id="nav-information-tab" data-toggle="pill" href="#nav-information" role="tab" aria-controls="nav-information" aria-selected="true"><i class="fas fa-info-circle"></i>&nbsp; Information</a>
+            <a class="nav-item nav-link active" id="nav-information-tab" data-toggle="pill" href="#nav-information" role="tab" aria-controls="nav-information" aria-selected="true"><i class="fas fa-info-circle"></i>&nbsp; 1.Information</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link disabled" id="nav-company-tab" data-toggle="pill" href="#nav-company" role="tab" aria-controls="nav-company" aria-selected="false"><i class="fas fa-briefcase"></i>&nbsp; Consultancy Detail</a>
+            <a class="nav-item nav-link disabled" id="nav-company-tab" data-toggle="pill" href="#nav-company" role="tab" aria-controls="nav-company" aria-selected="false"><i class="fas fa-briefcase"></i>&nbsp; 2.Consultancy Detail</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link disabled" id="nav-profile-tab" data-toggle="pill" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fas fa-user"></i>&nbsp; Contact Detail</a>
+            <a class="nav-item nav-link disabled" id="nav-profile-tab" data-toggle="pill" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fas fa-user"></i>&nbsp; 3.Contact Detail</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link disabled" id="nav-final-tab" data-toggle="pill" href="#nav-final" role="tab" aria-controls="nav-final" aria-selected="false"><i class="fa fa-check"></i>&nbsp; Finalize</a>
+            <a class="nav-item nav-link disabled" id="nav-certification-tab" data-toggle="pill" href="#nav-certification" role="tab" aria-controls="nav-certification" aria-selected="false"><i class="fas fa-user"></i>&nbsp; 4.Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item nav-link disabled" id="nav-final-tab" data-toggle="pill" href="#nav-final" role="tab" aria-controls="nav-final" aria-selected="false"><i class="fa fa-check"></i>&nbsp; 4.Finalize</a>
           </li>
         </ul>
         <div class="tab-content mt-4" id="nav-tabContent">
@@ -249,43 +252,55 @@
           <div class="tab-pane fade" id="nav-company" role="tabpanel" aria-labelledby="nav-company-tab">
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
-                Company Name
-                <input type="text" class="mt-2 form-control border-2px" name="company_name"   placeholder="Name">
+                Business Name
+                <input type="text" class="mt-2 form-control border-2px" name="business_name"   placeholder="Name">
               </div>
             </div>
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
-                Company Address
-                <input type="text" class="mt-2 form-control border-2px" name="company_address"   placeholder="Address">
+                Business Address
+                <input type="text" class="mt-2 form-control border-2px" name="business_address"   placeholder="Address">
               </div>
             </div>
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
-                Company Website
-                <input type="text" class="mt-2 form-control border-2px" name="website"   placeholder="Website">
+                Postcode
+                <input type="text" class="mt-2 form-control border-2px" name="business_postcode"   placeholder="Postcode">
               </div>
             </div>
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
-                Number of Employees
-                <input type="number" class="mt-2 form-control border-2px" name="employee"   placeholder="Employees">
+                Telphone
+                <input type="text" class="mt-2 form-control border-2px" name="business_telphone"   placeholder="Telphone">
+              </div>
+            </div>
+            <div class="form-row justify-content-center mb-3">
+              <div class="col-md">
+                Email
+                <input type="text" class="mt-2 form-control border-2px" name="business_email"   placeholder="Email">
+              </div>
+            </div>
+            <div class="form-row justify-content-center mb-3">
+              <div class="col-md">
+                Website
+                <input type="text" class="mt-2 form-control border-2px" name="business_website"   placeholder="Website">
               </div>
             </div>
             <br>
             <br>
-            <button id="next_btn" type="button" onclick="next(3)" class="btn btn-orange rounded-0 float-right">Next <i class="fas fa-angle-double-right"></i></button>
+            <button id="next_btn" type="button" onclick="next(2)" class="btn btn-orange rounded-0 float-right">Next <i class="fas fa-angle-double-right"></i></button>
           </div>
           <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
-                Your First Name
-                <input type="text" class="mt-2 form-control border-2px" name="first_name"   placeholder="First Name">
+                Your Name
+                <input type="text" class="mt-2 form-control border-2px" name="name"   placeholder="Name">
               </div>
             </div>
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
-                Your Last Name
-                <input type="text" class="mt-2 form-control border-2px" name="last_name"   placeholder="Last Name">
+                Your Job Title
+                <input type="text" class="mt-2 form-control border-2px" name="job_title"   placeholder="Job Title">
               </div>
             </div>
             <div class="form-row justify-content-center mb-3">
@@ -296,19 +311,33 @@
             </div>
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
-                Your Phone Number
-                <input type="email" class="mt-2 form-control border-2px" name="phone"   placeholder="Phone Number">
+                Your Telphone
+                <input type="text" class="mt-2 form-control border-2px" name="telphone"   placeholder="Phone Number">
               </div>
             </div>
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
-                Your Job Title
-                <input type="email" class="mt-2 form-control border-2px" name="job_title"   placeholder="Job Title">
+                Your Qualification
+                <input type="text" class="mt-2 form-control border-2px" name="qualification"   placeholder="Qualification">
+              </div>
+            </div>
+            <div class="form-row justify-content-center mb-3">
+              <div class="col-md">
+                Expertise and industry knowledge
+                <!-- <input type="text" class="mt-2 form-control border-2px" name="qualification"   placeholder="Expertise and industry knowledge"> -->
+                <textarea rows="4" class="mt-2 form-control border-2px" name="expertise"   placeholder="Expertise and industry knowledge"></textarea>
+              </div>
+            </div>
+            <div class="form-row justify-content-center mb-3">
+              <div class="col-md">
+                Applicable area (e.g. West Midlands, UK, Worldwide)
+                <!-- <input type="text" class="mt-2 form-control border-2px" name="qualification"   placeholder="Applicable area (e.g. West Midlands, UK, Worldwide)"> -->
+                <textarea rows="4" class="mt-2 form-control border-2px" name="applicable_area"   placeholder="Applicable area (e.g. West Midlands, UK, Worldwide)"></textarea>
               </div>
             </div>
             <br>
             <br>
-            <button id="next_btn" type="button" onclick="next(2)" class="btn btn-orange rounded-0 float-right">Next <i class="fas fa-angle-double-right"></i></button>
+            <button id="next_btn" type="button" onclick="next(3)" class="btn btn-orange rounded-0 float-right">Next <i class="fas fa-angle-double-right"></i></button>
           </div>
           <div class="tab-pane fade" id="nav-certification" role="tabpanel" aria-labelledby="nav-certification-tab">
             <div class="form-row justify-content-center mb-1">
@@ -360,7 +389,7 @@
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
                 Description
-                <textarea class="mt-2 form-control border-2px" name="description" rows="4"></textarea>
+                <textarea rows="4" class="mt-2 form-control border-2px" name="description" rows="4"></textarea>
               </div>
             </div>
             <br>
@@ -395,26 +424,36 @@
       change_fieldset();
     }
     else if(number == 2){
-      $('#nav-profile input').removeClass('is-invalid');
-      $('#nav-profile input').next().remove();
-      if($('input[name=first_name]').val() == ""){
-        $('#nav-profile input[name=first_name]').addClass('is-invalid');
-        $('#nav-profile input[name=first_name]').after('<div class="invalid-feedback">Please provide this data.</div>');
+      $('#nav-company input').removeClass('is-invalid');
+      $('#nav-company input').next().remove();
+      if($('input[name=business_name]').val() == ""){
+        $('#nav-company input[name=business_name]').addClass('is-invalid');
+        $('#nav-company input[name=business_name]').after('<div class="invalid-feedback">Please provide this data.</div>');
         res++;
       }
-      if($('input[name=last_name]').val() == ""){
-        $('#nav-profile input[name=last_name]').addClass('is-invalid');
-        $('#nav-profile input[name=last_name]').after('<div class="invalid-feedback">Please provide this data.</div>');
+      if($('input[name=business_address]').val() == ""){
+        $('#nav-company input[name=business_address]').addClass('is-invalid');
+        $('#nav-company input[name=business_address]').after('<div class="invalid-feedback">Please provide this data.</div>');
         res++;
       }
-      if($('input[name=email]').val() == ""){
-        $('#nav-profile input[name=email]').addClass('is-invalid');
-        $('#nav-profile input[name=email]').after('<div class="invalid-feedback">Please provide this data.</div>');
+      if($('input[name=business_postcode]').val() == ""){
+        $('#nav-company input[name=business_postcode]').addClass('is-invalid');
+        $('#nav-company input[name=business_postcode]').after('<div class="invalid-feedback">Please provide this data.</div>');
         res++;
       }
-      if($('input[name=phone]').val() == ""){
-        $('#nav-profile input[name=phone]').addClass('is-invalid');
-        $('#nav-profile input[name=phone]').after('<div class="invalid-feedback">Please provide this data.</div>');
+      if($('input[name=business_telphone]').val() == ""){
+        $('#nav-company input[name=business_telphone]').addClass('is-invalid');
+        $('#nav-company input[name=business_telphone]').after('<div class="invalid-feedback">Please provide this data.</div>');
+        res++;
+      }
+      if($('input[name=business_email]').val() == ""){
+        $('#nav-company input[name=business_email]').addClass('is-invalid');
+        $('#nav-company input[name=business_email]').after('<div class="invalid-feedback">Please provide this data.</div>');
+        res++;
+      }
+      if($('input[name=business_website]').val() == ""){
+        $('#nav-company input[name=business_website]').addClass('is-invalid');
+        $('#nav-company input[name=business_website]').after('<div class="invalid-feedback">Please provide this data.</div>');
         res++;
       }
       if(res > 0){
@@ -424,26 +463,41 @@
       }
     }
     else if(number == 3){
-      $('#nav-company input').removeClass('is-invalid');
-      $('#nav-company input').next().remove();
-      if($('input[name=company_name]').val() == ""){
-        $('#nav-company input[name=company_name]').addClass('is-invalid');
-        $('#nav-company input[name=company_name]').after('<div class="invalid-feedback">Please provide this data.</div>');
+      $('#nav-profile input').removeClass('is-invalid');
+      $('#nav-profile input').next().remove();
+      if($('input[name=name]').val() == ""){
+        $('#nav-profile input[name=name]').addClass('is-invalid');
+        $('#nav-profile input[name=name]').after('<div class="invalid-feedback">Please provide this data.</div>');
         res++;
       }
-      if($('input[name=company_address]').val() == ""){
-        $('#nav-company input[name=company_address]').addClass('is-invalid');
-        $('#nav-company input[name=company_address]').after('<div class="invalid-feedback">Please provide this data.</div>');
+      if($('input[name=job_title]').val() == ""){
+        $('#nav-profile input[name=job_title]').addClass('is-invalid');
+        $('#nav-profile input[name=job_title]').after('<div class="invalid-feedback">Please provide this data.</div>');
         res++;
       }
-      if($('input[name=website]').val() == ""){
-        $('#nav-company input[name=website]').addClass('is-invalid');
-        $('#nav-company input[name=website]').after('<div class="invalid-feedback">Please provide this data.</div>');
+      if($('input[name=email]').val() == ""){
+        $('#nav-profile input[name=email]').addClass('is-invalid');
+        $('#nav-profile input[name=email]').after('<div class="invalid-feedback">Please provide this data.</div>');
         res++;
       }
-      if($('input[name=employee]').val() == ""){
-        $('#nav-company input[name=employee]').addClass('is-invalid');
-        $('#nav-company input[name=employee]').after('<div class="invalid-feedback">Please provide this data.</div>');
+      if($('input[name=telphone]').val() == ""){
+        $('#nav-profile input[name=telphone]').addClass('is-invalid');
+        $('#nav-profile input[name=telphone]').after('<div class="invalid-feedback">Please provide this data.</div>');
+        res++;
+      }
+      if($('input[name=qualification]').val() == ""){
+        $('#nav-profile input[name=qualification]').addClass('is-invalid');
+        $('#nav-profile input[name=qualification]').after('<div class="invalid-feedback">Please provide this data.</div>');
+        res++;
+      }
+      if($('textarea[name=expertise]').val() == ""){
+        $('#nav-profile textarea[name=expertise]').addClass('is-invalid');
+        $('#nav-profile textarea[name=expertise]').after('<div class="invalid-feedback">Please provide this data.</div>');
+        res++;
+      }
+      if($('textarea[name=applicable_area]').val() == ""){
+        $('#nav-profile textarea[name=applicable_area]').addClass('is-invalid');
+        $('#nav-profile textarea[name=applicable_area]').after('<div class="invalid-feedback">Please provide this data.</div>');
         res++;
       }
       if(res > 0){

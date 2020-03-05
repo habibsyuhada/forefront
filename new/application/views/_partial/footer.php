@@ -110,7 +110,12 @@
     var scroll = new SmoothScroll('a[href*="#"]');
 
   	$(document).ready(function(){
-			$("html,body").animate({scrollTop: 0}, 1000);
+  		<?php if(in_array($meta_title, array("Register as a consultant", "Free Quotation");)): ?>
+				$("html,body").animate({scrollTop: $('#section_focus').position().top}, 1000);
+  		<?php else: ?>
+  			$("html,body").animate({scrollTop: 0}, 1000);
+			<?php endif; ?>
+			// $("html,body").animate({scrollTop: $('#section_focus').position().top}, 1000);
 		});
 	</script>
   <!--Start of Tawk.to Script-->

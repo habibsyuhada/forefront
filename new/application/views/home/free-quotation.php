@@ -94,7 +94,7 @@
 
 <div class="clearfix"></div>
 <?php $this->load->view('_partial/navigation');?> 
-<section class="container px-4 mt-4 pt-4">
+<section id="section_focus" class="container px-4 mt-4 pt-4">
   <div class="row">
     <!-- <div class="col-md-3">
       <?php //$this->load->view('_partial/sidebar');?> 
@@ -209,19 +209,19 @@
       <form action="<?php echo base_url() ?>home/free_quotation_new_process" method="POST">
         <ul class="nav nav-pills" id="myTab" role="tablist">
           <li class="nav-item">
-            <a class="nav-item nav-link active" id="nav-information-tab" data-toggle="pill" href="#nav-information" role="tab" aria-controls="nav-information" aria-selected="true"><i class="fas fa-info-circle"></i>&nbsp; Information</a>
+            <a class="nav-item nav-link active" id="nav-information-tab" data-toggle="pill" href="#nav-information" role="tab" aria-controls="nav-information" aria-selected="true"><i class="fas fa-info-circle"></i>&nbsp; 1.Information</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link disabled" id="nav-profile-tab" data-toggle="pill" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fas fa-user"></i>&nbsp; Contact Detail</a>
+            <a class="nav-item nav-link disabled" id="nav-profile-tab" data-toggle="pill" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fas fa-user"></i>&nbsp; 2.Contact Detail</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link disabled" id="nav-company-tab" data-toggle="pill" href="#nav-company" role="tab" aria-controls="nav-company" aria-selected="false"><i class="fas fa-briefcase"></i>&nbsp; Company Detail</a>
+            <a class="nav-item nav-link disabled" id="nav-company-tab" data-toggle="pill" href="#nav-company" role="tab" aria-controls="nav-company" aria-selected="false"><i class="fas fa-briefcase"></i>&nbsp; 3.Company Detail</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link disabled" id="nav-certification-tab" data-toggle="pill" href="#nav-certification" role="tab" aria-controls="nav-certification" aria-selected="false"><i class="fas fa-certificate"></i>&nbsp; Certification Selecting</a>
+            <a class="nav-item nav-link disabled" id="nav-certification-tab" data-toggle="pill" href="#nav-certification" role="tab" aria-controls="nav-certification" aria-selected="false"><i class="fas fa-certificate"></i>&nbsp; 4.Product</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link disabled" id="nav-final-tab" data-toggle="pill" href="#nav-final" role="tab" aria-controls="nav-final" aria-selected="false"><i class="fa fa-check"></i>&nbsp; Finalize</a>
+            <a class="nav-item nav-link disabled" id="nav-final-tab" data-toggle="pill" href="#nav-final" role="tab" aria-controls="nav-final" aria-selected="false"><i class="fa fa-check"></i>&nbsp; 5.Finalize</a>
           </li>
         </ul>
         <div class="tab-content mt-4" id="nav-tabContent">
@@ -417,6 +417,11 @@
       if($('input[name=phone]').val() == ""){
         $('#nav-profile input[name=phone]').addClass('is-invalid');
         $('#nav-profile input[name=phone]').after('<div class="invalid-feedback">Please provide this data.</div>');
+        res++;
+      }
+      if($('input[name=job_title]').val() == ""){
+        $('#nav-profile input[name=job_title]').addClass('is-invalid');
+        $('#nav-profile input[name=job_title]').after('<div class="invalid-feedback">Please provide this data.</div>');
         res++;
       }
       if(res > 0){

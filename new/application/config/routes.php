@@ -68,8 +68,6 @@ $route['support'] 															= 'home/support';
 $route['support/certification-process'] 				= 'home/support_certification_process';
 $route['support/transfer-your-certification'] 	= 'home/support_transfer_your_certification';
 
-$route['training'] 	= 'home/training';
-
 $route['online-training'] 								= 'home/online_training';
 $route['online-training/health-safety'] 	= 'home/online_training_health_safety';
 $route['online-training/business-skills'] = 'home/online_training_business_skills';
@@ -82,3 +80,5 @@ $route['consultants'] 															= 'home/find_an_iso_consultant';
 $route['consultants/find-an-iso-consultant'] 				= 'home/find_an_iso_consultant';
 $route['consultants/register-as-a-consultant'] 			= 'home/register_as_a_consultant';
 $route['consultants/auditor-opportunities'] 				= 'home/auditor_opportunities';
+
+$route['training'] 	= 'home/training';
