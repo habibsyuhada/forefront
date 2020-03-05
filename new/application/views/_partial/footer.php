@@ -110,7 +110,7 @@
     var scroll = new SmoothScroll('a[href*="#"]');
 
   	$(document).ready(function(){
-  		<?php if(in_array($meta_title, array("Register as a consultant", "Free Quotation");)): ?>
+  		<?php if(in_array($meta_title, array("Register as a consultant", "Free Quotation"))): ?>
 				$("html,body").animate({scrollTop: $('#section_focus').position().top}, 1000);
   		<?php else: ?>
   			$("html,body").animate({scrollTop: 0}, 1000);
