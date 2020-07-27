@@ -51,8 +51,8 @@
 								<ul class="dropdown-menu">
 									<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>certification/iso-90012015">ISO 9001:2015</a></li>
 									<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>certification/iso-140012015">SO 14001:2015</a></li>
-									<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>certification/iso-45001">ISO 45001</a></li>
-									<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>certification/iso-27001">ISO 27001</a></li>
+									<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>certification/iso-45001">ISO 45001:2018</a></li>
+									<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>certification/iso-27001">ISO 27001:2013</a></li>
 									<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>certification/benefits-of-certification">Benefits of Certification</a></li>
 								</ul>
 							</li>
@@ -95,7 +95,7 @@
 											<h6 class="font-weight-normal"><a class="text-black" href="http://forefrontcertification.co.uk/training/1-day-iso-140012015-awareness/">1 Day ISO 14001:2015 Foundation Course</a></h6>
 											<h6 class="font-weight-normal"><a class="text-black" href="http://forefrontcertification.co.uk/training/2-day-iso-140012015-internal-auditor/">2 Day ISO 14001:2015 Internal Auditor</a></h6>
 											<br>
-											<h5><a class="text-orange" href="https://www.forefrontcertification.co.uk//training/iso-27001-information-security-management/">ISO 27001</a></h5>
+											<h5><a class="text-orange" href="https://www.forefrontcertification.co.uk//training/iso-27001-information-security-management/">ISO 27001:2013</a></h5>
 											<h6 class="font-weight-normal"><a class="text-black" href="https://www.forefrontcertification.co.uk//training/iso-27001-information-security-management/1-day-iso-270012015-awareness-course/">1 Day ISO 27001:2013 Foundation Course</a></h6>
 											<h6 class="font-weight-normal"><a class="text-black" href="https://www.forefrontcertification.co.uk//training/iso-27001-information-security-management/2-day-iso-270012013-internal-auditor/">2 Day ISO 27001:2013 Internal Auditor</a></h6>
 											<br>
@@ -104,12 +104,12 @@
 											<h6 class="font-weight-normal"><a class="text-black" href="https://www.forefrontcertification.co.uk/online-training/business-skills/">Business Skills</a></h6>
 										</div>
 										<div class="col-md-4 px-4">
-											<h5><a class="text-orange" href="https://www.forefrontcertification.co.uk//training/iso-45001-health-safety/">ISO 45001</a></h5>
-											<h6 class="font-weight-normal"><a class="text-black" href="https://www.forefrontcertification.co.uk//training/iso-45001-health-safety/iso-45001-foundation-course/">1 Day ISO 45001 Foundation Course</a></h6>
-											<h6 class="font-weight-normal"><a class="text-black" href="https://www.forefrontcertification.co.uk//training/iso-45001-health-safety/iso-45001-auditor-transition-course/">2 Day ISO 45001 Auditor Transition Course</a></h6>
-											<h6 class="font-weight-normal"><a class="text-black" href="https://www.forefrontcertification.co.uk//training/iso-45001-health-safety/2-day-iso-45001-internal-auditor-course/">2 Day ISO 45001 Internal Auditor Course</a></h6>
-											<h6 class="font-weight-normal"><a class="text-black" href="https://www.forefrontcertification.co.uk//training/iso-45001-health-safety/iso-45001-auditor-conversion-course/">3 Day ISO 45001 Auditor Conversion Course</a></h6>
-											<h6 class="font-weight-normal"><a class="text-black" href="https://www.forefrontcertification.co.uk//training/iso-45001-health-safety/iso-45001-lead-auditor-course/">5 Day ISO 45001 lead Auditor Course</a></h6>
+											<h5><a class="text-orange" href="https://www.forefrontcertification.co.uk//training/iso-45001-health-safety/">ISO 45001:2018</a></h5>
+											<h6 class="font-weight-normal"><a class="text-black" href="https://www.forefrontcertification.co.uk//training/iso-45001-health-safety/iso-45001-foundation-course/">1 Day ISO 45001:2018 Foundation Course</a></h6>
+											<h6 class="font-weight-normal"><a class="text-black" href="https://www.forefrontcertification.co.uk//training/iso-45001-health-safety/iso-45001-auditor-transition-course/">2 Day ISO 45001:2018 Auditor Transition Course</a></h6>
+											<h6 class="font-weight-normal"><a class="text-black" href="https://www.forefrontcertification.co.uk//training/iso-45001-health-safety/2-day-iso-45001-internal-auditor-course/">2 Day ISO 45001:2018 Internal Auditor Course</a></h6>
+											<h6 class="font-weight-normal"><a class="text-black" href="https://www.forefrontcertification.co.uk//training/iso-45001-health-safety/iso-45001-auditor-conversion-course/">3 Day ISO 45001:2018 Auditor Conversion Course</a></h6>
+											<h6 class="font-weight-normal"><a class="text-black" href="https://www.forefrontcertification.co.uk//training/iso-45001-health-safety/iso-45001-lead-auditor-course/">5 Day ISO 45001:2018 lead Auditor Course</a></h6>
 											<br>
 											<h5><a class="text-orange" href="https://www.forefrontcertification.co.uk//training/iatf-16949-automotive/">IATF 16949:2016</a></h5>
 											<h6 class="font-weight-normal"><a class="text-black" href="https://www.forefrontcertification.co.uk//training/iatf-16949-automotive/1-day-iatf-ts-16949-awareness/">1 Day IATF 16949:2016 Foundation Course</a></h6>

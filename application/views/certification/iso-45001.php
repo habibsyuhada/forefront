@@ -144,7 +144,7 @@
         <div class="card rounded-0">
           <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="cursor: pointer;">
             <h4 class="mb-0 font-weight-normal">
-              <i class="fa fa-plus"></i> What is the cost of ISO 9001 Certification?
+              <i class="fa fa-plus"></i> What is the cost of ISO 45001 Certification?
             </h4>
           </div>
           <div id="collapseThree" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">

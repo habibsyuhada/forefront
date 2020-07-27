@@ -38,7 +38,7 @@
           <li><a href="<?php echo base_url() ?>certification/iso-45001" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> ISO 45001</a></li>
           <li><a href="<?php echo base_url() ?>certification/iso-27001" class="text-orange"><i class="fab fa-creative-commons-nd text-dark"></i> ISO 27001</a></li>
         </ul>
-        <img src="<?php echo base_url(); ?>assets/img/download_20170727_170602-1.jpg" width="100">
+        <img src="<?php echo base_url(); ?>assets/img/UKAS FF Color.png" width="100">
       </div>
       <div class="col-md-3">
         <h4 class="font-weight-bold">Training</h4>

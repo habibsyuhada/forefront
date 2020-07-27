@@ -19,8 +19,8 @@
   <div class="list-group child collapse <?php echo ($menu_active == 'certification' ? 'show' : '') ?>" id="collapseCertification">
     <a href="<?php echo base_url() ?>certification/iso-90012015" class="list-group-item list-group-item-action">ISO 9001:2015</a>
     <a href="<?php echo base_url() ?>certification/iso-140012015" class="list-group-item list-group-item-action">ISO 14001:2015</a>
-    <a href="<?php echo base_url() ?>certification/iso-45001" class="list-group-item list-group-item-action">ISO 45001</a>
-    <a href="<?php echo base_url() ?>certification/iso-27001" class="list-group-item list-group-item-action">ISO 27001</a>
+    <a href="<?php echo base_url() ?>certification/iso-45001" class="list-group-item list-group-item-action">ISO 45001:2018</a>
+    <a href="<?php echo base_url() ?>certification/iso-27001" class="list-group-item list-group-item-action">ISO 27001:2013</a>
     <a href="<?php echo base_url() ?>certification/benefits-of-certification" class="list-group-item list-group-item-action">Benefits of Certification</a>
   </div>
   <a href="<?php echo base_url() ?>support" class="list-group-item list-group-item-action <?php echo ($menu_active == 'support' ? 'active' : '') ?>">

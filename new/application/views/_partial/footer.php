@@ -4,8 +4,8 @@
 	  <a href="https://twitter.com/ForefrontCB" class="btn btn-block m-0 rounded-0 text-white" onmouseover="this.style.background='#55acee';" onmouseout="this.style.background='#343A40';" style="background: #343A40"><i class="fab fa-twitter"></i></i></a>
 	  <a href="https://www.linkedin.com/company/forefront-certification-ltd" class="btn btn-block m-0 rounded-0 text-white" onmouseover="this.style.background='#0077B5';" onmouseout="this.style.background='#343A40';" style="background: #343A40"><i class="fab fa-linkedin-in"></i></a>
 	  <a href="https://www.youtube.com/channel/UCrG_teDfPMg0pBzkokEqiUA" class="btn btn-block m-0 rounded-0 text-white" onmouseover="this.style.background='#cd201f';" onmouseout="this.style.background='#343A40';" style="background: #343A40"><i class="fab fa-youtube"></i></a>
-	  <a href="https://plus.google.com/u/1/" class="btn btn-block m-0 rounded-0 text-white" onmouseover="this.style.background='#dd4b39';" onmouseout="this.style.background='#343A40';" style="background: #343A40"><i class="fab fa-google-plus-g"></i></a>
-	  <a href="info@forefrontcertification.co.uk" class="btn btn-block m-0 rounded-0 text-white" onmouseover="this.style.background='#1ab7ea';" onmouseout="this.style.background='#343A40';" style="background: #343A40"><i class="fas fa-envelope"></i></a>
+	  <!-- <a href="https://plus.google.com/u/1/" class="btn btn-block m-0 rounded-0 text-white" onmouseover="this.style.background='#dd4b39';" onmouseout="this.style.background='#343A40';" style="background: #343A40"><i class="fab fa-google-plus-g"></i></a> -->
+	  <a href="mailto:info@forefrontcertification.co.uk" class="btn btn-block m-0 rounded-0 text-white" onmouseover="this.style.background='#1ab7ea';" onmouseout="this.style.background='#343A40';" style="background: #343A40"><i class="fas fa-envelope"></i></a>
 	</div>
 
 	<footer class="footer_area py-4 mt-4 wow fadeIn">
@@ -29,10 +29,10 @@
 					<ul class="list-unstyled m-0" style="font-size: 14px; line-height: 32px">
 	          <li><a href="<?php echo base_url() ?>certification/iso-90012015" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 9001:2015</a></li>
 	          <li><a href="<?php echo base_url() ?>certification/iso-140012015" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 14001:2015</a></li>
-	          <li><a href="<?php echo base_url() ?>certification/iso-45001" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 45001</a></li>
-	          <li><a href="<?php echo base_url() ?>certification/iso-27001" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 27001</a></li>
+	          <li><a href="<?php echo base_url() ?>certification/iso-45001" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 45001:2018</a></li>
+	          <li><a href="<?php echo base_url() ?>certification/iso-27001" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 27001:2013</a></li>
 	        </ul>
-	        <img src="<?php echo base_url() ?>assets/img/download_20170727_170602-1.jpg" width="100">
+	        <img src="<?php echo base_url() ?>assets/img/UKAS FF Color.png" width="100">
 				</div>
 				<div class="col-md-3">
 					<h3 class="font-weight-bold">Training</h3>

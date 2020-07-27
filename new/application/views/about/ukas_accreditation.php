@@ -11,7 +11,7 @@
 
     <!-- Content -->
     <div class="col-md pl-4 ml-4">
-      <h5><img style="float: right; margin-left: 30px;" src="<?php echo base_url(); ?>assets/img/download_20170727_170602-1.jpg" alt="" width="200"></h5>
+      <h5><img style="float: right; margin-left: 30px;" src="<?php echo base_url(); ?>assets/img/UKAS FF Color.png" alt="" width="200"></h5>
       <p class="mb-3">
         UKAS is the sole national accreditation body recognised by the British Government to assess the competence of organisations that provide certification services, therefore with ForeFront you are supported by an organisation that combines technical knowledge and expertise with commercial impartiality recognised by UKAS.
       </p>

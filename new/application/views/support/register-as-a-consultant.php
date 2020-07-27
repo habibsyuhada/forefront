@@ -166,12 +166,12 @@
             <label class="form-check-label" for="inlineCheckbox2">ISO 14001(EMS)</label>
           </div>
           <div class="form-check form-check-inline pl-3">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="ISO 45001(OHSMS)" name="products[]">
-            <label class="form-check-label" for="inlineCheckbox3">ISO 45001(OHSMS)</label>
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="ISO 45001:2018(OHSMS)" name="products[]">
+            <label class="form-check-label" for="inlineCheckbox3">ISO 45001:2018(OHSMS)</label>
           </div>
           <div class="form-check form-check-inline pl-3">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="ISO 27001(ISMS)" name="products[]">
-            <label class="form-check-label" for="inlineCheckbox4">ISO 27001(ISMS)</label>
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="ISO 27001:2013(ISMS)" name="products[]">
+            <label class="form-check-label" for="inlineCheckbox4">ISO 27001:2013(ISMS)</label>
           </div>
           <div class="form-check form-check-inline pl-3">
             <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="Training" name="products[]">
@@ -359,16 +359,16 @@
                 </label>
               </div>
               <div class="col-md">
-                <label class="container-checkbox">ISO 45001(OHSMS)
-                  <input type="checkbox" name="products[]" value="ISO 45001(OHSMS)">
+                <label class="container-checkbox">ISO 45001:2018(OHSMS)
+                  <input type="checkbox" name="products[]" value="ISO 45001:2018(OHSMS)">
                   <span class="checkmark"></span>
                 </label>
               </div>
             </div>
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
-                <label class="container-checkbox">ISO 27001(ISMS)
-                  <input type="checkbox" name="products[]" value="ISO 27001(ISMS)">
+                <label class="container-checkbox">ISO 27001:2013(ISMS)
+                  <input type="checkbox" name="products[]" value="ISO 27001:2013(ISMS)">
                   <span class="checkmark"></span>
                 </label>
               </div>

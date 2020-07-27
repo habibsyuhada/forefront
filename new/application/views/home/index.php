@@ -17,7 +17,7 @@
 					<div class="banner-content col-lg-12">
 						<h1 class="text-center text-white">Enhance your Busineess</h1>
 						<hr style="border-width: 3px; border-color: white;">
-						<img src="<?php echo base_url() ?>assets/img/download_20170727_170602-1.jpg" style="width: 100px !important; margin: 3rem auto 1rem auto">
+						<img src="<?php echo base_url() ?>assets/img/UKAS FF Color.png" style="width: 150px !important; margin: 3rem auto 1rem auto">
 						<h2 class="text-center text-white">Through UKAS Certification</h2>
 						<!-- <a href="#" class="primary-btn">Hire Me</a> -->
 					</div>
@@ -30,7 +30,7 @@
 					<div class="banner-content col-md text-center">
 						<h1 class="text-center text-white">Select the right Management System</h1>
 						<a href="#" class="primary-btn font-weight-bold">FIND OUR CERTIFICATION PRODUCT &nbsp; <i class="fas fa-chevron-right"></i></a>
-						<a href="#" class="text-center"><img src="<?php echo base_url() ?>assets/img/download_20170727_170602-1.jpg" style="width: 100px !important; margin: 4rem auto 0 auto"></a>
+						<a href="#" class="text-center"><img src="<?php echo base_url() ?>assets/img/UKAS FF Color.png" style="width: 100px !important; margin: 4rem auto 0 auto"></a>
 					</div>
 				</div>
 			</div>
@@ -102,7 +102,7 @@
 					<a href="<?php echo base_url() ?>certification/iso-90012015" data-wow-delay="0.5s" class="wow bounceIn text-white m-1 col-lg col-md-6 col-sm-12 px-0">
 						<div class="py-4 px-1 text-center border-2px border border-white height-as-width hover-effect-1 h-100">
 							<div class="mb-50">
-								<h1><i class="fas fa-balance-scale"></i></h1>
+								<h1><i class="fas fa-cogs"></i></h1>
 								<h3>ISO 9001</h3>
 								<span class="text-left">Quality Management System (QMS)</span>
 							</div>
@@ -121,7 +121,7 @@
 						<div class="py-4 px-1 text-center border-2px border border-white height-as-width hover-effect-1 h-100">
 							<div class="mb-50">
 								<h1><i class="fas fa-briefcase-medical"></i></h1>
-								<h3>ISO 45001</h3>
+								<h3>ISO 45001:2018</h3>
 								<span class="text-left">Occupational Health & Safety (OHSMS)</span>
 							</div>
 						</div>
@@ -130,7 +130,7 @@
 						<div class="py-4 px-1 text-center border-2px border border-white height-as-width hover-effect-1 h-100">
 							<div class="mb-50">
 								<h1><i class="fas fa-shield-alt"></i></h1>
-								<h3>ISO 27001</h3>
+								<h3>ISO 27001:2013</h3>
 								<span class="text-left">Information Security Management System (ISMS)</span>
 							</div>
 						</div>
@@ -189,7 +189,7 @@
 									AS9100:2016  Internal Auditing
 								</a>
 								<a class="my-2 py-1 px-1 text-center bg-light border-2px border border-dark hover-effect-1 d-block">
-									ISO 27001 and many more.
+									ISO 27001:2013 and many more.
 								</a>
 							</div>
 						</div>
@@ -217,7 +217,7 @@
 							</div>
 						</div>
 					</a>
-					<a href="#" data-wow-delay="0.2s" class="wow bounceIn text-white col-lg m-1 col-md-6 col-sm-12 px-0">
+					<a href="<?php echo base_url() ?>support/transfer-your-certification" data-wow-delay="0.2s" class="wow bounceIn text-white col-lg m-1 col-md-6 col-sm-12 px-0">
 						<div class="py-4 px-1 text-center border-2px border border-white hover-effect-1 h-100">
 							<div class="mb-50">
 								<h1><i class="fas fa-exchange-alt"></i></h1>

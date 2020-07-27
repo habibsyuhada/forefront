@@ -38,10 +38,10 @@
     <!-- Content -->
     <div class="col-md pl-4 ml-4">
 
-      <h3><strong>ISO 45001 Certification (OHSMS)</strong></h3>
-      <p>ISO 45001 provides increase safety, reduce workplace risks and enhance health and well-being at work, empowering an organisation to improve its OH&S performance proactively.</p>
+      <h3><strong>ISO 45001:2018 Certification (OHSMS)</strong></h3>
+      <p>ISO 45001:2018 provides increase safety, reduce workplace risks and enhance health and well-being at work, empowering an organisation to improve its OH&S performance proactively.</p>
       <hr class="" style="margin: 20px 0px;">
-      <p><strong>Benefits of ISO 45001 (OHSMS) Certification</strong></p>
+      <p><strong>Benefits of ISO 45001:2018 (OHSMS) Certification</strong></p>
       <ul>
         <li>Create an environment of health and safety; therefore workforce’s morale is high and participates actively in their health and safety.</li>
         <li>A decrease in workplace accidents.</li>
@@ -54,16 +54,16 @@
 
 
       <hr>
-      <h4><strong>What is ISO 45001 Certification Process?</strong></h4>
+      <h4><strong>What is ISO 45001:2018 Certification Process?</strong></h4>
       <p><img src="<?php echo base_url() ?>assets/img/steps.jpg" alt="" width="100%" style="max-width: 600px"></p>
 
-      <a class="border-2px font-weight-bold btn btn-outline-dark mr-1" href="#" target="_blank">What is ISO 45001 Certification Process?</a>
+      <a class="border-2px font-weight-bold btn btn-outline-dark mr-1" href="#" target="_blank">What is ISO 45001:2018 Certification Process?</a>
       <a class="border-2px font-weight-bold btn btn-outline-dark mr-1" href="#" target="_blank">Audit Process</a>
       <a class="border-2px font-weight-bold btn btn-outline-orange" href="<?php echo base_url() ?>free-quotation" target="_blank">Get a free quote</a>
 
       <hr>
       <h4>Integrated Management Systems</h4>
-      <p>There are various mutual fundamentals between ISO 9001, ISO 14001, ISO 45001 and ISO 27001. E.g. Document control, management review, document control, corrective action and the requirement for competent personnel. According to Annex SL, a new high-level structure, you can combine these standards into a single joint system.</p>
+      <p>There are various mutual fundamentals between ISO 9001, ISO 14001, ISO 45001:2018 and ISO 27001:2013. E.g. Document control, management review, document control, corrective action and the requirement for competent personnel. According to Annex SL, a new high-level structure, you can combine these standards into a single joint system.</p>
       <a class="border-2px font-weight-bold btn btn-outline-orange" href="<?php echo base_url() ?>free-quotation" target="_blank">Get a free quote</a>
 
       <hr class="" style="margin: 20px 0px 0px 0px;">
@@ -72,7 +72,7 @@
         <div class="card rounded-0">
           <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" style="cursor: pointer;">
             <h4 class="mb-0 font-weight-normal">
-              <i class="fa fa-plus"></i> What is ISO 45001 Certification (OHSMS)
+              <i class="fa fa-plus"></i> What is ISO 45001:2018 Certification (OHSMS)
             </h4>
           </div>
           <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
@@ -82,10 +82,10 @@
               Reference ISO.org
               <br>
               <br>             
-              ISO 45001 applies to all organisations, irrespective of size, nature of business or sector. The framework for ISO 45001 provides increase safety, reduce workplace risks and enhance health and well-being at work, empowering an organisation to improve its OH&amp;S performance proactively. The implementation of an ISO 45001 (OHSMS) management system is a strategic and operational decision for an organisation. The success of the OHSMSmanagement system rest on leadership, commitment and participation from all levels and functions of the organisation.
+              ISO 45001:2018 applies to all organisations, irrespective of size, nature of business or sector. The framework for ISO 45001:2018 provides increase safety, reduce workplace risks and enhance health and well-being at work, empowering an organisation to improve its OH&amp;S performance proactively. The implementation of an ISO 45001:2018 (OHSMS) management system is a strategic and operational decision for an organisation. The success of the OHSMSmanagement system rest on leadership, commitment and participation from all levels and functions of the organisation.
               <br>
               <br> 
-              <h4>Benefits ISO 45001 certification</h4>
+              <h4>Benefits ISO 45001:2018 certification</h4>
               <ul>
                 <li>Create an environment  of health and safety; therefore workforce’s morale is high and participates  actively in their health and safety. </li>
                 <li>A decrease in  workplace accidents. </li>
@@ -108,7 +108,7 @@
           </div>
           <div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
             <div class="card-body">
-              <p>There are various common fundamentals  between ISO 9001, ISO 14001, ISO 45001 and ISO 27001. E.g. Document control,  management review, , corrective  action and the requirement for competent personnel. According to Annex SL, a  new high-level structure, you can combine these standards into a single joint  system. </p>
+              <p>There are various common fundamentals  between ISO 9001, ISO 14001, ISO 45001:2018 and ISO 27001:2013. E.g. Document control,  management review, , corrective  action and the requirement for competent personnel. According to Annex SL, a  new high-level structure, you can combine these standards into a single joint  system. </p>
               <h4>Benefits of Integrated Management  Systems</h4>
               <ul>
                 <li>Integrated Management  Systems&nbsp;will have a constructive impact on the outcomes of the ISO  Management Systems.</li>
@@ -129,13 +129,13 @@
                 <em>“It is the publication of Annex SL  (formerly ISO Guide 83) which outlines the framework for a generic management  system. All new ISO Management System Standards (MSS) will follow to this  framework, and all current MSS will migrate to the structure at their  succeeding revision. </em><br><br>
                 <strong><em>In future, all ISO Management System  Standards (MSS) should be consistent and compatible - they will all have the  same look and feel</em></strong><em>. Annex SL guidelines  could be the commencement of the end of the conflicts, duplication, confusion  and misunderstanding arising from slightly different requirements across the  various ISO Management System Standards.”</em><br><br>
                 <strong><em>Reference  IRCA briefing note Annex SL</em></strong><br><br>
-                Annex SL (a high-level structure ) is  created to incorporate more than one ISO standard. Several organisations seek  to implement and certify multiple management system standards such as ISO 9001,  ISO 14001, ISO 27001 and ISO 45001. Implementation of more than one standard  has led to the necessity to combine or integrate them effectively and  efficiently. Annex SL (a high-level structure ) helps the organisations to  incorporate these standards. Annex SL defines the outline for a conventional  ISO Management System. <br><br>
+                Annex SL (a high-level structure ) is  created to incorporate more than one ISO standard. Several organisations seek  to implement and certify multiple management system standards such as ISO 9001,  ISO 14001, ISO 27001:2013 and ISO 45001:2018. Implementation of more than one standard  has led to the necessity to combine or integrate them effectively and  efficiently. Annex SL (a high-level structure ) helps the organisations to  incorporate these standards. Annex SL defines the outline for a conventional  ISO Management System. <br><br>
                 <strong>The Annex SL structure and commonly  used terms and definitions will make it easier to comply with and maintain the  ISO standards requirements with less time and at a lower cost.</strong><br>
                 <strong>The most popular standards using Annex  SL are: </strong></p>
               <ul type="disc">
                 <li>ISO 9001:2015 Quality Management System (QMS)</li>
                 <li>ISO 14001:2015 Environmental Management System (EMS) </li>
-                <li>ISO 27001 Information technology Management System       (ISMS)</li>
+                <li>ISO 27001:2013 Information technology Management System       (ISMS)</li>
                 <li>ISO 45001:2018 Occupational Health &amp; Safety       Management System Standard (OHSMS)</li>
               </ul>
             </div>
@@ -144,7 +144,7 @@
         <div class="card rounded-0">
           <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="cursor: pointer;">
             <h4 class="mb-0 font-weight-normal">
-              <i class="fa fa-plus"></i> What is the cost of ISO 9001 Certification?
+              <i class="fa fa-plus"></i> What is the cost of ISO 45001 Certification?
             </h4>
           </div>
           <div id="collapseThree" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
