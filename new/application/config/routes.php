@@ -82,3 +82,40 @@ $route['consultants/register-as-a-consultant'] 			= 'home/register_as_a_consulta
 $route['consultants/auditor-opportunities'] 				= 'home/auditor_opportunities';
 
 $route['training'] 	= 'home/training';
+//ISO 9001
+$route['training/training-courses-for-iso-9001-quality-management'] 	= 'training/training_courses_for_iso_9001_quality_management';
+$route['training/1-day-iso-90012015-awareness'] 	= 'training/1_day_iso_90012015_awareness';
+$route['training/2-day-iso-90012015-internal-auditor'] 	= 'training/2_day_iso_90012015_internal_auditor';
+$route['training/5-day-iso-90012015-irca-auditorlead-auditor'] 	= 'training/5_day_iso_90012015_irca_auditorlead_auditor';
+//Business Improvement
+$route['training/business-improvement'] 	= 'training/business_improvement';
+$route['training/business-improvement/8d-problem-solving'] 	= 'training/business_improvement_8d_problem_solving';
+$route['training/business-improvement/5s'] 	= 'training/business_improvement_5s';
+$route['training/business-improvement/advanced-product-quality-planning-apqp'] 	= 'training/business_improvement_advanced_product_quality_planning_apqp';
+$route['training/business-improvement/production-part-approval-process-ppap'] 	= 'training/business_improvement_production_part_approval_process_ppap';
+$route['training/business-improvement/measurement-systems-analysis-msa'] 	= 'training/business_improvement_measurement_systems_analysis_msa';
+$route['training/business-improvement/use-of-minitab-software'] 	= 'training/business_improvement_use_of_minitab_software';
+//AS9100
+$route['training/as-9100-aerospace-quality-management'] 	= 'training/as_9100_aerospace_quality_management';
+$route['training/as-9100-aerospace-quality-management/1-day-as-91002016-awareness'] 	= 'training/as_9100_aerospace_quality_management_1_day_as_91002016_awareness';
+$route['training/as-9100-aerospace-quality-management/2-day-as-91002016-internal-auditor-course'] 	= 'training/as_9100_aerospace_quality_management_2_day_as_91002016_internal_auditor_course';
+// ISO 14001
+$route['training/iso-14001-environmental-management'] 	= 'training/iso_14001_environmental_management';
+$route['training/1-day-iso-140012015-awareness'] 	= 'training/1_day_iso_140012015_awareness';
+$route['training/2-day-iso-140012015-internal-auditor'] 	= 'training/2_day_iso_140012015_internal_auditor';
+// ISO 27001:2013
+$route['training/iso-27001-information-security-management'] 	= 'training/iso_27001_information_security_management';
+$route['training/iso-27001-information-security-management/1-day-iso-270012015-awareness-course'] 	= 'training/iso_27001_information_security_management_1_day_iso_270012015_awareness_course';
+$route['training/iso-27001-information-security-management/2-day-iso-270012013-internal-auditor'] 	= 'training/iso_27001_information_security_management_2_day_iso_270012013_internal_auditor';
+// ISO 45001:2018
+$route['training/iso-45001-health-safety'] 	= 'training/iso_45001_health_safety';
+$route['training/iso-45001-health-safety/iso-45001-foundation-course'] 	= 'training/iso_45001_health_safety_iso_45001_foundation_course';
+$route['training/iso-45001-health-safety/iso-45001-auditor-transition-course'] 	= 'training/iso_45001_health_safety_iso_45001_auditor_transition_course';
+$route['training/iso-45001-health-safety/2-day-iso-45001-internal-auditor-course'] 	= 'training/iso_45001_health_safety_2_day_iso_45001_internal_auditor_course';
+$route['training/iso-45001-health-safety/iso-45001-auditor-conversion-course'] 	= 'training/iso_45001_health_safety_iso_45001_auditor_conversion_course';
+$route['training/iso-45001-health-safety/iso-45001-lead-auditor-course'] 	= 'training/iso_45001_health_safety_iso_45001_lead_auditor_course';
+// IATF 16949:2016
+$route['training/iatf-16949-automotive'] 	= 'training/iatf_16949_automotive';
+$route['training/iatf-16949-automotive/1-day-iatf-ts-16949-awareness'] 	= 'training/iatf_16949_automotive_1_day_iatf_ts_16949_awareness';
+$route['training/iatf-16949-automotive/iatf-16949-internal-auditor-course'] 	= 'training/iatf_16949_automotive_iatf_16949_internal_auditor_course';
+$route['training/iatf-16949-automotive/2-day-iatf-16949-transition-course'] 	= 'training/iatf_16949_automotive_2_day_iatf_16949_transition_course';
