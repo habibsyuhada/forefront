@@ -26,17 +26,26 @@ class Training extends CI_Controller {
 	}
 
 	public function index(){
+		exit;
 		$data['subview'] 			= 'home/index';
 		$data['menu_active'] 	= 'home';
 		$data['meta_title'] 	= 'Home';
 		$this->load->view('index', $data);
 	}
 
-	public function training_courses_for_iso_9001_quality_management(){
-		$data['subview'] 			= 'support/training-courses-for-iso-9001-quality-management';
-		$data['menu_active'] 	= 'support';
-		$data['meta_title'] 	= 'Auditor Opportunities';
-		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Support', 'link' => '#'), array('text' => 'Auditor Opportunities', 'link' => '#'));
+	public function training_1_day_iso_90012015_awareness(){
+		$data['subview'] 			= 'training/training_1_day_iso_90012015_awareness';
+		$data['menu_active'] 	= 'trainingISO9001';
+		$data['meta_title'] 	= '1 Day ISO 9001:2015 Foundation Course';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Training', 'link' => '#'), array('text' => 'ISO 9001', 'link' => '#'), array('text' => '1 Day ISO 9001:2015 Foundation Course', 'link' => '#'));
+		$this->load->view('index', $data);
+	}
+
+	public function training_2_day_iso_90012015_internal_auditor(){
+		$data['subview'] 			= 'training/training_2_day_iso_90012015_internal_auditor';
+		$data['menu_active'] 	= 'trainingISO9001';
+		$data['meta_title'] 	= '2 Day ISO 9001:2015 Internal Auditor';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Training', 'link' => '#'), array('text' => 'ISO 9001', 'link' => '#'), array('text' => '2 Day ISO 9001:2015 Internal Auditor', 'link' => '#'));
 		$this->load->view('index', $data);
 	}
 }

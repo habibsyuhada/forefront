@@ -57,6 +57,7 @@
 	<style>
     body{
       color: #343A40;
+      font-size: 1rem;
     }
     /* The container */
     .container_checkbox {
@@ -284,6 +285,9 @@
       background: #2B3035;
       color: #fff;
     }
+    .child > .child a{
+      padding-left: 50px;
+    }
     /*Sidebar END*/
 
     .dropdown-content {
@@ -306,6 +310,9 @@
     }
     .header_area .navbar .nav .nav-item .nav-link, .header_area .navbar .nav > .nav-item:hover > .nav-link, .header_area .navbar .nav > .nav-item.active > .nav-link{
       padding: 0px 30px;
+    }
+    .accordion .card{
+      border-bottom-width: 1px !important;
     }
   </style>
 </head>

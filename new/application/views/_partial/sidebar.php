@@ -23,18 +23,23 @@
     <a href="<?php echo base_url() ?>certification/iso-27001" class="list-group-item list-group-item-action">ISO 27001:2013</a>
     <a href="<?php echo base_url() ?>certification/benefits-of-certification" class="list-group-item list-group-item-action">Benefits of Certification</a>
   </div>
-  <a href="#" class="list-group-item list-group-item-action <?php echo ($menu_active == 'training' ? 'active' : '') ?>">
+  <a href="#" class="list-group-item list-group-item-action <?php echo (strpos($menu_active, 'training') !== false ? 'active' : '') ?>">
     Training
     <button class="btn-child border-0" data-toggle="collapse" data-target="#collapseTraining" aria-expanded="<?php echo ($menu_active == 'certification' ? 'true' : 'false') ?>" aria-controls="collapseTraining" onclick="return false;">
       <i class="fas fa-chevron-down"></i>
     </button>
   </a>
-  <div class="list-group child collapse <?php echo ($menu_active == 'training' ? 'show' : '') ?>" id="collapseTraining">
+  <div class="list-group child collapse <?php echo (strpos($menu_active, 'training') !== false ? 'show' : '') ?>" id="collapseTraining">
     <a href="#" class="list-group-item list-group-item-action">ISO 9001:2015
-      <button class="btn-child border-0" data-toggle="collapse" data-target="#collapseTraining" aria-expanded="<?php echo ($menu_active == 'certification' ? 'true' : 'false') ?>" aria-controls="collapseTraining" onclick="return false;">
+      <button class="btn-child border-0 text-dark" data-toggle="collapse" data-target="#collapseTrainingISO9001" aria-expanded="<?php echo ($menu_active == 'certification' ? 'true' : 'false') ?>" aria-controls="collapseTrainingISO9001" onclick="return false;">
         <i class="fas fa-chevron-down"></i>
       </button>
     </a>
+    <div class="list-group child collapse <?php echo ($menu_active == 'trainingISO9001' ? 'show' : '') ?>" id="collapseTrainingISO9001">
+      <a href="<?php echo base_url() ?>training/1-day-iso-90012015-awareness" class="list-group-item list-group-item-action">1 Day ISO 9001:2015 Foundation Course</a>
+      <a href="<?php echo base_url() ?>training/2-day-iso-90012015-internal-auditor" class="list-group-item list-group-item-action">2 Day ISO 9001:2015 Internal Auditor</a>
+      <a href="<?php echo base_url() ?>training/5-day-iso-90012015-irca-auditorlead-auditor" class="list-group-item list-group-item-action">5 Day ISO 9001:2015 Lead Auditor</a>
+    </div>
     <a href="#" class="list-group-item list-group-item-action">ISO 14001:2015</a>
     <a href="#" class="list-group-item list-group-item-action">ISO 45001:2018</a>
     <a href="#" class="list-group-item list-group-item-action">ISO 27001:2013</a>
@@ -50,7 +55,7 @@
     <a href="<?php echo base_url() ?>support/certification-process" class="list-group-item list-group-item-action">Certification Process</a>
     <a href="<?php echo base_url() ?>support/transfer-your-certification" class="list-group-item list-group-item-action">Transfer your certification</a>
   </div>
-  <a href="#" class="list-group-item list-group-item-action">Training</a>
+  <!-- <a href="#" class="list-group-item list-group-item-action">Training</a> -->
   <a href="<?php //echo base_url() ?>online-training" class="list-group-item list-group-item-action <?php echo ($menu_active == 'online-training' ? 'active' : '') ?>">
     Online Training
     <button class="btn-child border-0" data-toggle="collapse" data-target="#collapseOnlineTraining" aria-expanded="<?php echo ($menu_active == 'online-training' ? 'true' : 'false') ?>" aria-controls="collapseOnlineTraining" onclick="return false;">

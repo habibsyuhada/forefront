@@ -84,9 +84,9 @@ $route['consultants/auditor-opportunities'] 				= 'home/auditor_opportunities';
 $route['training'] 	= 'home/training';
 //ISO 9001
 $route['training/training-courses-for-iso-9001-quality-management'] 	= 'training/training_courses_for_iso_9001_quality_management';
-$route['training/1-day-iso-90012015-awareness'] 	= 'training/1_day_iso_90012015_awareness';
-$route['training/2-day-iso-90012015-internal-auditor'] 	= 'training/2_day_iso_90012015_internal_auditor';
-$route['training/5-day-iso-90012015-irca-auditorlead-auditor'] 	= 'training/5_day_iso_90012015_irca_auditorlead_auditor';
+$route['training/1-day-iso-90012015-awareness'] 	= 'training/training_1_day_iso_90012015_awareness';
+$route['training/2-day-iso-90012015-internal-auditor'] 	= 'training/training_2_day_iso_90012015_internal_auditor';
+$route['training/5-day-iso-90012015-irca-auditorlead-auditor'] 	= 'training/training_5_day_iso_90012015_irca_auditorlead_auditor';
 //Business Improvement
 $route['training/business-improvement'] 	= 'training/business_improvement';
 $route['training/business-improvement/8d-problem-solving'] 	= 'training/business_improvement_8d_problem_solving';
