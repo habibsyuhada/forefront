@@ -132,4 +132,62 @@ class Training extends CI_Controller {
 		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Training', 'link' => '#'), array('text' => 'ISO 45001:2018', 'link' => '#'), array('text' => '5 Day ISO 45001 lead Auditor Course', 'link' => '#'));
 		$this->load->view('index', $data);
 	}
+	
+	//IATF 16949
+	public function iatf_16949_automotive_1_day_iatf_ts_16949_awareness(){
+		$data['subview'] 			= 'training/iatf_16949_automotive_1_day_iatf_ts_16949_awareness';
+		$data['menu_active'] 	= 'trainingIATF16949';
+		$data['meta_title'] 	= '1 Day IATF 16949:2016 Foundation Course';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Training', 'link' => '#'), array('text' => 'IATF 16949:2016', 'link' => '#'), array('text' => '1 Day IATF 16949:2016 Foundation Course', 'link' => '#'));
+		$this->load->view('index', $data);
+	}
+	
+	public function iatf_16949_automotive_iatf_16949_internal_auditor_course(){
+		$data['subview'] 			= 'training/iatf_16949_automotive_iatf_16949_internal_auditor_course';
+		$data['menu_active'] 	= 'trainingIATF16949';
+		$data['meta_title'] 	= '3 Day IATF 16949:2016 Internal auditor course';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Training', 'link' => '#'), array('text' => 'IATF 16949:2016', 'link' => '#'), array('text' => '3 Day IATF 16949:2016 Internal auditor course', 'link' => '#'));
+		$this->load->view('index', $data);
+	}
+	
+	public function iatf_16949_automotive_2_day_iatf_16949_transition_course(){
+		$data['subview'] 			= 'training/iatf_16949_automotive_2_day_iatf_16949_transition_course';
+		$data['menu_active'] 	= 'trainingIATF16949';
+		$data['meta_title'] 	= '2 Day IATF 16949:2016 Transition course';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Training', 'link' => '#'), array('text' => 'IATF 16949:2016', 'link' => '#'), array('text' => '2 Day IATF 16949:2016 Transition course', 'link' => '#'));
+		$this->load->view('index', $data);
+	}
+	
+	//Business
+	public function business_improvement_8d_problem_solving(){
+		$data['subview'] 			= 'training/business_improvement_8d_problem_solving';
+		$data['menu_active'] 	= 'trainingBusiness';
+		$data['meta_title'] 	= '8D Problem Solving';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Training', 'link' => '#'), array('text' => 'Business Improvement', 'link' => '#'), array('text' => '8D Problem Solving', 'link' => '#'));
+		$this->load->view('index', $data);
+	}
+
+	public function business_improvement_advanced_product_quality_planning_apqp(){
+		$data['subview'] 			= 'training/business_improvement_advanced_product_quality_planning_apqp';
+		$data['menu_active'] 	= 'trainingBusiness';
+		$data['meta_title'] 	= 'Advanced Product Quality Planning (APQP)';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Training', 'link' => '#'), array('text' => 'Business Improvement', 'link' => '#'), array('text' => 'Advanced Product Quality Planning (APQP)', 'link' => '#'));
+		$this->load->view('index', $data);
+	}
+
+	public function business_improvement_production_part_approval_process_ppap(){
+		$data['subview'] 			= 'training/business_improvement_production_part_approval_process_ppap';
+		$data['menu_active'] 	= 'trainingBusiness';
+		$data['meta_title'] 	= 'Production Part Approval Process (PPAP)';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Training', 'link' => '#'), array('text' => 'Business Improvement', 'link' => '#'), array('text' => 'Production Part Approval Process (PPAP)', 'link' => '#'));
+		$this->load->view('index', $data);
+	}
+
+	public function business_improvement_5s(){
+		$data['subview'] 			= 'training/business_improvement_5s';
+		$data['menu_active'] 	= 'trainingBusiness';
+		$data['meta_title'] 	= '5S';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Training', 'link' => '#'), array('text' => 'Business Improvement', 'link' => '#'), array('text' => '5S', 'link' => '#'));
+		$this->load->view('index', $data);
+	}
 }
