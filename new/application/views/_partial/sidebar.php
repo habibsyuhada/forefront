@@ -30,8 +30,8 @@
     </button>
   </a>
   <div class="list-group child collapse <?php echo (strpos($menu_active, 'training') !== false ? 'show' : '') ?>" id="collapseTraining">
-    <a href="#" class="list-group-item list-group-item-action">ISO 9001:2015
-      <button class="btn-child border-0 text-dark" data-toggle="collapse" data-target="#collapseTrainingISO9001" aria-expanded="<?php echo ($menu_active == 'certification' ? 'true' : 'false') ?>" aria-controls="collapseTrainingISO9001" onclick="return false;">
+    <a href="#" class="list-group-item list-group-item-action">ISO 9001 Quality Management
+      <button class="btn-child border-0 text-dark" data-toggle="collapse" data-target="#collapseTrainingISO9001" aria-expanded="<?php echo ($menu_active == 'trainingISO9001' ? 'true' : 'false') ?>" aria-controls="collapseTrainingISO9001" onclick="return false;">
         <i class="fas fa-chevron-down"></i>
       </button>
     </a>
@@ -40,9 +40,36 @@
       <a href="<?php echo base_url() ?>training/2-day-iso-90012015-internal-auditor" class="list-group-item list-group-item-action">2 Day ISO 9001:2015 Internal Auditor</a>
       <a href="<?php echo base_url() ?>training/5-day-iso-90012015-irca-auditorlead-auditor" class="list-group-item list-group-item-action">5 Day ISO 9001:2015 Lead Auditor</a>
     </div>
-    <a href="#" class="list-group-item list-group-item-action">ISO 14001:2015</a>
-    <a href="#" class="list-group-item list-group-item-action">ISO 45001:2018</a>
-    <a href="#" class="list-group-item list-group-item-action">ISO 27001:2013</a>
+    <a href="#" class="list-group-item list-group-item-action">ISO 14001 Environmental Management
+      <button class="btn-child border-0 text-dark" data-toggle="collapse" data-target="#collapseTrainingISO14001" aria-expanded="<?php echo ($menu_active == 'trainingISO14001' ? 'true' : 'false') ?>" aria-controls="collapseTrainingISO14001" onclick="return false;">
+        <i class="fas fa-chevron-down"></i>
+      </button>
+    </a>
+    <div class="list-group child collapse <?php echo ($menu_active == 'trainingISO14001' ? 'show' : '') ?>" id="collapseTrainingISO14001">
+      <a href="<?php echo base_url() ?>training/1-day-iso-140012015-awareness" class="list-group-item list-group-item-action">1 Day ISO 14001:2015 Foundation Course</a>
+      <a href="<?php echo base_url() ?>training/2-day-iso-140012015-internal-auditor" class="list-group-item list-group-item-action">2 Day ISO 14001:2015 Internal Auditor</a>
+    </div>
+    <a href="#" class="list-group-item list-group-item-action">ISO 27001 Information Security Management
+      <button class="btn-child border-0 text-dark" data-toggle="collapse" data-target="#collapseTrainingISO27001" aria-expanded="<?php echo ($menu_active == 'trainingISO27001' ? 'true' : 'false') ?>" aria-controls="collapseTrainingISO27001" onclick="return false;">
+        <i class="fas fa-chevron-down"></i>
+      </button>
+    </a>
+    <div class="list-group child collapse <?php echo ($menu_active == 'trainingISO27001' ? 'show' : '') ?>" id="collapseTrainingISO27001">
+      <a href="<?php echo base_url() ?>training/iso-27001-information-security-management/1-day-iso-270012015-awareness-course" class="list-group-item list-group-item-action">1 Day ISO 27001:2013 Foundation Course</a>
+      <a href="<?php echo base_url() ?>training/iso-27001-information-security-management/2-day-iso-270012013-internal-auditor" class="list-group-item list-group-item-action">2 Day ISO 27001:2013 Internal Auditor</a>
+    </div>
+    <a href="#" class="list-group-item list-group-item-action">ISO 45001 Health & Safety
+      <button class="btn-child border-0 text-dark" data-toggle="collapse" data-target="#collapseTrainingISO45001" aria-expanded="<?php echo ($menu_active == 'trainingISO45001' ? 'true' : 'false') ?>" aria-controls="collapseTrainingISO45001" onclick="return false;">
+        <i class="fas fa-chevron-down"></i>
+      </button>
+    </a>
+    <div class="list-group child collapse <?php echo ($menu_active == 'trainingISO45001' ? 'show' : '') ?>" id="collapseTrainingISO45001">
+      <a href="<?php echo base_url() ?>training/iso-45001-health-safety/iso-45001-foundation-course" class="list-group-item list-group-item-action">1 Day ISO 45001 Foundation Course</a>
+      <a href="<?php echo base_url() ?>training/iso-45001-health-safety/iso-45001-auditor-transition-course" class="list-group-item list-group-item-action">2 Day ISO 45001 Auditor Transition Course</a>
+      <a href="<?php echo base_url() ?>training/iso-45001-health-safety/2-day-iso-45001-internal-auditor-course" class="list-group-item list-group-item-action">2 Day ISO 45001 Internal Auditor Course</a>
+      <a href="<?php echo base_url() ?>training/iso-45001-health-safety/iso-45001-auditor-conversion-course" class="list-group-item list-group-item-action">3 Day ISO 45001 Auditor Conversion Course</a>
+      <a href="<?php echo base_url() ?>training/iso-45001-health-safety/iso-45001-lead-auditor-course" class="list-group-item list-group-item-action">5 Day ISO 45001 lead Auditor Course</a>
+    </div>
     <a href="#" class="list-group-item list-group-item-action">Benefits of Certification</a>
   </div>
   <a href="<?php echo base_url() ?>support" class="list-group-item list-group-item-action <?php echo ($menu_active == 'support' ? 'active' : '') ?>">

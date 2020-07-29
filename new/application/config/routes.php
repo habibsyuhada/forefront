@@ -101,8 +101,8 @@ $route['training/as-9100-aerospace-quality-management/1-day-as-91002016-awarenes
 $route['training/as-9100-aerospace-quality-management/2-day-as-91002016-internal-auditor-course'] 	= 'training/as_9100_aerospace_quality_management_2_day_as_91002016_internal_auditor_course';
 // ISO 14001
 $route['training/iso-14001-environmental-management'] 	= 'training/iso_14001_environmental_management';
-$route['training/1-day-iso-140012015-awareness'] 	= 'training/1_day_iso_140012015_awareness';
-$route['training/2-day-iso-140012015-internal-auditor'] 	= 'training/2_day_iso_140012015_internal_auditor';
+$route['training/1-day-iso-140012015-awareness'] 	= 'training/training_1_day_iso_140012015_awareness';
+$route['training/2-day-iso-140012015-internal-auditor'] 	= 'training/training_2_day_iso_140012015_internal_auditor';
 // ISO 27001:2013
 $route['training/iso-27001-information-security-management'] 	= 'training/iso_27001_information_security_management';
 $route['training/iso-27001-information-security-management/1-day-iso-270012015-awareness-course'] 	= 'training/iso_27001_information_security_management_1_day_iso_270012015_awareness_course';
