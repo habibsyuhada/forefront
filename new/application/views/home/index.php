@@ -153,42 +153,42 @@
 						<h3>Training at Forefront</h3>
 						<div class="row justify-content-between d-flex align-items-stretch" style="font-size: 1rem">
 							<div data-wow-delay="0.1s" class="wow bounceIn col-lg col-md-6 col-sm-12">
-								<a class="mb-2 py-1 px-1 text-center bg-light border-2px border border-dark hover-effect-1 d-block">
+								<a href="<?php echo base_url(); ?>training/5-day-iso-90012015-irca-auditorlead-auditor/" class="mb-2 py-1 px-1 text-center bg-light border-2px border border-dark text-dark hover-effect-1 d-block">
 									ISO 9001:2015 Lead Auditor
 								</a>
-								<a class="my-2 py-1 px-1 text-center bg-light border-2px border border-dark hover-effect-1 d-block">
+								<a href="<?php echo base_url(); ?>training/2-day-iso-90012015-internal-auditor/" class="my-2 py-1 px-1 text-center bg-light border-2px border border-dark text-dark hover-effect-1 d-block">
 									ISO 9001:2015 Internal Auditor
 								</a>
-								<a class="my-2 py-1 px-1 text-center bg-light border-2px border border-dark hover-effect-1 d-block">
+								<a href="<?php echo base_url(); ?>training/2-day-iso-90012015-irca-transition-course/" class="my-2 py-1 px-1 text-center bg-light border-2px border border-dark text-dark hover-effect-1 d-block">
 									ISO 9001:2015 Auditor Transition
 								</a>
-								<a class="my-2 py-1 px-1 text-center bg-light border-2px border border-dark hover-effect-1 d-block">
+								<a href="<?php echo base_url(); ?>training/1-day-iso-90012015-awareness/" class="my-2 py-1 px-1 text-center bg-light border-2px border border-dark text-dark hover-effect-1 d-block">
 									ISO 9001:2015 Foundation
 								</a>
-								<a class="my-2 py-1 px-1 text-center bg-light border-2px border border-dark hover-effect-1 d-block">
+								<a href="<?php echo base_url(); ?>training/1-day-iso-140012015-awareness/" class="my-2 py-1 px-1 text-center bg-light border-2px border border-dark text-dark hover-effect-1 d-block">
 									ISO 14001 Foundation
 								</a>
-								<a class="my-2 py-1 px-1 text-center bg-light border-2px border border-dark hover-effect-1 d-block">
+								<a href="<?php echo base_url(); ?>training/2-day-iso-140012015-internal-auditor/" class="my-2 py-1 px-1 text-center bg-light border-2px border border-dark text-dark hover-effect-1 d-block">
 									ISO 14001 Internal Auditor
 								</a>
 							</div>
 							<div data-wow-delay="0.1s" class="wow bounceIn col-lg col-md-6 col-sm-12">
-								<a class="mb-2 py-1 px-1 text-center bg-light border-2px border border-dark hover-effect-1 d-block">
+								<a href="<?php echo base_url(); ?>training/2-day-iso-140012015-irca-transition-course/" class="mb-2 py-1 px-1 text-center bg-light border-2px border border-dark text-dark hover-effect-1 d-block">
 									ISO 14001:2015 Auditor Transition
 								</a>
-								<a class="my-2 py-1 px-1 text-center bg-light border-2px border border-dark hover-effect-1 d-block">
+								<a href="<?php echo base_url(); ?>training/iatf-16949-automotive/iatf-16949-internal-auditor-course/" class="my-2 py-1 px-1 text-center bg-light border-2px border border-dark text-dark hover-effect-1 d-block">
 									IATF 16949:2016 Internal Auditor
 								</a>
-								<a class="my-2 py-1 px-1 text-center bg-light border-2px border border-dark hover-effect-1 d-block">
+								<a href="<?php echo base_url(); ?>training/iatf-16949-automotive/2-day-iatf-16949-transition-course/" class="my-2 py-1 px-1 text-center bg-light border-2px border border-dark text-dark hover-effect-1 d-block">
 									IATF 16949:2016 Transition
 								</a>
-								<a class="my-2 py-1 px-1 text-center bg-light border-2px border border-dark hover-effect-1 d-block">
+								<a href="<?php echo base_url(); ?>training/as-9100-aerospace-quality-management/" class="my-2 py-1 px-1 text-center bg-light border-2px border border-dark text-dark hover-effect-1 d-block">
 									AS9100:2016 Foundation
 								</a>
-								<a class="my-2 py-1 px-1 text-center bg-light border-2px border border-dark hover-effect-1 d-block">
+								<a href="<?php echo base_url(); ?>training/as-9100-aerospace-quality-management/" class="my-2 py-1 px-1 text-center bg-light border-2px border border-dark text-dark hover-effect-1 d-block">
 									AS9100:2016  Internal Auditing
 								</a>
-								<a class="my-2 py-1 px-1 text-center bg-light border-2px border border-dark hover-effect-1 d-block">
+								<a href="<?php echo base_url(); ?>training/iso-27001-information-security-management/" class="my-2 py-1 px-1 text-center bg-light border-2px border border-dark text-dark hover-effect-1 d-block">
 									ISO 27001:2013 and many more.
 								</a>
 							</div>

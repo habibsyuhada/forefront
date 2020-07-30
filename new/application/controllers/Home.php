@@ -325,4 +325,13 @@ class Home extends CI_Controller {
 		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Support', 'link' => '#'), array('text' => 'Auditor Opportunities', 'link' => '#'));
 		$this->load->view('index', $data);
 	}
+
+	//Footer Page
+	public function terms_and_conditions(){
+		$data['subview'] 			= 'terms_and_conditions/index';
+		$data['menu_active'] 	= '';
+		$data['meta_title'] 	= 'Terms and Conditions';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Terms and Conditions', 'link' => '#'));
+		$this->load->view('index', $data);
+	}
 }

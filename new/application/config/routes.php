@@ -120,3 +120,8 @@ $route['training/iatf-16949-automotive'] 	= 'training/iatf_16949_automotive';
 $route['training/iatf-16949-automotive/1-day-iatf-ts-16949-awareness'] 	= 'training/iatf_16949_automotive_1_day_iatf_ts_16949_awareness';
 $route['training/iatf-16949-automotive/iatf-16949-internal-auditor-course'] 	= 'training/iatf_16949_automotive_iatf_16949_internal_auditor_course';
 $route['training/iatf-16949-automotive/2-day-iatf-16949-transition-course'] 	= 'training/iatf_16949_automotive_2_day_iatf_16949_transition_course';
+
+$route['terms-and-conditions']  = 'home/terms_and_conditions';
+$route['rules-and-regulations']   = 'home/rules_and_regulations';
+$route['impartiality-confidentiality']  = 'home/impartiality_confidentiality';
+$route['privacy-policies']  = 'home/privacy_policies';
