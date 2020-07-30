@@ -93,6 +93,7 @@ $route['training/business-improvement/8d-problem-solving'] 	= 'training/business
 $route['training/business-improvement/advanced-product-quality-planning-apqp'] 	= 'training/business_improvement_advanced_product_quality_planning_apqp';
 $route['training/business-improvement/production-part-approval-process-ppap'] 	= 'training/business_improvement_production_part_approval_process_ppap';
 $route['training/business-improvement/5s'] 	= 'training/business_improvement_5s';
+$route['training/business-improvement/process-fmea'] 	= 'training/business_improvement_process_fmea';
 $route['training/business-improvement/measurement-systems-analysis-msa'] 	= 'training/business_improvement_measurement_systems_analysis_msa';
 $route['training/business-improvement/use-of-minitab-software'] 	= 'training/business_improvement_use_of_minitab_software';
 //AS9100

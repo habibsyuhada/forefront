@@ -32,7 +32,7 @@
           </div>
           <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
             <div class="card-body">
-            <p><strong>Course Objectives</strong></p>
+              <p><strong>Course Objectives</strong></p>
               <ul>
                 <li>Interpreting the requirements of ISO 19011 auditing standard</li>
                 <li>How to apply 19011 principles to ISO 27001:2013</li>

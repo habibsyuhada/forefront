@@ -33,14 +33,14 @@
     <a href="<?php echo base_url() ?>support/certification-process" class="list-group-item list-group-item-action">Certification Process</a>
     <a href="<?php echo base_url() ?>support/transfer-your-certification" class="list-group-item list-group-item-action">Transfer your certification</a>
   </div>
-  <a href="#" class="list-group-item list-group-item-action <?php echo (strpos($menu_active, 'training') !== false ? 'active' : '') ?>">
+  <a href="<?php echo base_url() ?>training" class="list-group-item list-group-item-action <?php echo (strpos($menu_active, 'training') !== false ? 'active' : '') ?>">
     Training
     <button class="btn-child border-0" data-toggle="collapse" data-target="#collapseTraining" aria-expanded="<?php echo ($menu_active == 'certification' ? 'true' : 'false') ?>" aria-controls="collapseTraining" onclick="return false;">
       <i class="fas fa-chevron-down"></i>
     </button>
   </a>
   <div class="list-group child collapse <?php echo (strpos($menu_active, 'training') !== false ? 'show' : '') ?>" id="collapseTraining">
-    <a href="#" class="list-group-item list-group-item-action">ISO 9001 Quality Management
+    <a href="<?php echo base_url() ?>training/training-courses-for-iso-9001-quality-management" class="list-group-item list-group-item-action">ISO 9001 Quality Management
       <button class="btn-child border-0 text-dark" data-toggle="collapse" data-target="#collapseTrainingISO9001" aria-expanded="<?php echo ($menu_active == 'trainingISO9001' ? 'true' : 'false') ?>" aria-controls="collapseTrainingISO9001" onclick="return false;">
         <i class="fas fa-chevron-down"></i>
       </button>
@@ -50,7 +50,7 @@
       <a href="<?php echo base_url() ?>training/2-day-iso-90012015-internal-auditor" class="list-group-item list-group-item-action">2 Day ISO 9001:2015 Internal Auditor</a>
       <a href="<?php echo base_url() ?>training/5-day-iso-90012015-irca-auditorlead-auditor" class="list-group-item list-group-item-action">5 Day ISO 9001:2015 Lead Auditor</a>
     </div>
-    <a href="#" class="list-group-item list-group-item-action">ISO 14001 Environmental Management
+    <a href="<?php echo base_url() ?>training/iso-14001-environmental-management" class="list-group-item list-group-item-action">ISO 14001 Environmental Management
       <button class="btn-child border-0 text-dark" data-toggle="collapse" data-target="#collapseTrainingISO14001" aria-expanded="<?php echo ($menu_active == 'trainingISO14001' ? 'true' : 'false') ?>" aria-controls="collapseTrainingISO14001" onclick="return false;">
         <i class="fas fa-chevron-down"></i>
       </button>
@@ -59,7 +59,7 @@
       <a href="<?php echo base_url() ?>training/1-day-iso-140012015-awareness" class="list-group-item list-group-item-action">1 Day ISO 14001:2015 Foundation Course</a>
       <a href="<?php echo base_url() ?>training/2-day-iso-140012015-internal-auditor" class="list-group-item list-group-item-action">2 Day ISO 14001:2015 Internal Auditor</a>
     </div>
-    <a href="#" class="list-group-item list-group-item-action">ISO 27001 Information Security Management
+    <a href="<?php echo base_url() ?>training/iso-27001-information-security-management" class="list-group-item list-group-item-action">ISO 27001 Information Security Management
       <button class="btn-child border-0 text-dark" data-toggle="collapse" data-target="#collapseTrainingISO27001" aria-expanded="<?php echo ($menu_active == 'trainingISO27001' ? 'true' : 'false') ?>" aria-controls="collapseTrainingISO27001" onclick="return false;">
         <i class="fas fa-chevron-down"></i>
       </button>
@@ -68,7 +68,7 @@
       <a href="<?php echo base_url() ?>training/iso-27001-information-security-management/1-day-iso-270012015-awareness-course" class="list-group-item list-group-item-action">1 Day ISO 27001:2013 Foundation Course</a>
       <a href="<?php echo base_url() ?>training/iso-27001-information-security-management/2-day-iso-270012013-internal-auditor" class="list-group-item list-group-item-action">2 Day ISO 27001:2013 Internal Auditor</a>
     </div>
-    <a href="#" class="list-group-item list-group-item-action">ISO 45001 Health & Safety
+    <a href="<?php echo base_url() ?>training/iso-45001-health-safety" class="list-group-item list-group-item-action">ISO 45001 Health & Safety
       <button class="btn-child border-0 text-dark" data-toggle="collapse" data-target="#collapseTrainingISO45001" aria-expanded="<?php echo ($menu_active == 'trainingISO45001' ? 'true' : 'false') ?>" aria-controls="collapseTrainingISO45001" onclick="return false;">
         <i class="fas fa-chevron-down"></i>
       </button>
@@ -80,7 +80,7 @@
       <a href="<?php echo base_url() ?>training/iso-45001-health-safety/iso-45001-auditor-conversion-course" class="list-group-item list-group-item-action">3 Day ISO 45001 Auditor Conversion Course</a>
       <a href="<?php echo base_url() ?>training/iso-45001-health-safety/iso-45001-lead-auditor-course" class="list-group-item list-group-item-action">5 Day ISO 45001 lead Auditor Course</a>
     </div>
-    <a href="#" class="list-group-item list-group-item-action">IATF 16949:2016 Automotive
+    <a href="<?php echo base_url() ?>training/iatf-16949-automotive" class="list-group-item list-group-item-action">IATF 16949:2016 Automotive
       <button class="btn-child border-0 text-dark" data-toggle="collapse" data-target="#collapseTrainingIATF16949" aria-expanded="<?php echo ($menu_active == 'trainingIATF16949' ? 'true' : 'false') ?>" aria-controls="collapseTrainingIATF16949" onclick="return false;">
         <i class="fas fa-chevron-down"></i>
       </button>
@@ -90,28 +90,28 @@
       <a href="<?php echo base_url() ?>training/iatf-16949-automotive/iatf-16949-internal-auditor-course" class="list-group-item list-group-item-action">3 Day IATF 16949:2016 Internal auditor course</a>
       <a href="<?php echo base_url() ?>training/iatf-16949-automotive/2-day-iatf-16949-transition-course" class="list-group-item list-group-item-action">2 Day IATF 16949:2016 Transition course</a>
     </div>
-    <a href="#" class="list-group-item list-group-item-action">Business Improvement
+    <a href="<?php echo base_url() ?>training/business-improvement" class="list-group-item list-group-item-action">Business Improvement
       <button class="btn-child border-0 text-dark" data-toggle="collapse" data-target="#collapseTrainingBusiness" aria-expanded="<?php echo ($menu_active == 'trainingBusiness' ? 'true' : 'false') ?>" aria-controls="collapseTrainingBusiness" onclick="return false;">
         <i class="fas fa-chevron-down"></i>
       </button>
     </a>
     <div class="list-group child collapse <?php echo ($menu_active == 'trainingBusiness' ? 'show' : '') ?>" id="collapseTrainingBusiness">
-      <a href="<?php echo base_url() ?>training" class="list-group-item list-group-item-action">8D Problem Solving</a>
-      <a href="<?php echo base_url() ?>training" class="list-group-item list-group-item-action">Advanced Product Quality Planning (APQP)</a>
-      <a href="<?php echo base_url() ?>training" class="list-group-item list-group-item-action">Production Part Approval Process (PPAP)</a>
-      <a href="<?php echo base_url() ?>training" class="list-group-item list-group-item-action">5S</a>
-      <a href="<?php echo base_url() ?>training" class="list-group-item list-group-item-action">Process FMEA</a>
-      <a href="<?php echo base_url() ?>training" class="list-group-item list-group-item-action">Measurement Systems Analysis (MSA)</a>
-      <a href="<?php echo base_url() ?>training" class="list-group-item list-group-item-action">Use of Minitab Software</a>
+      <a href="<?php echo base_url() ?>training/business-improvement/8d-problem-solving" class="list-group-item list-group-item-action">8D Problem Solving</a>
+      <a href="<?php echo base_url() ?>training/business-improvement/advanced-product-quality-planning-apqp" class="list-group-item list-group-item-action">Advanced Product Quality Planning (APQP)</a>
+      <a href="<?php echo base_url() ?>training/business-improvement/production-part-approval-process-ppap" class="list-group-item list-group-item-action">Production Part Approval Process (PPAP)</a>
+      <a href="<?php echo base_url() ?>training/business-improvement/5s" class="list-group-item list-group-item-action">5S</a>
+      <a href="<?php echo base_url() ?>training/business_improvement_process_fmea" class="list-group-item list-group-item-action">Process FMEA</a>
+      <a href="<?php echo base_url() ?>training/business-improvement/measurement-systems-analysis-msa" class="list-group-item list-group-item-action">Measurement Systems Analysis (MSA)</a>
+      <a href="<?php echo base_url() ?>training/business-improvement/use-of-minitab-software" class="list-group-item list-group-item-action">Use of Minitab Software</a>
     </div>
-    <a href="#" class="list-group-item list-group-item-action">AS 9100 Aerospace Quality Management
+    <a href="<?php echo base_url() ?>training/as-9100-aerospace-quality-management" class="list-group-item list-group-item-action">AS 9100 Aerospace Quality Management
       <button class="btn-child border-0 text-dark" data-toggle="collapse" data-target="#collapseTrainingAS9100" aria-expanded="<?php echo ($menu_active == 'trainingAS9100' ? 'true' : 'false') ?>" aria-controls="collapseTrainingAS9100" onclick="return false;">
         <i class="fas fa-chevron-down"></i>
       </button>
     </a>
     <div class="list-group child collapse <?php echo ($menu_active == 'trainingAS9100' ? 'show' : '') ?>" id="collapseTrainingAS9100">
-      <a href="<?php echo base_url() ?>training" class="list-group-item list-group-item-action">1 Day AS 9100:2016 Foundation Course</a>
-      <a href="<?php echo base_url() ?>training" class="list-group-item list-group-item-action">2 Day AS 9100:2016 Internal Auditor course</a>
+      <a href="<?php echo base_url() ?>training/as-9100-aerospace-quality-management/1-day-as-91002016-awareness" class="list-group-item list-group-item-action">1 Day AS 9100:2016 Foundation Course</a>
+      <a href="<?php echo base_url() ?>training/as-9100-aerospace-quality-management/2-day-as-91002016-internal-auditor-course" class="list-group-item list-group-item-action">2 Day AS 9100:2016 Internal Auditor course</a>
     </div>
   </div>
   <!-- <a href="#" class="list-group-item list-group-item-action">Training</a> -->
