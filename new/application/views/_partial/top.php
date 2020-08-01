@@ -61,9 +61,6 @@
 								<ul class="dropdown-menu">
 									<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>support/certification-process">Certification Process</a></li>
 									<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>support/transfer-your-certification">Transfer your certification</a></li>
-									<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>consultants/find-an-iso-consultant">Find an ISO consultant</a></li>
-									<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>consultants/register-as-a-consultant">Register as a consultant</a></li>
-									<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>consultants/auditor-opportunities">Auditor Opportunities</a></li>
 								</ul>
 							</li>
 							<li class="nav-item">
@@ -118,6 +115,14 @@
 										</div>
 									</div>
 								</div>
+							</li>
+							<li class="nav-item submenu dropdown">
+								<a href="<?php echo base_url() ?>consultants" class="nav-link dropdown-toggle">Consultants</a>
+								<ul class="dropdown-menu">
+									<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>consultants/find-an-iso-consultant">Find an ISO consultant</a></li>
+									<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>consultants/register-as-a-consultant">Register as a consultant</a></li>
+									<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>consultants/auditor-opportunities">Auditor Opportunities</a></li>
+								</ul>
 							</li>
 							<!-- <li class="nav-item submenu dropdown">
 								<a href="<?php //echo base_url() ?>support" class="nav-link dropdown-toggle">Online Training</a>

@@ -5,7 +5,7 @@
 	  <a href="https://www.linkedin.com/company/forefront-certification-ltd" class="btn btn-block m-0 rounded-0 text-white" onmouseover="this.style.background='#0077B5';" onmouseout="this.style.background='#343A40';" style="background: #343A40"><i class="fab fa-linkedin-in"></i></a>
 	  <a href="https://www.youtube.com/channel/UCrG_teDfPMg0pBzkokEqiUA" class="btn btn-block m-0 rounded-0 text-white" onmouseover="this.style.background='#cd201f';" onmouseout="this.style.background='#343A40';" style="background: #343A40"><i class="fab fa-youtube"></i></a>
 	  <!-- <a href="https://plus.google.com/u/1/" class="btn btn-block m-0 rounded-0 text-white" onmouseover="this.style.background='#dd4b39';" onmouseout="this.style.background='#343A40';" style="background: #343A40"><i class="fab fa-google-plus-g"></i></a> -->
-	  <a href="mailto:info@forefrontcertification.co.uk" class="btn btn-block m-0 rounded-0 text-white" onmouseover="this.style.background='#1ab7ea';" onmouseout="this.style.background='#343A40';" style="background: #343A40"><i class="fas fa-envelope"></i></a>
+	  <a href="mailto:info@forefrontcertification.co.id" class="btn btn-block m-0 rounded-0 text-white" onmouseover="this.style.background='#1ab7ea';" onmouseout="this.style.background='#343A40';" style="background: #343A40"><i class="fas fa-envelope"></i></a>
 	</div>
 
 	<footer class="footer_area py-4 mt-4 wow fadeIn">
@@ -37,12 +37,12 @@
 				<div class="col-md-3">
 					<h3 class="font-weight-bold">Training</h3>
 					<ul class="list-unstyled" style="font-size: 14px; line-height: 32px">
-	          <li><a href="http://forefrontcertification.co.uk/training/2-day-iso-90012015-internal-auditor/" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 9001:2015 Internal Auditor</a></li>
-	          <li><a href="http://forefrontcertification.co.uk/training/2-day-iso-90012015-irca-transition-course/" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 9001:2015 Transition</a></li>
-	          <li><a href="http://forefrontcertification.co.uk/training/1-day-iso-90012015-awareness/" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 9001:2015 Foundation</a></li>
-	          <li><a href="http://forefrontcertification.co.uk/training/2-day-iso-140012015-internal-auditor/" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 14001 Internal Auditor</a></li>
-	          <li><a href="http://forefrontcertification.co.uk/training/business-improvement/8d-problem-solving/" class="text-orange"><i class="fas fa-certificate text-dark"></i> Root Cause Analysis &amp; 8D</a></li>
-	          <li><a href="http://forefrontcertification.co.uk/training/5-day-iso-90012015-irca-auditorlead-auditor/" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 9001:2015 Lead Auditor<div style="margin-left: 15px; margin-top: -10px;">(IRCA Certified)</div></a></li>
+	          <li><a href="<?php echo base_url() ?>training/2-day-iso-90012015-internal-auditor/" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 9001:2015 Internal Auditor</a></li>
+	          <li><a href="<?php echo base_url() ?>training/2-day-iso-90012015-irca-transition-course/" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 9001:2015 Transition</a></li>
+	          <li><a href="<?php echo base_url() ?>training/1-day-iso-90012015-awareness/" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 9001:2015 Foundation</a></li>
+	          <li><a href="<?php echo base_url() ?>training/2-day-iso-140012015-internal-auditor/" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 14001 Internal Auditor</a></li>
+	          <li><a href="<?php echo base_url() ?>training/business-improvement/8d-problem-solving/" class="text-orange"><i class="fas fa-certificate text-dark"></i> Root Cause Analysis &amp; 8D</a></li>
+	          <li><a href="<?php echo base_url() ?>training/5-day-iso-90012015-irca-auditorlead-auditor/" class="text-orange"><i class="fas fa-certificate text-dark"></i> ISO 9001:2015 Lead Auditor<div style="margin-left: 15px; margin-top: -10px;">(IRCA Certified)</div></a></li>
 	        </ul>
 				</div>
 				<div class="col-md-3">
@@ -79,16 +79,16 @@
 				<div class="col-md">
 					<div class="row">
             <div class="col-auto">
-              <a href="#" class="text-dark">Terms and Conditions</a>
+              <a href="<?php echo base_url(); ?>terms-and-conditions" class="text-dark">Terms and Conditions</a>
             </div>
             <div class="col-auto">
-              <a href="#" class="text-dark">Rules and Regulations</a>
+              <a href="<?php echo base_url(); ?>rules-and-regulations" class="text-dark">Rules and Regulations</a>
             </div>
             <div class="col-auto">
-              <a href="#" class="text-dark">Impartiality</a>
+              <a href="<?php echo base_url(); ?>impartiality-confidentiality" class="text-dark">Impartiality</a>
             </div>
             <div class="col-auto">
-              <a href="#" class="text-dark">Privacy Policies</a>
+              <a href="<?php echo base_url(); ?>privacy-policies" class="text-dark">Privacy Policies</a>
             </div>
           </div>
 				</div>

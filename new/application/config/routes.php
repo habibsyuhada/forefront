@@ -76,7 +76,7 @@ $route['contact'] = 'home/contact';
 
 $route['free-quotation'] 	= 'home/free_quotation';
 
-$route['consultants'] 															= 'home/find_an_iso_consultant';
+$route['consultants'] 															= 'home/consultant';
 $route['consultants/find-an-iso-consultant'] 				= 'home/find_an_iso_consultant';
 $route['consultants/register-as-a-consultant'] 			= 'home/register_as_a_consultant';
 $route['consultants/auditor-opportunities'] 				= 'home/auditor_opportunities';

@@ -229,7 +229,7 @@
             <p class="mb-3 font-weight-bold">Join Our ACR (Associate Consultant Network) today</p>
             <p class="mb-3">To ensure that we deliver impartial certification services by accreditation standards, ForeFront Certification does not provide consultancy.</p>
             <p class="mb-3">So, whether you work for yourself or are part of a larger consultancy firm, we would love to hear from you.</p>
-            <p class="mb-3">Download our <a href="https://www.forefrontcertification.co.uk/wp-content/uploads/2019/05/FF140-Consultancy-Form-v1-Mar-19.pdf" class="text-orange">ACR Application</a> form to apply today.</p>
+            <p class="mb-3">Download our <a href="https://www.forefrontcertification./wp-content/uploads/2019/05/FF140-Consultancy-Form-v1-Mar-19.pdf" class="text-orange">ACR Application</a> form to apply today.</p>
             <p class="mb-4"></p>
             <p class="mb-4"></p>            
             <p class="mb-3">For more information please call contact below</p>
@@ -259,7 +259,8 @@
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
                 Business Address
-                <input type="text" class="mt-2 form-control border-2px" name="business_address"   placeholder="Address">
+                <!-- <input type="text" class="mt-2 form-control border-2px" name="business_address"   placeholder="Address"> -->
+                <textarea rows="4" class="mt-2 form-control border-2px" name="business_address"   placeholder="Address"></textarea>
               </div>
             </div>
             <div class="form-row justify-content-center mb-3">
@@ -347,42 +348,45 @@
             </div>
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
-                <label class="container-checkbox">ISO 9001(QMS)
-                  <input type="checkbox" name="products[]" value="ISO 9001(QMS)">
+                <label class="container-checkbox">ISO 9001 (Quality)
+                  <input type="checkbox" name="products[]" value="ISO 9001 (Quality)">
                   <span class="checkmark"></span>
                 </label>
               </div>
               <div class="col-md">
-                <label class="container-checkbox">ISO 14001(EMS)
-                  <input type="checkbox" name="products[]" value="ISO 14001(EMS)">
+                <label class="container-checkbox">ISO 14001 (Environmental)
+                  <input type="checkbox" name="products[]" value="ISO 14001 (Environmental)">
                   <span class="checkmark"></span>
                 </label>
               </div>
               <div class="col-md">
-                <label class="container-checkbox">ISO 45001:2018(OHSMS)
-                  <input type="checkbox" name="products[]" value="ISO 45001:2018(OHSMS)">
+                <label class="container-checkbox">ISO 45001(Health and Safety)
+                  <input type="checkbox" name="products[]" value="ISO 45001(Health and Safety)">
                   <span class="checkmark"></span>
                 </label>
               </div>
             </div>
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
-                <label class="container-checkbox">ISO 27001:2013(ISMS)
-                  <input type="checkbox" name="products[]" value="ISO 27001:2013(ISMS)">
+                <label class="container-checkbox">ISO 27001 (Information Security)
+                  <input type="checkbox" name="products[]" value="ISO 27001 (Information Security)">
                   <span class="checkmark"></span>
                 </label>
               </div>
-              <div class="col-md">
+              <!-- <div class="col-md">
                 <label class="container-checkbox">Training
                   <input type="checkbox" name="products[]" value="Training">
                   <span class="checkmark"></span>
                 </label>
-              </div>
+              </div> -->
               <div class="col-md">
-                <label class="container-checkbox">Other
-                  <input type="checkbox" name="products[]" value="Other">
+                <label class="container-checkbox">Other Standards Please Specify
+                  <input type="checkbox" name="products[]" value="Other Standards Please Specify">
                   <span class="checkmark"></span>
                 </label>
+              </div>
+              <div class="col-md">
+                
               </div>
             </div>
             <br>
@@ -431,9 +435,9 @@
         $('#nav-company input[name=business_name]').after('<div class="invalid-feedback">Please provide this data.</div>');
         res++;
       }
-      if($('input[name=business_address]').val() == ""){
-        $('#nav-company input[name=business_address]').addClass('is-invalid');
-        $('#nav-company input[name=business_address]').after('<div class="invalid-feedback">Please provide this data.</div>');
+      if($('textarea[name=business_address]').val() == ""){
+        $('#nav-company textarea[name=business_address]').addClass('is-invalid');
+        $('#nav-company textarea[name=business_address]').after('<div class="invalid-feedback">Please provide this data.</div>');
         res++;
       }
       if($('input[name=business_postcode]').val() == ""){

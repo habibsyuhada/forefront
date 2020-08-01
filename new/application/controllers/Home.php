@@ -296,6 +296,14 @@ class Home extends CI_Controller {
 		redirect('contact');
 	}
 
+	public function consultant(){
+		$data['subview'] 			= 'support/consultants';
+		$data['menu_active'] 	= 'support';
+		$data['meta_title'] 	= 'Consultants';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Support', 'link' => '#'), array('text' => 'Consultants', 'link' => '#'));
+		$this->load->view('index', $data);
+	}
+
 	public function find_an_iso_consultant(){
 		$data['subview'] 			= 'support/find-an-iso-consultant';
 		$data['menu_active'] 	= 'support';
@@ -328,10 +336,34 @@ class Home extends CI_Controller {
 
 	//Footer Page
 	public function terms_and_conditions(){
-		$data['subview'] 			= 'terms_and_conditions/index';
+		$data['subview'] 			= 'home/terms_and_conditions';
 		$data['menu_active'] 	= '';
 		$data['meta_title'] 	= 'Terms and Conditions';
 		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Terms and Conditions', 'link' => '#'));
+		$this->load->view('index', $data);
+	}
+	
+	public function rules_and_regulations(){
+		$data['subview'] 			= 'home/rules_and_regulations';
+		$data['menu_active'] 	= '';
+		$data['meta_title'] 	= 'Rules and Regulations';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Rules and Regulations', 'link' => '#'));
+		$this->load->view('index', $data);
+	}
+	
+	public function impartiality_confidentiality(){
+		$data['subview'] 			= 'home/impartiality_confidentiality';
+		$data['menu_active'] 	= '';
+		$data['meta_title'] 	= 'Impartiality & Confidentiality';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Impartiality & Confidentiality', 'link' => '#'));
+		$this->load->view('index', $data);
+	}
+	
+	public function privacy_policies(){
+		$data['subview'] 			= 'home/privacy_policies';
+		$data['menu_active'] 	= '';
+		$data['meta_title'] 	= 'Privacy Policies';
+		$data['navigation'] 	= array(array('text' => 'Home', 'link' => '#'), array('text' => 'Privacy Policies', 'link' => '#'));
 		$this->load->view('index', $data);
 	}
 }

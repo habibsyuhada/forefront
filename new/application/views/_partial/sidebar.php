@@ -32,14 +32,17 @@
   <div class="list-group child collapse <?php echo ($menu_active == 'support' ? 'show' : '') ?>" id="collapseSupport">
     <a href="<?php echo base_url() ?>support/certification-process" class="list-group-item list-group-item-action">Certification Process</a>
     <a href="<?php echo base_url() ?>support/transfer-your-certification" class="list-group-item list-group-item-action">Transfer your certification</a>
+    <a href="<?php echo base_url() ?>consultants/find-an-iso-consultant" class="list-group-item list-group-item-action">Find an ISO consultant</a>
+    <a href="<?php echo base_url() ?>consultants/register-as-a-consultant" class="list-group-item list-group-item-action">Register as a consultant</a>
+    <a href="<?php echo base_url() ?>consultants/auditor-opportunities" class="list-group-item list-group-item-action">Auditor Opportunities</a>
   </div>
-  <a href="<?php echo base_url() ?>training" class="list-group-item list-group-item-action <?php echo (strpos($menu_active, 'training') !== false ? 'active' : '') ?>">
+  <a href="<?php echo base_url() ?>training" class="list-group-item list-group-item-action <?php echo ((strpos($menu_active, 'training') !== false && $menu_active != "online-training") ? 'active' : '') ?>">
     Training
     <button class="btn-child border-0" data-toggle="collapse" data-target="#collapseTraining" aria-expanded="<?php echo ($menu_active == 'certification' ? 'true' : 'false') ?>" aria-controls="collapseTraining" onclick="return false;">
       <i class="fas fa-chevron-down"></i>
     </button>
   </a>
-  <div class="list-group child collapse <?php echo (strpos($menu_active, 'training') !== false ? 'show' : '') ?>" id="collapseTraining">
+  <div class="list-group child collapse <?php echo ((strpos($menu_active, 'training') !== false && $menu_active != "online-training") ? 'show' : '') ?>" id="collapseTraining">
     <a href="<?php echo base_url() ?>training/training-courses-for-iso-9001-quality-management" class="list-group-item list-group-item-action">ISO 9001 Quality Management
       <button class="btn-child border-0 text-dark" data-toggle="collapse" data-target="#collapseTrainingISO9001" aria-expanded="<?php echo ($menu_active == 'trainingISO9001' ? 'true' : 'false') ?>" aria-controls="collapseTrainingISO9001" onclick="return false;">
         <i class="fas fa-chevron-down"></i>
@@ -115,11 +118,11 @@
     </div>
   </div>
   <!-- <a href="#" class="list-group-item list-group-item-action">Training</a> -->
-  <a href="<?php //echo base_url() ?>online-training" class="list-group-item list-group-item-action <?php echo ($menu_active == 'online-training' ? 'active' : '') ?>">
+  <a href="<?php echo base_url() ?>online-training" class="list-group-item list-group-item-action <?php echo ($menu_active == 'online-training' ? 'active' : '') ?>">
     Online Training
-    <button class="btn-child border-0" data-toggle="collapse" data-target="#collapseOnlineTraining" aria-expanded="<?php echo ($menu_active == 'online-training' ? 'true' : 'false') ?>" aria-controls="collapseOnlineTraining" onclick="return false;">
+    <!-- <button class="btn-child border-0" data-toggle="collapse" data-target="#collapseOnlineTraining" aria-expanded="<?php echo ($menu_active == 'online-training' ? 'true' : 'false') ?>" aria-controls="collapseOnlineTraining" onclick="return false;">
       <i class="fas fa-chevron-down"></i>
-    </button>
+    </button> -->
   </a>
   <!-- <div class="list-group child collapse <?php //echo ($menu_active == 'online-training' ? 'show' : '') ?>" id="collapseOnlineTraining">
     <a href="https://www.forefrontcertification.co.uk/online-training/health-safety/" class="list-group-item list-group-item-action">Health & Safety</a>
