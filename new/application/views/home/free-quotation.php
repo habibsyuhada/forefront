@@ -90,6 +90,13 @@
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
   }
+
+  input[type="radio"] {
+    -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
+    -ms-appearance: checkbox;     /* not currently supported */
+    -o-appearance: checkbox;      /* not currently supported */
+  }
 </style>
 
 <div class="clearfix"></div>
@@ -212,7 +219,7 @@
             <a class="nav-item nav-link active" id="nav-information-tab" data-toggle="pill" href="#nav-information" role="tab" aria-controls="nav-information" aria-selected="true"><i class="fas fa-info-circle"></i>&nbsp; 1.Information</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link disabled" id="nav-profile-tab" data-toggle="pill" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fas fa-user"></i>&nbsp; 2.Contact Detail</a>
+            <a class="nav-item nav-link disabled" id="nav-standard-tab" data-toggle="pill" href="#nav-standard" role="tab" aria-controls="nav-standard" aria-selected="false"><i class="fas fa-user"></i>&nbsp; 2.Standard(s) Requirement</a>
           </li>
           <li class="nav-item">
             <a class="nav-item nav-link disabled" id="nav-company-tab" data-toggle="pill" href="#nav-company" role="tab" aria-controls="nav-company" aria-selected="false"><i class="fas fa-briefcase"></i>&nbsp; 3.Company Detail</a>
@@ -248,23 +255,92 @@
             <br>
             <button id="next_btn" type="button" onclick="next(1)" class="btn btn-orange rounded-0 float-right">Next <i class="fas fa-angle-double-right"></i></button>
           </div>
-          <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-            <div class="form-row justify-content-center mb-3">
+          <div class="tab-pane fade" id="nav-standard" role="tabpanel" aria-labelledby="nav-standard-tab">
+            <div class="form-row justify-content-center mb-1">
               <div class="col-md">
-                Your First Name
-                <input type="text" class="mt-2 form-control border-2px" name="first_name"   placeholder="First Name">
+                <p class="font-weight-bold">Select your management system</p>
               </div>
             </div>
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
-                Your Last Name
-                <input type="text" class="mt-2 form-control border-2px" name="last_name"   placeholder="Last Name">
+                <label class="container-checkbox">ISO 9001:2015
+                  <input type="radio" name="management_system" value="ISO 9001:2015">
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div class="col-md">
+                <label class="container-checkbox">ISO 14001:2015
+                  <input type="radio" name="management_system" value="ISO 14001:2015">
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div class="col-md">
+                <label class="container-checkbox">ISO 45001:2018
+                  <input type="radio" name="management_system" value="ISO 45001:2018">
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div class="col-md">
+                <label class="container-checkbox">ISO 27001:2013
+                  <input type="radio" name="management_system" value="ISO 27001:2013">
+                  <span class="checkmark"></span>
+                </label>
               </div>
             </div>
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
-                Your Email
-                <input type="text" class="mt-2 form-control border-2px" name="email"   placeholder="Email">
+                Type of management system
+                <label class="container-checkbox">Single e.g. ISO9001 only
+                  <input type="radio" name="type_management_system" value="Single e.g. ISO9001 only">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container-checkbox">Fully Integrated e.g. One system with integrated documents policy, audits, management review
+                  <input type="radio" name="type_management_system" value="Fully Integrated e.g. One system with integrated documents policy, audits, management review">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container-checkbox">Partially Integrated e.g. management review is partially integrated
+                  <input type="radio" name="type_management_system" value="Partially Integrated e.g. management review is partially integrated">
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+            </div>
+            <div class="form-row justify-content-center mb-3">
+              <div class="col-md">
+                Type of application (please select from the following options)
+                <label class="container-checkbox">New
+                  <input type="radio" name="type_application" value="New">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container-checkbox">Renewal
+                  <input type="radio" name="type_application" value="Renewal">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container-checkbox">Scope Extension
+                  <input type="radio" name="type_application" value="Scope Extension">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container-checkbox">Transfer (please attach your latest certificate(s) & report(s) here
+                  <input type="radio" name="type_application" value="Transfer (please attach your latest certificate(s) & report(s) here">
+                  <span class="checkmark"></span>
+                </label>
+                <div class="form-row justify-content-center mb-3">
+                  <div class="col-md">
+                    Browse your certificate(s), if more than one certificate, please combine into 1 file
+                    <div class="custom-file">
+                      <input type="file" class="custom-file-input" onChange="$('#input_file1.custom-file-label').html($(this).val())">
+                      <label class="custom-file-label" id="input_file1">Choose file</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-row justify-content-center mb-3">
+                  <div class="col-md">
+                    Browse your certificate(s), if more than one certificate, please combine into 1 file
+                    <div class="custom-file">
+                      <input type="file" class="custom-file-input" onChange="$('#input_file1.custom-file-label').html($(this).val())">
+                      <label class="custom-file-label" id="input_file1">Choose file</label>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="form-row justify-content-center mb-3">
@@ -397,31 +473,31 @@
       change_fieldset();
     }
     else if(number == 2){
-      $('#nav-profile input').removeClass('is-invalid');
-      $('#nav-profile input').next().remove();
+      $('#nav-standard input').removeClass('is-invalid');
+      $('#nav-standard input').next().remove();
       if($('input[name=first_name]').val() == ""){
-        $('#nav-profile input[name=first_name]').addClass('is-invalid');
-        $('#nav-profile input[name=first_name]').after('<div class="invalid-feedback">Please provide this data.</div>');
+        $('#nav-standard input[name=first_name]').addClass('is-invalid');
+        $('#nav-standard input[name=first_name]').after('<div class="invalid-feedback">Please provide this data.</div>');
         res++;
       }
       if($('input[name=last_name]').val() == ""){
-        $('#nav-profile input[name=last_name]').addClass('is-invalid');
-        $('#nav-profile input[name=last_name]').after('<div class="invalid-feedback">Please provide this data.</div>');
+        $('#nav-standard input[name=last_name]').addClass('is-invalid');
+        $('#nav-standard input[name=last_name]').after('<div class="invalid-feedback">Please provide this data.</div>');
         res++;
       }
       if($('input[name=email]').val() == ""){
-        $('#nav-profile input[name=email]').addClass('is-invalid');
-        $('#nav-profile input[name=email]').after('<div class="invalid-feedback">Please provide this data.</div>');
+        $('#nav-standard input[name=email]').addClass('is-invalid');
+        $('#nav-standard input[name=email]').after('<div class="invalid-feedback">Please provide this data.</div>');
         res++;
       }
       if($('input[name=phone]').val() == ""){
-        $('#nav-profile input[name=phone]').addClass('is-invalid');
-        $('#nav-profile input[name=phone]').after('<div class="invalid-feedback">Please provide this data.</div>');
+        $('#nav-standard input[name=phone]').addClass('is-invalid');
+        $('#nav-standard input[name=phone]').after('<div class="invalid-feedback">Please provide this data.</div>');
         res++;
       }
       if($('input[name=job_title]').val() == ""){
-        $('#nav-profile input[name=job_title]').addClass('is-invalid');
-        $('#nav-profile input[name=job_title]').after('<div class="invalid-feedback">Please provide this data.</div>');
+        $('#nav-standard input[name=job_title]').addClass('is-invalid');
+        $('#nav-standard input[name=job_title]').after('<div class="invalid-feedback">Please provide this data.</div>');
         res++;
       }
       if(res > 0){
