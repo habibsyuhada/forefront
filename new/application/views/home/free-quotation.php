@@ -222,7 +222,7 @@
             <a class="nav-item nav-link disabled" id="nav-standard-tab" data-toggle="pill" href="#nav-standard" role="tab" aria-controls="nav-standard" aria-selected="false"><i class="fas fa-user"></i>&nbsp; 2.Standard(s) Requirement</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link disabled" id="nav-company-tab" data-toggle="pill" href="#nav-company" role="tab" aria-controls="nav-company" aria-selected="false"><i class="fas fa-briefcase"></i>&nbsp; 3.Company Detail</a>
+            <a class="nav-item nav-link disabled" id="nav-company-tab" data-toggle="pill" href="#nav-company" role="tab" aria-controls="nav-company" aria-selected="false"><i class="fas fa-briefcase"></i>&nbsp; 3.Organization Informations</a>
           </li>
           <li class="nav-item">
             <a class="nav-item nav-link disabled" id="nav-certification-tab" data-toggle="pill" href="#nav-certification" role="tab" aria-controls="nav-certification" aria-selected="false"><i class="fas fa-certificate"></i>&nbsp; 4.Product</a>
@@ -323,36 +323,46 @@
                   <input type="radio" name="type_application" value="Transfer (please attach your latest certificate(s) & report(s) here">
                   <span class="checkmark"></span>
                 </label>
-                <div class="form-row justify-content-center mb-3">
-                  <div class="col-md">
+                <div class="form-row justify-content-center mb-3 pl-4">
+                  <div class="col-md-12">
                     Browse your certificate(s), if more than one certificate, please combine into 1 file
-                    <div class="custom-file">
-                      <input type="file" class="custom-file-input" onChange="$('#input_file1.custom-file-label').html($(this).val())">
+                    <div class="custom-file mb-3">
+                      <input type="file" class="custom-file-input" name="file1" onChange="$('#input_file1.custom-file-label').html($(this).val())">
                       <label class="custom-file-label" id="input_file1">Choose file</label>
                     </div>
                   </div>
-                </div>
-                <div class="form-row justify-content-center mb-3">
-                  <div class="col-md">
+                  <div class="col-md-12">
                     Browse your certificate(s), if more than one certificate, please combine into 1 file
-                    <div class="custom-file">
-                      <input type="file" class="custom-file-input" onChange="$('#input_file1.custom-file-label').html($(this).val())">
-                      <label class="custom-file-label" id="input_file1">Choose file</label>
+                    <div class="custom-file mb-3">
+                      <input type="file" class="custom-file-input" name="file2" onChange="$('#input_file2.custom-file-label').html($(this).val())">
+                      <label class="custom-file-label" id="input_file2">Choose file</label>
                     </div>
+                  </div>
+                  <div class="col-md-12">
+                    <label class="container-checkbox">Skip, I want to send it latter
+                      <input type="checkbox" name="skip_input_file" value="Skip, I want to send it latter">
+                      <span class="checkmark"></span>
+                    </label>
                   </div>
                 </div>
               </div>
             </div>
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
-                Your Phone Number
-                <input type="email" class="mt-2 form-control border-2px" name="phone"   placeholder="Phone Number">
+                Write your standard reference here (e.g. ISO 9001:2015 & ISO 14001:2015)
+                <input type="text" class="mt-2 form-control border-2px" name="standard_reference">
               </div>
             </div>
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
-                Your Job Title
-                <input type="email" class="mt-2 form-control border-2px" name="job_title"   placeholder="Job Title">
+                Issued by?
+                <input type="text" class="mt-2 form-control border-2px" name="issued_by">
+              </div>
+            </div>
+            <div class="form-row justify-content-center mb-3">
+              <div class="col-md">
+                When will you be ready for a Stage one review
+                <input type="date" class="mt-2 form-control border-2px" name="issued_by">
               </div>
             </div>
             <br>
@@ -362,8 +372,40 @@
           <div class="tab-pane fade" id="nav-company" role="tabpanel" aria-labelledby="nav-company-tab">
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
-                Company Name
-                <input type="text" class="mt-2 form-control border-2px" name="company_name"   placeholder="Name">
+                Your Organization Name
+                <input type="text" class="mt-2 form-control border-2px" name="company_name">
+              </div>
+            </div>
+            <div class="form-row justify-content-center mb-3">
+              <div class="col-md">
+                Scope of Business
+                <textarea class="mt-2 form-control border-2px" name="scope_company" rows="3"></textarea>
+              </div>
+            </div>
+            <div class="form-row justify-content-center mb-3">
+              <div class="col-md-6">
+                <label>Address (Site 1)</label>
+                <textarea class="form-control border-2px" name="scope_company" rows="4"></textarea>
+              </div>
+              <div class="col-md">
+                <div>Country</div>
+                <select class="my-2 form-control border-2px w-100">
+                  <option>asdasd</option>
+                </select>
+                <div>Country</div>
+                <select class="mt-2 form-control border-2px w-100">
+                  <option>asdasd</option>
+                </select>
+              </div>
+              <div class="col-md">
+                <div>City</div>
+                <select class="my-2 form-control border-2px w-100">
+                  <option>asdasd</option>
+                </select>
+                <div>Country</div>
+                <select class="mt-2 form-control border-2px w-100">
+                  <option>asdasd</option>
+                </select>
               </div>
             </div>
             <div class="form-row justify-content-center mb-3">
