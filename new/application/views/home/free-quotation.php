@@ -389,23 +389,21 @@
               </div>
               <div class="col-md">
                 <div>Country</div>
-                <select class="my-2 form-control border-2px w-100">
-                  <option>asdasd</option>
+                <select id="country" class="mb-1 mt-2 w-100 form-control border-2px" onchange="load_state(this.value)">
+                  <option>----</option>
                 </select>
-                <div>Country</div>
-                <select class="mt-2 form-control border-2px w-100">
-                  <option>asdasd</option>
+                <div>Province/State</div>
+                <select id="state" class="mb-1 mt-2 w-100 form-control border-2px" onchange="load_city(this.value)">
+                  <option>----</option>
                 </select>
               </div>
               <div class="col-md">
                 <div>City</div>
-                <select class="my-2 form-control border-2px w-100">
-                  <option>asdasd</option>
+                <select id="city" class="mb-1 mt-2 w-100 form-control border-2px">
+                  <option>----</option>
                 </select>
-                <div>Country</div>
-                <select class="mt-2 form-control border-2px w-100">
-                  <option>asdasd</option>
-                </select>
+                <div>Postal Code</div>
+                <input type="text" class="mt-2 form-control border-2px" name="postal_code" placeholder="">
               </div>
             </div>
             <div class="form-row justify-content-center mb-3">
@@ -596,5 +594,78 @@
 
     $(next).removeClass('disabled');
     $(next).tab('show') // Select first tab
+  }
+
+  var auth_token;
+  $.ajax({
+    url: 'https://www.universal-tutorial.com/api/getaccesstoken',
+    type: 'GET',
+    headers: {
+      "Accept": "application/json",
+      "api-token": "WZgwMpC4v4G_wkcwU9OeBSUrTwFwwRdriwTJDwjcQGvgw2GeTiv733eMTkGeI3zl48M",
+      "user-email": "habibsyuhada.1109@gmail.com"
+    },
+    success: function(res) {
+      auth_token = res.auth_token;
+      load_countries(auth_token);
+      $("select").niceSelect("destroy");
+    }
+  });
+
+  function load_countries(auth_token){
+    $.ajax({
+      url: 'https://www.universal-tutorial.com/api/countries/',
+      type: 'GET',
+      headers: {
+        "Authorization": "Bearer "+auth_token,
+        "Accept": "application/json"
+      },
+      success: function(res) {
+        var option = "<option>----</option>";
+        jQuery.each(res, function() {
+          console.log(this.country_name);
+          option += "<option value='"+this.country_name+"'>"+this.country_name+"</option>"
+        });
+        $('#country').html(option);
+      }
+    });
+  }
+
+  function load_state(country) {
+    $.ajax({
+      url: 'https://www.universal-tutorial.com/api/states/'+country,
+      type: 'GET',
+      headers: {
+        "Authorization": "Bearer "+auth_token,
+        "Accept": "application/json"
+      },
+      success: function(res) {
+        var option = "<option>----</option>";
+        jQuery.each(res, function() {
+          console.log(this.state_name);
+          option += "<option value='"+this.state_name+"'>"+this.state_name+"</option>"
+        });
+        $('#state').html(option);
+      }
+    });
+  }
+
+  function load_city(state) {
+    $.ajax({
+      url: 'https://www.universal-tutorial.com/api/cities/'+state,
+      type: 'GET',
+      headers: {
+        "Authorization": "Bearer "+auth_token,
+        "Accept": "application/json"
+      },
+      success: function(res) {
+        var option = "<option>----</option>";
+        jQuery.each(res, function() {
+          console.log(this.city_name);
+          option += "<option value='"+this.city_name+"'>"+this.city_name+"</option>"
+        });
+        $('#city').html(option);
+      }
+    });
   }
 </script>
