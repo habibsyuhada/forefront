@@ -11,7 +11,7 @@
 	</style>
 	<!--================Home Banner Area =================-->
 	<section class="banner-area owl-carousel wow fadeIn" data-wow-duration="2s" id="home">
-		<div class="single_slide_banner" style="background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(<?php echo base_url() ?>assets/img/slide_banner/bb-2.jpg); background-size: cover; background-position: center;">
+		<div class="single_slide_banner" style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(<?php echo base_url() ?>assets/img/new/Home_3.jpg); background-size: cover; background-position: center;">
 			<div class="container-fluid mx-4" style="max-width: unset;">
 				<div class="row fullscreen d-flex align-items-center">
 					<div class="banner-content col-lg-12">
@@ -19,7 +19,6 @@
 						<hr style="border-width: 3px; border-color: white;">
 						<img src="<?php echo base_url() ?>assets/img/UKAS FF Color.png" style="width: 150px !important; margin: 3rem auto 1rem auto">
 						<h2 class="text-center text-white">Through UKAS Certification</h2>
-						<!-- <a href="#" class="primary-btn">Hire Me</a> -->
 					</div>
 				</div>
 			</div>
@@ -266,7 +265,7 @@
 	<!--================ End Ask Forefront =================-->
 
 	<!--================ Start Newsletter Area =================-->
-	<section class="section_gap" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(<?php echo base_url() ?>assets/img/image-1.jpg);background-attachment: fixed;background-position: center;background-size: cover;">
+	<section class="section_gap" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(<?php echo base_url() ?>assets/img/new/Home_1.jpg);background-attachment: fixed;background-position: center;background-size: cover;">
 		<div class="container-fluid">
 			<div class="row justify-content-center">
 				<div class="col-12 text-center wow fadeIn" data-wow-duration="1.5s">
