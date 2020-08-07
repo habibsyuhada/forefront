@@ -219,22 +219,22 @@
             <a class="nav-item nav-link active" id="nav-information-tab" data-toggle="pill" href="#nav-information" role="tab" aria-controls="nav-information" aria-selected="true"><i class="fas fa-info-circle"></i>&nbsp; 1.Information</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link disabled" id="nav-standard-tab" data-toggle="pill" href="#nav-standard" role="tab" aria-controls="nav-standard" aria-selected="false"><i class="fas fa-user"></i>&nbsp; 2.Standard(s) Requirement</a>
+            <a class="nav-item nav-link" id="nav-standard-tab" data-toggle="pill" href="#nav-standard" role="tab" aria-controls="nav-standard" aria-selected="false"><i class="fas fa-shapes"></i>&nbsp; 2.Standard(s) Requirement</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link disabled" id="nav-company-tab" data-toggle="pill" href="#nav-company" role="tab" aria-controls="nav-company" aria-selected="false"><i class="fas fa-briefcase"></i>&nbsp; 3.Organization Activities</a>
+            <a class="nav-item nav-link" id="nav-company-tab" data-toggle="pill" href="#nav-company" role="tab" aria-controls="nav-company" aria-selected="false"><i class="fas fa-briefcase"></i>&nbsp; 3.Organization Activities</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link disabled" id="nav-activities-tab" data-toggle="pill" href="#nav-activities" role="tab" aria-controls="nav-activities" aria-selected="false"><i class="fas fa-certificate"></i>&nbsp; 4.Organization Activities</a>
+            <a class="nav-item nav-link" id="nav-activities-tab" data-toggle="pill" href="#nav-activities" role="tab" aria-controls="nav-activities" aria-selected="false"><i class="fas fa-certificate"></i>&nbsp; 4.Organization Activities</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link disabled" id="nav-contact-tab" data-toggle="pill" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false"><i class="fa fa-check"></i>&nbsp; 5.Contact Information</a>
+            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="pill" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false"><i class="fas fa-user"></i>&nbsp; 5.Contact Information</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link disabled" id="nav-additional-tab" data-toggle="pill" href="#nav-additional" role="tab" aria-controls="nav-additional" aria-selected="false"><i class="fa fa-check"></i>&nbsp; 6.Additional Information</a>
+            <a class="nav-item nav-link" id="nav-additional-tab" data-toggle="pill" href="#nav-additional" role="tab" aria-controls="nav-additional" aria-selected="false"><i class="fas fa-plus"></i>&nbsp; 6.Additional Information</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link disabled" id="nav-finalize-tab" data-toggle="pill" href="#nav-finalize" role="tab" aria-controls="nav-finalize" aria-selected="false"><i class="fa fa-check"></i>&nbsp; 7.Finalize</a>
+            <a class="nav-item nav-link" id="nav-finalize-tab" data-toggle="pill" href="#nav-finalize" role="tab" aria-controls="nav-finalize" aria-selected="false"><i class="fas fa-check-square"></i>&nbsp; 7.Finalize</a>
           </li>
         </ul>
         <div class="tab-content mt-4" id="nav-tabContent">
@@ -461,83 +461,83 @@
               <tbody>
                 <tr>
                   <th>Management (Mgr, Dir, etc.)</th>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control col-fulltime" value="0" onchange="sum_each_col_act('fulltime')"></td>
+                  <td><input type="number" class="form-control col-parttime" value="0" onchange="sum_each_col_act('parttime')"></td>
+                  <td><input type="number" class="form-control col-totalshift" value="0" onchange="sum_each_col_act('totalshift')"></td>
+                  <td><input type="number" class="form-control col-workonsite" value="0" onchange="sum_each_col_act('workonsite')"></td>
+                  <td><input type="number" class="form-control col-workoffsite" value="0" onchange="sum_each_col_act('workoffsite')"></td>
                 </tr>
                 <tr>
                   <th>Administration (HR, Secretary, etc.)</th>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control col-fulltime" value="0" onchange="sum_each_col_act('fulltime')"></td>
+                  <td><input type="number" class="form-control col-parttime" value="0" onchange="sum_each_col_act('parttime')"></td>
+                  <td><input type="number" class="form-control col-totalshift" value="0" onchange="sum_each_col_act('totalshift')"></td>
+                  <td><input type="number" class="form-control col-workonsite" value="0" onchange="sum_each_col_act('workonsite')"></td>
+                  <td><input type="number" class="form-control col-workoffsite" value="0" onchange="sum_each_col_act('workoffsite')"></td>
                 </tr>
                 <tr>
                   <th>IT</th>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control col-fulltime" value="0" onchange="sum_each_col_act('fulltime')"></td>
+                  <td><input type="number" class="form-control col-parttime" value="0" onchange="sum_each_col_act('parttime')"></td>
+                  <td><input type="number" class="form-control col-totalshift" value="0" onchange="sum_each_col_act('totalshift')"></td>
+                  <td><input type="number" class="form-control col-workonsite" value="0" onchange="sum_each_col_act('workonsite')"></td>
+                  <td><input type="number" class="form-control col-workoffsite" value="0" onchange="sum_each_col_act('workoffsite')"></td>
                 </tr>
                 <tr>
                   <th>Support Staff (Finance, Logistic, etc.)</th>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control col-fulltime" value="0" onchange="sum_each_col_act('fulltime')"></td>
+                  <td><input type="number" class="form-control col-parttime" value="0" onchange="sum_each_col_act('parttime')"></td>
+                  <td><input type="number" class="form-control col-totalshift" value="0" onchange="sum_each_col_act('totalshift')"></td>
+                  <td><input type="number" class="form-control col-workonsite" value="0" onchange="sum_each_col_act('workonsite')"></td>
+                  <td><input type="number" class="form-control col-workoffsite" value="0" onchange="sum_each_col_act('workoffsite')"></td>
                 </tr>
                 <tr>
                   <th>Sales (Marketing, etc.)</th>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control col-fulltime" value="0" onchange="sum_each_col_act('fulltime')"></td>
+                  <td><input type="number" class="form-control col-parttime" value="0" onchange="sum_each_col_act('parttime')"></td>
+                  <td><input type="number" class="form-control col-totalshift" value="0" onchange="sum_each_col_act('totalshift')"></td>
+                  <td><input type="number" class="form-control col-workonsite" value="0" onchange="sum_each_col_act('workonsite')"></td>
+                  <td><input type="number" class="form-control col-workoffsite" value="0" onchange="sum_each_col_act('workoffsite')"></td>
                 </tr>
                 <tr>
                   <th>QC/QA/HSE Officer</th>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control col-fulltime" value="0" onchange="sum_each_col_act('fulltime')"></td>
+                  <td><input type="number" class="form-control col-parttime" value="0" onchange="sum_each_col_act('parttime')"></td>
+                  <td><input type="number" class="form-control col-totalshift" value="0" onchange="sum_each_col_act('totalshift')"></td>
+                  <td><input type="number" class="form-control col-workonsite" value="0" onchange="sum_each_col_act('workonsite')"></td>
+                  <td><input type="number" class="form-control col-workoffsite" value="0" onchange="sum_each_col_act('workoffsite')"></td>
                 </tr>
                 <tr>
                   <th>Labourers (Operator, Technician, etc.)</th>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control col-fulltime" value="0" onchange="sum_each_col_act('fulltime')"></td>
+                  <td><input type="number" class="form-control col-parttime" value="0" onchange="sum_each_col_act('parttime')"></td>
+                  <td><input type="number" class="form-control col-totalshift" value="0" onchange="sum_each_col_act('totalshift')"></td>
+                  <td><input type="number" class="form-control col-workonsite" value="0" onchange="sum_each_col_act('workonsite')"></td>
+                  <td><input type="number" class="form-control col-workoffsite" value="0" onchange="sum_each_col_act('workoffsite')"></td>
                 </tr>
                 <tr>
                   <th>Driver/ Helper/ Asst.</th>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control col-fulltime" value="0" onchange="sum_each_col_act('fulltime')"></td>
+                  <td><input type="number" class="form-control col-parttime" value="0" onchange="sum_each_col_act('parttime')"></td>
+                  <td><input type="number" class="form-control col-totalshift" value="0" onchange="sum_each_col_act('totalshift')"></td>
+                  <td><input type="number" class="form-control col-workonsite" value="0" onchange="sum_each_col_act('workonsite')"></td>
+                  <td><input type="number" class="form-control col-workoffsite" value="0" onchange="sum_each_col_act('workoffsite')"></td>
                 </tr>
                 <tr>
                   <th>Other</th>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
-                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control col-fulltime" value="0" onchange="sum_each_col_act('fulltime')"></td>
+                  <td><input type="number" class="form-control col-parttime" value="0" onchange="sum_each_col_act('parttime')"></td>
+                  <td><input type="number" class="form-control col-totalshift" value="0" onchange="sum_each_col_act('totalshift')"></td>
+                  <td><input type="number" class="form-control col-workonsite" value="0" onchange="sum_each_col_act('workonsite')"></td>
+                  <td><input type="number" class="form-control col-workoffsite" value="0" onchange="sum_each_col_act('workoffsite')"></td>
                 </tr>
                 <tr>
                   <th>Subtotal</th>
-                  <td><input type="number" class="form-control" readonly></td>
-                  <td><input type="number" class="form-control" readonly></td>
-                  <td><input type="number" class="form-control" readonly></td>
-                  <td><input type="number" class="form-control" readonly></td>
-                  <td><input type="number" class="form-control" readonly></td>
+                  <td><input type="number" class="form-control sum-fulltime" value="0" readonly></td>
+                  <td><input type="number" class="form-control sum-parttime" value="0" readonly></td>
+                  <td><input type="number" class="form-control sum-totalshift" value="0" readonly></td>
+                  <td><input type="number" class="form-control sum-workonsite" value="0" readonly></td>
+                  <td><input type="number" class="form-control sum-workoffsite" value="0" readonly></td>
                 </tr>
               </tbody>
             </table>
@@ -603,33 +603,35 @@
               <div class="col-md">
                 Do you use any Consultant services?
                 <label class="container-checkbox">Yes
-                  <input type="radio" name="use_consultant" value="Yes">
+                  <input type="radio" name="use_consultant" onchange="change_use_consultant(this.value)" value="Yes">
                   <span class="checkmark"></span>
                 </label>
                 <label class="container-checkbox">No (management system is internally developed & managed)
-                  <input type="radio" name="use_consultant" value="No">
+                  <input type="radio" name="use_consultant" onchange="change_use_consultant(this.value)" value="No" checked>
                   <span class="checkmark"></span>
                 </label>
               </div>
             </div>
-            <div class="form-row justify-content-center mb-3">
-              <div class="col-md">
-                Consultant Name
-                <input type="email" class="mt-2 form-control border-2px" name="consultant_name">
+            <div id="use_consultant_form" style="display: none;">
+              <div class="form-row justify-content-center mb-3">
+                <div class="col-md">
+                  Consultant Name
+                  <input type="email" class="mt-2 form-control border-2px" name="consultant_name">
+                </div>
+                <div class="col-md">
+                  Contact Number
+                  <input type="text" class="mt-2 form-control border-2px" name="consultant_phone">
+                </div>
               </div>
-              <div class="col-md">
-                Contact Number
-                <input type="text" class="mt-2 form-control border-2px" name="consultant_phone">
-              </div>
-            </div>
-            <div class="form-row justify-content-center mb-3">
-              <div class="col-md">
-                Email
-                <input type="email" class="mt-2 form-control border-2px" name="consultant_email">
-              </div>
-              <div class="col-md">
-                Website
-                <input type="text" class="mt-2 form-control border-2px" name="consultant_website">
+              <div class="form-row justify-content-center mb-3">
+                <div class="col-md">
+                  Email
+                  <input type="email" class="mt-2 form-control border-2px" name="consultant_email">
+                </div>
+                <div class="col-md">
+                  Website
+                  <input type="text" class="mt-2 form-control border-2px" name="consultant_website">
+                </div>
               </div>
             </div>
             <br>
@@ -883,5 +885,33 @@
         $('#city').html(option);
       }
     });
+  }
+
+  function change_use_consultant(use_consultant) {
+    if(use_consultant == "Yes"){
+      $("#use_consultant_form").slideDown();
+    }
+    else if(use_consultant == "No"){
+      $("#use_consultant_form").slideUp();
+    }
+  }
+
+  function sum_each_col_act(column) {
+    var sum = 0;
+    $(".col-"+column).each(function(){
+      sum = parseInt(sum) + parseInt(this.value);
+    });
+    $(".sum-"+column).val(parseInt(sum));
+    sum_all_one_site();
+  }
+
+  function sum_all_one_site() {
+    var sum = 0;
+    var fulltime = $(".sum-fulltime").val();
+    var parttime = $(".sum-parttime").val();
+    var totalshift = $(".sum-totalshift").val();
+    var workonsite = $(".sum-workonsite").val();
+    var workoffsite = $(".sum-workoffsite").val();
+    $("input[name=total_site]").val(parseInt(fulltime)+parseInt(parttime)+parseInt(totalshift)+parseInt(workonsite)+parseInt(workoffsite));
   }
 </script>
