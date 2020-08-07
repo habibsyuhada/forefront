@@ -41,77 +41,70 @@ class Home extends CI_Controller {
 	}
 
 	public function free_quotation_new_process(){
-		// $this->session->set_flashdata('success', 'Your Data has been sent!');
-		// redirect('free-quotation');
-		// exit;
-		$products 			= $this->input->post('products');
-		// echo '<pre>';
-		// print_r($this->input->post());
-		// echo '</pre>';
-		// exit;
-		$product 			= join(';', $products);
+		// $products 			= $this->input->post('products');
+		// $product 			= join(';', $products);
 		// echo "<pre>";
 		// print_r($products);
 		// echo "</pre>";
-		$first_name 			= $this->input->post('first_name');
-		$last_name 			= $this->input->post('last_name');
-		$company_name 			= $this->input->post('company_name');
-		$company_address 			= $this->input->post('company_address');
+		// $first_name 			= $this->input->post('first_name');
+		// $last_name 			= $this->input->post('last_name');
+		// $company_name 			= $this->input->post('company_name');
+		// $company_address 			= $this->input->post('company_address');
 		// $job_title		= $this->input->post('job_title');
-		$email		= $this->input->post('email');
-		$phone		= $this->input->post('phone');
-		$website		= $this->input->post('website');
-		$employee		= $this->input->post('employee');
-		$form_data = array(
-			'first_name' 		=> $first_name,
-			'last_name' 	=> $last_name,
-			'company_name' 	=> $company_name,
-			'company_address' 	=> $company_address,
-			// 'job_title' => $job_title,
-			'email' => $email,
-			'phone' => $phone,
-			'website' => $website,
-			'employee' => $employee,
-			'product' => $product,
-		);
-		$this->home_mod->free_quotation_new_process_db($form_data);
+		// $email		= $this->input->post('email');
+		// $phone		= $this->input->post('phone');
+		// $website		= $this->input->post('website');
+		// $employee		= $this->input->post('employee');
+		// $form_data = array(
+		// 	'first_name' 		=> $first_name,
+		// 	'last_name' 	=> $last_name,
+		// 	'company_name' 	=> $company_name,
+		// 	'company_address' 	=> $company_address,
+		// 	'job_title' => $job_title,
+		// 	'email' => $email,
+		// 	'phone' => $phone,
+		// 	'website' => $website,
+		// 	'employee' => $employee,
+		// 	'product' => $product,
+		// );
+		// $this->home_mod->free_quotation_new_process_db($form_data);
 		$this->session->set_flashdata('success', 'Your Data has been sent!');
 
-		$ci =& get_instance();
-    $ci->load->library('email');
-    $config['protocol']     = "smtp";
-    $config['smtp_host']    = "ssl://mail.forefrontcertification.co.id";
-    $config['smtp_port']    = "465";
-    $config['smtp_user']    = "_mainaccount@forefrontcertification.co.id";
-    $config['smtp_pass']    = "EZ7t1b1e;Pq3)A";
-    $config['charset']      = "utf-8";
-    $config['mailtype']     = "html";
-    $config['newline']      = "\r\n";
-    $config['wordwrap']     = TRUE;
-    $ci->email->initialize($config);
-    $ci->email->set_crlf( "\r\n" );
-    $ci->email->from('forefron@forefrontcertification.co.id', 'No Reply - ForeFront System');    
-    $ci->email->to('info@forefrontcertification.co.id');
-    // $ci->email->bcc('habibsyuhada.1109@gmail.com');
-    $ci->email->subject("Someone want get Quotation from $email");
-    $ci->email->message("<html>
-                           <body>
-                                <p>Dear Mr/Ms. forefront, </p>
-                                <p>Someone want get Quotation by <a href='https://forefrontcertification.co.id/' target='_blank'>our website</a></p>
-                                <p>Name : $first_name last_name</p>
-                                <p>Phone : $phone</p>
-                                <p>E-mail : $email</p>
-                                <p>Job Title : $job_title</p>
-                                <p>Website : $website</p>
-                                <p>Num Employee : $employee</p>
-                                <p>Company Name and Address : <br>$company</p>
-                                <p>Products selected : <br>".join(', ', $products)."</p>
+		// $ci =& get_instance();
+    // $ci->load->library('email');
+    // $config['protocol']     = "smtp";
+    // $config['smtp_host']    = "ssl://mail.forefrontcertification.co.id";
+    // $config['smtp_port']    = "465";
+    // $config['smtp_user']    = "_mainaccount@forefrontcertification.co.id";
+    // $config['smtp_pass']    = "EZ7t1b1e;Pq3)A";
+    // $config['charset']      = "utf-8";
+    // $config['mailtype']     = "html";
+    // $config['newline']      = "\r\n";
+    // $config['wordwrap']     = TRUE;
+    // $ci->email->initialize($config);
+    // $ci->email->set_crlf( "\r\n" );
+    // $ci->email->from('forefron@forefrontcertification.co.id', 'No Reply - ForeFront System');    
+    // $ci->email->to('info@forefrontcertification.co.id');
+    // // $ci->email->bcc('habibsyuhada.1109@gmail.com');
+    // $ci->email->subject("Someone want get Quotation from $email");
+    // $ci->email->message("<html>
+    //                        <body>
+    //                             <p>Dear Mr/Ms. forefront, </p>
+    //                             <p>Someone want get Quotation by <a href='https://forefrontcertification.co.id/' target='_blank'>our website</a></p>
+    //                             <p>Name : $first_name last_name</p>
+    //                             <p>Phone : $phone</p>
+    //                             <p>E-mail : $email</p>
+    //                             <p>Job Title : $job_title</p>
+    //                             <p>Website : $website</p>
+    //                             <p>Num Employee : $employee</p>
+    //                             <p>Company Name and Address : <br>$company</p>
+    //                             <p>Products selected : <br>".join(', ', $products)."</p>
 
-                                <p>Regards,<br/>ForeFront<br>(Auto Mail System)</p>
-                                <p><b>This email auto generated by system. <br/> Please do not reply to this email address.</b></p>
-                           </body>
-                         </html>
-                        ");
+    //                             <p>Regards,<br/>ForeFront<br>(Auto Mail System)</p>
+    //                             <p><b>This email auto generated by system. <br/> Please do not reply to this email address.</b></p>
+    //                        </body>
+    //                      </html>
+    //                     ");
     // $ci->email->send();
 
 		redirect('free-quotation');

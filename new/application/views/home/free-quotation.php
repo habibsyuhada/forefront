@@ -222,13 +222,19 @@
             <a class="nav-item nav-link disabled" id="nav-standard-tab" data-toggle="pill" href="#nav-standard" role="tab" aria-controls="nav-standard" aria-selected="false"><i class="fas fa-user"></i>&nbsp; 2.Standard(s) Requirement</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link disabled" id="nav-company-tab" data-toggle="pill" href="#nav-company" role="tab" aria-controls="nav-company" aria-selected="false"><i class="fas fa-briefcase"></i>&nbsp; 3.Organization Informations</a>
+            <a class="nav-item nav-link disabled" id="nav-company-tab" data-toggle="pill" href="#nav-company" role="tab" aria-controls="nav-company" aria-selected="false"><i class="fas fa-briefcase"></i>&nbsp; 3.Organization Activities</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link disabled" id="nav-certification-tab" data-toggle="pill" href="#nav-certification" role="tab" aria-controls="nav-certification" aria-selected="false"><i class="fas fa-certificate"></i>&nbsp; 4.Product</a>
+            <a class="nav-item nav-link disabled" id="nav-activities-tab" data-toggle="pill" href="#nav-activities" role="tab" aria-controls="nav-activities" aria-selected="false"><i class="fas fa-certificate"></i>&nbsp; 4.Organization Activities</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link disabled" id="nav-final-tab" data-toggle="pill" href="#nav-final" role="tab" aria-controls="nav-final" aria-selected="false"><i class="fa fa-check"></i>&nbsp; 5.Finalize</a>
+            <a class="nav-item nav-link disabled" id="nav-contact-tab" data-toggle="pill" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false"><i class="fa fa-check"></i>&nbsp; 5.Contact Information</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item nav-link disabled" id="nav-additional-tab" data-toggle="pill" href="#nav-additional" role="tab" aria-controls="nav-additional" aria-selected="false"><i class="fa fa-check"></i>&nbsp; 6.Additional Information</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item nav-link disabled" id="nav-finalize-tab" data-toggle="pill" href="#nav-finalize" role="tab" aria-controls="nav-finalize" aria-selected="false"><i class="fa fa-check"></i>&nbsp; 7.Finalize</a>
           </li>
         </ul>
         <div class="tab-content mt-4" id="nav-tabContent">
@@ -406,86 +412,295 @@
                 <input type="text" class="mt-2 form-control border-2px" name="postal_code" placeholder="">
               </div>
             </div>
-            <div class="form-row justify-content-center mb-3">
+            <div class="form-row justify-content-center mb-1">
               <div class="col-md">
-                Company Address
-                <input type="text" class="mt-2 form-control border-2px" name="company_address"   placeholder="Address">
+                <p class="font-weight-bold">Are you multisite with a central function?</p>
+              </div>
+              <div class="col-md">
+                <p class="font-weight-bold">How Many</p>
               </div>
             </div>
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
-                Company Website
-                <input type="text" class="mt-2 form-control border-2px" name="website"   placeholder="Website">
+                <label class="container-checkbox">Yes
+                  <input type="radio" name="is_multisite" value="Yes">
+                  <span class="checkmark"></span>
+                </label>
               </div>
-            </div>
-            <div class="form-row justify-content-center mb-3">
               <div class="col-md">
-                Number of Employees
-                <input type="number" class="mt-2 form-control border-2px" name="employee"   placeholder="Employees">
+                <label class="container-checkbox">No
+                  <input type="radio" name="is_multisite" value="No">
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div class="col-md-6">
+                <select id="city" class="w-100 form-control border-2px">
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
               </div>
             </div>
             <br>
             <br>
             <button id="next_btn" type="button" onclick="next(3)" class="btn btn-orange rounded-0 float-right">Next <i class="fas fa-angle-double-right"></i></button>
           </div>
-          <div class="tab-pane fade" id="nav-certification" role="tabpanel" aria-labelledby="nav-certification-tab">
-            <div class="form-row justify-content-center mb-1">
+          <div class="tab-pane fade" id="nav-activities" role="tabpanel" aria-labelledby="nav-activities-tab">
+            <table class="table text-center">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Full Time (Permanent)</th>
+                  <th>Part Time (PKWT)</th>
+                  <th>Total Shift</th>
+                  <th>Work On Site</th>
+                  <th>Work Off Site</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>Management (Mgr, Dir, etc.)</th>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                </tr>
+                <tr>
+                  <th>Administration (HR, Secretary, etc.)</th>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                </tr>
+                <tr>
+                  <th>IT</th>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                </tr>
+                <tr>
+                  <th>Support Staff (Finance, Logistic, etc.)</th>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                </tr>
+                <tr>
+                  <th>Sales (Marketing, etc.)</th>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                </tr>
+                <tr>
+                  <th>QC/QA/HSE Officer</th>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                </tr>
+                <tr>
+                  <th>Labourers (Operator, Technician, etc.)</th>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                </tr>
+                <tr>
+                  <th>Driver/ Helper/ Asst.</th>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                </tr>
+                <tr>
+                  <th>Other</th>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                  <td><input type="number" class="form-control"></td>
+                </tr>
+                <tr>
+                  <th>Subtotal</th>
+                  <td><input type="number" class="form-control" readonly></td>
+                  <td><input type="number" class="form-control" readonly></td>
+                  <td><input type="number" class="form-control" readonly></td>
+                  <td><input type="number" class="form-control" readonly></td>
+                  <td><input type="number" class="form-control" readonly></td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="form-row justify-content-center mb-3">
               <div class="col-md">
-                <p class="font-weight-bold text-center">Please tick below.</p>
+                TOTAL Site 1
+                <input type="number" class="mt-2 form-control border-2px" name="total_site" readonly>
               </div>
             </div>
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
-                <label class="container-checkbox">ISO 9001(QMS)
-                  <input type="checkbox" name="products[]" value="ISO 9001(QMS)">
-                  <span class="checkmark"></span>
-                </label>
-              </div>
-              <div class="col-md">
-                <label class="container-checkbox">ISO 14001(EMS)
-                  <input type="checkbox" name="products[]" value="ISO 14001(EMS)">
-                  <span class="checkmark"></span>
-                </label>
-              </div>
-              <div class="col-md">
-                <label class="container-checkbox">ISO 45001:2018(OHSMS)
-                  <input type="checkbox" name="products[]" value="ISO 45001:2018(OHSMS)">
-                  <span class="checkmark"></span>
-                </label>
-              </div>
-            </div>
-            <div class="form-row justify-content-center mb-3">
-              <div class="col-md">
-                <label class="container-checkbox">ISO 27001:2013(ISMS)
-                  <input type="checkbox" name="products[]" value="ISO 27001:2013(ISMS)">
-                  <span class="checkmark"></span>
-                </label>
-              </div>
-              <div class="col-md">
-                <label class="container-checkbox">Training
-                  <input type="checkbox" name="products[]" value="Training">
-                  <span class="checkmark"></span>
-                </label>
-              </div>
-              <div class="col-md">
-                <label class="container-checkbox">Other
-                  <input type="checkbox" name="products[]" value="Other">
-                  <span class="checkmark"></span>
-                </label>
-              </div>
-            </div>
-            <br>
-            <div class="form-row justify-content-center mb-3">
-              <div class="col-md">
-                Description
-                <textarea class="mt-2 form-control border-2px" name="description" rows="4"></textarea>
+                Additional Comment
+                <input type="text" class="mt-2 form-control border-2px" name="add_comment">
               </div>
             </div>
             <br>
             <br>
             <button id="next_btn" type="button" onclick="next(4)" class="btn btn-orange rounded-0 float-right">Next <i class="fas fa-angle-double-right"></i></button>
           </div>
-          <div class="tab-pane fade" id="nav-final" role="tabpanel" aria-labelledby="nav-final-tab">
+          <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+            
+            <div class="form-row justify-content-center mb-3">
+              <div class="col-md">
+                Your Name
+                <input type="text" class="mt-2 form-control border-2px" name="name">
+              </div>
+              <div class="col-md">
+                Title
+                <input type="text" class="mt-2 form-control border-2px" name="title">
+              </div>
+            </div>
+            <div class="form-row justify-content-center mb-3">
+              <div class="col-md">
+                Position
+                <input type="text" class="mt-2 form-control border-2px" name="position">
+              </div>
+              <div class="col-md">
+                Phone (incl. ext. or your mobile phone number)
+                <input type="text" class="mt-2 form-control border-2px" name="phone">
+              </div>
+            </div>
+            <div class="form-row justify-content-center mb-3">
+              <div class="col-md">
+                Email
+                <input type="email" class="mt-2 form-control border-2px" name="email">
+              </div>
+              <div class="col-md">
+                Website (Organization)
+                <input type="text" class="mt-2 form-control border-2px" name="website">
+              </div>
+            </div>
+            <div class="form-row justify-content-center mb-3">
+              <div class="col-md">
+                Main Language
+                <input type="email" class="mt-2 form-control border-2px" name="email">
+              </div>
+              <div class="col-md">
+                How did you hear about us?
+                <input type="text" class="mt-2 form-control border-2px" name="website">
+              </div>
+            </div>
+            <div class="form-row justify-content-center mb-3">
+              <div class="col-md">
+                Do you use any Consultant services?
+                <label class="container-checkbox">Yes
+                  <input type="radio" name="use_consultant" value="Yes">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container-checkbox">No (management system is internally developed & managed)
+                  <input type="radio" name="use_consultant" value="No">
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+            </div>
+            <div class="form-row justify-content-center mb-3">
+              <div class="col-md">
+                Consultant Name
+                <input type="email" class="mt-2 form-control border-2px" name="consultant_name">
+              </div>
+              <div class="col-md">
+                Contact Number
+                <input type="text" class="mt-2 form-control border-2px" name="consultant_phone">
+              </div>
+            </div>
+            <div class="form-row justify-content-center mb-3">
+              <div class="col-md">
+                Email
+                <input type="email" class="mt-2 form-control border-2px" name="consultant_email">
+              </div>
+              <div class="col-md">
+                Website
+                <input type="text" class="mt-2 form-control border-2px" name="consultant_website">
+              </div>
+            </div>
+            <br>
+            <br>
+            <button id="next_btn" type="button" onclick="next(5)" class="btn btn-orange rounded-0 float-right">Next <i class="fas fa-angle-double-right"></i></button>
+            <!-- <a href="<?php //echo base_url() ?>home/free_quotation_new_process" class="btn btn-orange rounded-0 float-right"><i class="fa fa-check"></i> Submit</a> -->
+          </div>
+          <div class="tab-pane fade" id="nav-additional" role="tabpanel" aria-labelledby="nav-additional-tab">
+            <div class="form-row justify-content-center mb-3">
+              <div class="col-md">
+                ISO 9001 (Only) – State clauses that may not be applicable including justification?<br>
+                <small>E.g. 8.3 Design and development of products and services, 7.1.5.2 Measurement traceability</small>
+                <textarea class="mt-2 form-control border-2px" name="additional_info1" rows="3"></textarea>
+              </div>
+            </div>
+            <div class="form-row justify-content-center mb-3">
+              <div class="col-md">
+                ISO 14001 (Only) – State any environmental concerns from your Interested Parties?
+                <textarea class="mt-2 form-control border-2px" name="additional_info2" rows="3"></textarea>
+              </div>
+            </div>
+            <div class="form-row justify-content-center mb-3">
+              <div class="col-md">
+                ISO 14001 (Only) –  State the potential environmental accidents that could arise and the impact these have?
+                <textarea class="mt-2 form-control border-2px" name="additional_info3" rows="3"></textarea>
+              </div>
+            </div>
+            <div class="form-row justify-content-center mb-3">
+              <div class="col-md">
+                ISO 14001 (Only) – Do you have environmental aspects requiring consents or any regulated conditions
+                <textarea class="mt-2 form-control border-2px" name="additional_info4" rows="3"></textarea>
+              </div>
+            </div>
+            <div class="form-row justify-content-center mb-3">
+              <div class="col-md">
+                ISO 14001 (Only) – Do you have environmental aspects requiring consents or any regulated conditions (please send in copies)
+                <textarea class="mt-2 form-control border-2px" name="additional_info5" rows="3"></textarea>
+              </div>
+            </div>
+            <div class="form-row justify-content-center mb-3">
+              <div class="col-md">
+                ISO14001 and ISO45001 (Only) – State the main hazardous material and the applicable legislation for your processes.
+                <textarea class="mt-2 form-control border-2px" name="additional_info6" rows="3"></textarea>
+              </div>
+            </div>
+            <div class="form-row justify-content-center mb-3">
+              <div class="col-md">
+                ISO45001 (Only) - Does your business handle, produce, use or store dangerous substances(including toxic, oxidising, explosive, flammable, etc.) in large quantities and could therefore be subject to COMAH (Control of Major Accident Hazards)?
+                <textarea class="mt-2 form-control border-2px" name="additional_info7" rows="3"></textarea>
+              </div>
+            </div>
+            <div class="form-row justify-content-center mb-3">
+              <div class="col-md">
+                ISO45001 (Only) - Provide details of the key hazards and risks associated with your activities and processes including the relevant legal obligations.
+                <textarea class="mt-2 form-control border-2px" name="additional_info8" rows="3"></textarea>
+              </div>
+            </div>
+            <div class="form-row justify-content-center mb-3">
+              <div class="col-md-12">
+                <label class="container-checkbox">Skip, We will contact you latter about this information
+                  <input type="checkbox" name="skip_input_file" value="Skip, We will contact you latter about this information">
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+            </div>
+            <br>
+            <br>
+            <button id="next_btn" type="button" onclick="next(6)" class="btn btn-orange rounded-0 float-right">Next <i class="fas fa-angle-double-right"></i></button>
+            <!-- <a href="<?php //echo base_url() ?>home/free_quotation_new_process" class="btn btn-orange rounded-0 float-right"><i class="fa fa-check"></i> Submit</a> -->
+          </div>
+          <div class="tab-pane fade" id="nav-finalize" role="tabpanel" aria-labelledby="nav-finalize-tab">
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
                 <strong>At Forefront, We'd like to keep in touch by providing information that is relevant to you. We always keep your details safe and secure. You may unsubscribe from these communications at any time. Please verify our <a href="#" class="text-orange">Privacy Policy</a> for additional information.</strong>
@@ -509,83 +724,84 @@
 <script type="text/javascript">
   function next(number) {
     var res = 0;
-    if(number == 1){
-      change_fieldset();
-    }
-    else if(number == 2){
-      $('#nav-standard input').removeClass('is-invalid');
-      $('#nav-standard input').next().remove();
-      if($('input[name=first_name]').val() == ""){
-        $('#nav-standard input[name=first_name]').addClass('is-invalid');
-        $('#nav-standard input[name=first_name]').after('<div class="invalid-feedback">Please provide this data.</div>');
-        res++;
-      }
-      if($('input[name=last_name]').val() == ""){
-        $('#nav-standard input[name=last_name]').addClass('is-invalid');
-        $('#nav-standard input[name=last_name]').after('<div class="invalid-feedback">Please provide this data.</div>');
-        res++;
-      }
-      if($('input[name=email]').val() == ""){
-        $('#nav-standard input[name=email]').addClass('is-invalid');
-        $('#nav-standard input[name=email]').after('<div class="invalid-feedback">Please provide this data.</div>');
-        res++;
-      }
-      if($('input[name=phone]').val() == ""){
-        $('#nav-standard input[name=phone]').addClass('is-invalid');
-        $('#nav-standard input[name=phone]').after('<div class="invalid-feedback">Please provide this data.</div>');
-        res++;
-      }
-      if($('input[name=job_title]').val() == ""){
-        $('#nav-standard input[name=job_title]').addClass('is-invalid');
-        $('#nav-standard input[name=job_title]').after('<div class="invalid-feedback">Please provide this data.</div>');
-        res++;
-      }
-      if(res > 0){
-      }
-      else{
-        change_fieldset();
-      }
-    }
-    else if(number == 3){
-      $('#nav-company input').removeClass('is-invalid');
-      $('#nav-company input').next().remove();
-      if($('input[name=company_name]').val() == ""){
-        $('#nav-company input[name=company_name]').addClass('is-invalid');
-        $('#nav-company input[name=company_name]').after('<div class="invalid-feedback">Please provide this data.</div>');
-        res++;
-      }
-      if($('input[name=company_address]').val() == ""){
-        $('#nav-company input[name=company_address]').addClass('is-invalid');
-        $('#nav-company input[name=company_address]').after('<div class="invalid-feedback">Please provide this data.</div>');
-        res++;
-      }
-      if($('input[name=website]').val() == ""){
-        $('#nav-company input[name=website]').addClass('is-invalid');
-        $('#nav-company input[name=website]').after('<div class="invalid-feedback">Please provide this data.</div>');
-        res++;
-      }
-      if($('input[name=employee]').val() == ""){
-        $('#nav-company input[name=employee]').addClass('is-invalid');
-        $('#nav-company input[name=employee]').after('<div class="invalid-feedback">Please provide this data.</div>');
-        res++;
-      }
-      if(res > 0){
-      }
-      else{
-        change_fieldset();
-      }
-    }
-    else if(number == 4){
-      var check = $('#nav-certification input[type=checkbox]:checked').length;
-      console.log(check);
-      $('#nav-certification .invalid-feedback').remove();
-      if(check == 0){
-        $('#nav-certification textarea[name=description]').after('<div class="invalid-feedback text-center" style="display: block;"><br>Please tick one of many items.</div>');
-      }
-      else{
-        change_fieldset();
-      }
-    }
+    change_fieldset();
+    // if(number == 1){
+    //   change_fieldset();
+    // }
+    // else if(number == 2){
+    //   $('#nav-standard input').removeClass('is-invalid');
+    //   $('#nav-standard input').next().remove();
+    //   if($('input[name=first_name]').val() == ""){
+    //     $('#nav-standard input[name=first_name]').addClass('is-invalid');
+    //     $('#nav-standard input[name=first_name]').after('<div class="invalid-feedback">Please provide this data.</div>');
+    //     res++;
+    //   }
+    //   if($('input[name=last_name]').val() == ""){
+    //     $('#nav-standard input[name=last_name]').addClass('is-invalid');
+    //     $('#nav-standard input[name=last_name]').after('<div class="invalid-feedback">Please provide this data.</div>');
+    //     res++;
+    //   }
+    //   if($('input[name=email]').val() == ""){
+    //     $('#nav-standard input[name=email]').addClass('is-invalid');
+    //     $('#nav-standard input[name=email]').after('<div class="invalid-feedback">Please provide this data.</div>');
+    //     res++;
+    //   }
+    //   if($('input[name=phone]').val() == ""){
+    //     $('#nav-standard input[name=phone]').addClass('is-invalid');
+    //     $('#nav-standard input[name=phone]').after('<div class="invalid-feedback">Please provide this data.</div>');
+    //     res++;
+    //   }
+    //   if($('input[name=job_title]').val() == ""){
+    //     $('#nav-standard input[name=job_title]').addClass('is-invalid');
+    //     $('#nav-standard input[name=job_title]').after('<div class="invalid-feedback">Please provide this data.</div>');
+    //     res++;
+    //   }
+    //   if(res > 0){
+    //   }
+    //   else{
+    //     change_fieldset();
+    //   }
+    // }
+    // else if(number == 3){
+    //   $('#nav-company input').removeClass('is-invalid');
+    //   $('#nav-company input').next().remove();
+    //   if($('input[name=company_name]').val() == ""){
+    //     $('#nav-company input[name=company_name]').addClass('is-invalid');
+    //     $('#nav-company input[name=company_name]').after('<div class="invalid-feedback">Please provide this data.</div>');
+    //     res++;
+    //   }
+    //   if($('input[name=company_address]').val() == ""){
+    //     $('#nav-company input[name=company_address]').addClass('is-invalid');
+    //     $('#nav-company input[name=company_address]').after('<div class="invalid-feedback">Please provide this data.</div>');
+    //     res++;
+    //   }
+    //   if($('input[name=website]').val() == ""){
+    //     $('#nav-company input[name=website]').addClass('is-invalid');
+    //     $('#nav-company input[name=website]').after('<div class="invalid-feedback">Please provide this data.</div>');
+    //     res++;
+    //   }
+    //   if($('input[name=employee]').val() == ""){
+    //     $('#nav-company input[name=employee]').addClass('is-invalid');
+    //     $('#nav-company input[name=employee]').after('<div class="invalid-feedback">Please provide this data.</div>');
+    //     res++;
+    //   }
+    //   if(res > 0){
+    //   }
+    //   else{
+    //     change_fieldset();
+    //   }
+    // }
+    // else if(number == 4){
+    //   var check = $('#nav-activities input[type=checkbox]:checked').length;
+    //   console.log(check);
+    //   $('#nav-activities .invalid-feedback').remove();
+    //   if(check == 0){
+    //     $('#nav-activities textarea[name=description]').after('<div class="invalid-feedback text-center" style="display: block;"><br>Please tick one of many items.</div>');
+    //   }
+    //   else{
+    //     change_fieldset();
+    //   }
+    // }
   }
 
   function change_fieldset() {
