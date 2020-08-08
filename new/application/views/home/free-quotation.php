@@ -219,22 +219,22 @@
             <a class="nav-item nav-link active" id="nav-information-tab" data-toggle="pill" href="#nav-information" role="tab" aria-controls="nav-information" aria-selected="true"><i class="fas fa-info-circle"></i>&nbsp; 1.Information</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link" id="nav-standard-tab" data-toggle="pill" href="#nav-standard" role="tab" aria-controls="nav-standard" aria-selected="false"><i class="fas fa-shapes"></i>&nbsp; 2.Standard(s) Requirement</a>
+            <a class="nav-item nav-link disabled" id="nav-standard-tab" data-toggle="pill" href="#nav-standard" role="tab" aria-controls="nav-standard" aria-selected="false"><i class="fas fa-shapes"></i>&nbsp; 2.Standard(s) Requirement</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link" id="nav-company-tab" data-toggle="pill" href="#nav-company" role="tab" aria-controls="nav-company" aria-selected="false"><i class="fas fa-briefcase"></i>&nbsp; 3.Organization Activities</a>
+            <a class="nav-item nav-link disabled" id="nav-company-tab" data-toggle="pill" href="#nav-company" role="tab" aria-controls="nav-company" aria-selected="false"><i class="fas fa-briefcase"></i>&nbsp; 3.Organization Activities</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link" id="nav-activities-tab" data-toggle="pill" href="#nav-activities" role="tab" aria-controls="nav-activities" aria-selected="false"><i class="fas fa-certificate"></i>&nbsp; 4.Organization Activities</a>
+            <a class="nav-item nav-link disabled" id="nav-activities-tab" data-toggle="pill" href="#nav-activities" role="tab" aria-controls="nav-activities" aria-selected="false"><i class="fas fa-certificate"></i>&nbsp; 4.Organization Activities</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="pill" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false"><i class="fas fa-user"></i>&nbsp; 5.Contact Information</a>
+            <a class="nav-item nav-link disabled" id="nav-contact-tab" data-toggle="pill" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false"><i class="fas fa-user"></i>&nbsp; 5.Contact Information</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link" id="nav-additional-tab" data-toggle="pill" href="#nav-additional" role="tab" aria-controls="nav-additional" aria-selected="false"><i class="fas fa-plus"></i>&nbsp; 6.Additional Information</a>
+            <a class="nav-item nav-link disabled" id="nav-additional-tab" data-toggle="pill" href="#nav-additional" role="tab" aria-controls="nav-additional" aria-selected="false"><i class="fas fa-plus"></i>&nbsp; 6.Additional Information</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link" id="nav-finalize-tab" data-toggle="pill" href="#nav-finalize" role="tab" aria-controls="nav-finalize" aria-selected="false"><i class="fas fa-check-square"></i>&nbsp; 7.Finalize</a>
+            <a class="nav-item nav-link disabled" id="nav-finalize-tab" data-toggle="pill" href="#nav-finalize" role="tab" aria-controls="nav-finalize" aria-selected="false"><i class="fas fa-check-square"></i>&nbsp; 7.Finalize</a>
           </li>
         </ul>
         <div class="tab-content mt-4" id="nav-tabContent">
@@ -592,11 +592,11 @@
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
                 Main Language
-                <input type="email" class="mt-2 form-control border-2px" name="email">
+                <input type="email" class="mt-2 form-control border-2px" name="main_language">
               </div>
               <div class="col-md">
                 How did you hear about us?
-                <input type="text" class="mt-2 form-control border-2px" name="website">
+                <input type="text" class="mt-2 form-control border-2px" name="how_you_hear_us">
               </div>
             </div>
             <div class="form-row justify-content-center mb-3">

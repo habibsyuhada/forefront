@@ -91,7 +91,7 @@ class Home extends CI_Controller {
     //                        <body>
     //                             <p>Dear Mr/Ms. forefront, </p>
     //                             <p>Someone want get Quotation by <a href='https://forefrontcertification.co.id/' target='_blank'>our website</a></p>
-    //                             <p>Name : $first_name last_name</p>
+    //                             <p>Name : $name</p>
     //                             <p>Phone : $phone</p>
     //                             <p>E-mail : $email</p>
     //                             <p>Job Title : $job_title</p>
