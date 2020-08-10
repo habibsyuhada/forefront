@@ -395,11 +395,11 @@
               </div>
               <div class="col-md">
                 <div>Country</div>
-                <select id="country" class="mb-1 mt-2 w-100 form-control border-2px" onchange="load_state(this.value)">
+                <select class="mb-1 mt-2 w-100 form-control border-2px" onchange="load_state(this.value, '')">
                   <option>----</option>
                 </select>
                 <div>Province/State</div>
-                <select id="state" class="mb-1 mt-2 w-100 form-control border-2px" onchange="load_city(this.value)">
+                <select id="state" class="mb-1 mt-2 w-100 form-control border-2px" onchange="load_city(this.value, '')">
                   <option>----</option>
                 </select>
               </div>
@@ -440,6 +440,102 @@
                   <option value="4">4</option>
                   <option value="5">5</option>
                 </select>
+              </div>
+            </div>
+            <div id="address_site2" class="form-row justify-content-center mb-3 d-none">
+              <div class="col-md-6">
+                <label>Address (Site 2)</label>
+                <textarea class="form-control border-2px" name="scope_company" rows="4"></textarea>
+              </div>
+              <div class="col-md">
+                <div>Country</div>
+                <select class="mb-1 mt-2 w-100 form-control border-2px select-country" onchange="load_state(this.value, '2')">
+                  <option>----</option>
+                </select>
+                <div>Province/State</div>
+                <select id="state2" class="mb-1 mt-2 w-100 form-control border-2px" onchange="load_city(this.value, '2')">
+                  <option>----</option>
+                </select>
+              </div>
+              <div class="col-md">
+                <div>City</div>
+                <select id="city2" class="mb-1 mt-2 w-100 form-control border-2px">
+                  <option>----</option>
+                </select>
+                <div>Postal Code</div>
+                <input type="text" class="mt-2 form-control border-2px" name="postal_code" placeholder="">
+              </div>
+            </div>
+            <div id="address_site3" class="form-row justify-content-center mb-3 d-none">
+              <div class="col-md-6">
+                <label>Address (Site 3)</label>
+                <textarea class="form-control border-2px" name="scope_company" rows="4"></textarea>
+              </div>
+              <div class="col-md">
+                <div>Country</div>
+                <select class="mb-1 mt-2 w-100 form-control border-2px select-country" onchange="load_state(this.value, '3')">
+                  <option>----</option>
+                </select>
+                <div>Province/State</div>
+                <select id="state3" class="mb-1 mt-2 w-100 form-control border-2px" onchange="load_city(this.value, '3')">
+                  <option>----</option>
+                </select>
+              </div>
+              <div class="col-md">
+                <div>City</div>
+                <select id="city3" class="mb-1 mt-2 w-100 form-control border-2px">
+                  <option>----</option>
+                </select>
+                <div>Postal Code</div>
+                <input type="text" class="mt-2 form-control border-2px" name="postal_code" placeholder="">
+              </div>
+            </div>
+            <div id="address_site4" class="form-row justify-content-center mb-3 d-none">
+              <div class="col-md-6">
+                <label>Address (Site 4)</label>
+                <textarea class="form-control border-2px" name="scope_company" rows="4"></textarea>
+              </div>
+              <div class="col-md">
+                <div>Country</div>
+                <select class="mb-1 mt-2 w-100 form-control border-2px select-country" onchange="load_state(this.value, '4')">
+                  <option>----</option>
+                </select>
+                <div>Province/State</div>
+                <select id="state4" class="mb-1 mt-2 w-100 form-control border-2px" onchange="load_city(this.value, '4')">
+                  <option>----</option>
+                </select>
+              </div>
+              <div class="col-md">
+                <div>City</div>
+                <select id="city4" class="mb-1 mt-2 w-100 form-control border-2px">
+                  <option>----</option>
+                </select>
+                <div>Postal Code</div>
+                <input type="text" class="mt-2 form-control border-2px" name="postal_code" placeholder="">
+              </div>
+            </div>
+            <div id="address_site5" class="form-row justify-content-center mb-3 d-none">
+              <div class="col-md-6">
+                <label>Address (Site 5)</label>
+                <textarea class="form-control border-2px" name="scope_company" rows="4"></textarea>
+              </div>
+              <div class="col-md">
+                <div>Country</div>
+                <select class="mb-1 mt-2 w-100 form-control border-2px select-country" onchange="load_state(this.value, '5')">
+                  <option>----</option>
+                </select>
+                <div>Province/State</div>
+                <select id="state5" class="mb-1 mt-2 w-100 form-control border-2px" onchange="load_city(this.value, '5')">
+                  <option>----</option>
+                </select>
+              </div>
+              <div class="col-md">
+                <div>City</div>
+                <select id="city5" class="mb-1 mt-2 w-100 form-control border-2px">
+                  <option>----</option>
+                </select>
+                <div>Postal Code</div>
+                <input type="text" class="mt-2 form-control border-2px" name="postal_code" placeholder="">
               </div>
             </div>
             <br>
@@ -844,12 +940,12 @@
           console.log(this.country_name);
           option += "<option value='"+this.country_name+"'>"+this.country_name+"</option>"
         });
-        $('#country').html(option);
+        $('.select-country').html(option);
       }
     });
   }
 
-  function load_state(country) {
+  function load_state(country, id) {
     $.ajax({
       url: 'https://www.universal-tutorial.com/api/states/'+country,
       type: 'GET',
@@ -863,12 +959,12 @@
           console.log(this.state_name);
           option += "<option value='"+this.state_name+"'>"+this.state_name+"</option>"
         });
-        $('#state').html(option);
+        $('#state'+id).html(option);
       }
     });
   }
 
-  function load_city(state) {
+  function load_city(state, id) {
     $.ajax({
       url: 'https://www.universal-tutorial.com/api/cities/'+state,
       type: 'GET',
@@ -882,7 +978,7 @@
           console.log(this.city_name);
           option += "<option value='"+this.city_name+"'>"+this.city_name+"</option>"
         });
-        $('#city').html(option);
+        $('#city'+id).html(option);
       }
     });
   }
@@ -917,10 +1013,14 @@
 
   function change_multisite_bool() {
     var bool_site  = $("input[name=is_multisite]:checked").val();
+    $("#address_site2, #address_site3, #address_site4, #address_site5").addClass("d-none");
     console.log(bool_site);
     if(bool_site == "Yes"){
       var num_site = $("select[name=num_multisite]").val();
       console.log(num_site);
+      for (i = 2; i <= num_site; i++) {
+        $("#address_site"+i).removeClass("d-none");
+      }
     }
   }
 </script>
