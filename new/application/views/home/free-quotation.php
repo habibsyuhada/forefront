@@ -423,18 +423,18 @@
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
                 <label class="container-checkbox">Yes
-                  <input type="radio" name="is_multisite" value="Yes">
+                  <input type="radio" name="is_multisite" onchange="change_multisite_bool();" value="Yes">
                   <span class="checkmark"></span>
                 </label>
               </div>
               <div class="col-md">
                 <label class="container-checkbox">No
-                  <input type="radio" name="is_multisite" value="No">
+                  <input type="radio" name="is_multisite" onchange="change_multisite_bool();" value="No">
                   <span class="checkmark"></span>
                 </label>
               </div>
               <div class="col-md-6">
-                <select id="city" class="w-100 form-control border-2px">
+                <select name="num_multisite" onchange="change_multisite_bool();" class="w-100 form-control border-2px">
                   <option value="2">2</option>
                   <option value="3">3</option>
                   <option value="4">4</option>
@@ -913,5 +913,14 @@
     var workonsite = $(".sum-workonsite").val();
     var workoffsite = $(".sum-workoffsite").val();
     $("input[name=total_site]").val(parseInt(fulltime)+parseInt(parttime)+parseInt(totalshift)+parseInt(workonsite)+parseInt(workoffsite));
+  }
+
+  function change_multisite_bool() {
+    var bool_site  = $("input[name=is_multisite]:checked").val();
+    console.log(bool_site);
+    if(bool_site == "Yes"){
+      var num_site = $("select[name=num_multisite]").val();
+      console.log(num_site);
+    }
   }
 </script>
