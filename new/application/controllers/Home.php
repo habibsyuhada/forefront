@@ -55,18 +55,92 @@ class Home extends CI_Controller {
 		// $phone		= $this->input->post('phone');
 		// $website		= $this->input->post('website');
 		// $employee		= $this->input->post('employee');
-		// $form_data = array(
-		// 	'first_name' 		=> $first_name,
-		// 	'last_name' 	=> $last_name,
-		// 	'company_name' 	=> $company_name,
-		// 	'company_address' 	=> $company_address,
-		// 	'job_title' => $job_title,
-		// 	'email' => $email,
-		// 	'phone' => $phone,
-		// 	'website' => $website,
-		// 	'employee' => $employee,
-		// 	'product' => $product,
-		// );
+		$post 			= $this->input->post();
+		$form_data 	= array(
+			'management_system' 			=> $post['management_system'],
+			'type_management_system' 	=> $post['type_management_system'],
+			'type_application' 				=> $post['type_application'],
+			'standard_reference' 			=> $post['standard_reference'],
+			'issued_by' 							=> $post['issued_by'],
+			'date_ready_review' 			=> $post['date_ready_review'],
+
+			'company_name' 			=> $post['company_name'],
+			'scope_company' 		=> $post['scope_company'],
+			'address_site' 			=> $post['address_site'],
+			'country_site' 			=> $post['country_site'],
+			'state_site' 				=> $post['state_site'],
+			'city_site' 				=> $post['city_site'],
+			'postal_code_site' 	=> $post['postal_code_site'],
+
+			'management_fulltime' 			=> $post['management_fulltime'],
+			'management_parttime' 			=> $post['management_parttime'],
+			'management_totalshift' 		=> $post['management_totalshift'],
+			'management_workonsite' 		=> $post['management_workonsite'],
+			'management_workoffsite' 		=> $post['management_workoffsite'],
+			
+			'administration_fulltime' 		=> $post['administration_fulltime'],
+			'administration_parttime' 		=> $post['administration_parttime'],
+			'administration_totalshift' 	=> $post['administration_totalshift'],
+			'administration_workonsite' 	=> $post['administration_workonsite'],
+			'administration_workoffsite'	=> $post['administration_workoffsite'],
+
+			'it_fulltime' 			=> $post['it_fulltime'],
+			'it_parttime' 			=> $post['it_parttime'],
+			'it_totalshift' 		=> $post['it_totalshift'],
+			'it_workonsite' 		=> $post['it_workonsite'],
+			'it_workoffsite' 		=> $post['it_workoffsite'],
+
+			'support_fulltime' 			=> $post['support_fulltime'],
+			'support_parttime' 			=> $post['support_parttime'],
+			'support_totalshift' 		=> $post['support_totalshift'],
+			'support_workonsite' 		=> $post['support_workonsite'],
+			'support_workoffsite' 	=> $post['support_workoffsite'],
+
+			'sales_fulltime' 			=> $post['sales_fulltime'],
+			'sales_parttime' 			=> $post['sales_parttime'],
+			'sales_totalshift' 		=> $post['sales_totalshift'],
+			'sales_workonsite' 		=> $post['sales_workonsite'],
+			'sales_workoffsite' 	=> $post['sales_workoffsite'],
+
+			'qc_hse_fulltime' 			=> $post['qc_hse_fulltime'],
+			'qc_hse_parttime' 			=> $post['qc_hse_parttime'],
+			'qc_hse_totalshift' 		=> $post['qc_hse_totalshift'],
+			'qc_hse_workonsite' 		=> $post['qc_hse_workonsite'],
+			'qc_hse_workoffsite' 		=> $post['qc_hse_workoffsite'],
+
+			'labourers_fulltime' 			=> $post['labourers_fulltime'],
+			'labourers_parttime' 			=> $post['labourers_parttime'],
+			'labourers_totalshift' 		=> $post['labourers_totalshift'],
+			'labourers_workonsite' 		=> $post['labourers_workonsite'],
+			'labourers_workoffsite'		=> $post['labourers_workoffsite'],
+
+			'helper_fulltime' 			=> $post['helper_fulltime'],
+			'helper_parttime' 			=> $post['helper_parttime'],
+			'helper_totalshift' 		=> $post['helper_totalshift'],
+			'helper_workonsite' 		=> $post['helper_workonsite'],
+			'helper_workoffsite' 		=> $post['helper_workoffsite'],
+
+			'other_fulltime' 			=> $post['other_fulltime'],
+			'other_parttime' 			=> $post['other_parttime'],
+			'other_totalshift' 		=> $post['other_totalshift'],
+			'other_workonsite' 		=> $post['other_workonsite'],
+			'other_workoffsite' 	=> $post['other_workoffsite'],
+
+			
+			'name' 							=> $post['name'],
+			'title' 						=> $post['title'],
+			'position' 					=> $post['position'],
+			'phone' 						=> $post['phone'],
+			'email' 						=> $post['email'],
+			'website' 					=> $post['website'],
+			'main_language' 		=> $post['main_language'],
+			'how_you_hear_us' 	=> $post['how_you_hear_us'],
+			
+			'consultant_name' 		=> $post['consultant_name'],
+			'consultant_phone' 		=> $post['consultant_phone'],
+			'consultant_email' 		=> $post['consultant_email'],
+			'consultant_website' 	=> $post['consultant_website'],
+		);
 		// $this->home_mod->free_quotation_new_process_db($form_data);
 		$this->session->set_flashdata('success', 'Your Data has been sent!');
 

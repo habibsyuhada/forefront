@@ -297,15 +297,15 @@
               <div class="col-md">
                 Type of management system
                 <label class="container-checkbox">Single e.g. ISO9001 only
-                  <input type="radio" name="type_management_system" value="Single e.g. ISO9001 only">
+                  <input type="radio" name="type_management_system" value="Single">
                   <span class="checkmark"></span>
                 </label>
                 <label class="container-checkbox">Fully Integrated e.g. One system with integrated documents policy, audits, management review
-                  <input type="radio" name="type_management_system" value="Fully Integrated e.g. One system with integrated documents policy, audits, management review">
+                  <input type="radio" name="type_management_system" value="Fully">
                   <span class="checkmark"></span>
                 </label>
                 <label class="container-checkbox">Partially Integrated e.g. management review is partially integrated
-                  <input type="radio" name="type_management_system" value="Partially Integrated e.g. management review is partially integrated">
+                  <input type="radio" name="type_management_system" value="Partially">
                   <span class="checkmark"></span>
                 </label>
               </div>
@@ -326,27 +326,27 @@
                   <span class="checkmark"></span>
                 </label>
                 <label class="container-checkbox">Transfer (please attach your latest certificate(s) & report(s) here
-                  <input type="radio" name="type_application" value="Transfer (please attach your latest certificate(s) & report(s) here">
+                  <input type="radio" name="type_application" value="Transfer">
                   <span class="checkmark"></span>
                 </label>
                 <div class="form-row justify-content-center mb-3 pl-4">
                   <div class="col-md-12">
                     Browse your certificate(s), if more than one certificate, please combine into 1 file
                     <div class="custom-file mb-3">
-                      <input type="file" class="custom-file-input" name="file1" onChange="$('#input_file1.custom-file-label').html($(this).val())">
+                      <input type="file" class="custom-file-input" name="latest_certificate" onChange="$('#input_file1.custom-file-label').html($(this).val())">
                       <label class="custom-file-label" id="input_file1">Choose file</label>
                     </div>
                   </div>
-                  <div class="col-md-12">
+                  <!-- <div class="col-md-12">
                     Browse your certificate(s), if more than one certificate, please combine into 1 file
                     <div class="custom-file mb-3">
                       <input type="file" class="custom-file-input" name="file2" onChange="$('#input_file2.custom-file-label').html($(this).val())">
                       <label class="custom-file-label" id="input_file2">Choose file</label>
                     </div>
-                  </div>
+                  </div> -->
                   <div class="col-md-12">
                     <label class="container-checkbox">Skip, I want to send it latter
-                      <input type="checkbox" name="skip_input_file" value="Skip, I want to send it latter">
+                      <input type="checkbox" name="skip_latest_certificate" value="Skip, I want to send it latter">
                       <span class="checkmark"></span>
                     </label>
                   </div>
@@ -368,7 +368,7 @@
             <div class="form-row justify-content-center mb-3">
               <div class="col-md">
                 When will you be ready for a Stage one review
-                <input type="date" class="mt-2 form-control border-2px" name="issued_by">
+                <input type="date" class="mt-2 form-control border-2px" name="date_ready_review">
               </div>
             </div>
             <br>
@@ -391,25 +391,25 @@
             <div class="form-row justify-content-center mb-3">
               <div class="col-md-6">
                 <label>Address (Site 1)</label>
-                <textarea class="form-control border-2px" name="scope_company" rows="4"></textarea>
+                <textarea class="form-control border-2px" name="address_site" rows="4"></textarea>
               </div>
               <div class="col-md">
                 <div>Country</div>
-                <select class="mb-1 mt-2 w-100 form-control border-2px" onchange="load_state(this.value, '')">
+                <select class="mb-1 mt-2 w-100 form-control border-2px" onchange="load_state(this.value, '')" name="country_site">
                   <option>----</option>
                 </select>
                 <div>Province/State</div>
-                <select id="state" class="mb-1 mt-2 w-100 form-control border-2px" onchange="load_city(this.value, '')">
+                <select id="state" class="mb-1 mt-2 w-100 form-control border-2px" onchange="load_city(this.value, '')" name="state_site">
                   <option>----</option>
                 </select>
               </div>
               <div class="col-md">
                 <div>City</div>
-                <select id="city" class="mb-1 mt-2 w-100 form-control border-2px">
+                <select id="city" class="mb-1 mt-2 w-100 form-control border-2px" name="city_site">
                   <option>----</option>
                 </select>
                 <div>Postal Code</div>
-                <input type="text" class="mt-2 form-control border-2px" name="postal_code" placeholder="">
+                <input type="text" class="mt-2 form-control border-2px" name="postal_code_site" placeholder="">
               </div>
             </div>
             <div class="form-row justify-content-center mb-1">
@@ -559,75 +559,75 @@
                 <tbody>
                   <tr>
                     <th>Management (Mgr, Dir, etc.)</th>
-                    <td><input type="number" class="form-control col-fulltime" value="0" onchange="sum_each_col_act('fulltime', this)"></td>
-                    <td><input type="number" class="form-control col-parttime" value="0" onchange="sum_each_col_act('parttime', this)"></td>
-                    <td><input type="number" class="form-control col-totalshift" value="0" onchange="sum_each_col_act('totalshift', this)"></td>
-                    <td><input type="number" class="form-control col-workonsite" value="0" onchange="sum_each_col_act('workonsite', this)"></td>
-                    <td><input type="number" class="form-control col-workoffsite" value="0" onchange="sum_each_col_act('workoffsite', this)"></td>
+                    <td><input type="number" class="form-control col-fulltime" name="management_fulltime" value="0" onchange="sum_each_col_act('fulltime', this)"></td>
+                    <td><input type="number" class="form-control col-parttime" name="management_parttime" value="0" onchange="sum_each_col_act('parttime', this)"></td>
+                    <td><input type="number" class="form-control col-totalshift" name="management_totalshift" value="0" onchange="sum_each_col_act('totalshift', this)"></td>
+                    <td><input type="number" class="form-control col-workonsite" name="management_workonsite" value="0" onchange="sum_each_col_act('workonsite', this)"></td>
+                    <td><input type="number" class="form-control col-workoffsite" name="management_workoffsite" value="0" onchange="sum_each_col_act('workoffsite', this)"></td>
                   </tr>
                   <tr>
                     <th>Administration (HR, Secretary, etc.)</th>
-                    <td><input type="number" class="form-control col-fulltime" value="0" onchange="sum_each_col_act('fulltime', this)"></td>
-                    <td><input type="number" class="form-control col-parttime" value="0" onchange="sum_each_col_act('parttime', this)"></td>
-                    <td><input type="number" class="form-control col-totalshift" value="0" onchange="sum_each_col_act('totalshift', this)"></td>
-                    <td><input type="number" class="form-control col-workonsite" value="0" onchange="sum_each_col_act('workonsite', this)"></td>
-                    <td><input type="number" class="form-control col-workoffsite" value="0" onchange="sum_each_col_act('workoffsite', this)"></td>
+                    <td><input type="number" class="form-control col-fulltime" name="administration_fulltime" value="0" onchange="sum_each_col_act('fulltime', this)"></td>
+                    <td><input type="number" class="form-control col-parttime" name="administration_parttime" value="0" onchange="sum_each_col_act('parttime', this)"></td>
+                    <td><input type="number" class="form-control col-totalshift" name="administration_totalshift" value="0" onchange="sum_each_col_act('totalshift', this)"></td>
+                    <td><input type="number" class="form-control col-workonsite" name="administration_workonsite" value="0" onchange="sum_each_col_act('workonsite', this)"></td>
+                    <td><input type="number" class="form-control col-workoffsite" name="administration_workoffsite" value="0" onchange="sum_each_col_act('workoffsite', this)"></td>
                   </tr>
                   <tr>
                     <th>IT</th>
-                    <td><input type="number" class="form-control col-fulltime" value="0" onchange="sum_each_col_act('fulltime', this)"></td>
-                    <td><input type="number" class="form-control col-parttime" value="0" onchange="sum_each_col_act('parttime', this)"></td>
-                    <td><input type="number" class="form-control col-totalshift" value="0" onchange="sum_each_col_act('totalshift', this)"></td>
-                    <td><input type="number" class="form-control col-workonsite" value="0" onchange="sum_each_col_act('workonsite', this)"></td>
-                    <td><input type="number" class="form-control col-workoffsite" value="0" onchange="sum_each_col_act('workoffsite', this)"></td>
+                    <td><input type="number" class="form-control col-fulltime" name="it_fulltime" value="0" onchange="sum_each_col_act('fulltime', this)"></td>
+                    <td><input type="number" class="form-control col-parttime" name="it_parttime" value="0" onchange="sum_each_col_act('parttime', this)"></td>
+                    <td><input type="number" class="form-control col-totalshift" name="it_totalshift" value="0" onchange="sum_each_col_act('totalshift', this)"></td>
+                    <td><input type="number" class="form-control col-workonsite" name="it_workonsite" value="0" onchange="sum_each_col_act('workonsite', this)"></td>
+                    <td><input type="number" class="form-control col-workoffsite" name="it_workoffsite" value="0" onchange="sum_each_col_act('workoffsite', this)"></td>
                   </tr>
                   <tr>
                     <th>Support Staff (Finance, Logistic, etc.)</th>
-                    <td><input type="number" class="form-control col-fulltime" value="0" onchange="sum_each_col_act('fulltime', this)"></td>
-                    <td><input type="number" class="form-control col-parttime" value="0" onchange="sum_each_col_act('parttime', this)"></td>
-                    <td><input type="number" class="form-control col-totalshift" value="0" onchange="sum_each_col_act('totalshift', this)"></td>
-                    <td><input type="number" class="form-control col-workonsite" value="0" onchange="sum_each_col_act('workonsite', this)"></td>
-                    <td><input type="number" class="form-control col-workoffsite" value="0" onchange="sum_each_col_act('workoffsite', this)"></td>
+                    <td><input type="number" class="form-control col-fulltime" name="support_fulltime" value="0" onchange="sum_each_col_act('fulltime', this)"></td>
+                    <td><input type="number" class="form-control col-parttime" name="support_parttime" value="0" onchange="sum_each_col_act('parttime', this)"></td>
+                    <td><input type="number" class="form-control col-totalshift" name="support_totalshift" value="0" onchange="sum_each_col_act('totalshift', this)"></td>
+                    <td><input type="number" class="form-control col-workonsite" name="support_workonsite" value="0" onchange="sum_each_col_act('workonsite', this)"></td>
+                    <td><input type="number" class="form-control col-workoffsite" name="support_workoffsite" value="0" onchange="sum_each_col_act('workoffsite', this)"></td>
                   </tr>
                   <tr>
                     <th>Sales (Marketing, etc.)</th>
-                    <td><input type="number" class="form-control col-fulltime" value="0" onchange="sum_each_col_act('fulltime', this)"></td>
-                    <td><input type="number" class="form-control col-parttime" value="0" onchange="sum_each_col_act('parttime', this)"></td>
-                    <td><input type="number" class="form-control col-totalshift" value="0" onchange="sum_each_col_act('totalshift', this)"></td>
-                    <td><input type="number" class="form-control col-workonsite" value="0" onchange="sum_each_col_act('workonsite', this)"></td>
-                    <td><input type="number" class="form-control col-workoffsite" value="0" onchange="sum_each_col_act('workoffsite', this)"></td>
+                    <td><input type="number" class="form-control col-fulltime" name="sales_fulltime" value="0" onchange="sum_each_col_act('fulltime', this)"></td>
+                    <td><input type="number" class="form-control col-parttime" name="sales_parttime" value="0" onchange="sum_each_col_act('parttime', this)"></td>
+                    <td><input type="number" class="form-control col-totalshift" name="sales_totalshift" value="0" onchange="sum_each_col_act('totalshift', this)"></td>
+                    <td><input type="number" class="form-control col-workonsite" name="sales_workonsite" value="0" onchange="sum_each_col_act('workonsite', this)"></td>
+                    <td><input type="number" class="form-control col-workoffsite" name="sales_workoffsite" value="0" onchange="sum_each_col_act('workoffsite', this)"></td>
                   </tr>
                   <tr>
                     <th>QC/QA/HSE Officer</th>
-                    <td><input type="number" class="form-control col-fulltime" value="0" onchange="sum_each_col_act('fulltime', this)"></td>
-                    <td><input type="number" class="form-control col-parttime" value="0" onchange="sum_each_col_act('parttime', this)"></td>
-                    <td><input type="number" class="form-control col-totalshift" value="0" onchange="sum_each_col_act('totalshift', this)"></td>
-                    <td><input type="number" class="form-control col-workonsite" value="0" onchange="sum_each_col_act('workonsite', this)"></td>
-                    <td><input type="number" class="form-control col-workoffsite" value="0" onchange="sum_each_col_act('workoffsite', this)"></td>
+                    <td><input type="number" class="form-control col-fulltime" name="qc_hse_fulltime" value="0" onchange="sum_each_col_act('fulltime', this)"></td>
+                    <td><input type="number" class="form-control col-parttime" name="qc_hse_parttime" value="0" onchange="sum_each_col_act('parttime', this)"></td>
+                    <td><input type="number" class="form-control col-totalshift" name="qc_hse_totalshift" value="0" onchange="sum_each_col_act('totalshift', this)"></td>
+                    <td><input type="number" class="form-control col-workonsite" name="qc_hse_workonsite" value="0" onchange="sum_each_col_act('workonsite', this)"></td>
+                    <td><input type="number" class="form-control col-workoffsite" name="qc_hse_workoffsite" value="0" onchange="sum_each_col_act('workoffsite', this)"></td>
                   </tr>
                   <tr>
                     <th>Labourers (Operator, Technician, etc.)</th>
-                    <td><input type="number" class="form-control col-fulltime" value="0" onchange="sum_each_col_act('fulltime', this)"></td>
-                    <td><input type="number" class="form-control col-parttime" value="0" onchange="sum_each_col_act('parttime', this)"></td>
-                    <td><input type="number" class="form-control col-totalshift" value="0" onchange="sum_each_col_act('totalshift', this)"></td>
-                    <td><input type="number" class="form-control col-workonsite" value="0" onchange="sum_each_col_act('workonsite', this)"></td>
-                    <td><input type="number" class="form-control col-workoffsite" value="0" onchange="sum_each_col_act('workoffsite', this)"></td>
+                    <td><input type="number" class="form-control col-fulltime" name="labourers_fulltime" value="0" onchange="sum_each_col_act('fulltime', this)"></td>
+                    <td><input type="number" class="form-control col-parttime" name="labourers_parttime" value="0" onchange="sum_each_col_act('parttime', this)"></td>
+                    <td><input type="number" class="form-control col-totalshift" name="labourers_totalshift" value="0" onchange="sum_each_col_act('totalshift', this)"></td>
+                    <td><input type="number" class="form-control col-workonsite" name="labourers_workonsite" value="0" onchange="sum_each_col_act('workonsite', this)"></td>
+                    <td><input type="number" class="form-control col-workoffsite" name="labourers_workoffsite" value="0" onchange="sum_each_col_act('workoffsite', this)"></td>
                   </tr>
                   <tr>
                     <th>Driver/ Helper/ Asst.</th>
-                    <td><input type="number" class="form-control col-fulltime" value="0" onchange="sum_each_col_act('fulltime', this)"></td>
-                    <td><input type="number" class="form-control col-parttime" value="0" onchange="sum_each_col_act('parttime', this)"></td>
-                    <td><input type="number" class="form-control col-totalshift" value="0" onchange="sum_each_col_act('totalshift', this)"></td>
-                    <td><input type="number" class="form-control col-workonsite" value="0" onchange="sum_each_col_act('workonsite', this)"></td>
-                    <td><input type="number" class="form-control col-workoffsite" value="0" onchange="sum_each_col_act('workoffsite', this)"></td>
+                    <td><input type="number" class="form-control col-fulltime" name="helper_fulltime" value="0" onchange="sum_each_col_act('fulltime', this)"></td>
+                    <td><input type="number" class="form-control col-parttime" name="helper_parttime" value="0" onchange="sum_each_col_act('parttime', this)"></td>
+                    <td><input type="number" class="form-control col-totalshift" name="helper_totalshift" value="0" onchange="sum_each_col_act('totalshift', this)"></td>
+                    <td><input type="number" class="form-control col-workonsite" name="helper_workonsite" value="0" onchange="sum_each_col_act('workonsite', this)"></td>
+                    <td><input type="number" class="form-control col-workoffsite" name="helper_workoffsite" value="0" onchange="sum_each_col_act('workoffsite', this)"></td>
                   </tr>
                   <tr>
                     <th>Other</th>
-                    <td><input type="number" class="form-control col-fulltime" value="0" onchange="sum_each_col_act('fulltime', this)"></td>
-                    <td><input type="number" class="form-control col-parttime" value="0" onchange="sum_each_col_act('parttime', this)"></td>
-                    <td><input type="number" class="form-control col-totalshift" value="0" onchange="sum_each_col_act('totalshift', this)"></td>
-                    <td><input type="number" class="form-control col-workonsite" value="0" onchange="sum_each_col_act('workonsite', this)"></td>
-                    <td><input type="number" class="form-control col-workoffsite" value="0" onchange="sum_each_col_act('workoffsite', this)"></td>
+                    <td><input type="number" class="form-control col-fulltime" name="other_fulltime" value="0" onchange="sum_each_col_act('fulltime', this)"></td>
+                    <td><input type="number" class="form-control col-parttime" name="other_parttime" value="0" onchange="sum_each_col_act('parttime', this)"></td>
+                    <td><input type="number" class="form-control col-totalshift" name="other_totalshift" value="0" onchange="sum_each_col_act('totalshift', this)"></td>
+                    <td><input type="number" class="form-control col-workonsite" name="other_workonsite" value="0" onchange="sum_each_col_act('workonsite', this)"></td>
+                    <td><input type="number" class="form-control col-workoffsite" name="other_workoffsite" value="0" onchange="sum_each_col_act('workoffsite', this)"></td>
                   </tr>
                   <tr>
                     <th>Subtotal</th>
