@@ -96,12 +96,11 @@ $db['default'] = array(
 	'save_queries' => TRUE
 );
 
-$db['db_certif'] = array(
+$db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	// 'database' => '',
+	'hostname' => 'forefrontcertification.co.id',
+	'username' => 'forefron_admin',
+	'password' => 'slipknot12011986',
 	'database' => 'forefron_batamdb',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
@@ -118,25 +117,3 @@ $db['db_certif'] = array(
 	'failover' => array(),
 	'save_queries' => TRUE
 );
-
-// $db['default'] = array(
-// 	'dsn'	=> '',
-// 	'hostname' => 'forefrontcertification.co.id',
-// 	'username' => 'forefron_admin',
-// 	'password' => 'slipknot12011986',
-// 	'database' => 'forefron_batamdb',
-// 	'dbdriver' => 'mysqli',
-// 	'dbprefix' => '',
-// 	'pconnect' => FALSE,
-// 	'db_debug' => (ENVIRONMENT !== 'production'),
-// 	'cache_on' => FALSE,
-// 	'cachedir' => '',
-// 	'char_set' => 'utf8',
-// 	'dbcollat' => 'utf8_general_ci',
-// 	'swap_pre' => '',
-// 	'encrypt' => FALSE,
-// 	'compress' => FALSE,
-// 	'stricton' => FALSE,
-// 	'failover' => array(),
-// 	'save_queries' => TRUE
-// );
