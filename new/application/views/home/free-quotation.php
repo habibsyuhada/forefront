@@ -222,7 +222,7 @@
             <a class="nav-item nav-link disabled" id="nav-standard-tab" data-toggle="pill" href="#nav-standard" role="tab" aria-controls="nav-standard" aria-selected="false"><i class="fas fa-shapes"></i>&nbsp; 2.Standard(s) Requirement</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link disabled" id="nav-company-tab" data-toggle="pill" href="#nav-company" role="tab" aria-controls="nav-company" aria-selected="false"><i class="fas fa-briefcase"></i>&nbsp; 3.Organization Activities</a>
+            <a class="nav-item nav-link disabled" id="nav-company-tab" data-toggle="pill" href="#nav-company" role="tab" aria-controls="nav-company" aria-selected="false"><i class="fas fa-briefcase"></i>&nbsp; 3.Organization Information</a>
           </li>
           <li class="nav-item">
             <a class="nav-item nav-link disabled" id="nav-activities-tab" data-toggle="pill" href="#nav-activities" role="tab" aria-controls="nav-activities" aria-selected="false"><i class="fas fa-certificate"></i>&nbsp; 4.Organization Activities</a>
@@ -395,7 +395,7 @@
               </div>
               <div class="col-md">
                 <div>Country</div>
-                <select class="mb-1 mt-2 w-100 form-control border-2px" onchange="load_state(this.value, '')" name="country_site">
+                <select class="mb-1 mt-2 w-100 form-control border-2px select-country" onchange="load_state(this.value, '')" name="country_site">
                   <option>----</option>
                 </select>
                 <div>Province/State</div>
@@ -445,7 +445,7 @@
             <div id="address_site2" class="form-row justify-content-center mb-3 d-none">
               <div class="col-md-6">
                 <label>Address (Site 2)</label>
-                <textarea class="form-control border-2px" name="scope_company" rows="4"></textarea>
+                <textarea class="form-control border-2px" name="address2" rows="4"></textarea>
               </div>
               <div class="col-md">
                 <div>Country</div>
@@ -469,7 +469,7 @@
             <div id="address_site3" class="form-row justify-content-center mb-3 d-none">
               <div class="col-md-6">
                 <label>Address (Site 3)</label>
-                <textarea class="form-control border-2px" name="scope_company" rows="4"></textarea>
+                <textarea class="form-control border-2px" name="address3" rows="4"></textarea>
               </div>
               <div class="col-md">
                 <div>Country</div>
@@ -493,7 +493,7 @@
             <div id="address_site4" class="form-row justify-content-center mb-3 d-none">
               <div class="col-md-6">
                 <label>Address (Site 4)</label>
-                <textarea class="form-control border-2px" name="scope_company" rows="4"></textarea>
+                <textarea class="form-control border-2px" name="address4" rows="4"></textarea>
               </div>
               <div class="col-md">
                 <div>Country</div>
@@ -517,7 +517,7 @@
             <div id="address_site5" class="form-row justify-content-center mb-3 d-none">
               <div class="col-md-6">
                 <label>Address (Site 5)</label>
-                <textarea class="form-control border-2px" name="scope_company" rows="4"></textarea>
+                <textarea class="form-control border-2px" name="address5" rows="4"></textarea>
               </div>
               <div class="col-md">
                 <div>Country</div>
@@ -757,7 +757,7 @@
               <div class="form-row justify-content-center mb-3">
                 <div class="col-md">
                   Additional Comment
-                  <input type="text" class="mt-2 form-control border-2px" name="add_comment">
+                  <input type="text" class="mt-2 form-control border-2px" name="add_comment2">
                 </div>
               </div>
             </div>
@@ -866,7 +866,7 @@
               <div class="form-row justify-content-center mb-3">
                 <div class="col-md">
                   Additional Comment
-                  <input type="text" class="mt-2 form-control border-2px" name="add_comment">
+                  <input type="text" class="mt-2 form-control border-2px" name="add_comment3">
                 </div>
               </div>
             </div>
@@ -975,7 +975,7 @@
               <div class="form-row justify-content-center mb-3">
                 <div class="col-md">
                   Additional Comment
-                  <input type="text" class="mt-2 form-control border-2px" name="add_comment">
+                  <input type="text" class="mt-2 form-control border-2px" name="add_comment4">
                 </div>
               </div>
             </div>
@@ -1084,7 +1084,7 @@
               <div class="form-row justify-content-center mb-3">
                 <div class="col-md">
                   Additional Comment
-                  <input type="text" class="mt-2 form-control border-2px" name="add_comment">
+                  <input type="text" class="mt-2 form-control border-2px" name="add_comment5">
                 </div>
               </div>
             </div>

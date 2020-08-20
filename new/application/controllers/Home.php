@@ -56,6 +56,11 @@ class Home extends CI_Controller {
 		// $website		= $this->input->post('website');
 		// $employee		= $this->input->post('employee');
 		$post 			= $this->input->post();
+		// echo "<pre>";
+		// print_r($post);
+		// echo "</pre>";
+		// exit;
+		
 		$form_data 	= array(
 			'management_system' 			=> $post['management_system'],
 			'type_management_system' 	=> $post['type_management_system'],
@@ -126,6 +131,7 @@ class Home extends CI_Controller {
 			'other_workonsite' 		=> $post['other_workonsite'],
 			'other_workoffsite' 	=> $post['other_workoffsite'],
 
+			'add_comment' 	=> $post['add_comment'],
 			
 			'name' 							=> $post['name'],
 			'title' 						=> $post['title'],
@@ -142,6 +148,7 @@ class Home extends CI_Controller {
 			'consultant_website' 	=> $post['consultant_website'],
 		);
 		// $this->home_mod->free_quotation_new_process_db($form_data);
+		$this->home_mod->free_quotation_new_process_app($form_data);
 		$this->session->set_flashdata('success', 'Your Data has been sent!');
 
 		// $ci =& get_instance();

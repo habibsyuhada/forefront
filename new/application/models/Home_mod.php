@@ -4,6 +4,7 @@ class Home_mod extends CI_Model {
 
 	public function __construct(){
 		parent::__construct();
+		$this->db_certif = $this->load->database('db_certif', TRUE);
 	}
 
 	public function contact_new_process_db($data){
@@ -44,6 +45,10 @@ class Home_mod extends CI_Model {
 		}
 		$query = $this->db->get('tbl_quote');
 		return $query->result_array();
+	}
+
+	public function free_quotation_new_process_app($data){
+		$this->db_certif->insert('certif_register', $data);
 	}
 }
 /*
